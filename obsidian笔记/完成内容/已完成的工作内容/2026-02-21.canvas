@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"root","type":"text","text":"工作进度总结\n2026-02-21","x":0,"y":0,"width":250,"height":100,"color":"1"},
+		{"id":"org-check","type":"text","text":"组织生活会对照检查材料\n✅ 已完成","x":-400,"y":-150,"width":200,"height":80,"color":"2"},
+		{"id":"org-check-detail","type":"text","text":"• 班子\n• 支部书记\n• 组织委员","x":-400,"y":-50,"width":180,"height":100,"color":"3"},
+		{"id":"assessment","type":"text","text":"一季度日常考核表\n✅ 已完成","x":-100,"y":-150,"width":200,"height":80,"color":"2"},
+		{"id":"committee","type":"text","text":"支委会记录\n✅ 已完成","x":200,"y":-150,"width":200,"height":80,"color":"2"},
+		{"id":"committee-detail","type":"text","text":"• 1月支委会\n• 2月支委会","x":200,"y":-50,"width":180,"height":100,"color":"3"},
+		{"id":"party-day","type":"text","text":"主题党日记录\n✅ 已完成","x":500,"y":-150,"width":200,"height":80,"color":"2"},
+		{"id":"party-day-detail","type":"text","text":"• 1月主题党日\n• 2月主题党日","x":500,"y":-50,"width":180,"height":100,"color":"3"},
+		{"id":"next-step","type":"text","text":"下一步计划\n待定","x":0,"y":150,"width":200,"height":80,"color":"4"}
+	],
+	"edges":[
+		{"id":"edge1","fromNode":"root","toNode":"org-check","fromSide":"left","toSide":"right"},
+		{"id":"edge2","fromNode":"org-check","toNode":"org-check-detail","fromSide":"bottom","toSide":"top"},
+		{"id":"edge3","fromNode":"root","toNode":"assessment","fromSide":"top","toSide":"bottom"},
+		{"id":"edge4","fromNode":"root","toNode":"committee","fromSide":"top","toSide":"bottom"},
+		{"id":"edge5","fromNode":"committee","toNode":"committee-detail","fromSide":"bottom","toSide":"top"},
+		{"id":"edge6","fromNode":"root","toNode":"party-day","fromSide":"right","toSide":"left"},
+		{"id":"edge7","fromNode":"party-day","toNode":"party-day-detail","fromSide":"bottom","toSide":"top"},
+		{"id":"edge8","fromNode":"root","toNode":"next-step","fromSide":"bottom","toSide":"top"}
+	]
+}

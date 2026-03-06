@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771688503869-cyug6cc1o",
+  "title": "你能干什么？",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771688503872,
+  "updatedAt": 1772767622796,
+  "lastResponseAt": 1772011724130,
+  "sessionId": "53c4dec9-b4e9-4427-ba65-8f8a52de4281",
+  "sdkSessionId": "53c4dec9-b4e9-4427-ba65-8f8a52de4281",
+  "currentNote": "2026-02-21.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 17233,
+    "cacheCreationInputTokens": 3910,
+    "cacheReadInputTokens": 20624,
+    "contextWindow": 200000,
+    "contextTokens": 41767,
+    "percentage": 21
+  }
+}
