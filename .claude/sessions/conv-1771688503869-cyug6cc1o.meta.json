@@ -3,19 +3,19 @@
   "title": "你能干什么？",
   "titleGenerationStatus": "failed",
   "createdAt": 1771688503872,
-  "updatedAt": 1774511121073,
-  "lastResponseAt": 1774511121073,
+  "updatedAt": 1774512018257,
+  "lastResponseAt": 1774512018257,
   "sessionId": "53c4dec9-b4e9-4427-ba65-8f8a52de4281",
   "sdkSessionId": "53c4dec9-b4e9-4427-ba65-8f8a52de4281",
   "currentNote": "2026-02-21.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 65,
-    "cacheCreationInputTokens": 1397,
-    "cacheReadInputTokens": 152752,
+    "inputTokens": 48,
+    "cacheCreationInputTokens": 37632,
+    "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 154214,
-    "percentage": 77
+    "contextTokens": 37680,
+    "percentage": 19
   },
   "subagentData": {
     "tooluse_rQDI4d9SVnjL6DUDm1sCYN": {
