@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "稽核中心集中研讨列席工作报告"
             }
+          },
+          {
+            "id": "6870f4d369408cf6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -217,7 +230,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "73740f38c5a727b9",
+  "active": "6870f4d369408cf6",
   "lastOpenFiles": [
     "obsidian笔记/工作未完成项目/202603汇总/20260303/20260319 集中研讨-数字化与稽核中心.md",
     "obsidian笔记/工作未完成项目/202603汇总/20260303/20260318 述职报告上报省公司 紧急-去年没有报.md",
