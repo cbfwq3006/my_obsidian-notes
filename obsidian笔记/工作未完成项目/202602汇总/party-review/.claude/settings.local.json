@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(cd E:\\\\sl_obsidian\\\\obsidian笔记\\\\工作未完成项目\\\\party-review\\\\output\\\\json:*)",
+      "Bash(cd E:\\\\sl_obsidian\\\\obsidian笔记\\\\工作未完成项目\\\\party-review\\\\materials\\\\班子:*)",
+      "Bash(for file in 班子-人力.md 班子-山阳.md 班子-市场部.md 班子-数字化与稽核中心.md 班子-网运.md 班子-修武.md 班子-政要.md 班子-中站.md 班子-综服.md 班子-温县.md 班子-政企.md 班子-武陟.md 班子-纪检审计.md 班子-网络.md 班子-解放.md 班子-孟州.md 班子-党建.md)",
+      "Bash(do wc -l \"$file\")"
+    ]
+  }
+}
