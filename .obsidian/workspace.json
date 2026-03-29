@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "5bd5d7952e607b65",
+    "type": "split",
+    "children": [
+      {
+        "id": "57f1c47b9daf4699",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b3e7717b33a04e8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ffa725c057deef3",
+    "type": "split",
+    "children": [
+      {
+        "id": "920b6a7465d752cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb7e3a13f3d44f0e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "d76c19d3416a5066",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "b3f18a581696ba2b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4b440a0906a9093e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca93cf2e5c5f5cec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3443d160cfbbc75",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "cc6485c4b35a6094",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "3b584dee75ded596",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "12c859155289a193",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
+            }
+          },
+          {
+            "id": "3a8f6363f521ca55",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "54b617a8116b8cd9",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "claudian:Open Claudian": false
+    }
+  },
+  "active": "54b617a8116b8cd9",
+  "lastOpenFiles": [
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/未命名.md",
+    "附件/1c898d1253cdab81c22c36ff77b45edb.png",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260330 替李兵主任开会.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260327 下午替付总考试.md",
+    "附件/Pasted image 20260327115029.png",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260327 李兵杨光谈心谈话.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/稽核中心集中研讨列席工作报告.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260303/20260318 述职报告上报省公司 紧急-去年没有报.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 树立和践行正确政绩观学习教育简报征稿通知 第一次王主任，以后信息由小祝报.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 中国联通河南省分公司党委关于开展“党建聚合力 穿透解难题”结对子活动的通知.md",
+    "obsidian笔记/工作未完成项目/精神文明/精神文明排班.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 发展党员信息填报.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260301/20260305 树立和践行正确政绩观学习教育启动.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260303/20260319 集中研讨-数字化与稽核中心.md",
+    "obsidian笔记/工作未完成项目/精神文明",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 党建考核反馈/祝文娟/政要.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 党建考核反馈/祝文娟/武陟.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 党建考核反馈/祝文娟/马村.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 党建考核反馈/祝文娟/客服.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 党建考核反馈/祝文娟/解放.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 党建考核反馈/祝文娟/党建.md",
+    "obsidian笔记/完成内容/已完成的工作内容/202603汇总/团委述职及组织生活会工作部署.md",
+    "obsidian笔记/完成内容/已完成的工作内容/202603汇总/关于做好2026年专业线合规管理工作的通知.md",
+    "obsidian笔记/完成内容/已完成的工作内容/202603汇总/20260318 提醒团委书记向省公司上报团支部述职评议结果 紧急-临近时间节点.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 人工智能培训.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/202603260 组织生活待办.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 关于印发《河南公司党委认真落实习近平总书记重要指示批示精神推动企业高质量发展行稳致远实施方案》的通知.md",
+    "附件/中国联通河南省分公司党委关于开展“党建聚合力+穿透解难题”结对子活动的通知.pdf",
+    "附件/6df291137c1f2420772a1b128caf5ecf.jpg",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 3月31号前给工委报三个表   4月10号前给工委报发展党员需求.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 党建考核反馈/祝文娟/创新.md",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 党建考核反馈/祝文娟",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 党建考核反馈/郑苗",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 党建考核反馈/王统",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 党建考核反馈/申琳",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 党建考核反馈",
+    "obsidian笔记/工作未完成项目/202603汇总/20260304",
+    "附件/Pasted image 20260320100057.png",
+    "obsidian笔记/完成内容/已完成的工作内容/202603汇总/关于发布《中国联通河南省分公司决策╱审批与报告╱备案事项清单（2025版）》的通知.pdf",
+    "obsidian笔记/完成内容/已完成的工作内容/202603汇总/20260319 网络线团支部民主评议",
+    "附件/09d72252f582247cfe5c3ec95b391a7d.png",
+    "附件/Pasted image 20260318204006.png",
+    "附件/c554f198c9070261f429ac80b4985554.jpg",
+    "附件/pdf_page_3.png",
+    "附件/pdf_page_1.png",
+    "附件/pdf_page_5.png",
+    "obsidian笔记/完成内容/已完成的工作内容/202602汇总/2026-02-21.canvas",
+    "obsidian笔记/完成内容/已完成的工作内容/2026-02-21.canvas"
+  ]
+}
