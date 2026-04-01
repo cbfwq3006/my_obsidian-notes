@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "政绩观",
+                "query": "督查",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -229,7 +229,7 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "73740f38c5a727b9",
+  "active": "7feae1e5e01e21fb",
   "lastOpenFiles": [
     "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 关于印发《河南公司党委认真落实习近平总书记重要指示批示精神推动企业高质量发展行稳致远实施方案》的通知.md",
     "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 发展党员信息填报.md",
