@@ -72,7 +72,7 @@
   "lastClaudeModel": "opus",
   "lastCustomModel": "",
   "lastEnvHash": "",
-  "maxTabs": 10,
+  "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
   "openInMainTab": false,
