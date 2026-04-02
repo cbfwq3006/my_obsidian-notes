@@ -1,6 +1,7 @@
 {
   "userName": "",
   "enableBlocklist": true,
+  "allowExternalAccess": false,
   "blockedCommands": {
     "unix": [
       "rm -rf",
@@ -38,13 +39,16 @@
       "Remove-Partition"
     ]
   },
-  "permissionMode": "yolo",
+  "permissionMode": "normal",
   "model": "opus",
   "thinkingBudget": "xhigh",
+  "effortLevel": "high",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
   "enableChrome": false,
   "enableBangBash": false,
+  "enableOpus1M": false,
+  "enableSonnet1M": false,
   "excludedTags": [],
   "mediaFolder": "",
   "systemPrompt": "",
@@ -68,7 +72,7 @@
   "lastClaudeModel": "opus",
   "lastCustomModel": "",
   "lastEnvHash": "",
-  "maxTabs": 3,
+  "maxTabs": 10,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
   "openInMainTab": false,
