@@ -41,7 +41,7 @@
   },
   "permissionMode": "normal",
   "model": "opus",
-  "thinkingBudget": "xhigh",
+  "thinkingBudget": "medium",
   "effortLevel": "high",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
