@@ -3,17 +3,76 @@
   "title": "请检查20260326党建考核反馈文件夹下所有文件，结合20260318 2025年度基层党支部党建...",
   "titleGenerationStatus": "pending",
   "createdAt": 1775130167804,
-  "updatedAt": 1775698516874,
-  "lastResponseAt": 1775698516874,
+  "updatedAt": 1775724577338,
+  "lastResponseAt": 1775724577338,
   "sessionId": "c9891142-4db9-4ff2-a466-c467acf7ec29",
   "sdkSessionId": "c9891142-4db9-4ff2-a466-c467acf7ec29",
   "usage": {
     "model": "opus",
-    "inputTokens": 64422,
+    "inputTokens": 79536,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 64422,
-    "percentage": 32
+    "contextTokens": 79536,
+    "percentage": 40
+  },
+  "subagentData": {
+    "Task-1775724368872104541-19723": {
+      "id": "Task-1775724368872104541-19723",
+      "description": "搜索交付中心相关文件",
+      "prompt": "在vault中搜索所有与\"交付\"相关的文件，特别是：\n1. 文件名包含\"交付\"的md文件\n2. 内容中提到\"交付中心\"、\"赵伟丽\"的文件\n3. 党建考核反馈中关于交付中心的文件\n\n请列出所有找到的文件路径和关键内容摘要。搜索要彻底。",
+      "status": "completed",
+      "toolCalls": [
+        {
+          "id": "call_52todr0lS97DuvNhGmK6lgJt",
+          "name": "Bash",
+          "input": {
+            "command": "pwd",
+            "description": "Show current working directory"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "/e/sl_obsidian"
+        },
+        {
+          "id": "call_xQuUtojqoNzMbhcyvwcMdepW",
+          "name": "Glob",
+          "input": {
+            "pattern": "**/*交付*.md"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "E:\\sl_obsidian\\obsidian笔记\\临时笔记\\党建评分\\待评材料\\交付\\班子-交付.md\nE:\\sl_obsidian\\obsidian笔记\\工作未完成项目\\202602汇总\\party-review\\materials\\班子\\班子-交付.md\nE:\\sl_obsidian\\obsidian笔记\\临时笔记\\党建评分\\待评材料\\交付\\个人-交付-连艳丽.md\nE:\\sl_obsidian\\obsidian笔记\\工作未完成项目\\202602汇总\\party-review\\materials\\个人\\个人-交付-连艳丽.md\nE:\\sl_obsidian\\obsidian笔记\\工作未完成项目\\202602汇总\\party-review\\output\\班子评分-交付.md\nE:\\sl_obsidian\\obsidian笔记\\工作未完成项目\\202602汇总\\party-review\\output\\个人评分-个人-交付-连艳丽.md\nE:\\sl_obsidian\\obsidian笔记\\临时笔记\\党建评分\\评分结果\\交付班子材料评分汇总.md\nE:\\sl_obsidian\\obsidian笔记\\临时笔记\\党建评分\\评分结果\\交付个人材料评分汇总.md\nE:\\sl_obsidian\\obsidian笔记\\工作未完成项目\\202603汇总\\20260304\\20260326 党建考核反馈\\申琳\\交付中心.md\nE:\\sl_obsidian\\obsidian笔记\\工作未完成项目\\202604汇总\\一季度党建考核\\交付.md"
+        },
+        {
+          "id": "call_mcW8ocOml1SMbBAyCeaMXWHt",
+          "name": "Grep",
+          "input": {
+            "pattern": "交付中心|赵伟丽",
+            "path": ".",
+            "glob": "**/*.md",
+            "output_mode": "files_with_matches"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "Found 16 files\nobsidian笔记\\工作未完成项目\\202604汇总\\一季度党建考核\\交付.md\nobsidian笔记\\工作未完成项目\\202603汇总\\20260304\\20260326 党建考核反馈\\申琳\\交付中心.md\nobsidian笔记\\工作未完成项目\\202603汇总\\20260303\\20260318 2025年度基层党支部党建考核结果反馈意见\\20260318 三季度反馈清单.md\nobsidian笔记\\工作未完成项目\\202603汇总\\20260303\\20260318 2025年度基层党支部党建考核结果反馈意见\\20260318 一季度反馈清单.md\nobsidian笔记\\工作未完成项目\\202603汇总\\20260303\\20260318 2025年度基层党支部党建考核结果反馈意见\\20260318 2025年度党建考核结果.md\nobsidian笔记\\工作未完成项目\\202603汇总\\20260303\\20260318 2025年度基层党支部党建考核结果反馈意见\\20260318 2025年度基层党支部党建考核结果反馈意见.md\nobsidian笔记\\临时笔记\\党建评分\\评分结果\\交付个人材料评分汇总.md\nobsidian笔记\\临时笔记\\党建评分\\评分结果\\交付班子材料评分汇总.md\nobsidian笔记\\工作未完成项目\\202602汇总\\party-review\\output\\个人评分-个人-交付-连艳丽.md\nobsidian笔记\\工作未完成项目\\202602汇总\\party-review\\output\\个人材料评分汇总.md\nobsidian笔记\\工作未完成项目\\202602汇总\\party-review\\output\\班子材料评分汇总.md\nobsidian笔记\\工作未完成项目\\202602汇总\\party-review\\output\\班子评分-交付.md\nobsidian笔记\\工作未完成项目\\202602汇总\\party-review\\materials\\个人\\个人-交付-连艳丽.md\nobsidian笔记\\临时笔记\\党建评分\\待评材料\\交付\\个人-交付-连艳丽.md\nobsidian笔记\\工作未完成项目\\202602汇总\\party-review\\materials\\班子\\班子-交付.md\nobsidian笔记\\临时笔记\\党建评分\\待评材料\\交付\\班子-交付.md"
+        },
+        {
+          "id": "call_8WU7RD8j3kazFjuAmOtMbqLk",
+          "name": "Grep",
+          "input": {
+            "pattern": "党建考核反馈",
+            "path": ".",
+            "glob": "**/*.md",
+            "output_mode": "files_with_matches"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "Found 2 files\nobsidian笔记\\工作未完成项目\\202603汇总\\20260303\\20260318 2025年度基层党支部党建考核结果反馈意见\\20260318 党建考核上会议题.md\nobsidian笔记\\工作未完成项目\\202603汇总\\3月第四周工作总结.md"
+        }
+      ],
+      "isExpanded": false,
+      "result": "agentId: a67bd3831e85d7c3b (for resuming to continue this agent's work if needed)\n<usage>total_tokens: 10070\ntool_uses: 4\nduration_ms: 113656</usage>"
+    }
   }
 }
