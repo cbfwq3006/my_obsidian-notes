@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/20260407 已完成.md",
+                "file": "2026/20260414.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260407 已完成"
+              "title": "20260414"
             }
           }
         ],
@@ -246,6 +246,7 @@
   },
   "active": "d7210936e7827854",
   "lastOpenFiles": [
+    "2026/20260407 已完成.md",
     "2026/20260408.md",
     "2026/20260409.md",
     "2026/20260410.md",
@@ -278,7 +279,6 @@
     "obsidian笔记/_tools/hermes-agent/hermes-agent/skills/mlops/training/axolotl/references/dataset-formats.md",
     "obsidian笔记/_tools/hermes-agent/hermes-agent/RELEASE_v0.4.0.md",
     "obsidian笔记/_tools/hermes-agent/hermes-agent/website/docs/integrations/providers.md",
-    "obsidian笔记/_tools/hermes-agent/hermes-agent/skills/creative/ascii-video/references/scenes.md",
     "obsidian笔记/_tools/hermes-agent/hermes-agent/landingpage/icon-192.png",
     "obsidian笔记/_tools/hermes-agent/hermes-agent/landingpage/apple-touch-icon.png",
     "obsidian笔记/_tools/hermes-agent/hermes-agent/website/static/img/apple-touch-icon.png",
