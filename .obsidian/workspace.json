@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c841ee0776734a3b",
+        "id": "c150eefb1ef055ad",
         "type": "tabs",
         "children": [
           {
-            "id": "4b985ef8beb3d424",
+            "id": "f4a8f7a77d5e3f48",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "llm-wiki-lab/raw/【与书相约·悦读人生】第三期｜把每一件小事做扎实，就是不平凡——读《平凡的世界》感悟.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "【与书相约·悦读人生】第三期｜把每一件小事做扎实，就是不平凡——读《平凡的世界》感悟"
             }
           }
         ]
@@ -225,8 +229,20 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "4b985ef8beb3d424",
+  "active": "f4a8f7a77d5e3f48",
   "lastOpenFiles": [
+    "llm-wiki-lab/AGENTS.md.md",
+    "llm-wiki-lab/raw/【与书相约·悦读人生】第三期｜把每一件小事做扎实，就是不平凡——读《平凡的世界》感悟.md",
+    "Hermes-API集成测试完成.md",
+    "未命名.base",
+    "llm-wiki-lab/wiki",
+    "llm-wiki-lab",
+    "测试-插件状态验证.md",
+    "20260320 本周工作总结.md",
+    "Hermes-文件系统测试.md",
+    "CLAUDE.md",
+    "测试-Notebook-Navigator搜索.md",
+    "测试-Hermes集成.md",
     "obsidian笔记/工作未完成项目/202604汇总/20260428 支委会需讨论内容.md",
     "obsidian笔记/完成内容/已完成的工作内容/202603汇总/20260318 集中研讨全年安排.md",
     "obsidian笔记/完成内容/已完成的工作内容/202603汇总/20260326 3月31号前给工委报三个表   4月10号前给工委报发展党员需求.md",
@@ -244,25 +260,13 @@
     "obsidian笔记/完成内容/已完成的工作内容/20260320 下周三替付总书记轮训开会.md",
     "obsidian笔记/完成内容/已完成的工作内容/20260320  省公司组织读书班.md",
     "obsidian笔记/完成内容/已完成的工作内容/20260326 人工智能培训.md",
-    "obsidian笔记/完成内容/已完成的工作内容/20260319 集中研讨-数字化与稽核中心.md",
-    "obsidian笔记/完成内容/已完成的工作内容/20260305 树立和践行正确政绩观学习教育启动.md",
-    "obsidian笔记/工作未完成项目/202603汇总/20260303/20260318 议事清单和党的建设清单收集各支部 紧急-4月巡察会用.md",
-    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260330 关于调整焦作联通领导班子成员安全生产联系点的通知.md",
-    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 树立和践行正确政绩观学习教育简报征稿通知 第一次王主任，以后信息由小祝报.md",
-    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 关于印发《河南公司党委认真落实习近平总书记重要指示批示精神推动企业高质量发展行稳致远实施方案》的通知.md",
-    "obsidian笔记/工作未完成项目/202603汇总/20260304/20260326 中国联通河南省分公司党委关于开展“党建聚合力 穿透解难题”结对子活动的通知.md",
-    "2026/20260430   待办.md",
-    "2026/20260429 共性问题整改.md",
     "2026",
     "obsidian笔记/工作未完成项目/202602汇总/party-review/materials/委员",
-    "raw",
+    "llm-wiki-lab/raw",
     "obsidian笔记/完成内容/已完成的工作内容/202604汇总",
     "wiki/AI_NEWS",
     "raw/AI_NEWS_HUB",
     "raw/rawAI_NEWS_HUB",
-    "raw/素材/Clippings/Clippings",
-    "raw/素材/Clippings",
-    "wiki/概念",
     "附件/fda5c720b97499e26a0afb124bd26bee.png",
     "附件/Pasted image 20260415085641.png",
     "obsidian笔记/_tools/hermes-agent/hermes-agent/website/static/img/logo.png",
