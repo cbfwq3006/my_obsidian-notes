@@ -259,8 +259,12 @@
       "notehelper:tongbuzhushou": false
     }
   },
-  "active": "0300902007b5ef01",
+  "active": "2c2c5f7d81fa8c7a",
   "lastOpenFiles": [
+    "wiki/实体/Obsidian.md",
+    "wiki/来源/2026-05-05 用Obsidian管理知识，让AI真正懂你.md",
+    "wiki/来源/2026-05-05 Obsidian入门26：想让AI读你的Obsidian？你需要先认识这几个工具.md",
+    "wiki/来源/2026-05-05 3个信号，说明你上班用力过度了（毛选思维）.md",
     "raw/2026-05-05 1/同步助手_2026-05-05.md",
     "raw/2026-05-05 1/用Obsidian管理知识，让AI真正懂你.md",
     "raw/2026-05-05 1/Obsidian 入门26：想让 AI 读你的 Obsidian？你需要先认识这几个工具.md",
@@ -300,10 +304,6 @@
     "wiki/来源/2026-04-12 用Hermes+Obsidian搭建个人知识库.md",
     "wiki/来源/2026-04-15 飞书CLI + Codex = 生产力.md",
     "raw",
-    "wiki/实体/Codex.md",
-    "wiki/概念/飞书CLI.md",
-    "wiki/实体/飞书.md",
-    "wiki/index.md",
     "scripts",
     "wiki/概念",
     "wiki/来源",
