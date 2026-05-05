@@ -1,0 +1,1440 @@
+{
+  "source_root": "D:\\work\\2026\\4\\5 组织生活会",
+  "output_root": "E:\\sl_obsidian\\converted_markdown\\组织生活会",
+  "converted_count": 146,
+  "failed_count": 1,
+  "unsupported_count": 59,
+  "converted": [
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\1 交付\\2025年度组织生活会及民主评议党员会议纪要-交付中心V1.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\1 交付\\2025年度组织生活会及民主评议党员会议纪要-交付中心V1.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 112,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\1 交付\\2025年度组织生活会发言提纲-模板-连艳利V5.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\1 交付\\2025年度组织生活会发言提纲-模板-连艳利V5.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 72,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\1 交付\\2025年度组织生活会发言提纲-闫林林.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\1 交付\\2025年度组织生活会发言提纲-闫林林.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 35,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\1 交付\\2025年度组织生活会发言材料-李祯.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\1 交付\\2025年度组织生活会发言材料-李祯.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 39,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\1 交付\\交付中心党支部2025年度组织生活会整改清单.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\1 交付\\交付中心党支部2025年度组织生活会整改清单.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 3
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\1 交付\\附件3：民主评议结果报告.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\1 交付\\附件3：民主评议结果报告.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\1 交付\\附件：学习教育查摆问题整改整治台账（模板)+-各市分公司 (2).xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\1 交付\\附件：学习教育查摆问题整改整治台账（模板)+-各市分公司 (2).md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\10 创新\\个人发言材料-张红.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\10 创新\\个人发言材料-张红.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 48,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\10 创新\\个人发言材料-马诗琪.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\10 创新\\个人发言材料-马诗琪.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 96,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\10 创新\\创新业务支撑中心党支部2025年度组织生活会整改清单.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\10 创新\\创新业务支撑中心党支部2025年度组织生活会整改清单.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 3
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\10 创新\\创新业务支撑中心支部委员会对照检查材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\10 创新\\创新业务支撑中心支部委员会对照检查材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 110,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\11 办公室\\2-0+2025办公室支部组织生活会＿问题整改清单1.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\11 办公室\\2-0+2025办公室支部组织生活会＿问题整改清单1.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 3
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\11 办公室\\2-1+28名党员批评与自我批评具体内容.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\11 办公室\\2-1+28名党员批评与自我批评具体内容.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 17,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\11 办公室\\2-128名党员批评与自我批评具体内容.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\11 办公室\\2-128名党员批评与自我批评具体内容.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 17,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\11 办公室\\3-12025年度组织生活会个人发言成春红.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\11 办公室\\3-12025年度组织生活会个人发言成春红.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 62,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\11 办公室\\3-2个人发言材料＿办公室李芳.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\11 办公室\\3-2个人发言材料＿办公室李芳.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 39,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\11 办公室\\3-3张静-2025年度组织生活会材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\11 办公室\\3-3张静-2025年度组织生活会材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 33,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\11 办公室\\3-42025年度组织生活会个人发言-办公室杨培 (1).docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\11 办公室\\3-42025年度组织生活会个人发言-办公室杨培 (1).md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 55,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\11 办公室\\3-42025年度组织生活会个人发言-办公室杨培.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\11 办公室\\3-42025年度组织生活会个人发言-办公室杨培.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 55,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\11 办公室\\3-52025年度组织生活会个人发言-办公室郭曙光.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\11 办公室\\3-52025年度组织生活会个人发言-办公室郭曙光.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 38,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\11 办公室\\3办公室支部2025年度基层党组织组织生活会支部委员会对照检查材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\11 办公室\\3办公室支部2025年度基层党组织组织生活会支部委员会对照检查材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 58,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\12 沁阳\\2025年度党建工作报告.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\12 沁阳\\2025年度党建工作报告.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 15,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\12 沁阳\\2025年度基层党组织组织生活会支部委员会对照检查材料--沁阳市分公司党支部.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\12 沁阳\\2025年度基层党组织组织生活会支部委员会对照检查材料--沁阳市分公司党支部.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 60,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\12 沁阳\\2025年度组织生活会个人发言材料-（支部书记魏进军）.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\12 沁阳\\2025年度组织生活会个人发言材料-（支部书记魏进军）.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 45,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\12 沁阳\\2025年度组织生活会个人发言材料-（组织委员、纪检委员刘建建）.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\12 沁阳\\2025年度组织生活会个人发言材料-（组织委员、纪检委员刘建建）.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 42,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\12 沁阳\\2025年度组织生活会发言材料-（宣传委员王亮）.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\12 沁阳\\2025年度组织生活会发言材料-（宣传委员王亮）.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 46,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\12 沁阳\\关于召开基层党组织2025年度组织生活会和开展民主评议党员的通知.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\12 沁阳\\关于召开基层党组织2025年度组织生活会和开展民主评议党员的通知.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 41,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\12 沁阳\\沁阳党支部2025年度组织生活会征求意见清单及整改措施.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\12 沁阳\\沁阳党支部2025年度组织生活会征求意见清单及整改措施.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 2
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\12 沁阳\\附件1：基层党支部民主评议表.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\12 沁阳\\附件1：基层党支部民主评议表.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\12 沁阳\\附件2：党员民主测评表.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\12 沁阳\\附件2：党员民主测评表.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\12 沁阳\\附件3：民主评议结果报告.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\12 沁阳\\附件3：民主评议结果报告.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\12 沁阳\\附件4：党支部发言材料参考模板.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\12 沁阳\\附件4：党支部发言材料参考模板.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 35,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\13 财务\\2025年组织生活会问题清单整改措施-财务部.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\13 财务\\2025年组织生活会问题清单整改措施-财务部.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\14 党建\\2025年度党员领导干部组织生活会个人发言材料-王统.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\14 党建\\2025年度党员领导干部组织生活会个人发言材料-王统.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 47,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\14 党建\\2025年组织生活会问题清单整改措施-党建工作部.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\14 党建\\2025年组织生活会问题清单整改措施-党建工作部.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\15 客服\\2-2025年度组织生活会个人发言材料-客服部崔静0401.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\15 客服\\2-2025年度组织生活会个人发言材料-客服部崔静0401.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 52,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\15 客服\\2025年度基层党组织组织生活会客户服务部支部委员会对照检查材料20260312.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\15 客服\\2025年度基层党组织组织生活会客户服务部支部委员会对照检查材料20260312.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 49,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\16 中站\\2024年度基层党组织组织生活会发言材料（杨振玲）.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\16 中站\\2024年度基层党组织组织生活会发言材料（杨振玲）.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 91,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\16 中站\\2025年度王海霞组织生活会发言.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\16 中站\\2025年度王海霞组织生活会发言.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 53,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\16 中站\\中站党支部2025年度组织生活会查摆问题清单及整改措施 (1).xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\16 中站\\中站党支部2025年度组织生活会查摆问题清单及整改措施 (1).md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 2
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\16 中站\\中站党支部2025年度组织生活会查摆问题清单及整改措施.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\16 中站\\中站党支部2025年度组织生活会查摆问题清单及整改措施.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 2
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\17 孟州\\2025年度基层党组织组织生活会支部委员会对照检查材料1.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\17 孟州\\2025年度基层党组织组织生活会支部委员会对照检查材料1.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 74,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\17 孟州\\2025年度组织生活会个人发言（荣帅3.12.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\17 孟州\\2025年度组织生活会个人发言（荣帅3.12.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 67,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\17 孟州\\2025年度组织生活会发言提纲.李红星.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\17 孟州\\2025年度组织生活会发言提纲.李红星.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 43,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\17 孟州\\孟州联通党支部2025年度组织生活会征求意见整改措施+1.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\17 孟州\\孟州联通党支部2025年度组织生活会征求意见整改措施+1.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 3
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\17 孟州\\组织生活会发言材料（郭玉倩）3.11.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\17 孟州\\组织生活会发言材料（郭玉倩）3.11.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 65,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\18 网络部\\2025年度组织生活会发言提纲-薛培延V2.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\18 网络部\\2025年度组织生活会发言提纲-薛培延V2.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 73,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\18 网络部\\2025年组织生活会个人发言材料-王明昕V3.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\18 网络部\\2025年组织生活会个人发言材料-王明昕V3.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 67,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\18 网络部\\网络部党支部发言材料V4.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\18 网络部\\网络部党支部发言材料V4.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 100,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\18 网络部\\附件5：个人发言材料-任娟v1.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\18 网络部\\附件5：个人发言材料-任娟v1.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 40,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\19 综服\\2025年度组织生活会个人对照检查发言材料--综服中心任芳芳.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\19 综服\\2025年度组织生活会个人对照检查发言材料--综服中心任芳芳.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 48,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\19 综服\\2025年度组织生活会个人对照检查发言材料--综服中心刘迎军.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\19 综服\\2025年度组织生活会个人对照检查发言材料--综服中心刘迎军.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 56,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\19 综服\\2025年度组织生活会个人对照检查发言材料--综服中心王波.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\19 综服\\2025年度组织生活会个人对照检查发言材料--综服中心王波.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 62,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\19 综服\\2025年度综合服务支撑中心支部委员会对照检查材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\19 综服\\2025年度综合服务支撑中心支部委员会对照检查材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 68,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\19 综服\\综合服务支撑党支部2025年度组织生活会查摆问题清单及整改措施.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\19 综服\\综合服务支撑党支部2025年度组织生活会查摆问题清单及整改措施.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 2
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\2 纪检\\2025年度基层党组织组织生活会-派驻纪检审计党支部材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\2 纪检\\2025年度基层党组织组织生活会-派驻纪检审计党支部材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 53,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\2 纪检\\2025年度组织生活会发言提纲个人-张高兴.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\2 纪检\\2025年度组织生活会发言提纲个人-张高兴.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 60,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\2 纪检\\2025年组织生活会个人发言材料-何雪峰.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\2 纪检\\2025年组织生活会个人发言材料-何雪峰.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 47,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\2 纪检\\派驻纪检组审计组党支部2025年度组织生活会查摆问题整改清单.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\2 纪检\\派驻纪检组审计组党支部2025年度组织生活会查摆问题整改清单.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 2
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\20 稽核\\2025年度基层党组织组织生活会个人发言材料（数字化与稽核中心-冯志强）.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\20 稽核\\2025年度基层党组织组织生活会个人发言材料（数字化与稽核中心-冯志强）.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 54,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\20 稽核\\2025年度基层党组织组织生活会个人发言材料（数字化与稽核中心-赵中利）.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\20 稽核\\2025年度基层党组织组织生活会个人发言材料（数字化与稽核中心-赵中利）.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 39,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\20 稽核\\2025年度基层党组织组织生活会个人发言材料（数字化与稽核中心-闫炳花）.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\20 稽核\\2025年度基层党组织组织生活会个人发言材料（数字化与稽核中心-闫炳花）.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 45,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\20 稽核\\2025年度基层党组织组织生活会支部委员会对照检查材料（数字化与稽核中心）.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\20 稽核\\2025年度基层党组织组织生活会支部委员会对照检查材料（数字化与稽核中心）.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 69,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\20 稽核\\数字化与稽核中心党支部组织生活会问题整改清单.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\20 稽核\\数字化与稽核中心党支部组织生活会问题整改清单.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 3
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\21 企业\\2025年宣传委员个人对照检查材料（企业中心党支部）.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\21 企业\\2025年宣传委员个人对照检查材料（企业中心党支部）.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 45,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\21 企业\\2025年度基层党组织组织生活会对照检查材料1.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\21 企业\\2025年度基层党组织组织生活会对照检查材料1.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 60,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\21 企业\\2025年纪检委员个人对照检查材料企业中心党支部）.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\21 企业\\2025年纪检委员个人对照检查材料企业中心党支部）.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 43,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\21 企业\\企业客户营销中心党支部书记个人对照检查材料0228.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\21 企业\\企业客户营销中心党支部书记个人对照检查材料0228.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 43,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\21 企业\\学习教育查摆问题清单（左玥）3.31.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\21 企业\\学习教育查摆问题清单（左玥）3.31.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\21 企业\\学习教育查摆问题清单（贾等等）3.31.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\21 企业\\学习教育查摆问题清单（贾等等）3.31.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\21 企业\\组织生活会整改清单企业中心党支部）上报版.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\21 企业\\组织生活会整改清单企业中心党支部）上报版.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\22 校园\\2025年度基层党组织组织生活会个人对照检查材料——张淋淋.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\22 校园\\2025年度基层党组织组织生活会个人对照检查材料——张淋淋.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 40,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\22 校园\\2025年度基层党组织组织生活会支部委员会对照检查材料——校园.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\22 校园\\2025年度基层党组织组织生活会支部委员会对照检查材料——校园.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 41,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\22 校园\\校园客户营销中心党支部2025年组织生活会问题整改清单 (1).xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\22 校园\\校园客户营销中心党支部2025年组织生活会问题整改清单 (1).md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\22 校园\\校园客户营销中心党支部2025年组织生活会问题整改清单 (2).xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\22 校园\\校园客户营销中心党支部2025年组织生活会问题整改清单 (2).md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\22 校园\\校园客户营销中心党支部2025年组织生活会问题整改清单.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\22 校园\\校园客户营销中心党支部2025年组织生活会问题整改清单.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\22 校园\\校园客户营销中心党支部组织生活会会议纪要.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\22 校园\\校园客户营销中心党支部组织生活会会议纪要.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 46,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\22 校园\\附件附件1：基层党支部民主评议表.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\22 校园\\附件附件1：基层党支部民主评议表.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\22 校园\\附件附件2：党员民主测评表.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\22 校园\\附件附件2：党员民主测评表.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\22 校园\\附件附件3：民主评议结果报告.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\22 校园\\附件附件3：民主评议结果报告.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\23 政要\\政要客户营销中心党支部2025年度组织生活会整改清单.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\23 政要\\政要客户营销中心党支部2025年度组织生活会整改清单.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 3
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\24 网运\\2025年度组织生活会发言材料--田泽方.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\24 网运\\2025年度组织生活会发言材料--田泽方.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 49,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\24 网运\\网运中心党支部2025年度组织生活会整改清单.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\24 网运\\网运中心党支部2025年度组织生活会整改清单.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 3
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\25 修武\\修武县分公司党支部2025年度组织生活会宣传委员贾飞发言材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\25 修武\\修武县分公司党支部2025年度组织生活会宣传委员贾飞发言材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 58,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\25 修武\\修武县分公司党支部2025年度组织生活会支委班子发言材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\25 修武\\修武县分公司党支部2025年度组织生活会支委班子发言材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 60,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\25 修武\\修武县分公司党支部2025年度组织生活会支部书记李欣发言材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\25 修武\\修武县分公司党支部2025年度组织生活会支部书记李欣发言材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 57,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\25 修武\\修武县分公司党支部2025年度组织生活会纪检委员陈冠霖发言材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\25 修武\\修武县分公司党支部2025年度组织生活会纪检委员陈冠霖发言材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 56,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\25 修武\\修武县分公司党支部2025年度组织生活会组织委员申倩倩发言材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\25 修武\\修武县分公司党支部2025年度组织生活会组织委员申倩倩发言材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 69,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\25 修武\\修武县分公司党支部2025年度组织生活会青年委员周亚飞发言材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\25 修武\\修武县分公司党支部2025年度组织生活会青年委员周亚飞发言材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 65,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\25 修武\\修武县分公司党支部2025年度织生活会征集问题清单及整改措施.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\25 修武\\修武县分公司党支部2025年度织生活会征集问题清单及整改措施.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 3
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\26 博爱\\2025年度基层党组织组织生活会+支部对照检查材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\26 博爱\\2025年度基层党组织组织生活会+支部对照检查材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 49,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\26 博爱\\2025年组织生活会个人发言材料-何亮.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\26 博爱\\2025年组织生活会个人发言材料-何亮.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 49,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\26 博爱\\博爱党支部2025年度组织生活会问题清单及整改措施.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\26 博爱\\博爱党支部2025年度组织生活会问题清单及整改措施.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 3
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\27 武陟\\2025年度组织生活会发言材料-董梁.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\27 武陟\\2025年度组织生活会发言材料-董梁.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 32,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\27 武陟\\2025年度组织生活会发言（张君叶）.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\27 武陟\\2025年度组织生活会发言（张君叶）.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 42,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\27 武陟\\支部书记发言材料（陈燕午）20260311（定）.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\27 武陟\\支部书记发言材料（陈燕午）20260311（定）.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 35,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\27 武陟\\武陟分公司党支部2025年度组织生活会问题清单及整改措施 (1).xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\27 武陟\\武陟分公司党支部2025年度组织生活会问题清单及整改措施 (1).md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 3
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\27 武陟\\武陟分公司党支部2025年度组织生活会问题清单及整改措施.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\27 武陟\\武陟分公司党支部2025年度组织生活会问题清单及整改措施.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 3
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\27 武陟\\附件附件3：民主评议结果报告.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\27 武陟\\附件附件3：民主评议结果报告.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\28 政企\\附件5：政企部党支部书记刘怀星发言材料0302（以此为准）.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\28 政企\\附件5：政企部党支部书记刘怀星发言材料0302（以此为准）.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 40,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\3 温县\\2025年度+整改清单.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\3 温县\\2025年度+整改清单.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 2
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\3 温县\\周建勋+2025年度个人对照检查材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\3 温县\\周建勋+2025年度个人对照检查材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 22,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\3 温县\\孙久财+2025年度个人对照发言材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\3 温县\\孙久财+2025年度个人对照发言材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 79,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\3 温县\\张东波+2025年度个人对照检查材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\3 温县\\张东波+2025年度个人对照检查材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 56,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\3 温县\\张亚飞+2025年度个人对照检查材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\3 温县\\张亚飞+2025年度个人对照检查材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 73,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\3 温县\\张大卫+2025年度个人对照检查材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\3 温县\\张大卫+2025年度个人对照检查材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 37,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\3 温县\\温县分公司支部委员会2025年度对照检查材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\3 温县\\温县分公司支部委员会2025年度对照检查材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 60,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\3 温县\\附件1：基层党支部民主评议表.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\3 温县\\附件1：基层党支部民主评议表.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\3 温县\\附件2：党员民主测评表.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\3 温县\\附件2：党员民主测评表.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\4 马村\\2025年组织生活会发言材料刘仕源.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\4 马村\\2025年组织生活会发言材料刘仕源.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 45,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\4 马村\\民主生活会发言材料-陈三根.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\4 马村\\民主生活会发言材料-陈三根.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 66,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\4 马村\\马村区分公司党支部2025年度组织生活会支部书记王刚个人发言材料.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\4 马村\\马村区分公司党支部2025年度组织生活会支部书记王刚个人发言材料.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 50,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\4 马村\\马村区分公司组织生活会党支部对照检查材料2025.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\4 马村\\马村区分公司组织生活会党支部对照检查材料2025.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 59,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\5 山阳\\山阳区分公司党支部2025年度组织生活会征集意见整改清单 (1).xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\5 山阳\\山阳区分公司党支部2025年度组织生活会征集意见整改清单 (1).md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\5 山阳\\附件3：民主评议结果报告-山阳.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\5 山阳\\附件3：民主评议结果报告-山阳.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\5 山阳\\附件5：个人发言材料-孙明辉 (1).docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\5 山阳\\附件5：个人发言材料-孙明辉 (1).md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 54,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\5 山阳\\附件5：个人发言材料-梁莉珺 (1).docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\5 山阳\\附件5：个人发言材料-梁莉珺 (1).md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 54,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\5 山阳\\附件5：个人发言材料-梁莉珺 (2).docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\5 山阳\\附件5：个人发言材料-梁莉珺 (2).md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 54,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\5 山阳\\附件5：个人发言材料-王保军 (1).docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\5 山阳\\附件5：个人发言材料-王保军 (1).md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 63,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\5 山阳\\附件5：个人发言材料-王永成 (1).docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\5 山阳\\附件5：个人发言材料-王永成 (1).md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 63,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\5 山阳\\附件5：个人发言材料-郭永峰 (1).docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\5 山阳\\附件5：个人发言材料-郭永峰 (1).md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 64,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\6 市场部\\2025年度基层党组织组织生活会和开展民主评议党员大会.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\6 市场部\\2025年度基层党组织组织生活会和开展民主评议党员大会.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 60,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\6 市场部\\2025年度市场部党支部民主评议党员.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\6 市场部\\2025年度市场部党支部民主评议党员.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 61,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\6 市场部\\2025年度市场部党支部组织生活会个人发言材料-刘慧芳.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\6 市场部\\2025年度市场部党支部组织生活会个人发言材料-刘慧芳.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 52,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\6 市场部\\2025年度市场部党支部组织生活会个人发言材料-孟闪飞.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\6 市场部\\2025年度市场部党支部组织生活会个人发言材料-孟闪飞.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 57,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\6 市场部\\2025年度市场部党支部组织生活会个人发言材料-布振安.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\6 市场部\\2025年度市场部党支部组织生活会个人发言材料-布振安.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 41,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\6 市场部\\2025年度市场部党支部组织生活会个人发言材料-王志娟.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\6 市场部\\2025年度市场部党支部组织生活会个人发言材料-王志娟.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 37,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\6 市场部\\市场部党支部2025年度主题教育专题组织生活会查摆问题清单及整改措施.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\6 市场部\\市场部党支部2025年度主题教育专题组织生活会查摆问题清单及整改措施.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 1
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\6 市场部\\支部班子作对照检查发言+0314.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\6 市场部\\支部班子作对照检查发言+0314.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 6,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\7 解放\\2025年度基层党组织组织生活会个人发言提纲_张允.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\7 解放\\2025年度基层党组织组织生活会个人发言提纲_张允.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 52,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\7 解放\\2025年度组织生活会及民主评议党员规范化要求.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\7 解放\\2025年度组织生活会及民主评议党员规范化要求.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 103,
+      "tables": 7
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\7 解放\\解放区分公司党支部2025年度组织生活会查摆问题及整改措施.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\7 解放\\解放区分公司党支部2025年度组织生活会查摆问题及整改措施.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 3
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\7 解放\\（张瑞）2025年度基层党组织组织生活会个人发言.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\7 解放\\（张瑞）2025年度基层党组织组织生活会个人发言.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 56,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\8 人力\\2024+年组织生活会整改落实情况.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\8 人力\\2024+年组织生活会整改落实情况.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 6,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\8 人力\\2025年人力资源部党支部年度工作汇报.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\8 人力\\2025年人力资源部党支部年度工作汇报.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 41,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\8 人力\\人力资源部党支部2025年度组织生活会查摆问题清单及整改措施 (1).xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\8 人力\\人力资源部党支部2025年度组织生活会查摆问题清单及整改措施 (1).md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 2
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\8 人力\\人力资源部党支部2025年度组织生活会查摆问题清单及整改措施.xlsx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\8 人力\\人力资源部党支部2025年度组织生活会查摆问题清单及整改措施.md",
+      "extension": ".xlsx",
+      "status": "converted",
+      "sheets": 2
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\8 人力\\附件附件5：个人发言材料-人力资源部党支部宋世旺.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\8 人力\\附件附件5：个人发言材料-人力资源部党支部宋世旺.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 50,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\8 人力\\附件附件5：个人发言材料-人力资源部党支部牛春芳.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\8 人力\\附件附件5：个人发言材料-人力资源部党支部牛春芳.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 58,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\8 人力\\附件附件5：个人发言材料-人力资源部党支部行鹏敏.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\8 人力\\附件附件5：个人发言材料-人力资源部党支部行鹏敏.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 77,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\9 机动通信管理局\\个人发言材料.万仁伟.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\9 机动通信管理局\\个人发言材料.万仁伟.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 106,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\9 机动通信管理局\\个人发言材料.张德保.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\9 机动通信管理局\\个人发言材料.张德保.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 88,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\9 机动通信管理局\\个人发言材料.成利军.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\9 机动通信管理局\\个人发言材料.成利军.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 56,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\9 机动通信管理局\\个人发言材料.李一.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\9 机动通信管理局\\个人发言材料.李一.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 74,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\9 机动通信管理局\\个人发言材料.李强.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\9 机动通信管理局\\个人发言材料.李强.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 66,
+      "tables": 0
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\9 机动通信管理局\\记录---民主评议党员部分和后续部分.docx",
+      "target": "E:\\sl_obsidian\\converted_markdown\\组织生活会\\9 机动通信管理局\\记录---民主评议党员部分和后续部分.md",
+      "extension": ".docx",
+      "status": "converted",
+      "paragraphs": 7,
+      "tables": 0
+    }
+  ],
+  "failed": [
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\6 市场部\\2025年度市场部党支部组织生活会个人发言材料-（张金泉）0311.docx",
+      "extension": ".docx",
+      "status": "failed",
+      "error": "ValueError(\"file 'D:\\\\work\\\\2026\\\\4\\\\5 组织生活会\\\\6 市场部\\\\2025年度市场部党支部组织生活会个人发言材料-（张金泉）0311.docx' is not a Word file, content type is 'application/vnd.ms-word.document.macroEnabled.main+xml'\")"
+    }
+  ],
+  "unsupported": [
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\1 交付\\0-《关于召开基层党组织2025年度组织生活会和开展民主评议党员的通知》.rar",
+      "extension": ".rar",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\10 创新\\2025年度民主评议党员结果报告记录.JPG",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\11 办公室\\1.焦联通党委〔2026〕10号关于召开基层党组织2025年度组织生活会和开展民主评议党员的通知.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\11 办公室\\民主评议结果报告办公室党支部）.JPG",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\13 财务\\财务部--民主评议结果.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\13 财务\\附件附件4：财务部党支部发言材料.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\13 财务\\附件附件5：个人发言材料参考模板-宣传委员袁华.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\13 财务\\附件附件5：个人发言材料参考模板-支部书记张琼.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\13 财务\\附件附件5：个人发言材料参考模板-纪检委员封文静.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\13 财务\\附件附件5：个人发言材料参考模板-组织委员薛娟娟.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\13 财务\\附件附件5：个人发言材料参考模板-群众委员何卫国.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\14 党建\\个人发言材料李兵.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\14 党建\\个人发言材料祝文娟.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\14 党建\\党建工作部党支部发言材料.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\14 党建\\民主评议结果.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\15 客服\\2025年度组织生活会个人发言材料-客服部车空军03121.wps",
+      "extension": ".wps",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\15 客服\\民主评议.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\16 中站\\2025年度基层党组织组织生活会中站区党支部对照检查材料.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\16 中站\\2025年度基层党组织组织生活会发言提纲支部书记）.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\17 孟州\\2025年度组织生活会个人发言材料-王栋.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\17 孟州\\3月组织生活会发言材料（崔小杰）.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\17 孟州\\民主评议结果报告.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\18 网络部\\附件附件3：民主评议结果报告.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\19 综服\\民主测评2025.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\2 纪检\\2025年度组织生活会发言提纲个人-刘志纲.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\2 纪检\\民主评议结果报告.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\20 稽核\\民主评议.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\22 校园\\民主评议结果.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\23 政要\\2025年民主评议结果.pg",
+      "extension": ".pg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\23 政要\\民主评议结果报告.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\24 网运\\2025年度基层党组织组织生活会个人发言-刘霞.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\24 网运\\2025年度基层党组织组织生活会支部委员会对照检查材料-网络运营中心党支部.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\24 网运\\2025年度组织生活会发言材料-支部书记-申鑫.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\24 网运\\2025年民主评议结果 (1).jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\25 修武\\修武分公司党支部民主评议结果报告.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\26 博爱\\2025年组织生活会个人发言材料-博爱王艳平.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\26 博爱\\2025年组织生活会个人发言材料-王莉.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\26 博爱\\2025年组织生活会个人发言材料-魏斌.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\26 博爱\\2025年组织生活会材料-冯超0312.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\26 博爱\\民主评议结果报告.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\27 武陟\\武陟分公司党支部发言材料20260311（定）.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\28 政企\\附加4：政企部党支部发言材料0302（请以此稿为准）.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\3 温县\\2025年度组织生活会和民主评议文件.rar",
+      "extension": ".rar",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\3 温县\\民主评议报告.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\4 马村\\2025年组织生活会问题清单.xls",
+      "extension": ".xls",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\4 马村\\民主评议结果报告 (1).JPG",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\5 山阳\\关于召开基层党组织2025年度组织生活会和民主评议党员的通知.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\5 山阳\\附件4：党支部发言材料-山阳 (1).doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\6 市场部\\2025年度基层党组织组织生活会市场部支部委员会对照检查材料.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\6 市场部\\党委发文套红头.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\6 市场部\\组织生活会群众意见表.xls",
+      "extension": ".xls",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\7 解放\\民主评议.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\7 解放\\（解放）2025组织生活会对照检查材料31.wps",
+      "extension": ".wps",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\7 解放\\（鲁予波）2025年度基层党组织组织生活会个人发言.wps",
+      "extension": ".wps",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\8 人力\\2025年度组织生活会民主评议结果报告.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\8 人力\\党委发文套红头关于召开基层党组织2025年度组织生活会和.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\8 人力\\附件附件4：2025年度基层党组织组织生活会支部对照检查材料.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\9 机动通信管理局\\机动通信局党支部发言材料.doc",
+      "extension": ".doc",
+      "status": "unsupported"
+    },
+    {
+      "source": "D:\\work\\2026\\4\\5 组织生活会\\9 机动通信管理局\\民主评议.jpg",
+      "extension": ".jpg",
+      "status": "unsupported"
+    }
+  ]
+}
