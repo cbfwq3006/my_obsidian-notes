@@ -12,5 +12,6 @@
   "customjs",
   "notebook-navigator",
   "obsidian-tasks-plugin",
-  "periodic-notes"
+  "periodic-notes",
+  "messager"
 ]
