@@ -3,7 +3,10 @@ param(
     [string]$WebhookUrl,
 
     [Parameter(Mandatory = $false)]
-    [string]$Secret = ""
+    [string]$Secret = "",
+
+    [Parameter(Mandatory = $false)]
+    [string]$Keyword = "recipe"
 )
 
 if ($WebhookUrl -notmatch '^https://') {
@@ -21,11 +24,18 @@ if ($Secret.Trim().Length -gt 0) {
     Remove-Item Env:\FEISHU_WEBHOOK_SECRET -ErrorAction SilentlyContinue
 }
 
+$keywordValue = $Keyword.Trim()
+if ($keywordValue.Length -eq 0) {
+    $keywordValue = "recipe"
+}
+[Environment]::SetEnvironmentVariable("FEISHU_KEYWORD", $keywordValue, "User")
+$env:FEISHU_KEYWORD = $keywordValue
+
 Write-Host "FEISHU_WEBHOOK_URL configured for current user."
 if ($Secret.Trim().Length -gt 0) {
     Write-Host "FEISHU_WEBHOOK_SECRET configured for current user."
 } else {
     Write-Host "FEISHU_WEBHOOK_SECRET cleared because no secret was provided."
 }
+Write-Host "FEISHU_KEYWORD configured for current user: $keywordValue"
 Write-Host "Restart Codex or the automation runner before relying on scheduled runs."
-

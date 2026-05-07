@@ -9,11 +9,13 @@ if ($null -eq $recipeDir) {
 }
 
 $note = Get-ChildItem -LiteralPath $recipeDir.FullName -File |
-    Where-Object { $_.Name -like "*最新菜谱监控.md" } |
+    Where-Object { $_.Name -like "20??-??-?? *.md" } |
     Sort-Object LastWriteTime -Descending |
     Select-Object -First 1
 
 if ($null -eq $note) {
+    Write-Host "Files seen in recipe folder:"
+    Get-ChildItem -LiteralPath $recipeDir.FullName -File | ForEach-Object { Write-Host $_.Name }
     throw "Recipe monitor note not found."
 }
 

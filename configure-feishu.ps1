@@ -13,8 +13,12 @@ if ([string]::IsNullOrWhiteSpace($webhookUrl)) {
 }
 
 $secret = Read-Host "Enter signing Secret, or press Enter if not enabled"
+$keyword = Read-Host "Enter Feishu security keyword, or press Enter to use recipe"
+if ([string]::IsNullOrWhiteSpace($keyword)) {
+    $keyword = "recipe"
+}
 
-& $configScript -WebhookUrl $webhookUrl -Secret $secret
+& $configScript -WebhookUrl $webhookUrl -Secret $secret -Keyword $keyword
 
 Write-Host ""
 Write-Host "Configured. Test in this PowerShell session with:"

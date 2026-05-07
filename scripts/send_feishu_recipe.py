@@ -20,10 +20,11 @@ MAX_TEXT_LENGTH = 3800
 
 
 def build_text(markdown: str, source_path: Path) -> str:
+    keyword = os.environ.get("FEISHU_KEYWORD", "recipe").strip() or "recipe"
     text = markdown.strip()
     if len(text) > MAX_TEXT_LENGTH:
         text = text[: MAX_TEXT_LENGTH - 80].rstrip() + "\n\n...（内容较长，已截断；完整版本见 Obsidian）"
-    return f"今日儿童友好菜谱已更新\n来源：{source_path.name}\n\n{text}"
+    return f"{keyword}\n今日儿童友好菜谱已更新\n来源：{source_path.name}\n\n{text}"
 
 
 def build_payload(text: str, secret: str | None) -> dict:
@@ -102,4 +103,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
