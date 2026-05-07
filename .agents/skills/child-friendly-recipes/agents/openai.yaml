@@ -1,4 +1,3 @@
 display_name: Child-Friendly Recipes
-short_description: Finds simple kid-friendly Chinese recipes without seafood.
-default_prompt: Find recent simple, nutritious Chinese recipes for a 12-year-old who does not like fish or seafood, deduplicate against the Obsidian `吃好` folder, and write up to 5 to today's latest recipe monitor note.
-
+short_description: Finds kid-friendly Chinese recipes and can push them to Feishu.
+default_prompt: Find recent simple, nutritious Chinese recipes for a 12-year-old who does not like fish or seafood, deduplicate against the Obsidian `吃好` folder, write up to 5 to today's latest recipe monitor note, then push the note to Feishu when webhook env vars are configured.

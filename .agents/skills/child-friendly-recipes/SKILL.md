@@ -1,6 +1,6 @@
 ---
 name: child-friendly-recipes
-description: Find and write simple, nutritious, kid-friendly Chinese recipes for a 12-year-old who prefers down-to-earth home cooking and does not like fish or seafood. Use when monitoring recent Chinese recipes, writing recipe recommendations into the Obsidian `吃好` folder, or adjusting recipe selection for child-friendly taste: no fish, shrimp, crab, shellfish, squid, or other seafood; prioritize chicken, beef, pork, eggs, tofu, tomato, potato, and mild sweet-savory or tomato-based dishes.
+description: Find, write, and optionally push simple, nutritious, kid-friendly Chinese recipes for a 12-year-old who prefers down-to-earth home cooking and does not like fish or seafood. Use when monitoring recent Chinese recipes, writing recipe recommendations into the Obsidian `吃好` folder, pushing the daily recipe note to Feishu, or adjusting recipe selection for child-friendly taste: no fish, shrimp, crab, shellfish, squid, or other seafood; prioritize chicken, beef, pork, eggs, tofu, tomato, potato, and mild sweet-savory or tomato-based dishes.
 ---
 
 # Child-Friendly Recipes
@@ -51,7 +51,8 @@ Good candidates:
    - 营养亮点
    - 来源链接
    - 筛选依据
-7. Update automation memory with the run time, selected recipes, exclusions applied, and any source limitations.
+7. If Feishu push is requested, send the completed note with `python scripts/send_feishu_recipe.py "吃好/YYYY-MM-DD 最新菜谱监控.md"`. Require `FEISHU_WEBHOOK_URL` or `FEISHU_BOT_WEBHOOK`; use `FEISHU_WEBHOOK_SECRET` when the bot has signature verification enabled.
+8. Update automation memory with the run time, selected recipes, exclusions applied, Feishu push status, and any source limitations.
 
 ## Output Style
 
@@ -59,5 +60,4 @@ Use concise Chinese. Make the recommendation practical for a parent deciding din
 
 Mention seafood exclusion explicitly only when it affects selection or when replacing a seafood recipe.
 
-Never write to 飞书.
-
+For Feishu, push a concise text version of the same Obsidian note. Do not store webhook URLs or secrets in files.

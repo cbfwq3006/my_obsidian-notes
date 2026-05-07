@@ -232,6 +232,8 @@
   },
   "active": "f4a8f7a77d5e3f48",
   "lastOpenFiles": [
+    "scripts/configure_feishu_env.ps1",
+    "scripts/send_feishu_recipe.py",
     "吃好/2026-05-07 最新菜谱监控.md",
     "吃好/三鲜汤.md",
     "吃好/鸡腿肉.md",
@@ -275,9 +277,7 @@
     "converted_markdown/组织生活会/个人对照检查材料审核报告.md",
     "converted_markdown/组织生活会/personal-check-audit.csv",
     "scripts/audit_personal_check_materials.py",
-    "2026/20260505.md",
     "scripts/summarize_converted_markdown.py",
-    "converted_markdown/组织生活会/3 温县",
     "obsidian笔记/完成内容/已完成的工作内容/202602汇总/2026-02-21.canvas",
     "未命名.canvas"
   ]
