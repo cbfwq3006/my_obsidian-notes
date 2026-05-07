@@ -5,8 +5,7 @@ Set-Location $repoRoot
 
 $notePath = "吃好\2026-05-07 最新菜谱监控.md"
 if (-not (Test-Path -LiteralPath $notePath)) {
-    throw "找不到测试菜谱文件：$notePath"
+    throw "Recipe note not found: $notePath"
 }
 
 python scripts/send_feishu_recipe.py $notePath
-
