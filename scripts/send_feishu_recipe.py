@@ -98,6 +98,14 @@ def main() -> int:
 
     print(f"Feishu webhook status: {status}")
     print(body)
+    try:
+        response_payload = json.loads(body)
+    except json.JSONDecodeError:
+        response_payload = {}
+
+    if isinstance(response_payload, dict) and response_payload.get("code", 0) not in (0, None):
+        return 1
+
     return 0
 
 
