@@ -232,6 +232,8 @@
   },
   "active": "f4a8f7a77d5e3f48",
   "lastOpenFiles": [
+    "测试飞书推送.ps1",
+    "配置飞书推送.ps1",
     "scripts/configure_feishu_env.ps1",
     "scripts/send_feishu_recipe.py",
     "吃好/2026-05-07 最新菜谱监控.md",
@@ -276,8 +278,6 @@
     "scripts/audit_problem_analysis_ratio.py",
     "converted_markdown/组织生活会/个人对照检查材料审核报告.md",
     "converted_markdown/组织生活会/personal-check-audit.csv",
-    "scripts/audit_personal_check_materials.py",
-    "scripts/summarize_converted_markdown.py",
     "obsidian笔记/完成内容/已完成的工作内容/202602汇总/2026-02-21.canvas",
     "未命名.canvas"
   ]
