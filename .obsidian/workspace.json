@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c150eefb1ef055ad",
+        "id": "e4bffc81def1d1db",
         "type": "tabs",
         "children": [
           {
-            "id": "f4a8f7a77d5e3f48",
+            "id": "76d2bdb966500bb5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "吃好/2026-05-07 最新菜谱监控.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-05-07 最新菜谱监控"
+              "title": "新标签页"
             }
           }
         ]
@@ -230,8 +226,32 @@
       "notehelper:tongbuzhushou": false
     }
   },
-  "active": "f4a8f7a77d5e3f48",
+  "active": "76d2bdb966500bb5",
   "lastOpenFiles": [
+    "笔记同步助手/2026-05-07/一周破壁机豆浆食谱不重样！🔥.md",
+    "笔记同步助手/2026-05-08/滑动验证.md",
+    "笔记同步助手/2026-05-07/提升说话水平，你需要知道的3个逻辑.md",
+    "笔记同步助手/2026-05-07/滑动验证.md",
+    "笔记同步助手/2026-05-07/滑动验证 2.md",
+    "笔记同步助手/2026-05-07/滑动验证 3.md",
+    "笔记同步助手/2026-05-07/滑动验证 4.md",
+    "笔记同步助手/2026-05-07/滑动验证 5.md",
+    "笔记同步助手/2026-05-07/滑动验证 6.md",
+    "笔记同步助手/2026-05-07/夏日冰爽的酸梅汤（健胃养脾）.md",
+    "笔记同步助手/2026-05-07/一次实操感受告诉我，Obsidian+AI才是当下最好的知识管理组合.md",
+    "笔记同步助手/images/a3b54ffcce56450d1321d744bc69155a_MD5.jpg",
+    "吃好/2026-05-07 最新菜谱监控.md",
+    "笔记同步助手/images/ead0d47bc6ce29b71ed15122872a234d_MD5.png",
+    "笔记同步助手/images/66f7b1db48606c33bcd1fa00da52f17d_MD5.jpg",
+    "笔记同步助手/images/cd78bf9121b3b0c46706cd0999d42df6_MD5.gif",
+    "笔记同步助手/images/90a1652a6cfc0350e807bba9d925341f_MD5.jpg",
+    "笔记同步助手/images/bde4508daa563c0919a7e7713f1470ae_MD5.jpg",
+    "笔记同步助手/images/305d1be5958030ea4fc3008e9e724317_MD5.jpg",
+    "笔记同步助手/images/79554c46cae1ba33d06bacf1e8778e06_MD5.jpg",
+    "笔记同步助手/images/9ee378461fca2c3cf98c97e9bb798384_MD5.jpg",
+    "笔记同步助手/images/b610a86e8b087ae0a3a77f328247cfaa_MD5.jpg",
+    "笔记同步助手/2026-05-08",
+    "吃好/2026-05-08 每日精选菜谱.md",
     "吃好/2026-05-07 试跑菜谱-西兰花炒鸡胸肉.md",
     "test-feishu-push.ps1",
     "configure-feishu.ps1",
@@ -239,7 +259,6 @@
     "配置飞书推送.ps1",
     "scripts/configure_feishu_env.ps1",
     "scripts/send_feishu_recipe.py",
-    "吃好/2026-05-07 最新菜谱监控.md",
     "吃好/三鲜汤.md",
     "吃好/鸡腿肉.md",
     "自动化-每日儿童友好菜谱提示词.md",
@@ -252,31 +271,9 @@
     "wiki/来源/2026-05-05 Obsidian入门26：想让AI读你的Obsidian？你需要先认识这几个工具.md",
     "wiki/来源/2026-05-05 用Obsidian管理知识，让AI真正懂你.md",
     "wiki/来源/2026-05-07 提升说话水平，你需要知道的3个逻辑.md",
-    "笔记同步助手/2026-05-07/提升说话水平，你需要知道的3个逻辑.md",
-    "笔记同步助手/2026-05-06/Codex 的 -goal：让智能体自己把任务往前做.md",
-    "笔记同步助手/images/9edd493c04ef7130b8e4345961130249_MD5.jpg",
-    "笔记同步助手/images/84e6517e572500585af5f5b4f1314882_MD5.png",
-    "笔记同步助手/images/edf0aaf9daa042b9608c24408dff2558_MD5.jpg",
     "笔记同步助手/2026-05-07",
-    "raw/2026-05-05 1/Obsidian 入门26：想让 AI 读你的 Obsidian？你需要先认识这几个工具.md",
-    "raw/2026-05-05 1/3个信号，说明你上班用力过度了。（毛选思维）.md",
-    "2026/20260506.md",
-    "笔记同步助手/images/ef091451cf976d2c23d335a3de65640d_MD5.jpg",
-    "笔记同步助手/images/34814760d009b30bb9d5d9d0d06c7654_MD5.png",
-    "笔记同步助手/images/695e265fbcabb5fd9afbb9d3498028d5_MD5.png",
-    "笔记同步助手/images/00b17f1f9f955b6bf2335775e5bc5e44_MD5.png",
-    "笔记同步助手/images/efa4949954098263dc8f99c3f8973d38_MD5.png",
-    "笔记同步助手/images/0fec15f558922efea8be6328bf4e81ad_MD5.png",
-    "笔记同步助手/images/e4cbfec14aafb699a40372ac98022595_MD5.png",
-    "笔记同步助手/2026-05-05/我试了几乎所有能生成 PPT 的 AI 技能，最后只留了 4 个，特别是最后一个.md",
-    "笔记同步助手/2026-05-06/同步助手_2026-05-06.md",
     "笔记同步助手/2026-05-06",
-    "2026/20260427.md",
-    "converted_markdown/组织生活会/1 交付/2025年度组织生活会发言材料-李祯.md",
     "converted_markdown/组织生活会/~$问题查摆与原因剖析专项审核.xlsx",
-    "converted_markdown/组织生活会/问题查摆与原因剖析专项审核报告.md",
-    "converted_markdown/组织生活会/问题查摆与原因剖析专项审核.xlsx",
-    "converted_markdown/组织生活会/个人对照检查材料审核报告.md",
     "obsidian笔记/完成内容/已完成的工作内容/202602汇总/2026-02-21.canvas",
     "未命名.canvas"
   ]
