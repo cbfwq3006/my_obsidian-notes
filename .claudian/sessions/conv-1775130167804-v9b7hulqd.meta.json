@@ -4,8 +4,8 @@
   "title": "请检查20260326党建考核反馈文件夹下所有文件，结合20260318 2025年度基层党支部党建...",
   "titleGenerationStatus": "pending",
   "createdAt": 1775130167804,
-  "updatedAt": 1778369690815,
-  "lastResponseAt": 1778369690815,
+  "updatedAt": 1778462122983,
+  "lastResponseAt": 1778462122983,
   "sessionId": "c9891142-4db9-4ff2-a466-c467acf7ec29",
   "providerState": {
     "providerSessionId": "c9891142-4db9-4ff2-a466-c467acf7ec29",
@@ -172,11 +172,11 @@
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 18255,
+    "inputTokens": 17724,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 1212,
+    "cacheReadInputTokens": 1509,
     "contextWindow": 200000,
-    "contextTokens": 19467,
+    "contextTokens": 19233,
     "percentage": 10,
     "contextWindowIsAuthoritative": true
   }
