@@ -51,11 +51,19 @@
     }
   },
   "settingsProvider": "claude",
-  "savedProviderModel": {},
-  "savedProviderEffort": {},
+  "savedProviderModel": {
+    "claude": "opus"
+  },
+  "savedProviderEffort": {
+    "claude": "high"
+  },
   "savedProviderServiceTier": {},
-  "savedProviderThinkingBudget": {},
-  "savedProviderPermissionMode": {},
+  "savedProviderThinkingBudget": {
+    "claude": "medium"
+  },
+  "savedProviderPermissionMode": {
+    "claude": "normal"
+  },
   "lastCustomModel": "",
   "maxTabs": 3,
   "tabBarPosition": "input",
