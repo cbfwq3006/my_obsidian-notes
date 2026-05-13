@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
   "obsidian-git",
   "obsidian42-brat",
   "claudian",
@@ -17,4 +18,7 @@
   "google-calendar",
   "notehelper",
   "dataview"
+=======
+  "claudian"
+>>>>>>> origin/master
 ]
