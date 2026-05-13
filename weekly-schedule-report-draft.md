@@ -1,4 +1,4 @@
-﻿# Weekly Schedule Report Email Draft
+# Weekly Schedule Report Email Draft
 
 To: cbfwq3006@163.com
 
