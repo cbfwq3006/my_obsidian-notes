@@ -119,8 +119,8 @@
             "state": {
               "type": "notebook-navigator",
               "state": {},
-              "icon": "notebook-navigator",
-              "title": "笔记本导航器"
+              "icon": "lucide-ghost",
+              "title": "notebook-navigator"
             }
           }
         ],
@@ -217,8 +217,8 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
             }
           },
           {
@@ -227,12 +227,12 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -240,8 +240,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian42-brat:BRAT": false,
-      "claudian:Open Claudian": false,
       "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -249,18 +247,13 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false,
-      "terminal:Open terminal": false,
-      "note-to-mp:复制到公众号": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "notebook-navigator:笔记本导航器": false,
-      "notehelper:tongbuzhushou": false
+      "notehelper:tongbuzhushou": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff77585ca7e291e8",
+  "active": "5ec02b5c9c6e2645",
   "lastOpenFiles": [
+    "2026/20260508 关于开展“青春奋进‘十五五’ 挺膺担当建新功” 五四主题系列活动的通知.md",
     "2026/20260505.md",
     "2026/20260506.md",
     "2026/20260507.md",
@@ -286,7 +279,6 @@
     "obsidian笔记/完成内容/已完成的工作内容/202603汇总/财务部KPI关于党建部考核指标.md",
     "obsidian笔记/工作未完成项目/202603汇总/20260303/20260318 议事清单和党的建设清单收集各支部 紧急-4月巡察会用.md",
     "obsidian笔记/工作未完成项目/202603汇总/20260301/20260305 巡察.md",
-    "obsidian笔记/完成内容/已完成的工作内容/202603汇总/稽核中心集中研讨列席工作报告.md",
     "obsidian笔记/完成内容/已完成的工作内容/202605汇总",
     "附件/AM飞盘体检表-杨立平.pdf",
     "附件/1d05e6fc0edf5e4a1850e9116f6b8c1d.jpg",

@@ -1,24 +1,7 @@
 [
-<<<<<<< HEAD
-  "obsidian-git",
-  "obsidian42-brat",
-  "claudian",
-  "terminal",
-  "note-to-mp",
-  "calendar",
-  "obsidian-plugin-prettier",
-  "pdf-plus",
-  "obsidian-advanced-uri",
-  "quickadd",
-  "customjs",
-  "notebook-navigator",
-  "obsidian-tasks-plugin",
-  "periodic-notes",
-  "messager",
-  "google-calendar",
   "notehelper",
-  "dataview"
-=======
-  "claudian"
->>>>>>> origin/master
+  "obsidian-advanced-uri",
+  "calendar",
+  "obsidian-git",
+  "google-calendar"
 ]
