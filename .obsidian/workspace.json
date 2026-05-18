@@ -119,8 +119,8 @@
             "state": {
               "type": "notebook-navigator",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "notebook-navigator"
+              "icon": "notebook-navigator",
+              "title": "笔记本导航器"
             }
           }
         ],
@@ -217,8 +217,8 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "claudian-view"
+              "icon": "bot",
+              "title": "Claudian"
             }
           },
           {
@@ -227,12 +227,12 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -248,10 +248,18 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "notehelper:tongbuzhushou": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "notebook-navigator:笔记本导航器": false,
+      "obsidian42-brat:BRAT": false,
+      "note-to-mp:复制到公众号": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "terminal:Open terminal": false,
+      "realclaudian:Open Claudian": false
     }
   },
-  "active": "5ec02b5c9c6e2645",
+  "active": "2c2c5f7d81fa8c7a",
   "lastOpenFiles": [
     "2026/20260508 关于开展“青春奋进‘十五五’ 挺膺担当建新功” 五四主题系列活动的通知.md",
     "2026/20260505.md",

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779032845052-f6uko0sid",
+  "providerId": "claude",
+  "title": "你是什么模型？",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1779032845052,
+  "updatedAt": 1779032870068,
+  "lastResponseAt": 1779032870068,
+  "sessionId": "61da2c35-e5af-49c0-bfb5-742d3d190005",
+  "providerState": {
+    "providerSessionId": "61da2c35-e5af-49c0-bfb5-742d3d190005"
+  },
+  "currentNote": "2026/20260508 关于开展“青春奋进‘十五五’ 挺膺担当建新功” 五四主题系列活动的通知.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 4118,
+    "cacheCreationInputTokens": 536,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 4654,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

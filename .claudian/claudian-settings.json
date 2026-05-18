@@ -19,6 +19,7 @@
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
+  "requireCommandOrControlEnterToSend": false,
   "locale": "en",
   "providerConfigs": {
     "claude": {
@@ -45,9 +46,20 @@
       "environmentVariables": "",
       "environmentHash": "",
       "installationMethodsByHost": {
-        "LAPTOP-SK463K4S": "native-windows"
+        "device:7b5657ac-e367-4bd9-afce-e7973bc70163": "native-windows"
       },
       "wslDistroOverridesByHost": {}
+    },
+    "opencode": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "selectedMode": "",
+      "visibleModels": []
     }
   },
   "settingsProvider": "claude",
