@@ -4,21 +4,20 @@
   "title": "你是什么模型？",
   "titleGenerationStatus": "failed",
   "createdAt": 1779032845052,
-  "updatedAt": 1779449556059,
-  "lastResponseAt": 1779449556059,
+  "updatedAt": 1779613630803,
+  "lastResponseAt": 1779613630803,
   "sessionId": "61da2c35-e5af-49c0-bfb5-742d3d190005",
   "providerState": {
     "providerSessionId": "61da2c35-e5af-49c0-bfb5-742d3d190005"
   },
-  "currentNote": "2026/20260508 关于开展“青春奋进‘十五五’ 挺膺担当建新功” 五四主题系列活动的通知.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 33,
-    "cacheCreationInputTokens": 47699,
-    "cacheReadInputTokens": 0,
+    "inputTokens": 4037,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 34603,
     "contextWindow": 1000000,
-    "contextTokens": 47732,
-    "percentage": 5,
+    "contextTokens": 38640,
+    "percentage": 4,
     "contextWindowIsAuthoritative": true
   }
 }
