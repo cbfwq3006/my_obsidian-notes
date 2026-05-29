@@ -4,20 +4,20 @@
   "title": "你是什么模型？",
   "titleGenerationStatus": "failed",
   "createdAt": 1779032845052,
-  "updatedAt": 1780017479993,
-  "lastResponseAt": 1780017479992,
+  "updatedAt": 1780019828505,
+  "lastResponseAt": 1780019828505,
   "sessionId": "61da2c35-e5af-49c0-bfb5-742d3d190005",
   "providerState": {
     "providerSessionId": "61da2c35-e5af-49c0-bfb5-742d3d190005"
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 13652,
+    "inputTokens": 14548,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 117023,
+    "cacheReadInputTokens": 124693,
     "contextWindow": 1000000,
-    "contextTokens": 130675,
-    "percentage": 13,
+    "contextTokens": 139241,
+    "percentage": 14,
     "contextWindowIsAuthoritative": true
   }
 }
