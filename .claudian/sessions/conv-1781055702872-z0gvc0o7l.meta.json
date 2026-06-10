@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781055702872-z0gvc0o7l",
+  "providerId": "claude",
+  "title": "在不",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1781055702872,
+  "updatedAt": 1781055719511,
+  "lastResponseAt": 1781055719511,
+  "sessionId": "174ed053-766e-4caa-b6f1-c6ef9240c072",
+  "providerState": {
+    "providerSessionId": "174ed053-766e-4caa-b6f1-c6ef9240c072"
+  },
+  "currentNote": "2026/20260610.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 4960,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 17319,
+    "contextWindow": 1000000,
+    "contextTokens": 22279,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,22 +1,21 @@
-{
-  "id": "conv-1779032845052-f6uko0sid",
-  "providerId": "claude",
-  "title": "你是什么模型？",
-  "titleGenerationStatus": "failed",
-  "createdAt": 1779032845052,
-  "updatedAt": 1781053518866,
-  "lastResponseAt": 1781053518866,
-  "sessionId": "61da2c35-e5af-49c0-bfb5-742d3d190005",
-  "providerState": {
-    "providerSessionId": "61da2c35-e5af-49c0-bfb5-742d3d190005"
-  },
-  "usage": {
-    "model": "opus",
-    "inputTokens": 0,
-    "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 0,
-    "contextWindow": 200000,
-    "contextTokens": 0,
-    "percentage": 0
-  }
+﻿{
+    "id":  "conv-1779032845052-f6uko0sid",
+    "providerId":  "claude",
+    "title":  "浣犳槸浠€涔堟ā鍨嬶紵",
+    "titleGenerationStatus":  "failed",
+    "createdAt":  1779032845052,
+    "updatedAt":  1781055561082,
+    "lastResponseAt":  1781055354434,
+    "providerState":  {
+
+                      },
+    "usage":  {
+                  "model":  "opus",
+                  "inputTokens":  0,
+                  "cacheCreationInputTokens":  0,
+                  "cacheReadInputTokens":  0,
+                  "contextWindow":  200000,
+                  "contextTokens":  0,
+                  "percentage":  0
+              }
 }
