@@ -183,16 +183,6 @@
             }
           },
           {
-            "id": "2c2c5f7d81fa8c7a",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
-          },
-          {
             "id": "1868ae5d9f0f3652",
             "type": "leaf",
             "state": {
@@ -226,14 +216,13 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "terminal:Open terminal": false,
-      "realclaudian:Open Claudian": false
+      "terminal:Open terminal": false
     }
   },
-  "active": "1fe036190b635723",
+  "active": "1868ae5d9f0f3652",
   "lastOpenFiles": [
-    "2026/20260610.md",
     "2026/20260611 会议通知.md",
+    "2026/20260610.md",
     "2026/20260611党课模版.md",
     "2026/20260527.md",
     "2026/20260611_李兵主任党课记录.md",
