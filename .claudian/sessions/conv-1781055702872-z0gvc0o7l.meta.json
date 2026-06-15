@@ -4,19 +4,20 @@
   "title": "在不",
   "titleGenerationStatus": "failed",
   "createdAt": 1781055702872,
-  "updatedAt": 1781408050613,
-  "lastResponseAt": 1781151038720,
+  "updatedAt": 1781524572131,
+  "lastResponseAt": 1781524572131,
   "sessionId": "174ed053-766e-4caa-b6f1-c6ef9240c072",
   "providerState": {
     "providerSessionId": "174ed053-766e-4caa-b6f1-c6ef9240c072"
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 0,
-    "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 0,
-    "contextWindow": 200000,
-    "contextTokens": 0,
-    "percentage": 0
+    "inputTokens": 28,
+    "cacheCreationInputTokens": 6071,
+    "cacheReadInputTokens": 273733,
+    "contextWindow": 1000000,
+    "contextTokens": 279832,
+    "percentage": 28,
+    "contextWindowIsAuthoritative": true
   }
 }
