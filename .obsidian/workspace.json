@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/20260626.md",
+                "file": "工作日报/2026-06-27 工作日报.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260626"
+              "title": "2026-06-27 工作日报"
             }
           }
         ]
@@ -240,8 +240,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "be9072b04084a5f3",
+  "active": "1fe036190b635723",
   "lastOpenFiles": [
+    "2026/20260626.md",
     "工作周报/2026-W26 工作周报.md",
     "工作日报/2026-06-27 工作日报.md",
     "projects/Obsidian-Claudian-Codex每日工作流.md",
@@ -260,7 +261,6 @@
     "projects",
     "01 Inbox",
     "2026/20260625.md",
-    "2026/20260626.md",
     "2026/20260624.md",
     "2026/20260622.md",
     "2026/20260623.md",
