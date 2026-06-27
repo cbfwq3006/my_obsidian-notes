@@ -114,3 +114,11 @@
 - 补齐项目、输出、模板目录，支持 Codex 批量整理和生成材料
 - 保持既有 raw/wiki/CLAUDE.md 规则不变
 
+
+## [2026-06-27] update | 每日记录自动摄取工作流
+
+- 新增每日记录模板：[[templates/每日记录模板]]
+- 新增队列页：[[projects/Codex自动摄取队列]]
+- 新增工作流说明：[[projects/Obsidian-Claudian-Codex每日工作流]]
+- 更新 Codex 规则，增加每日记录摄取原则
+

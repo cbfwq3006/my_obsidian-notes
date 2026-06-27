@@ -62,3 +62,11 @@
 - `请检查 wiki 是否有孤儿页、缺页链接、index 统计不一致的问题`
 - `请把 01 Inbox/ 里的材料归类，哪些进入 raw，哪些进入 projects`
 - `请对 projects/某项目 做阶段复盘，并沉淀可复用经验到 wiki/概念/`
+
+## 每日记录摄取原则
+
+- 每日记录优先放在 `工作日报/`，使用 `每日记录模板`。
+- 通过 frontmatter 字段 `codex_ingest` 管理状态：`pending` / `done` / `skip`。
+- Codex 处理每日记录时，先读 `projects/Codex自动摄取队列.md`，只摄取有长期复用价值的内容。
+- 日记中的流水账默认不进入 `wiki/`；只有观点、方法、案例、数据口径、可复用表达才沉淀到 `wiki/`。
+- 处理完成后，应把原笔记的 `codex_ingest` 改为 `done`，必要时把 `wiki_update` 改为 `true`，并写明生成或更新的 wiki 页面。
