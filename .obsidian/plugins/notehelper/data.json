@@ -13,7 +13,7 @@
   "filename": "{{{title}}}",
   "filenameDateFormat": "yyyy-MM-dd",
   "attachmentFolder": "笔记同步助手/attachments",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "mergeMode": "messages",
   "messageSortOrder": "desc",
   "messageFolder": "",
@@ -53,6 +53,7 @@
     "desktop-mosjfrhu-bsy4": "2026-06-29T10:45:02.126+08:00"
   },
   "initialSyncCompleted": true,
+  "firstSyncAutoOpened": true,
   "deviceAutoSync": {
     "desktop-mosjfrhu-bsy4": {
       "frequency": 0,
@@ -61,6 +62,7 @@
   },
   "deviceAutoSyncMigrated": true,
   "escapeHashtags": false,
+  "language": "zh",
   "enableDebugLog": false,
   "burnAfterReading": false,
   "burnAfterReadingEnabledAt": "",
