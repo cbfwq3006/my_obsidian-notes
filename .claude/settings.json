@@ -29,7 +29,9 @@
       "Read(//d/work/2026/6/**)",
       "Bash(cp 'D:\\\\work\\\\2026\\\\6\\\\5 巡查整改台账\\\\集团党组2025年第一批巡视整改现场检查评估发现问题自查自纠焦作公司整改台账（2026年1-6月份）.xlsx' '/tmp/ledger.xlsx')",
       "Read(//tmp/**)",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(python -c \"\nimport openpyxl\nwb = openpyxl.load_workbook\\(r'D:\\\\work\\\\2026\\\\6\\\\5 巡查整改台账\\\\集团党组2025年第一批巡视整改现场检查评估发现问题自查自纠焦作公司整改台账（2026年1-6��份）.xlsx'\\)\nws = wb['Sheet1']\n\n# Print header rows\nprint\\('=== Headers \\(rows 1-3\\) ==='\\)\nfor row in range\\(1, 4\\):\n    values = []\n    for col in range\\(1, min\\(17, ws.max_column + 1\\)\\):\n        cell = ws.cell\\(row=row, column=col\\)\n        values.append\\(str\\(cell.value\\) if cell.value else ''\\)\n    print\\(f'Row {row}: {values}'\\)\n\nprint\\(\\)\nprint\\('=== Sample data rows \\(4-8\\) ==='\\)\nfor row in range\\(4, 9\\):\n    values = []\n    for col in range\\(1, min\\(17, ws.max_column + 1\\)\\):\n        cell = ws.cell\\(row=row, column=col\\)\n        val = str\\(cell.value\\) if cell.value else ''\n        if len\\(val\\) > 50:\n            val = val[:50] + '...'\n        values.append\\(val\\)\n    print\\(f'Row {row}: {values[:5]}'\\)  # First 5 columns only\n\")",
+      "Bash(python)"
     ]
   }
 }
