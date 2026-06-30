@@ -4,11 +4,11 @@
   "title": "在不",
   "titleGenerationStatus": "failed",
   "createdAt": 1781055702872,
-  "updatedAt": 1782746578530,
-  "lastResponseAt": 1782746578529,
-  "sessionId": null,
+  "updatedAt": 1782787305528,
+  "lastResponseAt": 1782787305528,
+  "sessionId": "967a080d-4cbf-4f1d-96b5-8c2a2d062db8",
   "providerState": {
-    "providerSessionId": "174ed053-766e-4caa-b6f1-c6ef9240c072",
+    "providerSessionId": "967a080d-4cbf-4f1d-96b5-8c2a2d062db8",
     "subagentData": {
       "tooluse_wOE2QjB2WCiv5mfpt47WNq": {
         "id": "tooluse_wOE2QjB2WCiv5mfpt47WNq",
@@ -19,18 +19,22 @@
         "isExpanded": false,
         "result": "我注意到你提供的是 Windows 路径（D: 和 E: 盘），但当前环境是 macOS。这些 Windows 路径在我的环境中无法直接访问。\n\n请问下面哪种情况符合你的需求：\n\n1. **这些文件在当前工作目录中**：请告诉我相对于 `/Users/dev/workspace-713107df` 的路径\n2. **这些文件在远程服务器上**：请告诉我如何访问（SSH、SMB 等）\n3. **你想要我帮助处理其他位置的文件**：请提供可访问的路径\n\n或者，如果你能将这些文件上传到当前工作目录，我可以立即帮你完成内容调查。\n\n你也可以使用 `! ls -la /path/to/directory` 在 Windows PowerShell 或 WSL 中运行命令，然后粘贴结果给我。"
       }
-    }
+    },
+    "previousProviderSessionIds": [
+      "174ed053-766e-4caa-b6f1-c6ef9240c072"
+    ]
   },
   "externalContextPaths": [
     "D:\\work\\2026\\6\\2 从严治党4个台账\\4个台账"
   ],
   "usage": {
     "model": "opus",
-    "inputTokens": 514,
-    "cacheCreationInputTokens": 578,
-    "cacheReadInputTokens": 447343,
-    "contextWindow": 200000,
-    "contextTokens": 448435,
-    "percentage": 100
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 157237,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 157237,
+    "percentage": 16,
+    "contextWindowIsAuthoritative": true
   }
 }
