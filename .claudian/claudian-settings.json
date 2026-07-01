@@ -38,10 +38,12 @@
       "environmentHash": ""
     },
     "codex": {
-      "enabled": false,
+      "enabled": true,
       "safeMode": "workspace-write",
       "cliPath": "",
-      "cliPathsByHost": {},
+      "cliPathsByHost": {
+        "device:7b5657ac-e367-4bd9-afce-e7973bc70163": "C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\codex.ps1"
+      },
       "customModels": "",
       "reasoningSummary": "detailed",
       "environmentVariables": "",
@@ -90,10 +92,10 @@
   },
   "lastCustomModel": "",
   "maxTabs": 3,
-  "tabBarPosition": "input",
   "enableAutoScroll": true,
   "deferMathRenderingDuringStreaming": true,
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
-  "hiddenProviderCommands": {}
+  "hiddenProviderCommands": {},
+  "tabBarPosition": "input"
 }
