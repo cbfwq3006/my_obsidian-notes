@@ -4,8 +4,8 @@
   "title": "在不",
   "titleGenerationStatus": "failed",
   "createdAt": 1781055702872,
-  "updatedAt": 1782898580968,
-  "lastResponseAt": 1782898580968,
+  "updatedAt": 1782898978101,
+  "lastResponseAt": 1782898978101,
   "sessionId": "967a080d-4cbf-4f1d-96b5-8c2a2d062db8",
   "providerState": {
     "providerSessionId": "967a080d-4cbf-4f1d-96b5-8c2a2d062db8",
@@ -28,12 +28,12 @@
     "D:\\work\\2026\\6\\2 从严治党4个台账\\4个台账"
   ],
   "usage": {
-    "model": "opus",
-    "inputTokens": 21892,
-    "cacheCreationInputTokens": 197026,
-    "cacheReadInputTokens": 0,
+    "model": "opus[1m]",
+    "inputTokens": 21947,
+    "cacheCreationInputTokens": 297,
+    "cacheReadInputTokens": 197220,
     "contextWindow": 1000000,
-    "contextTokens": 218918,
+    "contextTokens": 219464,
     "percentage": 22,
     "contextWindowIsAuthoritative": true
   }
