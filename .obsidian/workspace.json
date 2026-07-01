@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/20260629.md",
+                "file": "2026/20260701.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260629"
+              "title": "20260701"
             }
           }
         ]
@@ -240,10 +240,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "0300902007b5ef01",
+  "active": "1fe036190b635723",
   "lastOpenFiles": [
-    "2026/20260626.md",
     "2026/20260629.md",
+    "2026/20260701.md",
+    "2026/20260626.md",
     "笔记同步助手/images/53124f8ed20b39ef4c9709c0c119b646_MD5.png",
     "笔记同步助手/images/3a6ab83015c4cdcb441d2ec79fdb9c00_MD5.png",
     "笔记同步助手/images/869dcf62714c8ce71c941f7cec32c764_MD5.png",
