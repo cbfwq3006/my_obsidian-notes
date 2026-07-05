@@ -1,7 +1,7 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "gpt-5.4-mini",
+  "model": "",
   "thinkingBudget": "medium",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -20,7 +20,7 @@
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
-  "requireCommandOrControlEnterToSend": false,
+  "requireCommandOrControlEnterToSend": true,
   "locale": "en",
   "providerConfigs": {
     "claude": {
@@ -80,8 +80,7 @@
   },
   "settingsProvider": "codex",
   "savedProviderModel": {
-    "claude": "sonnet",
-    "codex": "gpt-5.4-mini"
+    "claude": "sonnet"
   },
   "savedProviderEffort": {
     "claude": "high",
