@@ -4,6 +4,22 @@
   "title": "生成4篇谈心谈话记录",
   "titleGenerationStatus": "success",
   "createdAt": 1783247479685,
-  "updatedAt": 1783247506898,
-  "sessionId": null
+  "updatedAt": 1783247755532,
+  "lastResponseAt": 1783247755532,
+  "sessionId": "019f31d5-5d3b-7061-84dc-266ddbd44653",
+  "providerState": {
+    "threadId": "019f31d5-5d3b-7061-84dc-266ddbd44653",
+    "sessionFilePath": "C:\\Users\\Lenovo\\.codex\\sessions\\2026\\07\\05\\rollout-2026-07-05T18-31-34-019f31d5-5d3b-7061-84dc-266ddbd44653.jsonl",
+    "transcriptRootPath": "C:\\Users\\Lenovo\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 97013,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 96128,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 97013,
+    "percentage": 38,
+    "model": "gpt-5.4-mini"
+  }
 }
