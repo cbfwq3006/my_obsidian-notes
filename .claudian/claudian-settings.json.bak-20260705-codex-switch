@@ -1,7 +1,7 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "gpt-5.5",
+  "model": "opus[1m]",
   "thinkingBudget": "medium",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -25,7 +25,7 @@
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
-      "cliPath": "C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\claude.cmd",
+      "cliPath": "",
       "cliPathsByHost": {},
       "loadUserSettings": true,
       "enableChrome": false,
@@ -40,9 +40,9 @@
     "codex": {
       "enabled": true,
       "safeMode": "workspace-write",
-      "cliPath": "C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\codex.cmd",
+      "cliPath": "",
       "cliPathsByHost": {
-        "device:7b5657ac-e367-4bd9-afce-e7973bc70163": "C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\codex.cmd"
+        "device:7b5657ac-e367-4bd9-afce-e7973bc70163": "C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\codex.ps1"
       },
       "customModels": "",
       "reasoningSummary": "detailed",
@@ -78,20 +78,17 @@
       "visibleModels": []
     }
   },
-  "settingsProvider": "codex",
+  "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "opus[1m]",
-    "codex": "gpt-5.5"
+    "claude": "opus[1m]"
   },
   "savedProviderEffort": {
-    "claude": "high",
-    "codex": "high"
+    "claude": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
-    "claude": "yolo",
-    "codex": "yolo"
+    "claude": "yolo"
   },
   "lastCustomModel": "",
   "maxTabs": 10,
