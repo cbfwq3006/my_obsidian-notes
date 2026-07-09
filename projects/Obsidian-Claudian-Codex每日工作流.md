@@ -1,4 +1,4 @@
-﻿# Obsidian + Claudian + Codex 每日工作流
+# Obsidian + Claudian + Codex 每日工作流
 
 ## 每天怎么记
 
