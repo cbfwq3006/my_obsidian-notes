@@ -223,12 +223,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/20260706.md",
+                "file": "2026/20260710.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260706"
+              "title": "20260710"
             }
           }
         ],
@@ -453,6 +453,7 @@
   },
   "active": "7c46be66ff35d869",
   "lastOpenFiles": [
+    "2026/20260706.md",
     "2026/20260707.md",
     "2026/20260708.md",
     "2026/20260709.md",
@@ -464,7 +465,6 @@
     "2026/20260701.md",
     "2026/20260702.md",
     "2026/20260703.md",
-    "2026/20260706.md",
     "projects/Obsidian-Claudian-Codex每日工作流.md",
     "projects/AI数据看板-动态版.md",
     "projects/AI数据看板.md",
