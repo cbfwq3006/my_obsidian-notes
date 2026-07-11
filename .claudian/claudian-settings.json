@@ -1,7 +1,7 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "gpt-5.4-mini",
+  "model": "gpt-5.5",
   "thinkingBudget": "medium",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -81,7 +81,7 @@
   "settingsProvider": "codex",
   "savedProviderModel": {
     "claude": "sonnet",
-    "codex": "gpt-5.4-mini"
+    "codex": "gpt-5.5"
   },
   "savedProviderEffort": {
     "claude": "high",
