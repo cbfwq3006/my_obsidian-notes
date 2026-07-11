@@ -223,12 +223,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/20260710.md",
+                "file": "工作日报/2026-07-10 工作日报.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260710"
+              "title": "2026-07-10 工作日报"
             }
           }
         ],
@@ -451,8 +451,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "be9072b04084a5f3",
+  "active": "7c46be66ff35d869",
   "lastOpenFiles": [
+    "2026/20260710.md",
     "笔记同步助手/images/bbfe7ec7deb75ad26b825d550f98a7a4_MD5.jpg",
     "笔记同步助手/images/5acc4c53f69c6198ab4a94f95468a6a4_MD5.jpg",
     "笔记同步助手/images/cac6372ae96c99a64d7e43a84f8ff853_MD5.jpg",
@@ -463,7 +464,6 @@
     "笔记同步助手/images/988f1a6d93848def180395625761864f_MD5.jpg",
     "笔记同步助手/images/f138d7470381a5206393ebcecdacd1d3_MD5.png",
     "笔记同步助手/images/9c50e8f37d09bc80377fffd22dbe4b44_MD5.png",
-    "笔记同步助手/images/afe749c14ebda0224f67361652209260_MD5.png",
     "笔记同步助手/2026-07-09/焦作这家苍蝇小店，看着不起眼但是到吃饭点来吃的人特别多！.md",
     "笔记同步助手/2026-07-09/焦作博爱这家网红小吃店，吸引了很多外地人专门来打卡他家的美食！.md",
     "笔记同步助手/2026-07-09/不会代码也能做：用 Codex + Obsidian + 飞书搭建自动化知识库 2.md",
@@ -477,7 +477,6 @@
     "2026/20260707.md",
     "2026/20260708.md",
     "2026/20260709.md",
-    "2026/20260710.md",
     "2026/20260625.md",
     "工作日报/2026-07-09 工作日报.md",
     "2026/20260626.md",
