@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "20260709"
             }
+          },
+          {
+            "id": "574569cd4ee83b27",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,8 +251,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c5099c06896d344f",
+  "active": "574569cd4ee83b27",
   "lastOpenFiles": [
+    "2026/20260709.md",
     "2026/20260710.md",
     "2026/20260711.md",
     "2026/20260703.md",
@@ -250,7 +262,6 @@
     "outputs/2026-07-05 4月至6月自学笔记和自学心得.md",
     "2026/20260629.md",
     "outputs/2026-07-12 本周工作总结.md",
-    "2026/20260709.md",
     "2026/20260708.md",
     "2026/20260707.md",
     "2026/20260706.md",
