@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/20260712.md",
+                "file": "2026/20260709.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260712"
+              "title": "20260709"
+            }
+          },
+          {
+            "id": "3effdd161f416e82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/公众号与小红书一稿双发工作流.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "公众号与小红书一稿双发工作流"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -255,12 +269,16 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "574569cd4ee83b27",
+  "active": "3effdd161f416e82",
   "lastOpenFiles": [
-    "2026/20260712.md",
     "2026/20260709.md",
+    "projects/内容发布台账.md",
+    "templates/公众号小红书一稿双发模板.md",
     "2026/20260710.md",
     "2026/20260711.md",
+    "笔记同步助手/2026-07-12/知识星球 - 深度连接铁杆粉丝，运营高品质社群，知识变现的工具.md",
+    "2026/20260712.md",
+    "projects/公众号与小红书一稿双发工作流.md",
     "2026/20260703.md",
     "outputs/2026-07-05 李兵谈心谈话（随机4人）.md",
     "outputs/2026-07-05 李兵对侯向东谈心谈话.md",
@@ -279,11 +297,7 @@
     "wiki/概念/Agent技能化工作流.md",
     "wiki/概念/材料写作结构化.md",
     "wiki/概念/政治成熟.md",
-    "wiki/概念/AI工程化思维.md",
     "projects/最近一周同步文章摄取清单.csv",
-    "wiki/来源/2026-07-12 预备党员的教育、考察和转正.md",
-    "wiki/来源/2026-07-12 近期疯传的一个Codex技巧节省重复操作.md",
-    "wiki/来源/2026-07-12 用codex采集小红书-B站-油管爆款短视频文案完全免费的方案.md",
     "笔记同步助手/images/31186b88cb84b68cf3086e8257444575_MD5.jpg",
     "笔记同步助手/images/9d6a16ebeb22c0a2980db1340ed36f54_MD5.png",
     "笔记同步助手/images/b5b12aa6d919cd01053de2c93a165ece_MD5.png",
