@@ -30,8 +30,6 @@
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
-      "enableOpus1M": true,
-      "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "sonnet",
       "environmentVariables": "",
@@ -51,7 +49,9 @@
       "installationMethodsByHost": {
         "device:7b5657ac-e367-4bd9-afce-e7973bc70163": "native-windows"
       },
-      "wslDistroOverridesByHost": {}
+      "wslDistroOverridesByHost": {},
+      "modelAliases": {},
+      "visibleModels": null
     },
     "opencode": {
       "cliPath": "",

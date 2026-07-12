@@ -18,17 +18,17 @@ id: 15b94081-2c66-460c-a2b9-5e6b939659da
 
 大家好，我是**摸鱼小李**，每次发文章，都有读者问我这个公众号排版怎么做的，一直承诺给大家做一个公众号排版工具出来（其实真的做了）也能用，但是我自己不是很满意，最近几个月一直在忙**猹与猹**的事，也没时间重构....
 
-![](https://relay-1.bijitongbu.site/p/de288697e1240da2ab4692279ae33024.png)
+![[笔记同步助手/images/bcb6199ad58c727539ed8cffa3763362_MD5.png]]
 
 不能再拖延了，刚好前天晚上和好朋友**甲木（甲木未来派）**聊天，聊到这个话题，想着要不做成skill吧，开源出来，大家可以自己根据已有的模版去泛化，这样更有趣好玩，于是我们一拍即合，做个公众号排版gzh-designskill。
 
-![](https://relay-1.bijitongbu.site/p/2af946937c9805dfdc3558fc8c046d81.png)
+![[笔记同步助手/images/6d5589eec5d1397238bc816796cca193_MD5.png]]
 
 该 skill 目前内置了 6 套主题模版（后续会持续更新），也可以自己设计主题模版。
 
 这个skill，适配**WorkBuddy**/**Codex**/**Claude Code**等 Agent 工具，以下就是 WorkBuddy 安装gzh-designskill 排版出的效果。
 
-![](https://relay-1.bijitongbu.site/p/1073e4a8bc97fc7d1e69c242b35e478e.png)
+![[笔记同步助手/images/54857fa09e89d8fc6adc7c00f34dcab6_MD5.png]]
 
 02直接让 Agent 安装
 
@@ -50,15 +50,15 @@ id: 15b94081-2c66-460c-a2b9-5e6b939659da
 
 去年 9 月开始写公众号时，我就在思考一个问题：如何更省力、更好看地让 AI 帮我排版？
 
-![](https://relay-1.bijitongbu.site/p/c32c7fd7a74cce1ef631e76672fe8063.png)
+![[笔记同步助手/images/d560d0d1da3800d4918b60efcf93246e_MD5.jpg]]
 
-![](https://relay-1.bijitongbu.site/p/7e5bf0a7f274d6eb510c89c152251951.png)
+![[笔记同步助手/images/4aac2af4fc7f46e82617d7ba30989af8_MD5.jpg]]
 
 中间也迭代了一些版本，旧版本一路被淘汰，最后稳定用的就是**摸鱼绿**（也内置在 skill 主题中了）。
 
 其实这套设计的思路很简单——组件库思维。正如我开头所说，公众号推文也应该有 UI 设计。「**摸鱼绿**」这套主题设计了26 个对应的组件，Agent 会根据不同文章类型去组合不同组件，并在现有组件基础上进行泛化，最终排版成一篇完整的文章。还有个好处是随时可以更新维护，想加新组件直接加，想优化某个组件单独改。
 
-![](https://relay-1.bijitongbu.site/p/6e8d36b052438ed12dcbd1967daef67f.png)
+![[笔记同步助手/images/0d5ffb74c642d8f94570a8cea5fe6996_MD5.jpg]]
 
 04欢迎来魔改
 
@@ -66,7 +66,7 @@ id: 15b94081-2c66-460c-a2b9-5e6b939659da
 
 另外欢迎大家加入**猹与猹**一起来玩，一起交流创作经验。
 
-![](https://relay-1.bijitongbu.site/p/26593b598ff63b5120a92919f88990a8.png)
+![[笔记同步助手/images/a726dde447e7b85e0bc715858ad0d0ad_MD5.jpg]]
 
 ---
 
