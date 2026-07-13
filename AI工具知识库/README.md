@@ -29,6 +29,9 @@ tags:
 - 每日抓取脚本：`scripts/ai_tool_kb/fetch_ai_tool_kb.ps1`
 - 每周复盘脚本：`scripts/ai_tool_kb/weekly_review_ai_tool_kb.ps1`
 - 定时任务安装脚本：`scripts/ai_tool_kb/install_tasks.ps1`
+- Windows 定时任务：
+  - `Obsidian-AI-Tool-KB-Daily-Fetch`：每天 08:00 抓取
+  - `Obsidian-AI-Tool-KB-Weekly-Review`：每周日 20:00 复盘
 
 ## 使用方式
 
@@ -50,3 +53,4 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts/ai_tool_kb/weekly_re
 2. 增加网页全文抓取。
 3. 增加 AI 自动摘要、观点提炼、趋势合并。
 4. 与 Obsidian wiki 的来源页、概念页打通。
+

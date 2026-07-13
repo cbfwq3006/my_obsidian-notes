@@ -58,75 +58,74 @@ foreach ($k in $keywords.Keys) {
 }
 if ($trendLines.Count -eq 0) { $trendLines += "- 本周样本较少，暂不提炼稳定趋势。" }
 
-$md = @"
----
-type: weekly_review
-created: $end
-updated: $end
-tags:
-  - AI工具知识库
-  - 周复盘
----
-
-# AI工具知识周复盘（$start 至 $end）
-
-## 一、本周概览
-
-- 收录条目：$total 条
-- 覆盖分类：$($groups.Count) 类
-
-## 二、分类统计
-
-| 分类 | 数量 |
-| --- | ---: |
-"@
-foreach ($g in $groups) { $md += "| $($g.Name) | $($g.Count) |`n" }
-
-$md += "`n## 三、重点来源`n`n"
-foreach ($s in $topSources) { $md += "- $($s.Name)：$($s.Count) 条`n" }
-
-$md += "`n## 四、趋势信号`n`n"
-foreach ($line in $trendLines) { $md += "$line`n" }
-
-$md += "`n## 五、值得精读的条目`n`n"
+$lines = New-Object System.Collections.Generic.List[string]
+$lines.Add('---')
+$lines.Add('type: weekly_review')
+$lines.Add("created: $end")
+$lines.Add("updated: $end")
+$lines.Add('tags:')
+$lines.Add('  - AI工具知识库')
+$lines.Add('  - 周复盘')
+$lines.Add('---')
+$lines.Add('')
+$lines.Add("# AI工具知识周复盘（$start 至 $end）")
+$lines.Add('')
+$lines.Add('## 一、本周概览')
+$lines.Add('')
+$lines.Add("- 收录条目：$total 条")
+$lines.Add("- 覆盖分类：$($groups.Count) 类")
+$lines.Add('')
+$lines.Add('## 二、分类统计')
+$lines.Add('')
+$lines.Add('| 分类 | 数量 |')
+$lines.Add('| --- | ---: |')
+foreach ($g in $groups) { $lines.Add("| $($g.Name) | $($g.Count) |") }
+$lines.Add('')
+$lines.Add('## 三、重点来源')
+$lines.Add('')
+foreach ($s in $topSources) { $lines.Add("- $($s.Name)：$($s.Count) 条") }
+$lines.Add('')
+$lines.Add('## 四、趋势信号')
+$lines.Add('')
+foreach ($line in $trendLines) { $lines.Add($line) }
+$lines.Add('')
+$lines.Add('## 五、值得精读的条目')
+$lines.Add('')
 foreach ($item in ($items | Sort-Object Published -Descending | Select-Object -First 20)) {
   $linkPath = $item.Path.Replace('.md','')
-  $md += "- [[$linkPath|$($item.Title)]]（$($item.Category) / $($item.Source)）`n"
+  $lines.Add("- [[$linkPath|$($item.Title)]]（$($item.Category) / $($item.Source)）")
 }
+$lines.Add('')
+$lines.Add('## 六、我的复盘')
+$lines.Add('')
+$lines.Add('### 1. 本周最值得关注的变化')
+$lines.Add('')
+$lines.Add('')
+$lines.Add('### 2. 对我的工作/内容创作有什么启发')
+$lines.Add('')
+$lines.Add('')
+$lines.Add('### 3. 可以转成小红书的选题')
+$lines.Add('')
+$lines.Add('- ')
+$lines.Add('- ')
+$lines.Add('- ')
+$lines.Add('')
+$lines.Add('### 4. 下周重点关注')
+$lines.Add('')
+$lines.Add('- ')
+$lines.Add('- ')
+$lines.Add('- ')
+$lines.Add('')
+$lines.Add('## 七、交给 Codex 深度提炼的提示词')
+$lines.Add('')
+$lines.Add('```text')
+$lines.Add('请基于本周 AI工具知识库的条目，帮我提炼：')
+$lines.Add('1. 本周 AI 工具行业的3个核心趋势；')
+$lines.Add('2. 值得关注的5个工具/产品；')
+$lines.Add('3. 可转成小红书的10个选题；')
+$lines.Add('4. 我应该重点跟进的3个方向。')
+$lines.Add('要求：简短、具体、不要空话。')
+$lines.Add('```')
 
-$md += @"
-
-## 六、我的复盘
-
-### 1. 本周最值得关注的变化
-
-
-### 2. 对我的工作/内容创作有什么启发
-
-
-### 3. 可以转成小红书的选题
-
-- 
-- 
-- 
-
-### 4. 下周重点关注
-
-- 
-- 
-- 
-
-## 七、交给 Codex 深度提炼的提示词
-
-```text
-请基于本周 AI工具知识库的条目，帮我提炼：
-1. 本周 AI 工具行业的3个核心趋势；
-2. 值得关注的5个工具/产品；
-3. 可转成小红书的10个选题；
-4. 我应该重点跟进的3个方向。
-要求：简短、具体、不要空话。
-```
-"@
-
-Set-Content -LiteralPath $reportPath -Value $md -Encoding UTF8
+Set-Content -LiteralPath $reportPath -Value ($lines -join "`n") -Encoding UTF8
 Write-Host "周复盘已生成：$reportPath"
