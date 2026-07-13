@@ -1,0 +1,48 @@
+﻿{
+  "sources": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "type": "official",
+      "defaultCategory": "04_模型产品更新",
+      "enabled": true
+    },
+    {
+      "name": "Microsoft AI Blog",
+      "url": "https://www.microsoft.com/en-us/ai/blog/feed/",
+      "type": "official",
+      "defaultCategory": "04_模型产品更新",
+      "enabled": true
+    },
+    {
+      "name": "Product Hunt",
+      "url": "https://www.producthunt.com/feed",
+      "type": "tools",
+      "defaultCategory": "02_工具测评",
+      "enabled": true
+    },
+    {
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "type": "news",
+      "defaultCategory": "01_行业资讯",
+      "enabled": true
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "type": "news",
+      "defaultCategory": "01_行业资讯",
+      "enabled": true
+    }
+  ],
+  "categoryFolders": {
+    "01_行业资讯": "行业新闻、公司动态、监管政策、资本与竞争格局",
+    "02_工具测评": "新工具、工具榜单、产品体验、对比评测",
+    "03_教程文章": "教程、指南、实操案例、提示词、工作流",
+    "04_模型产品更新": "模型发布、API、产品更新、开源模型、能力升级",
+    "05_趋势观察": "跨来源沉淀出的长期趋势和判断"
+  },
+  "fetchWindowHours": 48,
+  "maxItemsPerSource": 15
+}
