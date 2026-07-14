@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/20260714.md",
+                "file": "2026/20260715.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260714"
+              "title": "20260715"
             }
           }
         ],
@@ -313,9 +313,10 @@
   },
   "active": "ce57066bde8646fa",
   "lastOpenFiles": [
+    "2026/20260714.md",
+    "2026/20260715.md",
     "附件/74e270815bf0577bebd83951def0c97d.png",
     "2026/20260713.md",
-    "2026/20260714.md",
     "吃好/2026-07-13 最新菜谱监控.md",
     "工作周报/2026-W29 工作周报.md",
     "工作日报/2026-07-13 工作日报.md",
@@ -358,7 +359,6 @@
     "笔记同步助手/images/5bc197a647bc763805d634ac35f952b4_MD5.png",
     "笔记同步助手/images/27a52d55c33a0af70bf5aff6ed3ad2c8_MD5.png",
     "笔记同步助手/images/4cec53a1ad27cdae00e4394316f3f976_MD5.png",
-    "笔记同步助手/images/c38dad8e714979f2ac83dc1ed953492d_MD5.png",
     "obsidian笔记/完成内容/已完成的工作内容/202602汇总/2026-02-21.canvas",
     "未命名.canvas"
   ]
