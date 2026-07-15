@@ -97,6 +97,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "2026正在处理事项/20260430   待办.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260430   待办"
+            }
+          },
+          {
+            "id": "564501a2614b352d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "projects/sl_obsidian整理方案.md",
                 "mode": "source",
                 "source": false
@@ -106,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -325,10 +339,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "b8a1bcd5fd97c199",
+  "active": "564501a2614b352d",
   "lastOpenFiles": [
-    "2026/20260715.md",
+    "2026正在处理事项/20260430   待办.md",
+    "2026正在处理事项/五四主题系列活动执行清单.md",
+    "2026正在处理事项/会聚良缘情满怀川交友联谊活动宣传稿.md",
     "projects/sl_obsidian整理方案.md",
+    "2026/20260715.md",
     "2026/20260714.md",
     "工作日报/2026-07-14 工作日报.md",
     "2026/20260706.md",
@@ -353,9 +370,6 @@
     "AI工具知识库/01_行业资讯/2026-07-12-System.Xml.XmlElement-36d5f814be.md",
     "AI工具知识库/01_行业资讯/2026-07-13-System.Xml.XmlElement-5bbc3a5ef6.md",
     "AI工具知识库/01_行业资讯/2026-07-13-System.Xml.XmlElement-795fd22cc6.md",
-    "AI工具知识库/01_行业资讯/2026-07-13-System.Xml.XmlElement-d579803380.md",
-    "AI工具知识库/02_工具测评/2026-07-13-Playground-8a94368f51.md",
-    "AI工具知识库/02_工具测评/2026-07-13-TailMux-bf36e18815.md",
     "scripts/ai_tool_kb/weekly_review_ai_tool_kb.ps1",
     "scripts/ai_tool_kb/install_tasks.ps1",
     "scripts/ai_tool_kb/fetch_ai_tool_kb.ps1",
