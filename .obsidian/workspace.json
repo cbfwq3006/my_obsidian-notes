@@ -311,8 +311,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ce57066bde8646fa",
+  "active": "be9072b04084a5f3",
   "lastOpenFiles": [
+    "projects/sl_obsidian整理方案.md",
     "2026/20260714.md",
     "工作日报/2026-07-14 工作日报.md",
     "2026/20260715.md",
@@ -341,7 +342,6 @@
     "AI工具知识库/01_行业资讯/2026-07-13-System.Xml.XmlElement-d579803380.md",
     "AI工具知识库/02_工具测评/2026-07-13-Playground-8a94368f51.md",
     "AI工具知识库/02_工具测评/2026-07-13-TailMux-bf36e18815.md",
-    "AI工具知识库/抓取日志.md",
     "scripts/ai_tool_kb/weekly_review_ai_tool_kb.ps1",
     "scripts/ai_tool_kb/install_tasks.ps1",
     "scripts/ai_tool_kb/fetch_ai_tool_kb.ps1",
