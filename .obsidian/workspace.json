@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 616.5
+    "width": 462.5
   },
   "right": {
     "id": "e7985651004334e5",
@@ -283,7 +283,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "0fc9293831f5fb29",
+  "active": "be9072b04084a5f3",
   "lastOpenFiles": [
     "AI工具知识库/06_每周复盘/2026-07-19-AI工具知识周复盘.md",
     "2026/20260701.md",
