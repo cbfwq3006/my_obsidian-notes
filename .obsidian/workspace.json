@@ -217,7 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 493.5
+    "width": 325.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,8 +240,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d85311bd138423f6",
+  "active": "be9072b04084a5f3",
   "lastOpenFiles": [
+    "工作日报/2026-07-19 工作日报.md",
     "2026/20260717.md",
     "2026/20260719.md",
     "2026/20260715.md",
@@ -278,7 +279,6 @@
     "AI工具知识库/01_行业资讯/2026-07-17-New York governor says she’s using AI to analyze ‘every sing-3ba9165b86.md",
     "AI工具知识库/02_工具测评/2026-07-18-Apple’s plot to crush OpenAI-a49eed2391.md",
     "AI工具知识库/02_工具测评/2026-07-18-TikTok is testing an AI likeness detection tool-b51b6c1073.md",
-    "AI工具知识库/03_教程文章/2026-07-17-Why teens deserve access to safe AI-8fe39edff7.md",
     "附件/74e270815bf0577bebd83951def0c97d.png",
     "笔记同步助手/images/31186b88cb84b68cf3086e8257444575_MD5.jpg",
     "笔记同步助手/images/9d6a16ebeb22c0a2980db1340ed36f54_MD5.png",
