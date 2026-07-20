@@ -88,7 +88,7 @@ id: 34899307-3876-4ee1-8ef0-918e17ef8f30
 
 限于篇幅，没有展开讲。我会继续挖掘codex AI内容工厂的这方面的能力，有兴趣的可以加入我们下面的“AI编程与智能体实战”星球。
 
-**![](https://relay-1.bijitongbu.site/p/b3c1762bbbdb715005e95fe18ebcd362.png)**
+**![[笔记同步助手/images/2c52266dff274d05ec145ae7406b9e7e_MD5.jpg]]**
 
 往期热文:
 
