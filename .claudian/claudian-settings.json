@@ -311,7 +311,7 @@
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
-      "catalogTimestamp": 1784552665535,
+      "catalogTimestamp": 1784609557947,
       "catalogFingerprint": "1:5a2e8bb6efe318826d232646ecca5848a06b5e510ebd797dfc6369484e1b562f",
       "installationMethodsByHost": {
         "device:7b5657ac-e367-4bd9-afce-e7973bc70163": "native-windows"
