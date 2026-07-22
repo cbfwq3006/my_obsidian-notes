@@ -11,10 +11,14 @@
             "id": "ae373baa46c9c086",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2026/20260722.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "20260722"
             }
           }
         ]
@@ -95,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 462.5
+    "width": 614.5
   },
   "right": {
     "id": "e7985651004334e5",
@@ -236,7 +240,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "0300902007b5ef01",
+  "active": "ae373baa46c9c086",
   "lastOpenFiles": [
     "200督导考核岗/230领域知识/232党建业务知识/0.河南联通党建工作制度汇编/2026-07-21 河南联通党建工作制度汇编2023版 skill沉淀.md",
     "200督导考核岗/230领域知识/232党建业务知识/0.河南联通党建工作制度汇编",
