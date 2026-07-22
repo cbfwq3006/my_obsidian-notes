@@ -1,0 +1,72 @@
+{
+  "xmindPath": "",
+  "useOnlineConverter": true,
+  "enableXMindViewer": true,
+  "enableFileSync": false,
+  "syncMode": "all",
+  "syncFolders": [],
+  "xmindAttachmentPathMode": "obsidian",
+  "xmindAttachmentPath": "",
+  "xmindAttachmentPreserveFolder": true,
+  "enableXMindEmbedThumbnail": true,
+  "showFileName": false,
+  "xmindViewerRegion": "cn",
+  "enableZoom": true,
+  "zoomOnClick": true,
+  "globalDebugMode": false,
+  "mindmapTheme": "classic",
+  "mindmapCanvasSize": 8000,
+  "mindmapBackground": "transparent",
+  "mindmapFontSize": 16,
+  "mindmapHeadLevel": 3,
+  "mindmapLayoutDirect": "mindmap",
+  "mindmapFocusOnMove": false,
+  "requireFrontMatter": false,
+  "collapseState": {
+    "enabled": true,
+    "marker": "c"
+  },
+  "ai": {
+    "provider": "ollama",
+    "prompts": {
+      "🤔 核心洞察": "{{highlight}}。请从全新的角度重新解读上述内容，并在200字内总结其核心思想。",
+      "📝 内容扩展": "基于以下内容：{{highlight}}，请提供3-5个相关的扩展要点或子主题。",
+      "🔍 深度分析": "请对以下内容进行深度分析：{{highlight}}。包括背景、影响和潜在应用。",
+      "💡 创意思考": "基于：{{highlight}}，请提供3个创新的思考角度或应用场景。",
+      "📊 结构化总结": "请将以下内容结构化总结：{{highlight}}。使用要点形式组织信息。"
+    },
+    "savePath": "",
+    "addEmbedLink": false,
+    "maxTokens": 8192,
+    "contextWindow": 32768,
+    "linkResolve": {
+      "menuAI": {
+        "enabled": true,
+        "resolveWikiLinks": true,
+        "resolveEmbeds": true,
+        "resolveBlockRefs": true,
+        "maxDepth": 2
+      },
+      "nodeAI": {
+        "enabled": true,
+        "resolveWikiLinks": true,
+        "resolveEmbeds": true,
+        "resolveBlockRefs": true,
+        "maxDepth": 2
+      }
+    },
+    "skills": {
+      "disabledSkillIds": [],
+      "skillsFolderPath": "",
+      "defaultSkillsReleased": true,
+      "releasedDefaultSkills": [
+        "obsidian-markdown.md",
+        "json-canvas.md",
+        "obsidian-bases.md",
+        "excalidraw-diagram.md",
+        "mermaid-visualizer.md",
+        "outliner-note.md"
+      ]
+    }
+  }
+}
