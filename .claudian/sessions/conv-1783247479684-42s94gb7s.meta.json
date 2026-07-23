@@ -4,8 +4,8 @@
   "title": "生成4篇谈心谈话记录",
   "titleGenerationStatus": "success",
   "createdAt": 1783247479685,
-  "updatedAt": 1784777011215,
-  "lastResponseAt": 1784777011215,
+  "updatedAt": 1784777710412,
+  "lastResponseAt": 1784777710412,
   "sessionId": "019f31d5-5d3b-7061-84dc-266ddbd44653",
   "selectedModel": "gpt-5.4",
   "providerState": {
@@ -14,13 +14,13 @@
     "transcriptRootPath": "C:\\Users\\Lenovo\\.codex\\sessions"
   },
   "usage": {
-    "inputTokens": 213398,
+    "inputTokens": 231330,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 198016,
+    "cacheReadInputTokens": 216448,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 213398,
-    "percentage": 83,
+    "contextTokens": 231330,
+    "percentage": 90,
     "model": "gpt-5.4"
   }
 }
