@@ -211,9 +211,19 @@
               "icon": "clock",
               "title": "Reminders"
             }
+          },
+          {
+            "id": "e9ea043ac6ec0382",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -237,11 +247,31 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "be9072b04084a5f3",
+  "active": "e9ea043ac6ec0382",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/你好_你是什么大模型？@20260724_084031.md",
+    "copilot/copilot-conversations",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
     "AI工具知识库/02_工具测评/2026-07-22-Meta made its own AI detection system. It should have just u-cd499e47d0.md",
     "AI工具知识库/04_模型产品更新/2026-07-22-AMD commits up to $5 billion to Anthropic-ad3e75f937.md",
     "AI工具知识库/04_模型产品更新/2026-07-23-Here’s what Samsung’s smart glasses actually look like-bdbd14d002.md",
@@ -252,32 +282,13 @@
     "AI工具知识库/01_行业资讯/2026-07-24-Patreon is laying off 20 percent of workers-440b0110dc.md",
     "AI工具知识库/02_工具测评/2026-07-24-Claude’s voice mode is now available for Opus and Sonnet-77885ca812.md",
     "AI工具知识库/02_工具测评/2026-07-24-Alexa Plus is getting an AI update to handle more complicate-c6bad60c59.md",
-    "工作日报/2026-07-23 工作日报.md",
-    "200督导考核岗/210本岗位特定技能/215立足岗位做贡献、党建本地化融合品牌与五星支部建设/6.立足岗位做贡献 服务发展当先锋/拆解/立足岗位做贡献季度评选-按时间顺序梳理工作流程.md",
     "附件/~$一季度党建品牌考核结果-市场线.xlsx",
     "附件/一季度党建品牌考核结果-市场线.xlsx",
-    "200督导考核岗/210本岗位特定技能/215立足岗位做贡献、党建本地化融合品牌与五星支部建设/2.季度品牌推进/党建季度评选-按时间顺序梳理工作流程.md",
-    "200督导考核岗/210本岗位特定技能/212主题教育和党内集中教育落实/支部管理.md",
-    "200督导考核岗/210本岗位特定技能/211党建责任制考核评价/3.考核组织实施/督导考核.md",
-    "templates/党建督导考核岗四步工作SOP模板.md",
-    "200督导考核岗/210本岗位特定技能/220综合协调与日常管理/7.材料写作/材料写作.md",
-    "200督导考核岗/210本岗位特定技能/215立足岗位做贡献、党建本地化融合品牌与五星支部建设/6.立足岗位做贡献 服务发展当先锋/提示词/提示词.md",
-    "2026/20260706.md",
     "200督导考核岗/210本岗位特定技能/215立足岗位做贡献、党建本地化融合品牌与五星支部建设/6.立足岗位做贡献 服务发展当先锋/提示词",
     "200督导考核岗/210本岗位特定技能/220综合协调与日常管理/7.材料写作/材料写作步骤.xmind",
     "200督导考核岗/210本岗位特定技能/220综合协调与日常管理/7.材料写作/材料写作步骤new.xmind",
     "附件/材料写作步骤.xmind",
-    "2026/20260723.md",
-    "2026/20260722.md",
-    "2026/20260721.md",
-    "2026/20260720.md",
-    "200督导考核岗/210本岗位特定技能/215立足岗位做贡献、党建本地化融合品牌与五星支部建设/6.立足岗位做贡献 服务发展当先锋/拆解/立足岗位做贡献流程图.md",
     "200督导考核岗/210本岗位特定技能/220综合协调与日常管理/7.材料写作",
-    "100可迁移/120通用能力/121个人能力/3.思维能力/（1）拆解能力/想明白-搭骨架-定规则/构建工作逻辑树/收银流程 (1).xmind",
-    "200督导考核岗/210本岗位特定技能/215立足岗位做贡献、党建本地化融合品牌与五星支部建设/6.立足岗位做贡献 服务发展当先锋/拆解",
-    "200督导考核岗/210本岗位特定技能/220综合协调与日常管理/1.部门文件收发/2026-07-22 下载内容自动归档规则.md",
-    "skills/outliner-note/SKILL.md",
-    "skills/outliner-note",
     "200督导考核岗/210本岗位特定技能/215立足岗位做贡献、党建本地化融合品牌与五星支部建设/6.立足岗位做贡献 服务发展当先锋/过程附件/2026.4.10_办公室党支部二季度党员先锋岗_余新生.JPG",
     "200督导考核岗/210本岗位特定技能/215立足岗位做贡献、党建本地化融合品牌与五星支部建设/6.立足岗位做贡献 服务发展当先锋/过程附件/2026.4.10_办公室党支部二季度党员先锋岗_王永旗.JPG",
     "200督导考核岗/210本岗位特定技能/215立足岗位做贡献、党建本地化融合品牌与五星支部建设/6.立足岗位做贡献 服务发展当先锋/过程附件/二季度党员先锋岗打分表.png",
