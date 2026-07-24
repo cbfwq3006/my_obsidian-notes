@@ -24,7 +24,7 @@
   "githubCopilotToken": "",
   "githubCopilotTokenExpiresAt": 0,
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "kimi-k3|3rd party (openai-format)",
+  "defaultModelKey": "google/gemini-2.5-flash|openrouterai",
   "embeddingModelKey": "openai/text-embedding-3-small|openrouterai",
   "temperature": 0.1,
   "maxTokens": 6000,
@@ -332,19 +332,15 @@
       "apiKey": ""
     },
     {
-      "name": "kimi-k3",
-      "provider": "3rd party (openai-format)",
+      "name": "kimi",
+      "provider": "openrouterai",
       "enabled": true,
       "isBuiltIn": false,
       "baseUrl": "https://api.moonshot.ai/v1",
       "apiKey": "",
       "isEmbeddingModel": false,
-      "capabilities": [
-        "reasoning",
-        "vision"
-      ],
+      "capabilities": [],
       "stream": true,
-      "enableCors": true,
       "openAIOrgId": ""
     }
   ],
