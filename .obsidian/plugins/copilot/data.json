@@ -336,13 +336,14 @@
       "provider": "3rd party (openai-format)",
       "enabled": true,
       "isBuiltIn": false,
-      "baseUrl": "https://api.moonshot.ai/v1",
+      "baseUrl": "https://api.moonshot.cn/v1",
       "apiKey": "",
       "isEmbeddingModel": false,
       "capabilities": [
         "reasoning",
         "vision"
       ],
+      "temperature": 1,
       "stream": true,
       "enableCors": true,
       "openAIOrgId": ""
