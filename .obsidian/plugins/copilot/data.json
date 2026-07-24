@@ -426,7 +426,7 @@
       "isBuiltIn": true,
       "isEmbeddingModel": true,
       "core": true,
-      "baseUrl": "https://api.siliconflow.com/v1",
+      "baseUrl": "https://api.siliconflow.cn/v1",
       "enableCors": true,
       "apiKey": ""
     },
