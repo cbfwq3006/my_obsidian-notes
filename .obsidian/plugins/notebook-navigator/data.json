@@ -103,7 +103,7 @@
   "homepage": null,
   "mobileHomepage": null,
   "useMobileHomepage": false,
-  "dualPane": true,
+  "dualPane": false,
   "dualPaneOrientation": "horizontal",
   "showTooltips": false,
   "showTooltipPath": true,
@@ -447,7 +447,11 @@
   "folderBackgroundColors": {},
   "folderSortOverrides": {},
   "folderTreeSortOverrides": {},
-  "folderAppearances": {},
+  "folderAppearances": {
+    "200督导考核岗/210本岗位特定技能/220综合协调与日常管理/1.部门文件收发/批量复印/1. 原稿放打印机最上方传送带-注意位置": {
+      "mode": "compact"
+    }
+  },
   "tagIcons": {},
   "tagColors": {},
   "tagBackgroundColors": {},

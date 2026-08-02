@@ -1,0 +1,115 @@
+/* 表头底色 */
+.markdown-preview-view table th,
+.markdown-rendered table th {
+     background-color: #f2f2f2 !important; /* 浅灰色背景 */
+}
+
+/* 调整不同等级标题的颜色 - 深海蓝色渐变 */
+.cm-header-1 { color: #0d7a9e !important; }  /* H1 - 深蓝 */
+.cm-header-2 { color: #0d8db8 !important; }  /* H2 - 中蓝 */
+.cm-header-3 { color: #1fa3d1 !important; }  /* H3 - 浅蓝 */
+.cm-header-4 { color: #4dbadd !important; }  /* H4 - 更浅蓝 */
+.cm-header-5 { color: #82d0ea !important; }  /* H5 - 淡蓝 */
+.cm-header-6 { color: #b5e4f4 !important; }  /* H6 - 极淡蓝 */
+
+/* 预览模式（阅读视图）也生效 */
+.markdown-preview-view h1 { color: #0d7a9e !important; }
+.markdown-preview-view h2 { color: #0d8db8 !important; }
+.markdown-preview-view h3 { color: #1fa3d1 !important; }
+.markdown-preview-view h4 { color: #4dbadd !important; }
+.markdown-preview-view h5 { color: #82d0ea !important; }
+.markdown-preview-view h6 { color: #b5e4f4 !important; }
+
+/* ==================== 表格宽度撑满 ==================== */
+.markdown-preview-view table,
+.markdown-rendered table,
+.markdown-source-view .cm-content table {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* ==================== 宽度设置 - 彻底版 ==================== */
+/* 工作区页面容器 */
+.workspace-leaf-content {
+    max-width: 100% !important;
+}
+
+/* 编辑视图 - 内容区域 */
+.markdown-source-view .cm-content {
+    max-width: 100% !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+/* 阅读视图 - 内容区域 */
+.markdown-preview-view .markdown-preview-section {
+    max-width: 100% !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+/* 编辑器整体 */
+.markdown-source-view .cm-editor {
+    max-width: 100% !important;
+}
+
+/* 预览视图整体 */
+.markdown-preview-view {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* 更加彻底 - 移除所有可能的宽度限制 */
+body {
+    --file-line-width: unset !important;
+}
+textarea, .cm-line {
+    max-width: 100% !important;
+}
+
+/* ==================== 引用块（blockquote）字体样式 ==================== */
+.markdown-preview-view blockquote,
+.markdown-rendered blockquote,
+.cm-quote {
+    font-family: "楷体", "KaiTi", serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 17px !important;
+    color: #444444 !important;
+}
+
+/* ==================== 代码块字体样式 ==================== */
+.markdown-preview-view pre,
+.markdown-rendered pre,
+.cm-s-obsidian .cm-code {
+    font-family: "楷体", "KaiTi", serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+}
+
+/* 高亮背景 - 暗橙色 + 白色文字 */
+.cm-s-obsidian span.cm-highlight,
+.markdown-preview-view mark,
+.markdown-source-view.mod-cm6 .cm-highlight {
+  background-color: #CC5500;
+  color: #ffffff;
+}
+
+/* ==================== 段落中的数字编号（如 1. 2. 3. 4.） ==================== */
+/* 编辑视图 - 数字 */
+.cm-s-obsidian .cm-numlist .cm-list-number,
+.cm-s-obsidian .cm-formatting-list,
+.cm-s-obsidian .cm-numlist {
+  color: #0d7a9e !important;
+  font-weight: bold !important;
+}
+
+/* 也尝试 targeting 单独的 digits */
+.cm-s-obsidian .cm-digit {
+  color: #0d7a9e !important;
+  font-weight: bold !important;
+}
+
+

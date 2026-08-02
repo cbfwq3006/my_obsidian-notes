@@ -1,4 +1,4 @@
-﻿---
+---
 type: ai_tool_item
 category: 01_行业资讯
 source: "The Verge AI"

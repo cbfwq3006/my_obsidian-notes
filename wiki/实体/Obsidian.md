@@ -1,9 +1,13 @@
 ---
 type: entity
 tags: [工具, 笔记, 知识管理, 第二大脑]
-sources: [2026-05-05 Obsidian入门26, 2026-05-05 用Obsidian管理知识]
+sources:
+  - [[wiki/来源/2026-05-05 Obsidian入门26：想让AI读你的Obsidian？你需要先认识这几个工具]]
+  - [[wiki/来源/2026-05-05 用Obsidian管理知识，让AI真正懂你]]
+  - [[wiki/来源/2026-07-18 为什么在Obsidian里与AI聊天]]
+  - [[wiki/来源/2026-07-21 多格式文档批量转换Markdown]]
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-07-25
 ---
 
 # Obsidian
@@ -43,3 +47,8 @@ updated: 2026-05-05
 - [[wiki/来源/2026-07-09 不会代码也能做：用 Codex + Obsidian + 飞书搭建自动化知识库]]
 - [[wiki/来源/2026-07-10 爆肝3周我用Codex重构了整个Obsidian知识库比手动整理强10倍]]
 - [[wiki/来源/2026-07-10 我把 Hermes 的核心引擎整个搬进 Obsidian果然效果很炸裂工作效率猛升]]
+
+## 2026-07-25 同步文章补充
+
+- [[wiki/来源/2026-07-18 为什么在Obsidian里与AI聊天]]：强调本地Markdown使AI记忆可见、可编辑、可迁移。
+- [[wiki/来源/2026-07-21 多格式文档批量转换Markdown]]：整理PDF、DOCX、XLSX进入Obsidian前的转换工具选择和核验要求。

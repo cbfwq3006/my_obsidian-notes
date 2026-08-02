@@ -1,4 +1,4 @@
-﻿# Codex 自动摄取队列
+# Codex 自动摄取队列
 
 这个页面用于在 Obsidian 里集中查看哪些日记、项目笔记需要 Codex 摄取进 wiki。
 

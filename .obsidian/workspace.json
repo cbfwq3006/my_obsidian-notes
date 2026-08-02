@@ -1,63 +1,80 @@
 {
   "main": {
-    "id": "d3fd38f3a4f46937",
+    "id": "clean-main",
     "type": "split",
     "children": [
       {
-        "id": "cbfc42abc5908c94",
+        "id": "clean-tabs",
         "type": "tabs",
         "children": [
           {
-            "id": "ae373baa46c9c086",
+            "id": "clean-start",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200督导考核岗/210本岗位特定技能/215立足岗位做贡献、党建本地化融合品牌与五星支部建设/2.季度品牌推进/党建季度评选-按时间顺序梳理工作流程.md",
+                "file": "wiki/索引/按主题分类.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "党建季度评选-按时间顺序梳理工作流程"
+              "title": "按主题分类"
+            }
+          },
+          {
+            "id": "82e4b8776fd26ddf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "使用指南.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "使用指南"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "818474247910de92",
+    "id": "clean-left",
     "type": "split",
     "children": [
       {
-        "id": "bf3a6cb368255038",
+        "id": "clean-left-tabs",
         "type": "tabs",
         "children": [
           {
-            "id": "741861c71809af7e",
+            "id": "clean-file-explorer",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
             }
           },
           {
-            "id": "7feae1e5e01e21fb",
+            "id": "08e8dddf2d078741",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "督查",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": true,
-                "collapseAll": true,
-                "extraContext": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -65,7 +82,7 @@
             }
           },
           {
-            "id": "cb54a8d6bbff4df8",
+            "id": "6d7db02c0637bab1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,49 +90,28 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
-          {
-            "id": "2c8b85f8b514d75c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
-          },
-          {
-            "id": "0300902007b5ef01",
-            "type": "leaf",
-            "state": {
-              "type": "notebook-navigator",
-              "state": {},
-              "icon": "notebook-navigator",
-              "title": "笔记本导航器"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 575.5
+    "width": 300
   },
   "right": {
-    "id": "e7985651004334e5",
+    "id": "clean-right",
     "type": "split",
     "children": [
       {
-        "id": "6ec20d15683c81ce",
+        "id": "64b9c1d9ab8dc95f",
         "type": "tabs",
         "children": [
           {
-            "id": "f415d6a9eefdbc61",
+            "id": "c026fafe6a5755c4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂/欢迎.md",
+                "file": "2026/20260731.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,25 +121,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "欢迎 的反向链接列表"
+              "title": "20260731 的反向链接列表"
             }
           },
           {
-            "id": "cf541aff9c918ecc",
+            "id": "b9b20c6685029842",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂/欢迎.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "欢迎 的出链列表"
+              "title": "出链"
             }
           },
           {
-            "id": "e5c3cb36eebd1efb",
+            "id": "721d4db7b19cb185",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -158,42 +153,52 @@
             }
           },
           {
-            "id": "febe3f7f91cccbce",
+            "id": "9403d1bccb59b794",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian笔记/完成内容/已完成的工作内容/202602 一季度党课.md",
+                "file": "2026/20260731.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "202602 一季度党课 的大纲"
+              "title": "20260731 的大纲"
             }
           },
           {
-            "id": "5ec02b5c9c6e2645",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "1868ae5d9f0f3652",
+            "id": "5d3baaf35f1c301c",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
-            "id": "be9072b04084a5f3",
+            "id": "e8988255a899930b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          },
+          {
+            "id": "77f6deff401d582e",
+            "type": "leaf",
+            "state": {
+              "type": "smtcmp-chat-view",
+              "state": {},
+              "icon": "wand-sparkles",
+              "title": "询问AI模型身份"
+            }
+          },
+          {
+            "id": "1770127e61158ae4",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
@@ -201,106 +206,76 @@
               "icon": "bot",
               "title": "Claudian"
             }
-          },
-          {
-            "id": "b6dcc19bd1876ce8",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
-            "id": "e9ea043ac6ec0382",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 470.5
+    "width": 521.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "realclaudian:Open Claudian": false,
-      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "notehelper:tongbuzhushou": false,
+      "bases:新建数据库": false,
+      "yolo:打开聊天": false,
+      "realclaudian:Open Claudian": false,
       "obsidian-git:Open Git source control": false,
-      "notebook-navigator:笔记本导航器": false,
-      "obsidian42-brat:BRAT": false,
-      "note-to-mp:复制到公众号": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "terminal:Open terminal": false,
-      "copilot:Open Copilot Chat": false
+      "notehelper:tongbuzhushou": false
     }
   },
-  "active": "0300902007b5ef01",
+  "active": "82e4b8776fd26ddf",
   "lastOpenFiles": [
-    "copilot/copilot-conversations/询问AI模型身份@20260724_085901.md",
-    "copilot/copilot-conversations/你是什么大模型？@20260724_085727.md",
-    "copilot/copilot-conversations/你好你是什么大模型？@20260724_085401.md",
-    "copilot/copilot-conversations/你好_你是什么大模型？@20260724_084031.md",
-    "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot/copilot-custom-prompts",
-    "copilot",
-    "AI工具知识库/02_工具测评/2026-07-22-Meta made its own AI detection system. It should have just u-cd499e47d0.md",
-    "AI工具知识库/04_模型产品更新/2026-07-22-AMD commits up to $5 billion to Anthropic-ad3e75f937.md",
-    "AI工具知识库/04_模型产品更新/2026-07-23-Here’s what Samsung’s smart glasses actually look like-bdbd14d002.md",
-    "AI工具知识库/02_工具测评/2026-07-23-The right-wing boomers protesting data centers have a lot in-5becd4f5ac.md",
-    "AI工具知识库/02_工具测评/2026-07-23-Apple’s OpenAI lawsuit is about who gets to define the post--9ae095cbc6.md",
-    "AI工具知识库/04_模型产品更新/2026-07-23-Lawmakers prepare bill requiring AI ‘kill switch’-01d83a6818.md",
-    "AI工具知识库/04_模型产品更新/2026-07-24-OpenAI is making big claims as it rolls out ChatGPT Health t-cb3c46e4e7.md",
-    "附件/~$一季度党建品牌考核结果-市场线.xlsx",
-    "附件/一季度党建品牌考核结果-市场线.xlsx",
-    "200督导考核岗/210本岗位特定技能/215立足岗位做贡献、党建本地化融合品牌与五星支部建设/6.立足岗位做贡献 服务发展当先锋/提示词",
-    "200督导考核岗/210本岗位特定技能/220综合协调与日常管理/7.材料写作/材料写作步骤.xmind",
-    "200督导考核岗/210本岗位特定技能/220综合协调与日常管理/7.材料写作/材料写作步骤new.xmind",
-    "附件/材料写作步骤.xmind",
-    "200督导考核岗/210本岗位特定技能/220综合协调与日常管理/7.材料写作",
-    "200督导考核岗/210本岗位特定技能/215立足岗位做贡献、党建本地化融合品牌与五星支部建设/6.立足岗位做贡献 服务发展当先锋/过程附件/2026.4.10_办公室党支部二季度党员先锋岗_余新生.JPG",
-    "200督导考核岗/210本岗位特定技能/215立足岗位做贡献、党建本地化融合品牌与五星支部建设/6.立足岗位做贡献 服务发展当先锋/过程附件/2026.4.10_办公室党支部二季度党员先锋岗_王永旗.JPG",
-    "200督导考核岗/210本岗位特定技能/215立足岗位做贡献、党建本地化融合品牌与五星支部建设/6.立足岗位做贡献 服务发展当先锋/过程附件/二季度党员先锋岗打分表.png",
-    "200督导考核岗/999待归档/2026-07/明伟申报表.png",
-    "200督导考核岗/999待归档/2026-07/邱莹莹申报表.png",
-    "200督导考核岗/999待归档/2026-07/庞二军.jpg",
-    "200督导考核岗/999待归档/2026-07/打分表_2.jpg",
-    "200督导考核岗/999待归档/2026-07/王小海.jpg",
-    "200督导考核岗/999待归档/2026-07/范东东.jpg",
-    "200督导考核岗/999待归档/2026-07/张静静.jpg",
-    "100可迁移/110核心素质/未命名.canvas",
-    "obsidian笔记/完成内容/已完成的工作内容/202602汇总/2026-02-21.canvas",
-    "未命名.canvas"
+    "知识体系总纲.md",
+    "使用指南.md",
+    "本周日程周报邮件草稿.md",
+    "weekly-schedule-report-draft.md",
+    "自动化-每日儿童友好菜谱提示词.md",
+    "@lQLPJxtemGrjR1HMr80DhLATGxhkyZj6CAnpKGLkK7kA.md",
+    "2026-05-05.md",
+    "工作总结与工作计划-20260504-20260510.md",
+    "焦作联通2026年团委工作要点-草稿.md",
+    "孙明辉优秀共产党员事迹材料优化方案.md",
+    "wiki/索引/按主题分类.md",
+    "AI工具知识库/04_模型产品更新/2026-07-31-Anthropic says Claude accidentally hacked real companies too-6da8742925.md",
+    "AI工具知识库/03_教程文章/2026-07-31-It’s time to panic about AI safety-ee70bff51f.md",
+    "AI工具知识库/01_行业资讯/2026-08-01-The major labels propose rules to keep AI slop off the chart-e8b5e8d005.md",
+    "AI工具知识库/03_教程文章/2026-08-01-Here’s the problem with putting an AI image generator in Goo-cb8ef2d60e.md",
+    "AI工具知识库/03_教程文章/2026-08-01-Google Earth’s AI deepfake tool only lasted one day-abe78d6275.md",
+    "AI工具知识库/01_行业资讯/2026-08-02-Is this Billboard Hot 100 hit AI slop-4a8975413a.md",
+    "AI工具知识库/03_教程文章/2026-07-31-Univé builds an AI-ready workforce-4879819590.md",
+    "AI工具知识库/03_教程文章/2026-07-31-Building abundant intelligence-6e145b017b.md",
+    "AI工具知识库/04_模型产品更新/2026-07-31-Advancing responsible AI across Europe-b86dc435d6.md",
+    "AI工具知识库/04_模型产品更新/2026-08-01-Ten advances in mathematics and theoretical computer science-6d58997b46.md",
+    "projects/2026-08-01批量摄取清单.md",
+    "projects/2026-08-01批量摄取清单.md.tmp.7200.8a686d02cf37",
+    "wiki/index.md.tmp.7200.6cef13188ebd",
+    "wiki/概念/延迟满足.md",
+    "wiki/概念/延迟满足.md.tmp.7200.67e5f4835f98",
+    "wiki/实体/YouCore.md",
+    "wiki/实体/YouCore.md.tmp.7200.2ca7cf750c19",
+    "wiki/来源/2026-08-01 核心力AI课程案例2正文未同步.md",
+    "wiki/来源/2026-08-01 核心力AI课程案例1正文未同步.md",
+    "wiki/来源/2026-08-01 Sentient OS让Mac在夜里整理数字生活.md.tmp.7200.9172850d8b4a",
+    "wiki/来源/2026-08-01 见世面要在生产端而不是消费端.md.tmp.7200.7cd834a0a2fb",
+    "wiki/来源/2026-08-01 孩子舒适过度与学习动力.md.tmp.7200.659dc3f05ef2",
+    "wiki/来源/2026-08-01 毛选质问国民党的破局思维.md.tmp.7200.4e920c6e5566",
+    "00 临时箱/images/00c03b2299c2b1f5c8c0ee4a6df476d2_MD5.png",
+    "00 临时箱/images/c4e1882f5b7a355d3a61db3634442d9a_MD5.png",
+    "00 临时箱/images/8b094f57f0d095235b16ce1ed4d38fb0_MD5.png",
+    "00 临时箱/images/040c7572e5169c0d63af6739930a4617_MD5.png",
+    "00 临时箱/images/895b7d95fc7c66c46dbecddbbce924c9_MD5.png",
+    "00 临时箱/images/151d6c0a7c07bbce84b756944bf704a7_MD5.png",
+    "00 临时箱/images/5a63a5f2413a4064fa4cd05fdd380ed4_MD5.png",
+    "00 临时箱/images/d3b9aae74de8468f29e79009971645d6_MD5.png",
+    "00 临时箱/images/1d8853a4c3a4f5c1da4c0979d2e4847c_MD5.png",
+    "00 临时箱/images/b1ad23d328f950ea87e59e443e0c3629_MD5.png",
+    "skills/每日素材自动提醒.md.tmp.7200.6d5c03eb78d7",
+    "wiki/索引"
   ]
 }

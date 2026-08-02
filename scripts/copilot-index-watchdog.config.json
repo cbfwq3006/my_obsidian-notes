@@ -1,0 +1,13 @@
+{
+  "checkIntervalMinutes": 15,
+  "staleSlackMinutes": 30,
+  "recentIndexWindowMinutes": 20,
+  "requiredConsecutiveStaleChecks": 2,
+  "cooldownHours": 6,
+  "reindexCommandName": "Force Reindex Vault",
+  "settingsMenuName": "Advanced Settings",
+  "obsidianExeCandidates": [
+    "C:\\Program Files\\Obsidian\\Obsidian.exe",
+    "C:\\Program Files (x86)\\Obsidian\\Obsidian.exe"
+  ]
+}
