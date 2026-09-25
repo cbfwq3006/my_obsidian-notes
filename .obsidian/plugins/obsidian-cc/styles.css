@@ -1,0 +1,2724 @@
+/* obsidian-cc styles */
+
+/* ───────────────────────── Theme presets ─────────────────────────
+   A theme is a `.occ-theme-<key>` class on the chat root (.occ-chat); each
+   preset is a scoped CSS-variable override. Custom properties inherit, and
+   every panel (.occ-panel, sessions, skills…) is a child of .occ-chat, so one
+   block recolors the whole UI — brand mark, send button, citations, active
+   states, focus rings, skill chips. The rest of Obsidian is untouched.
+
+   Adding a preset: add an option in settings-tab.ts + a block here.
+   "system" ships no block, so it inherits the vault's own accent. */
+
+/* OpenAI / ChatGPT — signature green, plus the iconic black/white send button
+   (black in light mode, white in dark — the one ChatGPT tell). */
+.occ-chat.occ-theme-openai {
+  --color-accent: #10a37f;                       /* ChatGPT / OpenAI signature green */
+  --interactive-accent: #10a37f;                 /* primary fills: CTA, skill chip, avatar */
+  --interactive-accent-hover: #0e8c6e;           /* pressed / hover state */
+  --background-modifier-border-focus: rgba(16, 163, 127, 0.25); /* green focus halo */
+}
+/* :not(.occ-stop) keeps the red stop button red. */
+body.theme-light .occ-chat.occ-theme-openai .occ-send:not(.occ-stop) {
+  background: #000;
+  color: #fff;
+}
+body.theme-light .occ-chat.occ-theme-openai .occ-send:not(.occ-stop):hover {
+  background: #2b2b2b;
+  color: #fff;
+}
+body.theme-dark .occ-chat.occ-theme-openai .occ-send:not(.occ-stop) {
+  background: #fff;
+  color: #000;
+}
+body.theme-dark .occ-chat.occ-theme-openai .occ-send:not(.occ-stop):hover {
+  background: #e6e6e6;
+  color: #000;
+}
+
+/* Claude — warm clay orange. */
+.occ-chat.occ-theme-claude {
+  --color-accent: #d97757;
+  --interactive-accent: #d97757;
+  --interactive-accent-hover: #c2654a;
+  --background-modifier-border-focus: rgba(217, 119, 87, 0.25);
+}
+
+/* "system" (跟随 Obsidian): no override — inherits the vault accent. */
+
+.obsidian-cc-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.obsidian-cc-status.is-running {
+  color: var(--color-accent);
+}
+
+.obsidian-cc-setting-section-desc {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  margin-bottom: 8px;
+}
+.obsidian-cc-setting-hint {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 16px;
+}
+
+/* ───────────────────────── Chat view ───────────────────────── */
+
+.occ-chat {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  gap: 0;
+  position: relative;
+  --occ-radius: 12px;
+  --occ-gap: 10px;
+}
+
+/* Header */
+.occ-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  flex: 0 0 auto;
+}
+.occ-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+.occ-brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 7px;
+  color: var(--text-on-accent);
+  background: linear-gradient(135deg, var(--color-accent), var(--interactive-accent));
+}
+.occ-brand-mark .svg-icon {
+  width: 15px;
+  height: 15px;
+}
+.occ-brand-name {
+  font-size: var(--font-ui-medium);
+  letter-spacing: 0.2px;
+}
+.occ-header-actions {
+  display: flex;
+  gap: 2px;
+}
+
+.occ-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background-color 0.12s ease, color 0.12s ease;
+}
+.occ-icon-btn:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+.occ-icon-btn .svg-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* Message stream */
+.occ-stream {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 14px 12px 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  scroll-behavior: smooth;
+}
+
+/* Floating "back to latest" button — shown only when the user has scrolled up
+   away from new output (see onStreamScroll in chat-view.ts). */
+.occ-to-bottom {
+  position: absolute;
+  right: 14px;
+  bottom: 96px; /* sit just above the composer + footer */
+  z-index: 20;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  color: var(--text-muted);
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: var(--shadow-s);
+  cursor: pointer;
+  transition: color 0.12s ease, border-color 0.12s ease;
+}
+.occ-to-bottom:hover {
+  color: var(--text-normal);
+  border-color: var(--interactive-accent);
+}
+.occ-to-bottom .svg-icon { width: 16px; height: 16px; }
+
+/* Empty state */
+.occ-empty {
+  margin: auto;
+  text-align: center;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+}
+.occ-empty-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  color: var(--text-on-accent);
+  background: linear-gradient(135deg, var(--color-accent), var(--interactive-accent));
+  margin-bottom: 4px;
+}
+.occ-empty-icon .svg-icon {
+  width: 26px;
+  height: 26px;
+}
+.occ-empty-title {
+  font-size: var(--font-ui-large);
+  font-weight: 600;
+  color: var(--text-normal);
+}
+.occ-empty-sub {
+  font-size: var(--font-ui-small);
+  line-height: 1.5;
+}
+
+/* Onboarding CTA */
+.occ-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  color: var(--text-on-accent);
+  background: var(--interactive-accent);
+  font-size: var(--font-ui-small);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.12s ease, opacity 0.12s ease;
+}
+.occ-cta:hover { background: var(--interactive-accent-hover); }
+.occ-cta.is-loading { opacity: 0.7; pointer-events: none; }
+.occ-cta .svg-icon { width: 15px; height: 15px; }
+.occ-empty-dirs {
+  margin-top: 12px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-faint);
+  line-height: 1.6;
+  max-width: 300px;
+}
+
+/* Onboarding layout choice (root vs. contained workspace) */
+.occ-layout-toggle {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+  max-width: 360px;
+}
+.occ-layout-opt {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  cursor: pointer;
+  transition: border-color 0.12s ease, background-color 0.12s ease;
+}
+.occ-layout-opt:hover { border-color: var(--background-modifier-border-hover); }
+.occ-layout-opt.is-active {
+  border-color: var(--interactive-accent);
+  background: color-mix(in srgb, var(--interactive-accent) 10%, var(--background-secondary));
+}
+.occ-layout-name {
+  font-size: var(--font-ui-small);
+  font-weight: 600;
+  color: var(--text-normal);
+}
+.occ-layout-desc {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-faint);
+  line-height: 1.4;
+}
+
+/* Starter prompt cards */
+.occ-starters {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 18px;
+  width: 100%;
+  max-width: 320px;
+}
+.occ-starter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  background: var(--background-primary);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.12s ease, background-color 0.12s ease;
+}
+.occ-starter:hover {
+  border-color: var(--interactive-accent);
+  background: var(--background-modifier-hover);
+}
+.occ-starter-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  /* Outlined/quiet by default; the card hover lifts it to accent. Lets the
+     starter title carry the weight instead of five competing filled badges. */
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid var(--background-modifier-border);
+  transition: color 0.12s ease, border-color 0.12s ease;
+}
+.occ-starter:hover .occ-starter-icon {
+  color: var(--color-accent);
+  border-color: var(--interactive-accent);
+}
+.occ-starter-icon .svg-icon { width: 16px; height: 16px; }
+.occ-starter-text { min-width: 0; }
+.occ-starter-title {
+  font-size: var(--font-ui-small);
+  font-weight: 600;
+  color: var(--text-normal);
+}
+.occ-starter-sub {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  margin-top: 1px;
+}
+
+/* Setup guide */
+.occ-setup {
+  width: 100%;
+  max-width: 360px;
+  margin-top: 18px;
+  padding: 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  background: var(--background-secondary);
+}
+.occ-setup-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+.occ-setup-title {
+  font-size: var(--font-ui-small);
+  font-weight: 700;
+  color: var(--text-normal);
+}
+.occ-setup-sub {
+  margin-top: 2px;
+  font-size: var(--font-ui-smaller);
+  line-height: 1.4;
+  color: var(--text-muted);
+}
+.occ-setup-count {
+  flex: 0 0 auto;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--background-modifier-border);
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  font-weight: 600;
+}
+.occ-setup-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  margin-top: 10px;
+}
+.occ-setup-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  padding: 6px 8px;
+  border-radius: 8px;
+  color: var(--text-muted);
+  background: var(--background-primary);
+  cursor: pointer;
+  font-size: var(--font-ui-smaller);
+}
+.occ-setup-item:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+.occ-setup-item.is-done {
+  color: var(--text-success);
+}
+.occ-setup-dot {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+.occ-setup-dot .svg-icon {
+  width: 13px;
+  height: 13px;
+}
+.occ-setup-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+.occ-setup-cta {
+  margin-top: 0;
+}
+
+/* Compact one-line setup nudge (replaces the full 4-item guide on the ready
+   screen — keeps the entry point calm while still surfacing the gap). */
+.occ-setup-compact {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  padding: 5px 11px;
+  border-radius: 999px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+}
+.occ-setup-compact.is-clickable {
+  cursor: pointer;
+  transition: border-color 0.12s ease, color 0.12s ease;
+}
+.occ-setup-compact.is-clickable:hover {
+  color: var(--text-normal);
+  border-color: var(--interactive-accent);
+}
+.occ-setup-compact .svg-icon { width: 13px; height: 13px; }
+.occ-setup-compact.is-done .svg-icon { color: var(--text-success); }
+
+/* "Reading your vault" first-run — progress line under the scan button. */
+.occ-readvault-progress {
+  margin-top: 10px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  min-height: 1em;
+}
+
+/* Agent citation link ([📄 t](path.md)) — opens the cited note in-vault. */
+.occ-cite {
+  color: var(--color-accent);
+  text-decoration: none;
+  border-bottom: 1px dashed
+    color-mix(in srgb, var(--color-accent) 55%, transparent);
+  cursor: pointer;
+  transition: border-bottom-style 0.1s ease;
+}
+.occ-cite:hover {
+  border-bottom-style: solid;
+}
+
+/* Attribution */
+.occ-signature {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 22px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-faint);
+  opacity: 0.85;
+}
+.occ-signature .svg-icon {
+  width: 12px;
+  height: 12px;
+  color: var(--color-pink, var(--text-faint));
+}
+
+/* Messages */
+.occ-msg {
+  display: flex;
+  flex-direction: column;
+}
+.occ-msg-user {
+  align-items: flex-end;
+}
+.occ-msg-refs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.occ-ref {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  background: var(--background-modifier-hover);
+  border-radius: 6px;
+  padding: 2px 6px;
+}
+.occ-ref .svg-icon {
+  width: 12px;
+  height: 12px;
+}
+.occ-ref-current {
+  color: var(--text-normal);
+  border: 1px solid var(--background-modifier-border);
+}
+.occ-bubble {
+  /* Muted, not accent-filled: in this tool the agent writes far more than the
+     user, so reserve the accent color for actions (send / active / confirm).
+     Right-alignment already distinguishes the user from the assistant. */
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  border: 1px solid var(--background-modifier-border);
+  padding: 8px 12px;
+  border-radius: var(--occ-radius) var(--occ-radius) 4px var(--occ-radius);
+  max-width: 88%;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: var(--font-ui-small);
+  line-height: 1.5;
+}
+
+.occ-msg-assistant {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8px;
+}
+.occ-avatar {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  margin-top: 2px;
+  /* Quiet: every assistant message carries one of these, so a filled accent
+     square would repeat down a long thread as a column of noise. A neutral
+     chip with an accent-tinted icon keeps focus on the content. */
+  color: var(--color-accent);
+  background: var(--background-modifier-hover);
+}
+.occ-avatar .svg-icon {
+  width: 15px;
+  height: 15px;
+}
+.occ-msg-body {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 2px;
+}
+
+.occ-markdown {
+  font-size: var(--font-ui-small);
+  line-height: 1.6;
+  word-break: break-word;
+  user-select: text; /* explicit: message body must stay selectable */
+}
+/* Plain-text draft shown while streaming (selectable, no per-token re-render). */
+.occ-markdown.is-draft {
+  white-space: pre-wrap;
+}
+/* Streaming caret: a soft blinking block signals the turn is still alive —
+   otherwise a long tool run beside static text can look frozen. */
+.occ-markdown.is-draft::after {
+  content: "▍";
+  margin-left: 1px;
+  color: var(--color-accent);
+  animation: occ-blink 1s steps(2, start) infinite;
+}
+@keyframes occ-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+.occ-markdown > :first-child { margin-top: 0; }
+.occ-markdown > :last-child { margin-bottom: 0; }
+.occ-markdown p { margin: 0.4em 0; }
+.occ-markdown pre {
+  position: relative; /* anchor for the per-block copy button */
+  border-radius: 8px;
+  font-size: var(--font-ui-smaller);
+}
+/* Per-code-block copy (hover-revealed) — a dev-oriented second brain copies
+   code/notes constantly; remove the select-all-Ctrl-C friction. */
+.occ-code-copy {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-faint);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.12s ease, background-color 0.12s ease, color 0.12s ease;
+}
+.occ-markdown pre:hover .occ-code-copy { opacity: 1; }
+.occ-code-copy:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+.occ-code-copy .svg-icon { width: 14px; height: 14px; }
+.occ-markdown img {
+  max-width: 100%;
+  max-height: 320px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+/* Typing indicator */
+.occ-typing {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  font-style: italic;
+  animation: occ-pulse 1.4s ease-in-out infinite;
+}
+@keyframes occ-pulse {
+  0%, 100% { opacity: 0.45; }
+  50% { opacity: 1; }
+}
+
+.occ-muted {
+  color: var(--text-faint);
+  font-size: var(--font-ui-smaller);
+  font-style: italic;
+}
+
+/* Thinking + tool disclosure */
+.occ-think,
+.occ-tool {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-secondary);
+  overflow: hidden;
+}
+.occ-think > summary,
+.occ-tool > summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 9px;
+  cursor: pointer;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  list-style: none;
+  user-select: none;
+}
+.occ-think > summary::-webkit-details-marker,
+.occ-tool > summary::-webkit-details-marker { display: none; }
+.occ-think > summary:hover,
+.occ-tool > summary:hover { color: var(--text-normal); }
+.occ-think > summary .svg-icon,
+.occ-tool > summary .svg-icon {
+  width: 13px;
+  height: 13px;
+}
+.occ-tool-name {
+  font-weight: 600;
+  color: var(--text-normal);
+  font-family: var(--font-monospace);
+}
+.occ-tool-arg {
+  color: var(--text-muted);
+  font-family: var(--font-monospace);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.occ-think-body {
+  padding: 8px 10px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  white-space: pre-wrap;
+  border-top: 1px solid var(--background-modifier-border);
+  line-height: 1.5;
+}
+.occ-tool-body {
+  padding: 8px 10px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+.occ-tool-result-label {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-faint);
+  margin: 6px 0 2px;
+}
+.occ-code {
+  margin: 0;
+  padding: 8px;
+  border-radius: 6px;
+  background: var(--background-primary);
+  font-size: var(--font-ui-smaller);
+  max-height: 240px;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.occ-system-line {
+  text-align: center;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-faint);
+  padding: 2px 0;
+}
+.occ-error {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid var(--background-modifier-border);
+  border-left: 3px solid var(--color-red, var(--text-error));
+  border-radius: 8px;
+  /* Subtle red tint — not a saturated red wall. */
+  background: color-mix(in srgb, var(--color-red, var(--text-error)) 6%, var(--background-secondary));
+  padding: 8px 10px;
+}
+.occ-error-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-red, var(--text-error));
+  font-size: var(--font-ui-small);
+  font-weight: 600;
+}
+.occ-error-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+.occ-error-icon .svg-icon {
+  width: 15px;
+  height: 15px;
+}
+.occ-error-body {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.occ-error-headline {
+  color: var(--text-normal);
+  font-size: var(--font-ui-small);
+  line-height: 1.5;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+.occ-error-hint {
+  color: var(--text-normal);
+  font-size: var(--font-ui-smaller);
+  line-height: 1.5;
+}
+.occ-error-detail > summary {
+  cursor: pointer;
+  list-style: none;
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  user-select: none;
+}
+.occ-error-detail > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Write-protection confirmation card (raw/long-term memory gate) */
+.occ-confirm {
+  border: 1px solid var(--color-yellow, var(--background-modifier-border));
+  border-left: 3px solid var(--color-yellow, var(--text-warning, var(--color-accent)));
+  border-radius: 8px;
+  background: var(--background-secondary);
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.occ-confirm-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-normal);
+}
+.occ-confirm-head .svg-icon {
+  width: 14px;
+  height: 14px;
+  color: var(--color-yellow, var(--text-warning, var(--color-accent)));
+}
+.occ-confirm-tool {
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-smaller);
+  font-weight: 600;
+  word-break: break-all;
+}
+.occ-confirm-reason {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.occ-confirm-preview {
+  margin: 0;
+  max-height: 160px;
+}
+.occ-confirm-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin-top: 2px;
+}
+.occ-confirm-actions .occ-cta {
+  margin-top: 0;
+  padding: 5px 12px;
+}
+.occ-confirm-actions .occ-pill {
+  padding: 4px 10px;
+}
+.occ-confirm-deny:hover {
+  color: var(--text-error);
+  border-color: var(--text-error);
+}
+.occ-confirm.is-allowed {
+  border-color: var(--color-green, var(--background-modifier-border));
+  border-left-color: var(--color-green, var(--text-success, var(--color-accent)));
+}
+.occ-confirm.is-denied {
+  border-color: var(--text-error);
+  border-left-color: var(--text-error);
+  opacity: 0.75;
+}
+.occ-confirm-result {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+}
+.occ-confirm-result .svg-icon {
+  width: 13px;
+  height: 13px;
+}
+
+/* Per-message feedback (👍/👎 → memory/feedback/) */
+.occ-feedback {
+  display: flex;
+  gap: 2px;
+  margin-top: 2px;
+  /* Always visible (not hover-gated): 👍/👎 is the one explicit signal that
+     trains the profile, so it should be discoverable, not hidden. */
+  opacity: 0.62;
+  transition: opacity 0.12s ease;
+}
+.occ-msg-assistant:hover .occ-feedback {
+  opacity: 1;
+}
+.occ-fb-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  color: var(--text-faint);
+  cursor: pointer;
+  transition: background-color 0.12s ease, color 0.12s ease;
+}
+.occ-fb-btn:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+.occ-fb-btn .svg-icon {
+  width: 14px;
+  height: 14px;
+}
+.occ-fb-btn.is-disabled {
+  pointer-events: none;
+  opacity: 0.35;
+}
+.occ-fb-btn.is-active {
+  color: var(--color-accent);
+  opacity: 1;
+}
+.occ-feedback.is-done {
+  opacity: 0.85;
+}
+
+/* User-bubble actions (copy / edit-resend). Hidden by default and revealed on
+   hover, so a clean transcript stays clean; the assistant feedback bar is
+   always visible because 👍/👎 trains the profile, but these are purely
+   on-demand utilities and would only add noise if pinned. */
+.occ-user-actions {
+  display: flex;
+  gap: 2px;
+  margin-top: 2px;
+  opacity: 0;
+  transition: opacity 0.12s ease;
+}
+.occ-msg-user:hover .occ-user-actions {
+  opacity: 0.7;
+}
+
+/* Composer */
+.occ-composer {
+  flex: 0 0 auto;
+  padding: 8px 12px 6px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+.occ-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 6px;
+}
+.occ-chips.is-empty { display: none; }
+.occ-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--font-ui-smaller);
+  background: var(--background-modifier-hover);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  padding: 2px 4px 2px 6px;
+  color: var(--text-muted);
+}
+.occ-chip .svg-icon { width: 12px; height: 12px; }
+
+/* Ambient context is visible and removable, but quieter than a manual skill. */
+.occ-chip-current {
+  color: var(--text-normal);
+  background: color-mix(in srgb, var(--interactive-accent) 8%, var(--background-secondary));
+  border-color: color-mix(in srgb, var(--interactive-accent) 28%, var(--background-modifier-border));
+  cursor: pointer;
+}
+.occ-chip-current-prefix {
+  color: var(--text-accent);
+  font-weight: 600;
+}
+
+/* @-folder scope chip: visually distinct from a single note/file reference so
+   the user reads it as "agent is constrained to this directory". */
+.occ-chip-folder {
+  color: var(--text-normal);
+  background: color-mix(in srgb, var(--color-yellow) 10%, var(--background-secondary));
+  border-color: color-mix(in srgb, var(--color-yellow) 30%, var(--background-modifier-border));
+}
+.occ-msg-refs .occ-ref-folder {
+  color: var(--text-normal);
+}
+
+/* Active-skill pill: accent-colored to feel like a distinct mode, not text. */
+.occ-chip-skill {
+  color: var(--text-on-accent);
+  background: var(--interactive-accent);
+  border-color: var(--interactive-accent);
+  font-weight: 600;
+  padding-left: 7px;
+}
+.occ-chip-skill .occ-chip-skill-name {
+  font-family: var(--font-monospace);
+  letter-spacing: 0.1px;
+}
+.occ-chip-skill .occ-chip-x { color: var(--text-on-accent); opacity: 0.8; }
+.occ-chip-skill .occ-chip-x:hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--text-on-accent);
+}
+.occ-chip-x {
+  display: inline-flex;
+  cursor: pointer;
+  border-radius: 4px;
+  color: var(--text-faint);
+}
+.occ-chip-x:hover { color: var(--text-normal); background: var(--background-modifier-border); }
+
+.occ-input-box {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  position: relative;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--occ-radius);
+  padding: 6px 6px 6px 10px;
+  transition: border-color 0.12s ease, box-shadow 0.12s ease;
+}
+.occ-input-box:focus-within {
+  border-color: var(--interactive-accent);
+  box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
+}
+.occ-input-box.is-dragover {
+  border-color: var(--interactive-accent);
+  border-style: dashed;
+  background: var(--background-modifier-hover);
+}
+.occ-input {
+  flex: 1 1 auto;
+  resize: none;
+  border: none;
+  background: transparent;
+  color: var(--text-normal);
+  font-size: var(--font-ui-small);
+  line-height: 1.5;
+  padding: 4px 0;
+  max-height: 200px;
+  outline: none;
+  box-shadow: none;
+}
+.occ-input:focus { box-shadow: none; }
+
+/* @-mention file picker */
+.occ-mention {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(100% + 6px);
+  max-height: 260px;
+  overflow-y: auto;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  box-shadow: var(--shadow-s);
+  padding: 4px;
+  z-index: 30;
+}
+.occ-mention-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 8px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.occ-mention-item.is-active,
+.occ-mention-item:hover {
+  background: var(--background-modifier-hover);
+}
+.occ-mention-item.is-active {
+  background: var(--background-modifier-active-hover, var(--background-modifier-hover));
+}
+.occ-mention-icon {
+  display: inline-flex;
+  color: var(--text-muted);
+  flex: 0 0 auto;
+}
+.occ-mention-icon .svg-icon { width: 15px; height: 15px; }
+.occ-mention-text { min-width: 0; flex: 1 1 auto; }
+.occ-mention-name {
+  font-size: var(--font-ui-small);
+  color: var(--text-normal);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.occ-mention-path {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-faint);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.occ-slash-tag {
+  flex: 0 0 auto;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  background: var(--background-modifier-border);
+  border-radius: 5px;
+  padding: 1px 6px;
+}
+.occ-slash-tag.is-skill {
+  color: var(--text-on-accent);
+  background: var(--interactive-accent);
+}
+.occ-input-tools {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.occ-send {
+  color: var(--text-on-accent);
+  background: var(--interactive-accent);
+}
+.occ-send:hover {
+  background: var(--interactive-accent-hover);
+  color: var(--text-on-accent);
+}
+.occ-send.occ-stop {
+  background: var(--background-modifier-error);
+  color: var(--text-on-accent);
+}
+.occ-send.occ-stop:hover {
+  background: var(--text-error);
+  color: var(--text-on-accent);
+}
+.occ-send.occ-stop .svg-icon {
+  width: 13px;
+  height: 13px;
+}
+
+/* Footer status bar */
+.occ-footer {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px 8px;
+}
+.occ-footer-spacer { flex: 1 1 auto; }
+.occ-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 999px;
+  padding: 3px 9px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.12s ease, color 0.12s ease;
+}
+.occ-pill:hover { background: var(--background-modifier-hover); color: var(--text-normal); }
+.occ-pill .svg-icon { width: 12px; height: 12px; }
+.occ-pill.is-yolo {
+  color: var(--color-orange);
+  border-color: var(--color-orange);
+}
+.occ-ctx.is-high { color: var(--text-error); border-color: var(--text-error); }
+
+/* ───────────────────────── Skills panel ───────────────────────── */
+
+.occ-panel {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  background: var(--background-primary);
+}
+.occ-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  flex: 0 0 auto;
+}
+.occ-panel-title {
+  flex: 1 1 auto;
+  font-weight: 600;
+  font-size: var(--font-ui-medium);
+}
+.occ-panel-sub {
+  padding: 10px 14px 4px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.occ-skill-list {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.occ-skill-empty {
+  margin: 32px auto;
+  max-width: 240px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  line-height: 1.6;
+}
+.occ-skill-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  background: var(--background-secondary);
+}
+.occ-skill-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  /* Quiet: the skill list is a dense scan surface, not a hero. */
+  color: var(--color-accent);
+  background: var(--background-modifier-hover);
+}
+.occ-skill-icon .svg-icon { width: 15px; height: 15px; }
+.occ-skill-main { flex: 1 1 auto; min-width: 0; }
+.occ-skill-titlerow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.occ-skill-name {
+  font-size: var(--font-ui-small);
+  font-weight: 600;
+  font-family: var(--font-monospace);
+  color: var(--text-normal);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.occ-skill-tag {
+  flex: 0 0 auto;
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 5px;
+}
+.occ-skill-tag.is-core {
+  color: var(--text-on-accent);
+  background: var(--interactive-accent);
+}
+.occ-skill-tag.is-user {
+  color: var(--text-muted);
+  background: var(--background-modifier-border);
+}
+.occ-skill-desc {
+  margin-top: 3px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  line-height: 1.5;
+  word-break: break-word;
+}
+.occ-skill-ops {
+  display: flex;
+  gap: 2px;
+  flex: 0 0 auto;
+}
+.occ-skill-del:hover { color: var(--text-error); }
+.occ-panel-cta {
+  flex: 0 0 auto;
+  padding: 10px 14px 14px;
+  border-top: 1px solid var(--background-modifier-border);
+  display: flex;
+  justify-content: center;
+}
+.occ-panel-cta .occ-cta { margin-top: 0; }
+
+/* ───────────────────────── Sessions panel ───────────────────────── */
+
+.occ-session-titlewrap {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
+}
+.occ-session-count {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  font-weight: 400;
+}
+.occ-session-search {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 8px;
+  height: 28px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-secondary);
+}
+.occ-session-search:focus-within {
+  border-color: var(--interactive-accent);
+}
+.occ-session-search .svg-icon {
+  width: 14px;
+  height: 14px;
+  color: var(--text-muted);
+}
+.occ-session-search input {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: var(--text-normal);
+  font-size: var(--font-ui-small);
+  width: 120px;
+}
+.occ-session-list {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 4px 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.occ-session-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.occ-session-group + .occ-session-group {
+  margin-top: 12px;
+}
+.occ-session-grouplabel {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 6px 4px 2px;
+  font-size: var(--font-ui-smaller);
+  font-weight: 600;
+  color: var(--text-muted);
+}
+.occ-session-group-count {
+  font-size: 10px;
+  color: var(--text-faint);
+}
+.occ-session-row {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  background: var(--background-secondary);
+  cursor: pointer;
+  transition: border-color 0.12s ease, background 0.12s ease;
+}
+.occ-session-row:hover {
+  border-color: var(--interactive-accent);
+  background: var(--background-modifier-hover);
+}
+/* Active session: inset accent bar (no layout shift) + faint tint. */
+.occ-session-row.is-active {
+  box-shadow: inset 3px 0 0 var(--interactive-accent);
+  background: color-mix(in srgb, var(--interactive-accent) 7%, var(--background-secondary));
+}
+.occ-session-row.is-confirming {
+  border-color: var(--color-red, var(--text-error));
+  background: color-mix(in srgb, var(--color-red, var(--text-error)) 8%, var(--background-secondary));
+}
+.occ-session-main {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.occ-session-titlerow {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.occ-session-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: var(--font-ui-small);
+  font-weight: 600;
+  color: var(--text-normal);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.occ-session-meta {
+  flex: 0 0 auto;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.occ-session-snippet {
+  margin-top: 2px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  line-height: 1.45;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.occ-session-ops {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  opacity: 0;
+  transition: opacity 0.12s ease;
+}
+.occ-session-row:hover .occ-session-ops,
+.occ-session-row.is-confirming .occ-session-ops,
+.occ-session-row:focus-within .occ-session-ops {
+  opacity: 1;
+}
+.occ-session-del:hover {
+  color: var(--text-error);
+}
+.occ-session-confirmtxt {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-error);
+  margin-right: 2px;
+  white-space: nowrap;
+}
+.occ-session-rename {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: var(--font-ui-small);
+  font-weight: 600;
+  color: var(--text-normal);
+  background: var(--background-primary);
+  border: 1px solid var(--interactive-accent);
+  border-radius: 6px;
+  padding: 1px 6px;
+  outline: none;
+}
+@keyframes occ-session-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+.occ-session-list.is-entering .occ-session-row {
+  animation: occ-session-in 0.24s ease both;
+  animation-delay: calc(var(--occ-i, 0) * 26ms);
+}
+
+/* Skill editor (in-panel SKILL.md viewer/editor) */
+.occ-skill-editor {
+  flex: 1 1 auto;
+  margin: 10px 12px;
+  padding: 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  background: var(--background-primary);
+  color: var(--text-normal);
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-smaller);
+  line-height: 1.55;
+  resize: none;
+  outline: none;
+  white-space: pre;
+  overflow: auto;
+  tab-size: 2;
+}
+.occ-skill-editor:focus {
+  border-color: var(--interactive-accent);
+  box-shadow: none;
+}
+.occ-skill-editor[readonly] {
+  background: var(--background-secondary);
+  color: var(--text-muted);
+}
+.occ-editor-bar {
+  gap: 8px;
+  justify-content: flex-end;
+}
+.occ-editor-bar .occ-cta { margin-top: 0; }
+
+/* ── Changelog modal ───────────────────────────────────
+   Rendered CHANGELOG.md. Cap height + scroll so long histories don't
+   overflow the viewport; give rendered markdown a touch of breathing room. */
+.occ-changelog {
+  max-height: 70vh;
+  overflow-y: auto;
+  padding: 4px 4px 12px;
+}
+.occ-changelog h2 {
+  margin-top: 1.4em;
+  font-size: var(--font-ui-large);
+}
+.occ-changelog h2:first-child { margin-top: 0; }
+.occ-changelog hr {
+  border: none;
+  border-top: 1px solid var(--background-modifier-border);
+  margin: 1.2em 0;
+}
+.occ-changelog code {
+  font-size: var(--font-smaller);
+}
+
+/* ───────────────────── Turn snapshot / rollback card ───────────────────── */
+
+.occ-snapshot {
+  margin: 8px 0;
+  padding: 10px 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-left: 3px solid var(--color-accent);
+  border-radius: var(--occ-radius);
+  background: var(--background-secondary);
+  font-size: var(--font-ui-small);
+}
+.occ-snapshot.is-rolledback {
+  opacity: 0.85;
+}
+.occ-snapshot-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.occ-snapshot-head .svg-icon {
+  width: 14px;
+  height: 14px;
+}
+.occ-snapshot-files {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 8px;
+}
+.occ-snapshot-file {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-muted);
+}
+.occ-snapshot-file .svg-icon {
+  width: 12px;
+  height: 12px;
+}
+.occ-snapshot-file .occ-cite {
+  cursor: pointer;
+}
+.occ-snapshot-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.occ-snapshot-note {
+  color: var(--text-muted);
+}
+
+/* ───────────────────── Merge-review card (apply-memory) ─────────────────────
+   The structured confirmation gate: the agent proposes an occ-merge-plan
+   block, the card lets the user tick items, and the PLUGIN applies exactly
+   the previewed bytes. Visual language follows occ-confirm / occ-snapshot. */
+
+.occ-merge {
+  margin: 8px 0;
+  border: 1px solid var(--background-modifier-border);
+  border-left: 3px solid var(--interactive-accent);
+  border-radius: var(--occ-radius);
+  background: var(--background-secondary);
+  font-size: var(--font-ui-small);
+  overflow: hidden;
+}
+.occ-merge-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 12px 8px;
+  font-weight: 600;
+}
+.occ-merge-head .svg-icon {
+  width: 14px;
+  height: 14px;
+  color: var(--color-accent);
+}
+.occ-merge-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.occ-merge-count {
+  flex: 0 0 auto;
+  font-size: var(--font-ui-smaller);
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--background-modifier-border);
+  border-radius: 999px;
+  padding: 1px 8px;
+}
+.occ-merge-list {
+  display: flex;
+  flex-direction: column;
+}
+.occ-merge-item {
+  padding: 8px 12px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+.occ-merge-item.is-applied {
+  opacity: 0.75;
+}
+.occ-merge-item.is-blocked {
+  opacity: 0.6;
+}
+.occ-merge-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.occ-merge-check {
+  flex: 0 0 auto;
+  margin: 0;
+}
+.occ-merge-state {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+.occ-merge-state .svg-icon {
+  width: 14px;
+  height: 14px;
+}
+.occ-merge-item.is-applied .occ-merge-state .svg-icon {
+  color: var(--text-success, var(--color-green));
+}
+.occ-merge-item.is-blocked .occ-merge-state .svg-icon {
+  color: var(--text-error);
+}
+.occ-merge-op {
+  flex: 0 0 auto;
+  font-size: var(--font-smallest);
+  font-weight: 600;
+  color: var(--text-muted);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 5px;
+  padding: 0 5px;
+  line-height: 1.6;
+}
+.occ-merge-op.is-create {
+  color: var(--color-accent);
+  border-color: color-mix(in srgb, var(--color-accent) 45%, transparent);
+}
+.occ-merge-target {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-smaller);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.occ-merge-summary {
+  margin: 4px 0 0 22px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.occ-merge-note {
+  margin: 4px 0 0 22px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-faint);
+  font-style: italic;
+}
+.occ-merge-conflict {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin: 6px 0 0 22px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: var(--font-ui-smaller);
+  line-height: 1.5;
+  color: var(--text-normal);
+  background: color-mix(
+    in srgb,
+    var(--color-yellow, var(--text-warning)) 10%,
+    var(--background-primary)
+  );
+  border: 1px solid
+    color-mix(in srgb, var(--color-yellow, var(--text-warning)) 35%, transparent);
+}
+.occ-merge-conflict .svg-icon {
+  width: 13px;
+  height: 13px;
+  flex: 0 0 auto;
+  margin-top: 1px;
+  color: var(--color-yellow, var(--text-warning));
+}
+.occ-merge-preview {
+  margin: 6px 0 0 22px;
+}
+.occ-merge-preview > summary {
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+}
+.occ-merge-preview > summary::-webkit-details-marker {
+  display: none;
+}
+.occ-merge-preview > summary:hover {
+  color: var(--text-normal);
+}
+.occ-merge-preview .occ-code {
+  margin-top: 4px;
+  max-height: 200px;
+}
+.occ-merge-foot {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px 10px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+.occ-merge-info {
+  flex: 1 1 auto;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-faint);
+}
+.occ-merge-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 0 auto;
+}
+.occ-merge-actions .occ-pill {
+  padding: 4px 10px;
+}
+.occ-merge-cta {
+  margin-top: 0;
+  padding: 5px 12px;
+}
+.occ-merge-cta.is-disabled {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+/* ─────────────────────── Related-notes side panel ──────────────────────── */
+
+.occ-rel {
+  padding: 8px 6px;
+}
+.occ-rel-head {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 4px 8px 10px;
+}
+.occ-rel-title {
+  font-weight: 600;
+  font-size: var(--font-ui-medium);
+}
+.occ-rel-sub {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.occ-rel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.occ-rel-item {
+  padding: 8px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.occ-rel-item:hover {
+  background: var(--background-modifier-hover);
+  border-color: var(--background-modifier-border);
+}
+.occ-rel-itemtitle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+.occ-rel-itemtitle .svg-icon {
+  width: 13px;
+  height: 13px;
+  color: var(--text-muted);
+}
+.occ-rel-stale {
+  font-size: var(--font-smallest);
+  color: var(--text-on-accent);
+  background: var(--color-accent);
+  opacity: 0.85;
+  border-radius: 6px;
+  padding: 1px 6px;
+  margin-left: auto;
+  white-space: nowrap;
+}
+.occ-rel-gist {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  margin-top: 2px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.occ-rel-path {
+  color: var(--text-faint);
+  font-size: var(--font-smallest);
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.occ-rel-hint {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  padding: 12px 8px;
+}
+.occ-rel-hint .svg-icon {
+  width: 14px;
+  height: 14px;
+}
+.occ-rel-footer {
+  color: var(--text-faint);
+  font-size: var(--font-smallest);
+  padding: 10px 8px 4px;
+}
+
+/* ─────────────────────── Proactive insight panel (v0.9) ─────────────────── */
+
+.occ-insight {
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.occ-insight-body {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header: title row + scan button, clean separation */
+.occ-insight-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 14px 10px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  flex-shrink: 0;
+}
+.occ-insight-headleft {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.occ-insight-headicon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--color-yellow) 15%, transparent);
+  color: var(--color-yellow);
+  flex-shrink: 0;
+}
+.occ-insight-headicon .svg-icon {
+  width: 16px;
+  height: 16px;
+}
+.occ-insight-headtext {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+.occ-insight-title {
+  font-weight: 600;
+  font-size: var(--font-ui-medium);
+  line-height: 1.3;
+}
+.occ-insight-sub {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--font-ui-smaller);
+  flex-wrap: wrap;
+}
+.occ-insight-subnote {
+  color: var(--text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 160px;
+}
+.occ-insight-live {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-accent);
+}
+.occ-insight-spin {
+  animation: occ-insight-spin 1.1s linear infinite;
+}
+@keyframes occ-insight-spin {
+  to { transform: rotate(360deg); }
+}
+.occ-insight-err {
+  color: var(--text-error);
+  cursor: help;
+  text-decoration: underline dotted;
+}
+
+/* Scan button in header */
+.occ-insight-btn {
+  font-size: var(--font-ui-smaller);
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.occ-insight-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Empty / loading state — centered hero */
+.occ-insight-empty {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 24px;
+  gap: 12px;
+}
+.occ-insight-emptyicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--background-modifier-hover);
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.occ-insight-emptyicon .svg-icon {
+  width: 24px;
+  height: 24px;
+}
+.occ-insight-emptytitle {
+  font-size: var(--font-ui-medium);
+  font-weight: 600;
+  color: var(--text-normal);
+}
+.occ-insight-emptybody {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  max-width: 280px;
+  line-height: 1.6;
+}
+
+/* Signal groups */
+.occ-insight-group {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+}
+.occ-insight-grouptitle {
+  font-size: var(--font-ui-smaller);
+  font-weight: 600;
+  color: var(--text-muted);
+  padding: 8px 14px 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.occ-insight-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-left: 3px;
+  border-left: 2px solid transparent;
+}
+.occ-insight-contradiction { border-left-color: var(--color-red, #e0564f); }
+.occ-insight-stale { border-left-color: var(--color-orange, #d9943a); }
+.occ-insight-orphan { border-left-color: var(--color-blue, #4a8ef0); }
+.occ-insight-reusable { border-left-color: var(--color-green, #4caf50); }
+.occ-insight-sectionlabel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--font-ui-smaller);
+  font-weight: 500;
+  padding: 6px 12px 2px;
+}
+.occ-insight-sectionlabel .svg-icon {
+  width: 13px;
+  height: 13px;
+  color: var(--text-muted);
+}
+.occ-insight-count {
+  font-size: var(--font-smallest);
+  color: var(--text-on-accent);
+  background: var(--color-accent);
+  opacity: 0.7;
+  border-radius: 8px;
+  padding: 0 6px;
+  min-width: 16px;
+  text-align: center;
+}
+
+/* Signal card */
+.occ-insight-item {
+  padding: 8px 12px;
+  margin: 0 10px 4px;
+  border-radius: 8px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.occ-insight-itemtitle {
+  font-weight: 500;
+  font-size: var(--font-ui-small);
+  line-height: 1.4;
+}
+.occ-insight-gist {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.occ-insight-path {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-faint);
+  font-size: var(--font-smallest);
+  flex-wrap: wrap;
+}
+.occ-insight-badge {
+  font-size: var(--font-smallest);
+  border-radius: 5px;
+  padding: 0 5px;
+  opacity: 0.85;
+}
+.occ-insight-badge-accepted,
+.occ-insight-badge-applied {
+  color: var(--text-on-accent);
+  background: var(--color-green, #4caf50);
+}
+.occ-insight-badge-rejected {
+  color: var(--text-on-accent);
+  background: var(--color-red, #e0564f);
+}
+.occ-insight-badge-snoozed {
+  color: var(--text-on-accent);
+  background: var(--color-orange, #d9943a);
+}
+.occ-insight-badge-superseded {
+  color: var(--text-on-accent);
+  background: var(--text-muted);
+}
+.occ-insight-itemacts {
+  display: flex;
+  gap: 6px;
+  margin-top: 2px;
+}
+.occ-insight-link {
+  font-size: var(--font-smallest);
+  color: var(--text-accent);
+  background: transparent;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 5px;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+.occ-insight-link:hover {
+  background: var(--background-modifier-hover);
+}
+.occ-insight-footer {
+  color: var(--text-faint);
+  font-size: var(--font-smallest);
+  padding: 12px 14px;
+  text-align: center;
+}
+
+/* ─────────────────────── Temporal view (v0.10) ─────────────────────────── */
+
+.occ-temporal {
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.occ-temporal-body {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.occ-temporal-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 14px 10px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  flex-shrink: 0;
+}
+.occ-temporal-headleft {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.occ-temporal-headicon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--color-blue) 15%, transparent);
+  color: var(--color-blue);
+  flex-shrink: 0;
+}
+.occ-temporal-headicon .svg-icon { width: 16px; height: 16px; }
+.occ-temporal-headtext {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.occ-temporal-title { font-weight: 600; font-size: var(--font-ui-medium); }
+.occ-temporal-sub { color: var(--text-muted); font-size: var(--font-ui-smaller); }
+.occ-temporal-empty {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 24px;
+  gap: 12px;
+}
+.occ-temporal-emptyicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--background-modifier-hover);
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.occ-temporal-emptyicon .svg-icon { width: 24px; height: 24px; }
+.occ-temporal-emptytitle { font-size: var(--font-ui-medium); font-weight: 600; }
+.occ-temporal-emptybody {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  max-width: 280px;
+  line-height: 1.6;
+}
+.occ-temporal-list {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 14px;
+}
+.occ-temporal-item {
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin-bottom: 4px;
+}
+.occ-temporal-item:hover {
+  background: var(--background-modifier-hover);
+  border-color: var(--background-modifier-border);
+}
+.occ-temporal-item.is-selected {
+  background: var(--background-modifier-hover);
+  border-color: var(--color-accent);
+}
+.occ-temporal-itemdate {
+  font-size: var(--font-ui-smaller);
+  font-weight: 500;
+  color: var(--text-normal);
+}
+.occ-temporal-itemsubject {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.occ-temporal-itemstat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  font-size: var(--font-smallest);
+}
+.occ-temporal-add { color: var(--color-green, #4caf50); }
+.occ-temporal-del { color: var(--color-red, #e0564f); }
+.occ-temporal-sha {
+  color: var(--text-faint);
+  font-family: var(--font-monospace);
+}
+.occ-temporal-diff {
+  margin: 4px 0 8px;
+  padding: 10px;
+  border-radius: 8px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+}
+.occ-temporal-diffhead {
+  font-size: var(--font-ui-smaller);
+  font-weight: 500;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+.occ-temporal-diffpatch {
+  font-family: var(--font-monospace);
+  font-size: var(--font-smallest);
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 400px;
+  overflow-y: auto;
+  margin: 0;
+  color: var(--text-normal);
+}
+.occ-temporal-diffempty {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  padding: 4px 0;
+}
+.occ-temporal-footer {
+  color: var(--text-faint);
+  font-size: var(--font-smallest);
+  padding: 12px 14px;
+  text-align: center;
+}
+
+/* ─────────────────────── Connection recommendations (v1.0) ──────────────── */
+
+.occ-graph {
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.occ-graph-body {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.occ-graph-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 14px 10px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  flex-shrink: 0;
+}
+.occ-graph-headleft {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.occ-graph-headicon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--color-purple) 15%, transparent);
+  color: var(--color-purple, #9b59b6);
+  flex-shrink: 0;
+}
+.occ-graph-headicon .svg-icon { width: 16px; height: 16px; }
+.occ-graph-headtext {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+.occ-graph-title { font-weight: 600; font-size: var(--font-ui-medium); }
+.occ-graph-sub {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.occ-graph-btn {
+  font-size: var(--font-ui-smaller);
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.occ-graph-btn:disabled { opacity: 0.5; cursor: default; }
+.occ-graph-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px 14px;
+}
+.occ-graph-pair {
+  padding: 10px;
+  border-radius: 8px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: opacity 0.3s;
+}
+.occ-graph-pair.is-resolved {
+  opacity: 0.4;
+  pointer-events: none;
+}
+.occ-graph-pairsim {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.occ-graph-simlabel {
+  font-size: var(--font-smallest);
+  font-weight: 600;
+  color: var(--color-purple, #9b59b6);
+  white-space: nowrap;
+}
+.occ-graph-simbar {
+  flex: 1 1 auto;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--background-modifier-border);
+  overflow: hidden;
+}
+.occ-graph-simfill {
+  height: 100%;
+  border-radius: 2px;
+  background: var(--color-purple, #9b59b6);
+  opacity: 0.7;
+}
+.occ-graph-noteref {
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.occ-graph-noteref:hover {
+  background: var(--background-modifier-hover);
+  border-color: var(--background-modifier-border);
+}
+.occ-graph-notetitle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  font-size: var(--font-ui-small);
+}
+.occ-graph-notetitle .svg-icon {
+  width: 13px;
+  height: 13px;
+  color: var(--text-muted);
+}
+.occ-graph-noteexcerpt {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  margin-top: 2px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.occ-graph-notepath {
+  color: var(--text-faint);
+  font-size: var(--font-smallest);
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.occ-graph-connector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: var(--font-smallest);
+  color: var(--text-faint);
+  padding: 2px 0;
+}
+.occ-graph-connector .svg-icon {
+  width: 12px;
+  height: 12px;
+}
+.occ-graph-pairacts {
+  display: flex;
+  gap: 6px;
+  margin-top: 2px;
+}
+.occ-graph-pairbtn {
+  font-size: var(--font-ui-smaller);
+  padding: 4px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.occ-graph-pairbtn.is-primary {
+  font-weight: 500;
+}
+.occ-graph-pairbtn.is-secondary {
+  color: var(--text-muted);
+}
+.occ-graph-empty {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 24px;
+  gap: 12px;
+}
+.occ-graph-emptyicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--background-modifier-hover);
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.occ-graph-emptyicon .svg-icon { width: 24px; height: 24px; }
+.occ-graph-emptytitle { font-size: var(--font-ui-medium); font-weight: 600; }
+.occ-graph-emptybody {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  max-width: 280px;
+  line-height: 1.6;
+}
+.occ-graph-footer {
+  color: var(--text-faint);
+  font-size: var(--font-smallest);
+  padding: 12px 14px;
+  text-align: center;
+}
+
+
+/* Proposal-kind badge in the knowledge review center (v0.9) */
+.occ-review-kind {
+  font-size: var(--font-smallest);
+  border-radius: 5px;
+  padding: 1px 6px;
+  white-space: nowrap;
+}
+.occ-review-kind.is-memory {
+  color: var(--text-muted);
+  background: var(--background-modifier-hover);
+}
+.occ-review-kind.is-insight-contradiction {
+  color: var(--color-red, #e0564f);
+  background: rgba(224, 86, 79, 0.12);
+}
+.occ-review-kind.is-insight-stale {
+  color: var(--color-orange, #d9943a);
+  background: rgba(217, 148, 58, 0.12);
+}
+.occ-review-kind.is-insight-orphan {
+  color: var(--color-blue, #4a8ef0);
+  background: rgba(74, 142, 240, 0.12);
+}
+.occ-review-kind.is-insight-reusable {
+  color: var(--color-green, #4caf50);
+  background: rgba(76, 175, 80, 0.12);
+}
+.occ-review-kind.is-commitment {
+  color: var(--text-normal);
+  background: var(--background-modifier-hover);
+}
+
+/* Weekly nudge dismiss button (rides on .occ-setup-compact rows) */
+.occ-nudge-x {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  color: var(--text-faint);
+  border-radius: 5px;
+  padding: 2px;
+}
+.occ-nudge-x:hover {
+  color: var(--text-normal);
+  background: var(--background-modifier-hover);
+}
+.occ-nudge-x .svg-icon {
+  width: 12px;
+  height: 12px;
+}
+
+/* ── WeChat bot: login modal + pinned session row ────── */
+
+.occ-wechat-modal {
+  max-width: 460px;
+}
+.occ-wechat-modal-desc {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  margin-top: 0;
+}
+.occ-wechat-status {
+  text-align: center;
+  font-size: var(--font-ui-small);
+  color: var(--text-normal);
+  margin: 12px 0 8px;
+}
+.occ-wechat-qr {
+  display: block;
+  margin: 0 auto 12px;
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background: #fff;
+  padding: 8px;
+}
+
+/* Pinned "微信" row: subtle accent so it reads as a special entry, not a
+   normal chat session. */
+.occ-session-row.occ-session-wx {
+  border-left: 2px solid var(--color-accent, var(--interactive-accent));
+}
+.occ-session-row.occ-session-wx .occ-session-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ── Structured knowledge review ────────────────────── */
+
+.occ-knowledge-review-card,
+.occ-candidate-protocol {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px solid color-mix(in srgb, var(--interactive-accent) 35%, var(--background-modifier-border));
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--interactive-accent) 7%, var(--background-primary));
+}
+.occ-knowledge-review-icon,
+.occ-candidate-protocol .svg-icon {
+  color: var(--interactive-accent);
+  flex: 0 0 auto;
+}
+.occ-knowledge-review-copy { flex: 1 1 auto; min-width: 0; }
+.occ-knowledge-review-title { font-weight: 600; }
+.occ-knowledge-review-sub {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  margin-top: 2px;
+}
+.occ-knowledge-review-open {
+  flex: 0 0 auto;
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+.occ-candidate-protocol {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
+
+.occ-review {
+  container-type: inline-size;
+  padding: 0;
+  overflow: auto;
+}
+.occ-review-body { padding: 16px; }
+.occ-review-body.is-busy { pointer-events: none; opacity: 0.72; }
+.occ-review-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.occ-review-heading { display: flex; align-items: center; gap: 8px; flex: 1 1 auto; }
+.occ-review-heading-icon { color: var(--interactive-accent); }
+.occ-review-title { font-size: var(--font-ui-large); font-weight: 650; }
+.occ-review-count,
+.occ-review-confidence,
+.occ-review-id,
+.occ-review-temporal,
+.occ-review-status,
+.occ-review-op {
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: var(--font-smallest);
+  white-space: nowrap;
+}
+.occ-review-count,
+.occ-review-confidence,
+.occ-review-id { color: var(--text-muted); background: var(--background-secondary); }
+.occ-review-intro {
+  flex: 1 0 100%;
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
+.occ-review-list { display: grid; gap: 14px; }
+.occ-review-card {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  padding: 14px;
+  background: var(--background-primary-alt);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
+}
+.occ-review-card.is-accepted { border-color: color-mix(in srgb, var(--color-green) 50%, var(--background-modifier-border)); }
+.occ-review-card-head { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.occ-review-status { color: var(--text-on-accent); background: var(--interactive-accent); }
+.occ-review-temporal { color: var(--text-muted); background: var(--background-secondary); }
+.occ-review-temporal.is-stale { color: var(--text-error); background: color-mix(in srgb, var(--color-red) 12%, transparent); }
+.occ-review-temporal.is-time-bound { color: var(--text-warning); background: color-mix(in srgb, var(--color-orange) 12%, transparent); }
+.occ-review-id { margin-left: auto; font-family: var(--font-monospace); }
+.occ-review-summary { margin-top: 10px; font-size: var(--font-ui-medium); font-weight: 600; }
+.occ-review-provenance { margin-top: 10px; }
+.occ-review-source,
+.occ-review-target {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--link-color);
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+}
+.occ-review-excerpt {
+  margin: 8px 0 0;
+  padding: 8px 10px;
+  border-left: 3px solid var(--background-modifier-border);
+  color: var(--text-muted);
+  background: var(--background-secondary);
+  white-space: pre-wrap;
+}
+.occ-review-excerpt.is-missing { font-style: italic; color: var(--text-faint); }
+.occ-review-target-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+.occ-review-target-row.is-unmapped { padding: 8px; border-radius: 8px; background: color-mix(in srgb, var(--color-orange) 10%, transparent); }
+.occ-review-target-hint {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: var(--background-modifier-hover);
+  display: inline-block;
+}
+.occ-review-snooze-date.is-hidden,
+.occ-review-supersede-row.is-hidden {
+  display: none !important;
+}
+.occ-review-target-mode { flex: 0 0 auto; }
+.occ-review-target-input { flex: 1 1 auto; min-width: 120px; }
+.occ-review-op.is-create { color: var(--color-green); background: color-mix(in srgb, var(--color-green) 12%, transparent); }
+.occ-review-op.is-append { color: var(--color-blue); background: color-mix(in srgb, var(--color-blue) 12%, transparent); }
+.occ-review-temporal-detail { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; color: var(--text-muted); font-size: var(--font-ui-smaller); }
+.occ-review-conflicts { margin-top: 10px; padding: 9px 10px; border-radius: 8px; background: color-mix(in srgb, var(--color-orange) 9%, var(--background-secondary)); }
+.occ-review-conflicts-head { display: flex; align-items: center; gap: 6px; color: var(--text-warning); font-weight: 600; }
+.occ-review-conflict-list { margin: 6px 0 0 18px; padding: 0; }
+.occ-review-conflict-kind { font-weight: 600; margin-right: 5px; }
+.occ-review-conflict-ref { color: var(--text-muted); margin-left: 6px; font-size: var(--font-smallest); }
+.occ-review-editor { width: 100%; min-height: 128px; resize: vertical; margin-top: 10px; font-family: var(--font-text); }
+.occ-review-editor[readonly] { background: var(--background-secondary); color: var(--text-normal); }
+.occ-review-boundary-warning {
+  display: none;
+  margin-top: 6px;
+  color: var(--text-warning);
+  font-size: var(--font-smallest);
+}
+.occ-review-boundary-warning.is-visible { display: block; }
+.occ-review-decision-meta,
+.occ-review-supersede-row,
+.occ-review-actions { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 9px; }
+.occ-review-reason { flex: 1 1 220px; }
+.occ-review-supersede-id { flex: 1 1 180px; }
+.occ-review-btn { font-size: var(--font-ui-smaller); }
+.occ-review-btn.is-primary { background: var(--interactive-accent); color: var(--text-on-accent); }
+.occ-review-btn.is-danger { color: var(--text-error); }
+.occ-review-btn.is-quiet { background: transparent; box-shadow: none; color: var(--text-muted); }
+.occ-review-apply-info { margin-top: 10px; color: var(--text-muted); font-size: var(--font-ui-smaller); }
+.occ-review-supersedes { margin-left: 8px; }
+.occ-review-hint,
+.occ-review-empty { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 140px; color: var(--text-muted); }
+.occ-review-empty-icon { color: var(--color-green); }
+.occ-review-toast {
+  position: sticky;
+  bottom: 10px;
+  margin: 10px auto 0;
+  width: fit-content;
+  padding: 7px 11px;
+  border-radius: 8px;
+  color: var(--text-on-accent);
+  background: var(--interactive-accent);
+  box-shadow: var(--shadow-s);
+}
+@container (max-width: 520px) {
+  .occ-review-body { padding: 10px; }
+  .occ-review-id { flex-basis: 100%; margin-left: 0; width: fit-content; }
+  .occ-review-target-row { align-items: stretch; flex-wrap: wrap; }
+  .occ-review-target-input { flex-basis: 100%; }
+}

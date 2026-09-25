@@ -1,12 +1,11 @@
 {
   "id": "conv-1773560405722-ln8jwad0f",
+  "providerId": "claude",
   "title": "你好",
   "titleGenerationStatus": "failed",
   "createdAt": 1773560405726,
-  "updatedAt": 1774625395691,
-  "lastResponseAt": 1774625395691,
-  "sessionId": "41fbf3dd-4c24-4542-b304-25906ddc6f0e",
-  "sdkSessionId": "41fbf3dd-4c24-4542-b304-25906ddc6f0e",
+  "lastActivityAt": 1774625395691,
+  "sessionId": null,
   "usage": {
     "model": "opus",
     "inputTokens": 97,

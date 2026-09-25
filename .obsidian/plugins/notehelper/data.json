@@ -3,8 +3,9 @@
   "dateSavedFormat": "yyyy-MM-dd HH:mm:ss",
   "apiKey": "o56E76xU_Yq2SNyCPNk5O4nP8u28",
   "filter": "ALL",
-  "syncAt": "2026-08-01T23:20:43.230+08:00",
+  "syncAt": "2026-09-24T15:00:41.959+08:00",
   "customQuery": "in:all",
+  "customQueryNormalized": true,
   "template": "{{{content}}}",
   "highlightOrder": "LOCATION",
   "folder": "00 临时箱",
@@ -13,15 +14,15 @@
   "filename": "{{{title}}}",
   "filenameDateFormat": "yyyy-MM-dd",
   "attachmentFolder": "00 临时箱/attachments",
-  "version": "3.1.8",
+  "version": "3.2.12",
   "mergeMode": "messages",
   "messageSortOrder": "desc",
   "messageFolder": "",
-  "frequency": 0,
-  "intervalId": 0,
+  "frequency": 300,
+  "intervalId": 1179,
   "frontMatterVariables": [],
   "frontMatterTemplate": "author: {{{author}}}\nsource: {{{siteName}}}\nurl: {{{originalUrl}}}\nsaved: {{{dateSaved}}}\ntags: [笔记同步助手{{#labels}}, {{{name}}}{{/labels}}]",
-  "syncOnStart": false,
+  "syncOnStart": true,
   "enableHighlightColorRender": false,
   "highlightManagerId": "omni",
   "highlightColorMapping": {
@@ -32,9 +33,11 @@
   },
   "singleFileName": "同步助手_{{{date}}}",
   "singleFileDateFormat": "yyyy-MM-dd",
+  "mergeFileTemplate": "",
   "sectionSeparator": "%%{{{dateSaved}}}_start%%",
   "sectionSeparatorEnd": "%%{{{dateSaved}}}_end%%",
   "wechatMessageTemplate": "---\n#### {{{heading}}}\n## 📅 {{{dateSaved}}}\n{{{content}}}",
+  "chatRecordTimestampTemplate": "<small style=\"color: #999;\">{{{timestamp}}}</small>",
   "imageMode": "local",
   "enablePngToJpeg": false,
   "jpegQuality": 85,
@@ -42,23 +45,26 @@
   "imageAttachmentFolder": "00 临时箱/images",
   "imageUploadRelay": "none",
   "imageRenameBeforeRelay": false,
-  "enableDiaryLinks": false,
+  "enableDiaryLinks": true,
   "diaryFolder": "Daily Notes",
   "diaryDateFormat": "yyyy-MM-dd",
   "diaryAnchor": "notehelper-links",
+  "diaryWritePosition": "anchor",
+  "diaryLinkOrder": "desc",
   "diaryLinkType": "all",
-  "autoCreateDiaryNote": false,
+  "autoCreateDiaryNote": true,
   "diaryLinkPrefix": "- ",
+  "diaryLinkTemplate": "- {{{link}}}",
   "diaryLinkMaxLength": 0,
   "deviceSyncCursors": {
-    "desktop-mosjfrhu-bsy4": "2026-08-01T23:20:43.230+08:00"
+    "desktop-mosjfrhu-bsy4": "2026-09-24T15:00:41.959+08:00"
   },
   "initialSyncCompleted": true,
   "firstSyncAutoOpened": true,
   "deviceAutoSync": {
     "desktop-mosjfrhu-bsy4": {
-      "frequency": 0,
-      "syncOnStart": false
+      "frequency": 300,
+      "syncOnStart": true
     }
   },
   "deviceAutoSyncMigrated": true,
@@ -69,5 +75,9 @@
   "debugMode": false,
   "burnAfterReading": false,
   "burnAfterReadingEnabledAt": "",
-  "pendingBurnDeletes": []
+  "pendingBurnDeletes": [],
+  "disableMessageMarkers": false,
+  "omitFrontmatterId": false,
+  "disableDiaryLinkMarkers": false,
+  "renewalReminderLastShown": ""
 }

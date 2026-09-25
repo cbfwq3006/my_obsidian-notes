@@ -1,0 +1,15 @@
+2026-08-12T03:17:01.922Z
+[require]
+Error: Cannot find module 'C:\Program Files\Obsidian\resources\electron.asar\renderer\main.bundle.js'
+Require stack:
+- electron/js2c/renderer_init
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1390:15)
+    at a._resolveFilename (node:electron/js2c/renderer_init:2:4859)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1032:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1037:22)
+    at Module._load (node:internal/modules/cjs/loader:1199:37)
+    at c._load (node:electron/js2c/node_init:2:17993)
+    at s._load (node:electron/js2c/renderer_init:2:34480)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1470:12)

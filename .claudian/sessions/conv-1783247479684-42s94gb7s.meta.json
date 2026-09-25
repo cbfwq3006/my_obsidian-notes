@@ -1,26 +1,21 @@
-{
-  "id": "conv-1783247479684-42s94gb7s",
-  "providerId": "codex",
-  "title": "生成4篇谈心谈话记录",
-  "titleGenerationStatus": "success",
-  "createdAt": 1783247479685,
-  "updatedAt": 1784852282916,
-  "lastResponseAt": 1784777710412,
-  "sessionId": "019f31d5-5d3b-7061-84dc-266ddbd44653",
-  "selectedModel": "gpt-5.6-sol",
-  "providerState": {
-    "threadId": "019f31d5-5d3b-7061-84dc-266ddbd44653",
-    "sessionFilePath": "C:\\Users\\Lenovo\\.codex\\sessions\\2026\\07\\05\\rollout-2026-07-05T18-31-34-019f31d5-5d3b-7061-84dc-266ddbd44653.jsonl",
-    "transcriptRootPath": "C:\\Users\\Lenovo\\.codex\\sessions"
-  },
-  "usage": {
-    "inputTokens": 231330,
-    "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 216448,
-    "contextWindow": 258400,
-    "contextWindowIsAuthoritative": true,
-    "contextTokens": 231330,
-    "percentage": 90,
-    "model": "gpt-5.4"
-  }
+﻿{
+    "id":  "conv-1783247479684-42s94gb7s",
+    "providerId":  "claude",
+    "title":  "生成4篇谈心谈话记录",
+    "titleGenerationStatus":  "success",
+    "createdAt":  1783247479685,
+    "updatedAt":  1785580100040,
+    "lastResponseAt":  1785580100039,
+    "sessionId":  null,
+    "selectedModel":  "claude-code/claude-sonnet-5",
+    "usage":  {
+                  "inputTokens":  33386,
+                  "cacheCreationInputTokens":  0,
+                  "cacheReadInputTokens":  3456,
+                  "contextWindow":  1000000,
+                  "contextWindowIsAuthoritative":  true,
+                  "contextTokens":  33386,
+                  "percentage":  13,
+                  "model":  "claude-code/claude-sonnet-5"
+              }
 }

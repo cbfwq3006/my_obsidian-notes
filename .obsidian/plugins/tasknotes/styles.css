@@ -421,6 +421,11 @@
 body.is-mobile .tasknotes-plugin {
     --tn-nested-task-indent: 12px;
     --tn-nested-task-padding: 10px;
+    --tn-mobile-task-card-indicator-size: 24px;
+    --tn-mobile-task-card-menu-size: 32px;
+    --tn-mobile-task-card-dot-padding: 6px;
+    --tn-mobile-inline-indicator-size: 20px;
+    --tn-mobile-inline-menu-size: 24px;
 }
 
 
@@ -2868,6 +2873,7 @@ body.is-mobile .tasknotes-plugin {
     /* Interactions & Accessibility - Smooth transitions */
     transition: background-color var(--tn-transition-fast), box-shadow var(--tn-transition-fast), border-color var(--tn-transition-fast);
     outline: none;
+    container: tn-task-card / inline-size;
 }
 
 .tasknotes-plugin .task-card:hover {
@@ -3195,6 +3201,8 @@ body.is-mobile .tasknotes-plugin .task-card.task-card--drag-handle-only .task-ca
 }
 
 body.is-mobile .tasknotes-plugin .task-card.task-card--drag-handle-only .task-card__drag-handle {
+    top: var(--tn-spacing-sm);
+    transform: none;
     width: 32px;
     height: 32px;
     opacity: 0.85;
@@ -3368,6 +3376,17 @@ body.is-mobile .tasknotes-plugin .task-card.task-card--drag-handle-only .task-ca
     opacity: 0.7;
 }
 
+.tasknotes-plugin .task-card__metadata-pill--occurrence {
+    background: color-mix(in srgb, var(--interactive-accent) 10%, transparent);
+    color: var(--text-accent);
+    border-color: color-mix(in srgb, var(--interactive-accent) 35%, var(--background-modifier-border));
+}
+
+.tasknotes-plugin .task-card__metadata-pill--occurrence svg {
+    width: 12px;
+    height: 12px;
+}
+
 /* Reminder indicator */
 .tasknotes-plugin .task-card__reminder-indicator {
     width: 14px;
@@ -3492,7 +3511,7 @@ body.is-mobile .tasknotes-plugin .task-card__chevron svg {
 }
 
 body.is-mobile .tasknotes-plugin .task-card.task-card--chevron-left .task-card__chevron {
-    left: calc(-1 * var(--tn-spacing-lg) - 16px);
+    left: calc(-1 * var(--tn-mobile-task-card-menu-size) - var(--tn-spacing-xs));
     width: 32px;
     height: 32px;
 }
@@ -3679,8 +3698,8 @@ body.is-mobile .tasknotes-plugin .task-card.task-card--chevron-left .task-card__
 }
 
 body.is-mobile .tasknotes-plugin .task-card__context-menu {
-    min-width: 36px;
-    min-height: 36px;
+    min-width: var(--tn-mobile-task-card-menu-size);
+    min-height: var(--tn-mobile-task-card-menu-size);
     opacity: 1;
 }
 
@@ -3854,32 +3873,32 @@ body.is-mobile .tasknotes-plugin .task-card__context-menu svg {
     height: 12px;
     border-radius: 50%;
     flex-shrink: 0;
-    background-color: var(--priority-color, transparent);
+    background-color: var(--current-priority-color, var(--priority-color, transparent));
     margin: 0 var(--tn-spacing-xs);
 }
 
 /* Dynamic priority colors using CSS variables set by PriorityManager */
 /* Use child combinator (>) to prevent subtasks from inheriting parent priority styling */
 .tasknotes-plugin .task-card[data-priority] > .task-card__main-row .task-card__priority-dot {
-    background-color: var(--current-priority-color, var(--tn-text-muted));
+    background-color: var(--current-priority-color, var(--priority-color, var(--tn-text-muted)));
 }
 
 /* Fallback priority colors using existing system */
 /* Use child combinator (>) to prevent subtasks from inheriting parent priority styling */
 .tasknotes-plugin .task-card--priority-high > .task-card__main-row .task-card__priority-dot {
-    background-color: var(--priority-high-color, var(--tn-color-error));
+    background-color: var(--current-priority-color, var(--priority-color, var(--priority-high-color, var(--tn-color-error))));
 }
 
 .tasknotes-plugin .task-card--priority-medium > .task-card__main-row .task-card__priority-dot {
-    background-color: var(--priority-medium-color, var(--tn-interactive-accent));
+    background-color: var(--current-priority-color, var(--priority-color, var(--priority-medium-color, var(--tn-interactive-accent))));
 }
 
 .tasknotes-plugin .task-card--priority-normal > .task-card__main-row .task-card__priority-dot {
-    background-color: var(--priority-normal-color, var(--tn-interactive-accent));
+    background-color: var(--current-priority-color, var(--priority-color, var(--priority-normal-color, var(--tn-interactive-accent))));
 }
 
 .tasknotes-plugin .task-card--priority-low > .task-card__main-row .task-card__priority-dot {
-    background-color: var(--priority-low-color, var(--tn-text-muted));
+    background-color: var(--current-priority-color, var(--priority-color, var(--priority-low-color, var(--tn-text-muted))));
 }
 
 /* Priority dot with icon mode - uses Lucide icons from theme */
@@ -3889,6 +3908,10 @@ body.is-mobile .tasknotes-plugin .task-card__context-menu svg {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+.tasknotes-plugin .task-card[data-priority] > .task-card__main-row .task-card__priority-dot--icon {
+    background-color: transparent;
 }
 
 .tasknotes-plugin .task-card--priority-high > .task-card__main-row .task-card__priority-dot--icon,
@@ -3901,12 +3924,12 @@ body.is-mobile .tasknotes-plugin .task-card__context-menu svg {
 .tasknotes-plugin .task-card__priority-dot--icon svg {
     width: 16px;
     height: 16px;
-    color: var(--priority-color, var(--tn-text-muted));
+    color: var(--current-priority-color, var(--priority-color, var(--tn-text-muted)));
     stroke-width: 2;
 }
 
 .tasknotes-plugin .task-card__priority-dot--icon:hover svg {
-    color: color-mix(in srgb, var(--priority-color, var(--tn-interactive-accent)) 80%, var(--tn-text-normal));
+    color: color-mix(in srgb, var(--current-priority-color, var(--priority-color, var(--tn-interactive-accent))) 80%, var(--tn-text-normal));
 }
 
 /* Status colors - Use dynamic status colors from user settings */
@@ -3928,48 +3951,199 @@ body.is-mobile .tasknotes-plugin .task-card__context-menu svg {
 
 /* Mobile & Touch Devices - Use theme colors */
 @media (pointer: coarse) {
-    .tasknotes-plugin .task-card {
+    body:not(.is-mobile) .tasknotes-plugin .task-card {
         padding: 12px 16px;
         min-height: 44px;
         margin-bottom: 2px;
     }
 
-    .tasknotes-plugin .task-card:active {
+    body:not(.is-mobile) .tasknotes-plugin .task-card:active {
         background-color: var(--tn-interactive-hover);
     }
 
     /* Larger touch targets */
-    .tasknotes-plugin .task-card__context-menu {
+    body:not(.is-mobile) .tasknotes-plugin .task-card__context-menu {
         min-width: 36px;
         min-height: 36px;
         opacity: 1;
     }
 
-    .tasknotes-plugin .task-card__context-menu svg {
+    body:not(.is-mobile) .tasknotes-plugin .task-card__context-menu svg {
         width: 16px;
         height: 16px;
     }
 
-    /* Larger status dots for touch */
-    .tasknotes-plugin .task-card__status-dot {
-        width: 36px;
-        height: 36px;
-    }
-
-    .tasknotes-plugin .task-card__priority-dot,
-    .tasknotes-plugin .task-card__recurring-indicator,
-    .tasknotes-plugin .task-card__reminder-indicator,
-    .tasknotes-plugin .task-card__details-indicator,
-    .tasknotes-plugin .task-card__project-indicator,
-    .tasknotes-plugin .task-card__chevron,
-    .tasknotes-plugin .task-card__blocking-toggle,
-    .tasknotes-plugin .task-card__blocked-toggle {
+    body:not(.is-mobile) .tasknotes-plugin .task-card__recurring-indicator,
+    body:not(.is-mobile) .tasknotes-plugin .task-card__reminder-indicator,
+    body:not(.is-mobile) .tasknotes-plugin .task-card__details-indicator,
+    body:not(.is-mobile) .tasknotes-plugin .task-card__project-indicator,
+    body:not(.is-mobile) .tasknotes-plugin .task-card__chevron,
+    body:not(.is-mobile) .tasknotes-plugin .task-card__blocking-toggle,
+    body:not(.is-mobile) .tasknotes-plugin .task-card__blocked-toggle {
         min-width: 36px;
         min-height: 36px;
         display: inline-flex;
         align-items: center;
         justify-content: center;
     }
+}
+
+/* Obsidian mobile cards need compact controls while still preserving the
+   user's configured reading size for task text. */
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) {
+    padding: var(--tn-spacing-sm) var(--tn-spacing-md);
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__main-row {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: var(--tn-spacing-xs);
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__content {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: min(13rem, calc(100% - var(--tn-mobile-task-card-indicator-size) - var(--tn-mobile-task-card-indicator-size) - var(--tn-spacing-xs) - var(--tn-spacing-xs)));
+    padding-top: 0;
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__title {
+    font-size: var(--tn-font-size-base);
+    line-height: 1.35;
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__metadata {
+    font-size: max(var(--tn-font-size-lg), var(--font-ui-small, 13px));
+    line-height: 1.35;
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__status-dot {
+    width: var(--tn-mobile-task-card-indicator-size);
+    height: var(--tn-mobile-task-card-indicator-size);
+    min-width: var(--tn-mobile-task-card-indicator-size);
+    min-height: var(--tn-mobile-task-card-indicator-size);
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__status-dot--icon svg {
+    width: 18px;
+    height: 18px;
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__priority-dot {
+    width: var(--tn-mobile-task-card-indicator-size);
+    height: var(--tn-mobile-task-card-indicator-size);
+    min-width: var(--tn-mobile-task-card-indicator-size);
+    min-height: var(--tn-mobile-task-card-indicator-size);
+    margin: 0;
+    padding: var(--tn-mobile-task-card-dot-padding);
+    box-sizing: border-box;
+    background-clip: content-box;
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__priority-dot--icon {
+    padding: 3px;
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__priority-dot--icon svg {
+    width: 18px;
+    height: 18px;
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__badges {
+    order: 0;
+    flex: 0 0 auto;
+    gap: 2px;
+    margin-left: auto;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+body.is-mobile .tasknotes-plugin .task-card.task-card--chevron-left:not(.task-card--layout-inline):not(.task-card--layout-compact) {
+    padding-left: calc(var(--tn-mobile-task-card-menu-size) + var(--tn-spacing-sm));
+}
+
+body.is-mobile .tasknotes-plugin .task-card.task-card--chevron-left:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__badges {
+    order: 0;
+    flex: 0 0 auto;
+    padding-left: 0;
+}
+
+@container tn-task-card (max-width: 300px) {
+    body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__main-row {
+        align-items: flex-start;
+    }
+
+    body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__badges {
+        order: 2;
+        flex: 1 0 100%;
+        justify-content: flex-end;
+        padding-left: calc(var(--tn-mobile-task-card-indicator-size) + var(--tn-mobile-task-card-indicator-size) + var(--tn-spacing-sm));
+    }
+
+    body.is-mobile .tasknotes-plugin .task-card.task-card--chevron-left:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__badges {
+        order: 2;
+        flex: 1 0 100%;
+        padding-left: 0;
+    }
+
+    body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__metadata {
+        row-gap: 4px;
+    }
+
+    body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__metadata-property {
+        flex: 1 1 100%;
+    }
+
+    body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__metadata-value {
+        flex: 1 1 0;
+    }
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline) .task-card__metadata-property--projects {
+    flex-wrap: wrap;
+    overflow-wrap: anywhere;
+    white-space: normal;
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline) .task-card__metadata-property--contexts,
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline) .task-card__metadata-value {
+    flex-wrap: wrap;
+    overflow-wrap: anywhere;
+    white-space: normal;
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline) .task-card__project-link {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    white-space: normal;
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline) .context-tag,
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline) .tag {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    white-space: normal;
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__recurring-indicator,
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__reminder-indicator,
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__details-indicator,
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__project-indicator,
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__blocking-toggle,
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__blocked-toggle {
+    width: var(--tn-mobile-task-card-indicator-size);
+    height: var(--tn-mobile-task-card-indicator-size);
+    min-width: var(--tn-mobile-task-card-indicator-size);
+    min-height: var(--tn-mobile-task-card-indicator-size);
+}
+
+body.is-mobile .tasknotes-plugin .task-card:not(.task-card--layout-inline):not(.task-card--layout-compact) .task-card__context-menu {
+    order: 1;
+    margin-left: auto;
+    width: var(--tn-mobile-task-card-menu-size);
+    height: var(--tn-mobile-task-card-menu-size);
+    min-width: var(--tn-mobile-task-card-menu-size);
+    min-height: var(--tn-mobile-task-card-menu-size);
 }
 
 /* High density displays */
@@ -4123,6 +4297,10 @@ body.is-mobile .tasknotes-plugin .task-card__context-menu svg {
 .tasknotes-plugin .task-card--layout-inline {
     /* Use inline display to respect line boundaries */
     display: inline;
+
+    /* Inline overlays size from their content; card container queries are for block cards. */
+    container-type: normal;
+    container-name: none;
 
     /* Minimal padding - no indentation needed in inline mode */
     padding: 2px 0;
@@ -4312,7 +4490,7 @@ body.is-mobile .tasknotes-plugin .task-card__context-menu svg {
 body.is-mobile .tasknotes-plugin .task-card--layout-inline {
     display: inline-flex;
     align-items: center;
-    gap: 0.35em;
+    gap: 0.25em;
     max-width: 100%;
     white-space: normal;
     vertical-align: middle;
@@ -4326,6 +4504,11 @@ body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__content {
     vertical-align: middle;
 }
 
+body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__content {
+    flex-direction: row;
+    gap: 0.25em;
+}
+
 body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__title,
 body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__title-text {
     min-width: 0;
@@ -4337,61 +4520,78 @@ body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__title-tex
     max-width: min(42vw, 18em);
 }
 
+body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__metadata {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: min(52vw, 24em);
+    margin-left: 0.25em;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    position: static;
+    top: auto;
+}
+
 body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__status-dot {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
+    width: var(--tn-mobile-inline-indicator-size);
+    height: var(--tn-mobile-inline-indicator-size);
     margin-right: 0;
     transform: none;
-    flex: 0 0 28px;
+    flex: 0 0 var(--tn-mobile-inline-indicator-size);
 }
 
 body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__priority-dot {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
-    min-width: 28px;
-    min-height: 28px;
+    width: var(--tn-mobile-inline-indicator-size);
+    height: var(--tn-mobile-inline-indicator-size);
+    min-width: var(--tn-mobile-inline-indicator-size);
+    min-height: var(--tn-mobile-inline-indicator-size);
     margin: 0;
-    padding: 8px;
+    padding: 5px;
     box-sizing: border-box;
     background-clip: content-box;
     transform: none;
 }
 
 body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__priority-dot--icon {
-    padding: 4px;
+    padding: 2px;
 }
 
 body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__priority-dot--icon svg {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
 }
 
 body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__context-menu {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
-    min-width: 32px;
-    min-height: 32px;
+    width: var(--tn-mobile-inline-menu-size);
+    height: var(--tn-mobile-inline-menu-size);
+    min-width: var(--tn-mobile-inline-menu-size);
+    min-height: var(--tn-mobile-inline-menu-size);
     margin-left: 0.1em;
     opacity: 1;
     vertical-align: middle;
 }
 
 body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__context-menu svg {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
 }
 
 @media (pointer: coarse) {
-    .tasknotes-plugin .task-card--layout-inline {
+    body:not(.is-mobile) .tasknotes-plugin .task-card--layout-inline {
         display: inline-flex;
         align-items: center;
         gap: 0.35em;
@@ -4400,26 +4600,26 @@ body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__context-m
         vertical-align: middle;
     }
 
-    .tasknotes-plugin .task-card--layout-inline .task-card__main-row,
-    .tasknotes-plugin .task-card--layout-inline .task-card__content {
+    body:not(.is-mobile) .tasknotes-plugin .task-card--layout-inline .task-card__main-row,
+    body:not(.is-mobile) .tasknotes-plugin .task-card--layout-inline .task-card__content {
         display: inline-flex;
         align-items: center;
         min-width: 0;
         vertical-align: middle;
     }
 
-    .tasknotes-plugin .task-card--layout-inline .task-card__title,
-    .tasknotes-plugin .task-card--layout-inline .task-card__title-text {
+    body:not(.is-mobile) .tasknotes-plugin .task-card--layout-inline .task-card__title,
+    body:not(.is-mobile) .tasknotes-plugin .task-card--layout-inline .task-card__title-text {
         min-width: 0;
         overflow: hidden;
         text-overflow: ellipsis;
     }
 
-    .tasknotes-plugin .task-card--layout-inline .task-card__title-text {
+    body:not(.is-mobile) .tasknotes-plugin .task-card--layout-inline .task-card__title-text {
         max-width: min(42vw, 18em);
     }
 
-    .tasknotes-plugin .task-card--layout-inline .task-card__status-dot {
+    body:not(.is-mobile) .tasknotes-plugin .task-card--layout-inline .task-card__status-dot {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -4430,7 +4630,7 @@ body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__context-m
         flex: 0 0 28px;
     }
 
-    .tasknotes-plugin .task-card--layout-inline .task-card__priority-dot {
+    body:not(.is-mobile) .tasknotes-plugin .task-card--layout-inline .task-card__priority-dot {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -4445,16 +4645,16 @@ body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__context-m
         transform: none;
     }
 
-    .tasknotes-plugin .task-card--layout-inline .task-card__priority-dot--icon {
+    body:not(.is-mobile) .tasknotes-plugin .task-card--layout-inline .task-card__priority-dot--icon {
         padding: 4px;
     }
 
-    .tasknotes-plugin .task-card--layout-inline .task-card__priority-dot--icon svg {
+    body:not(.is-mobile) .tasknotes-plugin .task-card--layout-inline .task-card__priority-dot--icon svg {
         width: 20px;
         height: 20px;
     }
 
-    .tasknotes-plugin .task-card--layout-inline .task-card__context-menu {
+    body:not(.is-mobile) .tasknotes-plugin .task-card--layout-inline .task-card__context-menu {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -4467,7 +4667,7 @@ body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__context-m
         vertical-align: middle;
     }
 
-    .tasknotes-plugin .task-card--layout-inline .task-card__context-menu svg {
+    body:not(.is-mobile) .tasknotes-plugin .task-card--layout-inline .task-card__context-menu svg {
         width: 18px;
         height: 18px;
     }
@@ -8160,6 +8360,30 @@ body.is-mobile .tasknotes-plugin .task-card--layout-inline .task-card__context-m
     flex: 1 1 auto;
 }
 
+.tn-task-modal__markdown-editor--details .details-editor-fallback {
+    display: block;
+    width: 100%;
+    min-height: inherit;
+    height: 100%;
+    max-height: 400px;
+    box-sizing: border-box;
+    padding: var(--size-4-2);
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    color: var(--text-normal);
+    font-family: var(--font-text);
+    font-size: var(--font-ui-medium);
+    line-height: var(--line-height-normal);
+    resize: none;
+    overflow-y: auto;
+}
+
+.tn-task-modal__markdown-editor--details .details-editor-fallback:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 /* Style the editor content */
 .tn-task-modal__markdown-editor--details .cm-content {
     padding-left: var(--size-4-2);
@@ -8858,7 +9082,8 @@ body.is-mobile .tasknotes-plugin.minimalist-task-modal .modal-split-right {
 
 body.is-mobile .tasknotes-plugin .tn-task-modal__markdown-editor--details,
 body.is-mobile .tasknotes-plugin .tn-task-modal__markdown-editor--details .task-details-editor,
-body.is-mobile .tasknotes-plugin .tn-task-modal__markdown-editor--details .cm-editor {
+body.is-mobile .tasknotes-plugin .tn-task-modal__markdown-editor--details .cm-editor,
+body.is-mobile .tasknotes-plugin .tn-task-modal__markdown-editor--details .details-editor-fallback {
     min-height: 140px;
     max-height: 32vh;
 }
@@ -8888,7 +9113,7 @@ body.is-mobile .tasknotes-plugin.minimalist-task-modal.expanded .modal-button-co
 
 body.is-mobile .modal.mod-tasknotes .tn-task-modal__button-bar {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: var(--size-4-2);
 }
 
@@ -8896,10 +9121,29 @@ body.is-mobile .modal.mod-tasknotes .tn-task-modal__button-bar button {
     width: 100%;
     min-height: 40px;
     margin: 0;
+    padding-inline: var(--size-4-2);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-body.is-mobile .modal.mod-tasknotes .tn-task-modal__button-bar .tn-task-modal__open-note-button {
-    grid-column: 1 / -1;
+body.is-mobile .modal.mod-tasknotes .tn-task-modal__button-bar .mod-cta {
+    grid-column: span 2;
+}
+
+body.is-mobile .tasknotes-plugin .task-project-remove {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: var(--size-4-1);
+}
+
+body.is-mobile .tasknotes-plugin .task-project-item--task-card .task-project-remove {
+    margin-top: var(--size-4-1);
 }
 
 /* =====================================================================
@@ -9389,6 +9633,7 @@ body.is-mobile .modal.mod-tasknotes .tn-task-modal__button-bar .tn-task-modal__o
 
 .tasknotes-plugin .nl-preview-container.nl-preview-container--visible {
     display: block;
+    visibility: visible;
 }
 
 .tasknotes-plugin .nl-preview-item {
@@ -9719,6 +9964,7 @@ body.is-mobile .modal.mod-tasknotes .tn-task-modal__button-bar .tn-task-modal__o
     color: var(--interactive-accent);
     display: block;
     margin-bottom: var(--size-4-1);
+    overflow-wrap: anywhere;
 }
 
 .tasknotes-plugin .reminder-modal__task-dates {
@@ -10002,7 +10248,8 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
     margin-top: var(--size-4-2);
 }
 
-.tasknotes-plugin .absolute-fields {
+.tasknotes-plugin .relative-fields.reminder-modal__fields--hidden,
+.tasknotes-plugin .absolute-fields.reminder-modal__fields--hidden {
     display: none;
 }
 
@@ -10143,6 +10390,13 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
         max-width: 90vw;
         min-height: 60vh;
         max-height: 90vh;
+    }
+
+    .tasknotes-plugin .reminder-modal__header,
+    .tasknotes-plugin .reminder-modal__content,
+    .tasknotes-plugin .reminder-modal__actions {
+        padding-left: var(--size-4-3);
+        padding-right: var(--size-4-3);
     }
     
     .tasknotes-plugin .reminder-modal__quick-buttons {
@@ -10519,6 +10773,197 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
 
 .tasknotes-plugin .reminder-defaults-add-text {
     font-weight: 500;
+}
+
+
+/* ===== DEVICE-CODE-MODAL.CSS ===== */
+.tasknotes-device-code-modal {
+	padding: 20px;
+}
+
+.tasknotes-device-code-header {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 20px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.tasknotes-device-code-icon {
+	width: 24px;
+	height: 24px;
+	color: var(--interactive-accent);
+}
+
+.tasknotes-device-code-title {
+	margin: 0;
+	font-size: 1.25em;
+	font-weight: 600;
+}
+
+.tasknotes-device-code-instructions {
+	margin-bottom: 20px;
+}
+
+.tasknotes-device-code-steps {
+	margin: 12px 0;
+	padding-left: 20px;
+}
+
+.tasknotes-device-code-steps li {
+	margin: 8px 0;
+	line-height: 1.6;
+}
+
+.tasknotes-device-code-link {
+	color: var(--interactive-accent);
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.tasknotes-device-code-link:hover {
+	text-decoration: underline;
+}
+
+.tasknotes-device-code-container {
+	margin: 20px 0;
+	padding: 16px;
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 8px;
+}
+
+.tasknotes-device-code-label {
+	margin-bottom: 8px;
+	color: var(--text-muted);
+	font-size: 0.9em;
+	font-weight: 500;
+}
+
+.tasknotes-device-code-box {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 12px;
+	background: var(--background-primary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+}
+
+.tasknotes-device-code-text {
+	flex: 1;
+	color: var(--text-normal);
+	font-family: var(--font-monospace);
+	font-size: 1.5em;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+.tasknotes-device-code-copy {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+	color: var(--text-on-accent);
+	cursor: pointer;
+	background: var(--interactive-accent);
+	border: none;
+	border-radius: 4px;
+}
+
+.tasknotes-device-code-copy:hover {
+	background: var(--interactive-accent-hover);
+}
+
+.tasknotes-device-code-timer {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 16px 0;
+	padding: 12px;
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+}
+
+.tasknotes-device-code-timer-icon {
+	width: 16px;
+	height: 16px;
+	color: var(--text-muted);
+}
+
+.tasknotes-device-code-timer-text {
+	color: var(--text-muted);
+	font-size: 0.9em;
+}
+
+.tasknotes-device-code-status {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin: 16px 0;
+	padding: 12px;
+	background: var(--background-primary-alt);
+	border: 1px solid var(--interactive-accent);
+	border-radius: 6px;
+}
+
+.tasknotes-device-code-status-icon {
+	width: 20px;
+	height: 20px;
+	color: var(--interactive-accent);
+}
+
+.tasknotes-device-code-spinner {
+	animation: tasknotes-device-code-spin 1s linear infinite;
+}
+
+@keyframes tasknotes-device-code-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.tasknotes-device-code-status-text {
+	color: var(--text-muted);
+	font-weight: 500;
+}
+
+.tasknotes-device-code-buttons {
+	display: flex;
+	justify-content: flex-end;
+	gap: 12px;
+	margin-top: 20px;
+}
+
+.tasknotes-device-code-buttons button {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	padding: 8px 16px;
+	font-weight: 500;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.tasknotes-device-code-cancel {
+	color: var(--text-normal);
+	background: var(--background-modifier-border);
+	border: 1px solid var(--background-modifier-border);
+}
+
+.tasknotes-device-code-cancel:hover {
+	background: var(--background-modifier-border-hover);
+}
+
+.tasknotes-device-code-button-icon {
+	width: 16px;
+	height: 16px;
 }
 
 
@@ -10928,6 +11373,20 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
 .task-selector-with-create-modal .prompt {
     display: flex;
     flex-direction: column;
+    width: min(720px, calc(100vw - 32px));
+    max-width: calc(100vw - 32px);
+}
+
+.task-selector-with-create-modal .suggestion-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.task-selector-with-create-modal .suggestion-item {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* ================================================
@@ -10940,10 +11399,27 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
     box-shadow: none;
     padding: var(--tn-spacing-sm) 0;
     margin: 0;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .task-selector-with-create-modal .task-card:hover {
     background: transparent;
+}
+
+.task-selector-with-create-modal .task-card__main-row,
+.task-selector-with-create-modal .task-card__content,
+.task-selector-with-create-modal .task-card__title,
+.task-selector-with-create-modal .task-card__title-text {
+    min-width: 0;
+    max-width: 100%;
+}
+
+.task-selector-with-create-modal .task-card__title-text {
+    word-break: normal;
+    overflow-wrap: anywhere;
 }
 
 /* Hide context menu icon in modal suggestions */
@@ -11950,6 +12426,11 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
         width: 90vw;
     }
 
+    .time-entry-editor-modal .modal-title {
+        white-space: normal;
+        overflow-wrap: anywhere;
+    }
+
     .time-entry-editor-modal__footer {
         flex-direction: column;
         align-items: flex-start;
@@ -11989,6 +12470,22 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
 
     /* Allow filter dropdowns to extend beyond widget boundaries */
     overflow: visible;
+}
+
+.markdown-source-view .cm-sizer > .tasknotes-relationships-widget {
+    /*
+     * CodeMirror editor selection autoscroll can stop when drag selection reaches
+     * the non-editable widget after the editable document content.
+     */
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.markdown-source-view .cm-sizer > .tasknotes-relationships-widget input,
+.markdown-source-view .cm-sizer > .tasknotes-relationships-widget textarea,
+.markdown-source-view .cm-sizer > .tasknotes-relationships-widget [contenteditable="true"] {
+    -webkit-user-select: text;
+    user-select: text;
 }
 
 .is-readable-line-width .tasknotes-relationships-widget {
@@ -13929,6 +14426,65 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
     color: var(--text-on-accent);
 }
 
+body.is-mobile .timeblock-creation-modal input.tasknotes-theme-color-text-input,
+body.is-mobile .timeblock-info-modal input.tasknotes-theme-color-text-input {
+    width: auto;
+}
+
+body.is-mobile .timeblock-creation-modal input.tasknotes-theme-color-picker,
+body.is-mobile .timeblock-info-modal input.tasknotes-theme-color-picker {
+    width: 2.25rem;
+    min-width: 2.25rem;
+    max-width: 2.25rem;
+}
+
+body.is-mobile .timeblock-creation-modal .setting-item,
+body.is-mobile .timeblock-info-modal .setting-item,
+body.is-mobile .tasknotes-plugin.calendar-event-creation-modal .setting-item {
+    align-items: stretch;
+    flex-direction: column;
+    gap: var(--size-4-2);
+}
+
+body.is-mobile .timeblock-creation-modal .setting-item-control,
+body.is-mobile .timeblock-info-modal .setting-item-control,
+body.is-mobile .tasknotes-plugin.calendar-event-creation-modal .setting-item-control {
+    justify-content: flex-start;
+    width: 100%;
+}
+
+body.is-mobile .timeblock-creation-modal input,
+body.is-mobile .timeblock-creation-modal textarea,
+body.is-mobile .timeblock-info-modal input,
+body.is-mobile .timeblock-info-modal textarea,
+body.is-mobile .tasknotes-plugin.calendar-event-creation-modal input,
+body.is-mobile .tasknotes-plugin.calendar-event-creation-modal textarea,
+body.is-mobile .tasknotes-plugin.calendar-event-creation-modal select {
+    width: 100%;
+}
+
+body.is-mobile .timeblock-modal-buttons,
+body.is-mobile .tasknotes-plugin.calendar-event-creation-modal .calendar-event-modal-buttons {
+    flex-direction: column;
+}
+
+body.is-mobile .timeblock-modal-buttons button,
+body.is-mobile .tasknotes-plugin.calendar-event-creation-modal .calendar-event-modal-buttons button {
+    width: 100%;
+}
+
+body.is-mobile .timeblock-modal-buttons-right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+body.is-mobile .timeblock-attachment-remove {
+    width: 32px;
+    height: 32px;
+}
+
 /* Attachment Suggestion Modal Styles */
 .attachment-suggestion {
     padding: 0.5rem;
@@ -14288,6 +14844,14 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
     width: 100%;
 }
 
+.advanced-calendar-view .fc-timegrid-cols table {
+    margin: 0;
+}
+
+.advanced-calendar-view .fc-timegrid-cols .fc-timegrid-col {
+    padding: 0;
+}
+
 /* Remove outer borders only */
 .advanced-calendar-view .fc-theme-standard .fc-scrollgrid {
     border: none;
@@ -14311,6 +14875,7 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
     border-bottom: 1px solid var(--background-modifier-border-hover);
     background: var(--background-primary);
     color: var(--text-normal);
+    overflow: visible;
 }
 
 .advanced-calendar-view .fc-timegrid-slot {
@@ -14433,6 +14998,11 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
 
 .advanced-calendar-view.advanced-calendar-view--list .fc-scroller {
     overflow-x: hidden;
+}
+
+body.is-mobile .advanced-calendar-view.advanced-calendar-view--list .fc-scroller {
+    padding-bottom: calc(128px + env(safe-area-inset-bottom, 0px));
+    scroll-padding-bottom: calc(128px + env(safe-area-inset-bottom, 0px));
 }
 
 .advanced-calendar-view.advanced-calendar-view--list .fc-list-table {
@@ -14676,11 +15246,54 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
     white-space: normal;
 }
 
+.advanced-calendar-view .fc-timegrid-all-day-events .fc-daygrid-event {
+    white-space: nowrap;
+}
+
+.advanced-calendar-view .fc-timegrid-all-day-events .fc-event-main,
+.advanced-calendar-view .fc-timegrid-all-day-events .fc-event-main-frame {
+    min-width: 0;
+}
+
+.advanced-calendar-view .fc-timegrid-all-day-events .fc-event-title {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    overflow-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.advanced-calendar-view .fc-timegrid .fc-daygrid-body .fc-daygrid-event {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.advanced-calendar-view .fc-timegrid .fc-daygrid-body .fc-event-main,
+.advanced-calendar-view .fc-timegrid .fc-daygrid-body .fc-event-main-frame,
+.advanced-calendar-view .fc-timegrid .fc-daygrid-body .fc-event-title-container {
+    min-width: 0;
+}
+
+.advanced-calendar-view .fc-timegrid .fc-daygrid-body .fc-event-title-container {
+    overflow: hidden;
+}
+
+.advanced-calendar-view .fc-timegrid .fc-daygrid-body .fc-event-title {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    overflow-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .advanced-calendar-view .fc-timegrid-slot-label {
     font-size: 0.8rem;
     color: var(--text-muted);
     padding: 0;
     text-align: right;
+    width: 4rem;
 }
 
 .advanced-calendar-view .fc-timegrid-slot-label-frame {
@@ -14846,15 +15459,15 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
         display: none;
     }
 
-    .advanced-calendar-view .fc-timegrid-event.fc-task-event,
-    .advanced-calendar-view .fc-timegrid-event.fc-ics-event,
-    .advanced-calendar-view .fc-timegrid-event[data-event-type="property-based"] {
+    body.is-mobile .advanced-calendar-view .fc-timegrid-event.fc-task-event,
+    body.is-mobile .advanced-calendar-view .fc-timegrid-event.fc-ics-event,
+    body.is-mobile .advanced-calendar-view .fc-timegrid-event[data-event-type="property-based"] {
         background-color: var(--fc-event-border-color);
     }
 
-    .advanced-calendar-view .fc-timegrid-event.fc-task-event .fc-event-main,
-    .advanced-calendar-view .fc-timegrid-event.fc-ics-event .fc-event-main,
-    .advanced-calendar-view .fc-timegrid-event[data-event-type="property-based"] .fc-event-main {
+    body.is-mobile .advanced-calendar-view .fc-timegrid-event.fc-task-event .fc-event-main,
+    body.is-mobile .advanced-calendar-view .fc-timegrid-event.fc-ics-event .fc-event-main,
+    body.is-mobile .advanced-calendar-view .fc-timegrid-event[data-event-type="property-based"] .fc-event-main {
         color: var(--text-on-accent);
     }
 }
@@ -15754,7 +16367,7 @@ body.is-mobile .tasknotes-plugin .kanban-view__board {
 body.is-mobile .tasknotes-plugin .kanban-view__column {
     min-width: min(78vw, 320px);
     max-width: min(78vw, 320px);
-    max-height: none;
+    max-height: 100%;
     scroll-snap-align: start;
 }
 
@@ -15905,6 +16518,32 @@ body.is-mobile .tasknotes-plugin .kanban-view__swimlane-column {
 
 .tasknotes-plugin .kanban-view__card-wrapper--shift-down {
     transform: translateY(var(--tn-drag-gap, 60px));
+}
+
+.tasknotes-plugin .kanban-view__card-wrapper--drop-marker::before {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    top: calc(-1 * var(--tn-drag-gap, 60px) + var(--tn-spacing-xs));
+    height: max(32px, calc(var(--tn-drag-gap, 60px) - (var(--tn-spacing-xs) * 2)));
+    box-sizing: border-box;
+    border: 2px dashed var(--tn-interactive-accent);
+    border-radius: var(--tn-radius-md);
+    background: color-mix(in srgb, var(--tn-interactive-accent) 12%, transparent);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--tn-interactive-accent) 20%, transparent);
+    pointer-events: none;
+}
+
+.tasknotes-plugin .kanban-view__cards--drop-marker-end::after,
+.tasknotes-plugin .kanban-view__tasks-container.kanban-view__cards--drop-marker-end::after {
+    content: "";
+    display: block;
+    height: max(32px, calc(var(--tn-drag-gap, 60px) - (var(--tn-spacing-xs) * 2)));
+    box-sizing: border-box;
+    border: 2px dashed var(--tn-interactive-accent);
+    border-radius: var(--tn-radius-md);
+    background: color-mix(in srgb, var(--tn-interactive-accent) 12%, transparent);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--tn-interactive-accent) 20%, transparent);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -16496,18 +17135,21 @@ body.is-mobile .tasknotes-plugin .kanban-view__swimlane-column {
    ================================================ */
 
 /* Pomodoro View Container - Root Block */
-.tasknotes-plugin .pomodoro-view {
+.tasknotes-plugin.pomodoro-view {
+    box-sizing: border-box;
     padding: var(--tn-spacing-xl);
     display: flex;
     flex-direction: column;
+    width: 100%;
     height: 100%;
     overflow-y: auto;
     gap: var(--tn-spacing-xl);
     max-width: 100%;
+    min-width: 0;
+    min-height: 0;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     background: var(--tn-bg-primary);
-    min-height: 100vh;
 
 	button {
 		cursor: var(--cursor-link, pointer);
@@ -16992,6 +17634,16 @@ body.is-mobile .tasknotes-plugin .kanban-view__swimlane-column {
     box-sizing: border-box;
 }
 
+/* Center the timer group only when there is spare height. Auto margins collapse
+   when the pane is shorter than the content, keeping the top scrollable. */
+.tasknotes-plugin.pomodoro-view > .pomodoro-view__timer-section {
+    margin-top: auto;
+}
+
+.tasknotes-plugin.pomodoro-view > .pomodoro-view__stats-section {
+    margin-bottom: auto;
+}
+
 /* Statistics Grid */
 .tasknotes-plugin .pomodoro-view__stats {
     display: flex;
@@ -17043,7 +17695,7 @@ body.is-mobile .tasknotes-plugin .kanban-view__swimlane-column {
    ================================================ */
 
 @media (max-width: 768px) {
-    .tasknotes-plugin .pomodoro-view {
+    .tasknotes-plugin.pomodoro-view {
         padding: var(--tn-spacing-md);
         gap: var(--tn-spacing-md);
     }
@@ -17126,214 +17778,214 @@ body.is-mobile .tasknotes-plugin .kanban-view__swimlane-column {
    ================================================ */
 
 /* Extra responsive breakpoints for very granular control */
-.tasknotes-plugin .pomodoro-view--tiny {
+.tasknotes-plugin.pomodoro-view--tiny {
     padding: var(--tn-spacing-sm);
     gap: var(--tn-spacing-sm);
 }
 
-.tasknotes-plugin .pomodoro-view.pomodoro-view--tiny .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
+.tasknotes-plugin.pomodoro-view.pomodoro-view--tiny .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
     font-size: 2rem;
     font-weight: 700;
 }
 
-.tasknotes-plugin .pomodoro-view--extra-narrow {
+.tasknotes-plugin.pomodoro-view--extra-narrow {
     padding: var(--tn-spacing-md);
     gap: var(--tn-spacing-sm);
 }
 
-.tasknotes-plugin .pomodoro-view.pomodoro-view--extra-narrow .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
+.tasknotes-plugin.pomodoro-view.pomodoro-view--extra-narrow .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
     font-size: 2.2rem;
     font-weight: 650;
 }
 
 /* Very narrow view (≤ 300px) - Minimal layout */
-.tasknotes-plugin .pomodoro-view--very-narrow {
+.tasknotes-plugin.pomodoro-view--very-narrow {
     padding: var(--tn-spacing-md);
     gap: var(--tn-spacing-md);
 }
 
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__status {
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__status {
     font-size: var(--tn-font-size-sm);
     margin-bottom: var(--tn-spacing-xs);
 }
 
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__timer-section {
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__timer-section {
     padding: var(--tn-spacing-sm) 0;
 }
 
-.tasknotes-plugin .pomodoro-view.pomodoro-view--very-narrow .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
+.tasknotes-plugin.pomodoro-view.pomodoro-view--very-narrow .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
     font-size: 2.5rem;
     font-weight: 600;
 }
 
-.tasknotes-plugin .pomodoro-view.pomodoro-view--very-narrow .pomodoro-view__timer-overlay .pomodoro-view__timer-input {
+.tasknotes-plugin.pomodoro-view.pomodoro-view--very-narrow .pomodoro-view__timer-overlay .pomodoro-view__timer-input {
     font-size: 2.5rem;
     font-weight: 600;
 }
 
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__time-controls {
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__time-controls {
     gap: var(--tn-spacing-sm);
 }
 
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__time-adjust-button {
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__time-adjust-button {
     min-width: 42px;
     height: 32px;
     font-size: var(--tn-font-size-xs);
 }
 
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__task-selector {
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__task-selector {
     gap: var(--tn-spacing-sm);
 }
 
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__task-buttons {
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__task-buttons {
     flex-direction: column;
     gap: var(--tn-spacing-xs);
 }
 
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__task-select-button,
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__task-clear-button {
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__task-select-button,
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__task-clear-button {
     font-size: var(--tn-font-size-sm);
     padding: var(--tn-spacing-xs) var(--tn-spacing-sm);
 }
 
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__primary-controls {
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__primary-controls {
     flex-direction: column;
     gap: var(--tn-spacing-xs);
 }
 
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__start-button,
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__pause-button,
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__stop-button {
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__start-button,
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__pause-button,
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__stop-button {
     width: 100%;
     max-width: 200px;
     font-size: var(--tn-font-size-sm);
     padding: var(--tn-spacing-sm);
 }
 
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__skip-break-button {
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__skip-break-button {
     font-size: var(--tn-font-size-sm);
     padding: var(--tn-spacing-xs) var(--tn-spacing-sm);
 }
 
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__stats {
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__stats {
     font-size: var(--tn-font-size-xs);
 }
 
 /* Narrow view (≤ 400px) - Compact layout */
-.tasknotes-plugin .pomodoro-view--narrow {
+.tasknotes-plugin.pomodoro-view--narrow {
     padding: var(--tn-spacing-lg);
     gap: var(--tn-spacing-lg);
 }
 
-.tasknotes-plugin .pomodoro-view.pomodoro-view--narrow .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
+.tasknotes-plugin.pomodoro-view.pomodoro-view--narrow .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
     font-size: 3rem;
     font-weight: 600;
 }
 
-.tasknotes-plugin .pomodoro-view.pomodoro-view--narrow .pomodoro-view__timer-overlay .pomodoro-view__timer-input {
+.tasknotes-plugin.pomodoro-view.pomodoro-view--narrow .pomodoro-view__timer-overlay .pomodoro-view__timer-input {
     font-size: 3rem;
     font-weight: 600;
 }
 
-.tasknotes-plugin .pomodoro-view--narrow .pomodoro-view__time-controls {
+.tasknotes-plugin.pomodoro-view--narrow .pomodoro-view__time-controls {
     gap: var(--tn-spacing-md);
 }
 
-.tasknotes-plugin .pomodoro-view--narrow .pomodoro-view__time-adjust-button {
+.tasknotes-plugin.pomodoro-view--narrow .pomodoro-view__time-adjust-button {
     min-width: 48px;
     height: 36px;
 }
 
-.tasknotes-plugin .pomodoro-view--narrow .pomodoro-view__task-buttons {
+.tasknotes-plugin.pomodoro-view--narrow .pomodoro-view__task-buttons {
     flex-direction: column;
     gap: var(--tn-spacing-sm);
 }
 
-.tasknotes-plugin .pomodoro-view--narrow .pomodoro-view__primary-controls {
+.tasknotes-plugin.pomodoro-view--narrow .pomodoro-view__primary-controls {
     gap: var(--tn-spacing-sm);
 }
 
-.tasknotes-plugin .pomodoro-view--narrow .pomodoro-view__start-button,
-.tasknotes-plugin .pomodoro-view--narrow .pomodoro-view__pause-button,
-.tasknotes-plugin .pomodoro-view--narrow .pomodoro-view__stop-button {
+.tasknotes-plugin.pomodoro-view--narrow .pomodoro-view__start-button,
+.tasknotes-plugin.pomodoro-view--narrow .pomodoro-view__pause-button,
+.tasknotes-plugin.pomodoro-view--narrow .pomodoro-view__stop-button {
     font-size: var(--tn-font-size-md);
     padding: var(--tn-spacing-sm) var(--tn-spacing-md);
 }
 
 /* Small view (≤ 400px) - Enhanced compact layout */
-.tasknotes-plugin .pomodoro-view--small {
+.tasknotes-plugin.pomodoro-view--small {
     padding: var(--tn-spacing-lg);
     gap: var(--tn-spacing-md);
 }
 
-.tasknotes-plugin .pomodoro-view.pomodoro-view--small .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
+.tasknotes-plugin.pomodoro-view.pomodoro-view--small .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
     font-size: 3.2rem;
     font-weight: 550;
 }
 
-.tasknotes-plugin .pomodoro-view--small .pomodoro-view__primary-controls {
+.tasknotes-plugin.pomodoro-view--small .pomodoro-view__primary-controls {
     gap: var(--tn-spacing-sm);
 }
 
 /* Medium-small view (≤ 500px) - Transitional layout */
-.tasknotes-plugin .pomodoro-view--medium-small {
+.tasknotes-plugin.pomodoro-view--medium-small {
     padding: var(--tn-spacing-lg);
     gap: var(--tn-spacing-lg);
 }
 
-.tasknotes-plugin .pomodoro-view.pomodoro-view--medium-small .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
+.tasknotes-plugin.pomodoro-view.pomodoro-view--medium-small .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
     font-size: 3.6rem;
     font-weight: 500;
 }
 
 /* Medium view (≤ 600px) - Standard responsive adjustments */
-.tasknotes-plugin .pomodoro-view--medium {
+.tasknotes-plugin.pomodoro-view--medium {
     padding: var(--tn-spacing-xl);
     gap: var(--tn-spacing-xl);
 }
 
-.tasknotes-plugin .pomodoro-view.pomodoro-view--medium .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
+.tasknotes-plugin.pomodoro-view.pomodoro-view--medium .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
     font-size: 4rem;
     font-weight: 500;
 }
 
-.tasknotes-plugin .pomodoro-view--medium .pomodoro-view__task-buttons {
+.tasknotes-plugin.pomodoro-view--medium .pomodoro-view__task-buttons {
     gap: var(--tn-spacing-md);
 }
 
 /* Wide view (> 600px) - Enhanced layout */
-.tasknotes-plugin .pomodoro-view--wide {
+.tasknotes-plugin.pomodoro-view--wide {
     padding: var(--tn-spacing-xl);
     gap: var(--tn-spacing-xl);
 }
 
-.tasknotes-plugin .pomodoro-view.pomodoro-view--wide .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
+.tasknotes-plugin.pomodoro-view.pomodoro-view--wide .pomodoro-view__timer-overlay .pomodoro-view__timer-display {
     font-size: 4.5rem;
     font-weight: 400;
 }
 
 /* Task card responsiveness */
-.tasknotes-plugin .pomodoro-view--very-narrow .task-card,
-.tasknotes-plugin .pomodoro-view--narrow .task-card {
+.tasknotes-plugin.pomodoro-view--very-narrow .task-card,
+.tasknotes-plugin.pomodoro-view--narrow .task-card {
     font-size: var(--tn-font-size-sm);
 }
 
-.tasknotes-plugin .pomodoro-view--very-narrow .task-card__metadata,
-.tasknotes-plugin .pomodoro-view--narrow .task-card__metadata {
+.tasknotes-plugin.pomodoro-view--very-narrow .task-card__metadata,
+.tasknotes-plugin.pomodoro-view--narrow .task-card__metadata {
     font-size: var(--tn-font-size-xs);
 }
 
 /* Hide less essential elements in very narrow views */
-.tasknotes-plugin .pomodoro-view--very-narrow .task-card__context-menu {
+.tasknotes-plugin.pomodoro-view--very-narrow .task-card__context-menu {
     display: none;
 }
 
 /* Adjust progress circle stroke width for small sizes */
-.tasknotes-plugin .pomodoro-view--very-narrow .pomodoro-view__progress-circle {
+.tasknotes-plugin.pomodoro-view--very-narrow .pomodoro-view__progress-circle {
     stroke-width: 3;
 }
 
-.tasknotes-plugin .pomodoro-view--narrow .pomodoro-view__progress-circle {
+.tasknotes-plugin.pomodoro-view--narrow .pomodoro-view__progress-circle {
     stroke-width: 4;
 }
 
@@ -18718,10 +19370,34 @@ body.is-mobile .tasknotes-plugin .kanban-view__swimlane-column {
 }
 
 
+/* ===== RELEASE-NOTES-VIEW.CSS ===== */
+.tasknotes-release-notes-view .release-notes-version-content {
+    font-family: var(--font-text);
+    font-size: var(--font-text-size);
+    line-height: var(--line-height-normal);
+}
+
+
 /* ===== SETTINGS-VIEW.CSS ===== */
 /* ================================================
    SETTINGS VIEW - MINIMAL CLEAN STRUCTURE
    ================================================ */
+
+/* Obsidian 1.13+ gives plugin setting-tab roots the `setting-item` class. Its
+   flex layout would place TaskNotes' toolbar and tab content side by side, so
+   restore the vertical document flow used by this settings view. */
+.modal.mod-settings .tasknotes-settings {
+    box-sizing: border-box;
+    display: block;
+}
+
+body:not(.is-mobile) .modal.mod-settings .tasknotes-settings {
+    padding-inline: var(--size-4-8);
+}
+
+body:not(.is-mobile) .modal.mod-settings .tasknotes-settings .settings-view__tab-content > .setting-group {
+    margin-inline: 0;
+}
 
 /* ================================================
    SETTINGS HEADER
@@ -18830,6 +19506,10 @@ body.is-mobile .tasknotes-plugin .kanban-view__swimlane-column {
 
     .tasknotes-plugin .settings-header {
         justify-content: flex-start;
+    }
+
+    .tasknotes-plugin .settings-view__tab-nav {
+        width: 100%;
     }
 }
 
@@ -19014,6 +19694,77 @@ select.tasknotes-settings__card-input {
 .tasknotes-settings__card-input:focus {
     outline: none;
     border-color: var(--interactive-accent);
+}
+
+.tasknotes-theme-color-text-input {
+    flex: 1 1 10rem;
+    min-width: 0;
+}
+
+input.tasknotes-theme-color-picker {
+    flex: 0 0 2.25rem;
+    width: 2.25rem;
+    min-width: 2.25rem;
+    max-width: 2.25rem;
+    height: 2rem;
+    padding: 2px;
+    margin-inline-start: 0.5rem;
+    cursor: var(--cursor-link, pointer);
+}
+
+body.is-mobile .tasknotes-plugin .tasknotes-settings__card-config-row {
+    align-items: stretch;
+    flex-direction: column;
+    gap: var(--tn-spacing-xs);
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+body.is-mobile .tasknotes-plugin .tasknotes-settings__nested-content,
+body.is-mobile .tasknotes-plugin .tasknotes-settings__nested-cards,
+body.is-mobile .tasknotes-plugin .tasknotes-settings__collapsible-section-content {
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+body.is-mobile .tasknotes-plugin .field-manager,
+body.is-mobile .tasknotes-plugin .field-manager__content,
+body.is-mobile .tasknotes-plugin .field-manager__cards {
+    min-width: 0;
+    max-width: 100%;
+}
+
+body.is-mobile .tasknotes-plugin .field-manager__tabs {
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: thin;
+}
+
+body.is-mobile .tasknotes-plugin .field-manager__tab {
+    flex: 0 0 auto;
+}
+
+body.is-mobile .tasknotes-plugin .tasknotes-settings__card-config-label {
+    min-width: 0;
+    width: 100%;
+    margin-right: 0;
+}
+
+body.is-mobile .tasknotes-plugin .tasknotes-settings__card-input:not([type="checkbox"]):not([type="color"]) {
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+body.is-mobile .tasknotes-plugin .tasknotes-settings__card-actions {
+    flex-direction: column;
+}
+
+body.is-mobile .tasknotes-plugin .tasknotes-settings__card-action-btn {
+    justify-content: center;
+    width: 100%;
 }
 
 /* Card Actions */
@@ -20046,6 +20797,80 @@ select.tasknotes-settings__card-input {
 }
 
 
+/* ===== FIELD-MANAGER.CSS ===== */
+.tasknotes-plugin .field-manager {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.tasknotes-plugin .field-manager__tabs {
+	display: flex;
+	gap: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid var(--background-modifier-border);
+}
+
+.tasknotes-plugin .field-manager__tab {
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: background-color 0.2s;
+}
+
+.tasknotes-plugin .field-manager__tab:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.tasknotes-plugin .field-manager__tab--active {
+	color: var(--text-on-accent);
+	background-color: var(--interactive-accent);
+}
+
+.tasknotes-plugin .field-manager__content {
+	padding: 1rem 0;
+}
+
+.tasknotes-plugin .field-manager__cards {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+.tasknotes-plugin .field-manager__empty {
+	padding: 2rem;
+	color: var(--text-muted);
+	text-align: center;
+}
+
+.tasknotes-plugin .field-card__type {
+	padding: 0.125rem 0.5rem;
+	font-size: 0.75rem;
+	background: var(--background-modifier-border);
+	border-radius: 3px;
+}
+
+.tasknotes-plugin .field-card__type--core {
+	color: var(--text-on-accent);
+	background: var(--interactive-accent);
+}
+
+.tasknotes-plugin .field-card__type--user {
+	color: var(--text-on-accent);
+	background: var(--color-purple);
+}
+
+.tasknotes-plugin .field-card__type--dependency {
+	color: var(--text-on-accent);
+	background: var(--color-orange);
+}
+
+.tasknotes-plugin .field-card__type--organization {
+	color: var(--text-on-accent);
+	background: var(--color-green);
+}
+
+
 /* ===== WEBHOOK-SETTINGS.CSS ===== */
 /* 
  * Webhook Settings UI Styles
@@ -20790,6 +21615,18 @@ select.tasknotes-settings__card-input {
     margin-right: 0;
 }
 
+.tn-tasknotesTaskList .tn-search-container {
+	display: flex;
+	align-items: center;
+	gap: var(--tn-spacing-sm);
+	min-width: 0;
+}
+
+.tn-tasknotesTaskList .tn-search-box {
+	flex: 1;
+	min-width: 0;
+}
+
 /* Toggle button for groups */
 .tn-bases-tasknotes-list .task-group-toggle {
     appearance: none;
@@ -20868,8 +21705,8 @@ select.tasknotes-settings__card-input {
 
 body.is-mobile .tn-tasknotesTaskList .tn-bases-items-container,
 body.is-mobile .tn-bases-tasknotes-list {
-    padding-bottom: calc(112px + env(safe-area-inset-bottom, 0px));
-    scroll-padding-bottom: calc(112px + env(safe-area-inset-bottom, 0px));
+    padding-bottom: calc(128px + env(safe-area-inset-bottom, 0px));
+    scroll-padding-bottom: calc(128px + env(safe-area-inset-bottom, 0px));
 }
 
 /* Sidebar and popout note embeds already have a constrained note scroller. Let

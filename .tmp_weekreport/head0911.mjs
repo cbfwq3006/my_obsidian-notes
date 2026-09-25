@@ -1,0 +1,1 @@
+﻿import fs from 'node:fs'; const p='E:/sl_obsidian/工作日报/2026-09-11 工作日报.md'; const lines=fs.readFileSync(p,'utf8').split(/\r?\n/); for(let i=0;i<130&&i<lines.length;i++) console.log((i+1)+':'+lines[i]);

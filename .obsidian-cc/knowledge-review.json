@@ -1,0 +1,5092 @@
+{
+  "version": 1,
+  "revision": 124,
+  "candidates": [
+    {
+      "schemaVersion": 1,
+      "id": "kc_0435ac605542fce2b2f28218",
+      "source": {
+        "path": "00 临时箱/普通家庭出身的孩子，前半生唯一的主线就是积累自己的生存资本，不要过早把精力浪费在爱情、面子、情绪和无效社交上.md",
+        "excerpt": "把时间花在能产生复利的事情上。"
+      },
+      "summary": "文章给出可执行的长期积累原则：选领域深耕、做复利事项、拒绝低价值消耗、接受慢增长。",
+      "proposedContent": "建议沉淀为“生存资本积累清单”：1. 选择一个领域深耕，避免频繁切换；2. 把时间投入读书、技能、身体、专业经验等能产生复利的事项；3. 拒绝无意义聚餐、情绪消耗、面子消费和低价值关系；4. 接受起步慢，关键是持续滚动；5. 明确能力圈边界，只在真正理解的领域做重要决策。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:19:15.494Z",
+      "updatedAt": "2026-08-20T09:19:15.494Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_05a212e87d99939b6b8ace29",
+      "source": {
+        "path": "00 临时箱/豆包工作，正式发布！豆包工作是一款面向生产力场景的全新 Agent 产品，不只「生成内容」，更帮助个人与企业「完成工作」，豆包工作还与飞书深度打通，让Agent基于企业上下文更准确地完.md",
+        "excerpt": "豆包工作是一款面向生产力场景的全新 Agent 产品，不只「生成内容」，更帮助个人与企业「完成工作」"
+      },
+      "summary": "这是相同内容哈希的重复同步版本，正文主要是视频截图和产品宣传语，未发现新的实质性信息。",
+      "proposedContent": "与此前同内容笔记重复，不新增长期知识条目。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.9,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-09-11T09:13:58.597Z",
+      "updatedAt": "2026-09-11T09:13:58.597Z",
+      "proposalKind": "insight-orphan"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_060d6a3192ee8a72b73c7c3a",
+      "source": {
+        "path": "00 临时箱/你还在等Kimi官网恢复？有人已经用kimi k3省了一半钱!.md",
+        "excerpt": "如果Token Plan解决的是“多模型调度的成本确定性”，那Coding Plan解决的是另一个问题——编程场景下的使用自由。"
+      },
+      "summary": "文章把通用 AI 使用和编程 AI 使用区分开：前者重模型调度和成本确定性，后者重不中断的心流。",
+      "proposedContent": "可沉淀为“AI 订阅选择框架”：如果任务包括文案、翻译、分析、检索、代码等多种类型，应优先看多模型调度、总成本上限和额度滚动规则；如果主要在 Claude Code、Cursor、VS Code 等编程场景中高频使用，核心指标是心流是否被额度提醒、模型切换和账单焦虑打断。编程场景下，稳定交互体验可能比单次调用便宜几块钱更重要。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.8,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:21:30.397Z",
+      "updatedAt": "2026-08-20T09:21:30.397Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_08f373f46b5c3ee2fb386391",
+      "source": {
+        "path": "00 临时箱/你现在可能用不上，但哪天Mac电脑变卡了会庆幸自己存了这篇.md",
+        "excerpt": "先在恢复模式里打开终端，然后执行命令：diskutil list，先确认你的内置物理盘是不是 /dev/disk0。确认后再执行..."
+      },
+      "summary": "文章补充了磁盘工具失效时的终端处理路径，但这部分属于高风险操作，必须谨慎记录。",
+      "proposedContent": "可记为一条谨慎操作提醒：当磁盘工具无法正常抹盘时，可以在恢复模式下用终端查看磁盘结构，再决定是否处理整块物理盘。此类命令有清盘风险，只适合作为排障思路，不应在没有确认目标磁盘和备份状态时直接执行。若要长期保留，应把命令放进‘排障参考’而非可直接照抄的常规步骤。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.8,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:03:43.223Z",
+      "updatedAt": "2026-08-20T10:03:43.223Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_0a1c8f23aa8072d38f337a4f",
+      "source": {
+        "path": "00 临时箱/让 Mac 在夜里读懂你的数字生活.md",
+        "excerpt": "它不会擅自操作：你可以先读、再修改，只有点击确认，动作才真正发出。"
+      },
+      "summary": "文章体现了一个值得复用的 AI 助理交互原则：主动发现问题，但动作必须经用户确认。",
+      "proposedContent": "可沉淀为“克制型主动 AI 助理”原则：AI 可以主动整理上下文、发现漏回消息、续费风险、研究计划等事项，并生成行动草稿；但不应直接代替用户执行。更稳妥的交互是“发现 - 草稿 - 用户修改 - 确认执行”，既提升效率，也保留用户控制权。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.82,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:17:49.795Z",
+      "updatedAt": "2026-08-20T09:17:49.795Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_0d626823132dc139c6e84604",
+      "source": {
+        "path": "00 临时箱/成事的人，苦都吃得“挑三拣四”.md",
+        "excerpt": "有些苦是消耗型的，有些苦是积累型的。"
+      },
+      "summary": "吃苦是否有价值，不看苦不苦，看它会不会沉淀成能力、经验和资源。",
+      "proposedContent": "判断一件苦值不值得吃，关键看它能否转化为可积累资产；能沉淀能力、方法、人脉的苦值得吃，纯消耗、纯自我感动、白送的苦应当避免。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.97,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:46:58.371Z",
+      "updatedAt": "2026-08-20T23:46:58.371Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_102bda4c7fdce1007c96a9cc",
+      "source": {
+        "path": "00 临时箱/OCI思维：Skill的终点，不是指令，而是目标系统.md",
+        "excerpt": "AI的能动性我们不用怀疑。真正要被反复确认的，是客观规律有没有被讲清楚。"
+      },
+      "summary": "文章给出一个很实用的使用态度：不要控制模型每一步，而要把边界、资源和验收标准定义清楚。",
+      "proposedContent": "建议沉淀为‘边界优先’的 AI 协作原则：先确认边界和资源，再让模型自行选择路径。对于确定性任务，C 和 I 要精确；对于创意性任务，O 要明确但 C 可提供案例和审美火种，I 可以保留更多发挥空间。这样能减少无效指令，也更符合模型的工作方式。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:18:27.603Z",
+      "updatedAt": "2026-08-20T10:18:27.603Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_116873bf7002222890c5f3af",
+      "source": {
+        "path": "00 临时箱/你还在等Kimi官网恢复？有人已经用kimi k3省了一半钱!.md",
+        "excerpt": "Token Plan做的事很简单：把按量换成了月费封顶。"
+      },
+      "summary": "文章提供了一个 AI 工具成本判断框架：按量付费买灵活性，月费封顶买成本确定性。",
+      "proposedContent": "建议沉淀为“AI 使用成本模型”框架：选择 AI API 或聚合平台时，不只比较单次 token 单价，还要看使用场景是否容易产生持续高频调用。按量付费适合低频、试验性、可控调用；月费封顶适合高频、连续、多模型切换或账单波动敏感的场景。关键判断不是“哪个更便宜”，而是你是否需要成本确定性，以及额度规则是否匹配真实使用节奏。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.78,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:21:30.395Z",
+      "updatedAt": "2026-08-20T09:21:30.395Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_116e8b6b22d27e7ea7728376",
+      "source": {
+        "path": "00 临时箱/人在阅历尚浅的时候，不要沉溺于向内求.md",
+        "excerpt": "没有足够的样本，谁也没法知道。"
+      },
+      "summary": "阅历不足时，自我认知不能只靠内省，而要靠真实经历积累样本。",
+      "proposedContent": "人在年轻或经验不足阶段，不必急着通过冥想、日记和内省找到唯一答案；更重要的是向外试错、碰壁、做事，积累时间轴和空间轴上的样本。等经历足够多后，向内求才更像复盘和沉淀，而不是空转。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-09-07T02:34:47.383Z",
+      "updatedAt": "2026-09-07T02:34:47.383Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_1420488ab128c47a86c5774f",
+      "source": {
+        "path": "00 临时箱/孩子学习差，员工躺平，你为什么越帮他，他越摆烂？｜原子笔记①.md",
+        "excerpt": "这叫 “防御性归因” 。"
+      },
+      "summary": "很多看似消极的行为，可能是对失败和失控的防御，而不是单纯懒惰。",
+      "proposedContent": "当孩子、员工或伴侣表现出‘摆烂’时，先别急着贴上懒惰标签；要先判断他是否曾经努力却得不到确定回报，于是转而用不作为来保护自己。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.97,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:46:34.126Z",
+      "updatedAt": "2026-08-20T23:46:34.126Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_1b8da796a5523bc431d59377",
+      "source": {
+        "path": "00 临时箱/因果的本质是什么？.md",
+        "excerpt": "因果的本质，就一个字：行。"
+      },
+      "summary": "改变因果的关键不是等想通，而是先行动，用行动重塑默认路径。",
+      "proposedContent": "因果不是靠等待或空想产生的，而是从行动开始。一个人先做出不同动作，才会获得反馈、形成新认知，并逐步改写旧习惯和旧路径；知行合一的重点是用行动生成新的因。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.96,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-09-07T02:34:47.391Z",
+      "updatedAt": "2026-09-07T02:34:47.391Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_1c7d306abeb912e437ada011",
+      "source": {
+        "path": "00 临时箱/让 Mac 在夜里读懂你的数字生活.md",
+        "excerpt": "整理后的记忆不是模型内部的黑箱，而是 Mac 上的普通 Markdown 文件夹，可以直接阅读、编辑或逐条删除。"
+      },
+      "summary": "Sentient OS 的关键价值是把个人数字生活整理成用户可控的 Markdown 记忆，而不是锁进模型或专有数据库。",
+      "proposedContent": "建议沉淀为“本地优先 AI 记忆系统”案例：Sentient OS 试图解决 AI 缺少长期上下文的问题。它在 Mac 夜间读取新增文件、截图、消息、Apple Notes、Gmail 和日历等资料，先由本地模型过滤无关和敏感内容，再生成去除个人身份信息后的短摘要，最终整理成 Markdown 记忆文件。这个设计的重点是本地优先、可编辑、可删除、非黑箱，适合作为个人知识库与 AI 长期记忆结合的产品案例。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:17:49.793Z",
+      "updatedAt": "2026-08-20T09:17:49.793Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_211d67d4e0193f67eb3c2d1b",
+      "source": {
+        "path": "00 临时箱/系统思维，不是玄学，是科学.md",
+        "excerpt": "画不出边界，你就永远在解决别人的问题，而不是自己的问题。"
+      },
+      "summary": "系统边界决定问题归属，也决定你该把精力放在哪里。",
+      "proposedContent": "在分析复杂问题前，先明确哪些变量在系统内、哪些在系统外；边界没画清，就会把外部问题误当成自己的问题，导致分析和行动都失焦。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:37:15.089Z",
+      "updatedAt": "2026-08-20T10:37:15.089Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_235cb6d30ebc478976295227",
+      "source": {
+        "path": "00 临时箱/为什么说23点后睡觉的人“亏大了”？.md",
+        "excerpt": "如果固定不了每天早睡，那就先固定起床时间。闹钟一响马上拉开窗帘，接触自然光15-30分钟。"
+      },
+      "summary": "改善睡眠节律可以从固定起床时间、增加晨间光照、限制下午咖啡因和逐步提前入睡等行为入手。",
+      "proposedContent": "可将本文整理为睡眠习惯实验清单：固定起床时间，早晨接触自然光，下午减少咖啡因，睡前降低光线和屏幕刺激，提前洗漱，并以每天提前15分钟的方式逐步调整作息。文中关于23点固定节点、器官修复和具体健康收益的表述需医学核验。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.82,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-25T22:40:10.794Z",
+      "updatedAt": "2026-08-25T22:40:10.794Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_2398d8613d577c410a776115",
+      "source": {
+        "path": "00 临时箱/在Codex上安装知乎CLI，你就是掌管高赞帖的神！.md",
+        "excerpt": "你负责提出问题，它负责把知乎的内容找出来。"
+      },
+      "summary": "Zhihu CLI 适合把知乎搜索、热榜和高赞内容整理成结构化结果。",
+      "proposedContent": "把 Zhihu CLI 接到 Codex 后，可以直接用自然语言或命令批量搜索知乎内容、筛选高赞帖子，并整理出标题、作者、链接、赞同数和评论数等结构化信息。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-24T09:14:06.217Z",
+      "updatedAt": "2026-08-24T09:14:06.217Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_23e4ee7c5be9b3de2a94c083",
+      "source": {
+        "path": "00 临时箱/普通家庭出身的孩子，前半生唯一的主线就是积累自己的生存资本，不要过早把精力浪费在爱情、面子、情绪和无效社交上.md",
+        "excerpt": "三种资本之间不是各自孤立的，可以相互转换。"
+      },
+      "summary": "文章把经济资本、文化资本、社会资本用于解释个人成长中的资源转换，适合沉淀为长期知识框架。",
+      "proposedContent": "可整理为“个人资本转换框架”：经济资本是钱、资产、现金流；文化资本包括知识、技能、思维方式、学历、证书和工具；社会资本是关系网络和机会入口。三者可相互转换，但经济资本通常是最基础的缓冲层。对初始资源较少的人，更应优先积累能持续转化的能力、现金流和专业壁垒，而不是过早投入高消耗、低复利的关系和面子支出。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.82,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:19:15.491Z",
+      "updatedAt": "2026-08-20T09:19:15.491Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_24676b6dc5e91417df8c621c",
+      "source": {
+        "path": "00 临时箱/AI四个方向.md",
+        "excerpt": "AI改变的是商品、内容、服务和决策如何被生产出来。"
+      },
+      "summary": "文章强调 AI 不是只改变触达渠道，而是改变生产方式和决策方式，这决定了财富机会所在。",
+      "proposedContent": "可整理为一个判断标准：互联网、电商、短视频主要改变的是‘怎么触达用户’，而 AI 改变的是‘怎么生产商品、内容、服务和决策’。因此 AI 机会不该只盯模型本身，而要盯它能否重塑某个行业的生产流程、交付流程和决策流程。凡是能把一个环节的成本结构改掉的地方，才是真机会。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.87,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:55:40.477Z",
+      "updatedAt": "2026-08-20T09:55:40.477Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_249110ccbacac59318ed6b66",
+      "source": {
+        "path": "00 临时箱/DeepSeek+WorkBuddy，下一代Office工作台来了！.md",
+        "excerpt": "我觉得未来App等一切用手操作的东西都会消失。最终的入口就是AI入口。"
+      },
+      "summary": "文章提出一个偏判断性的趋势观点：AI 正在吞掉 Office 场景，并可能重构交互入口。",
+      "proposedContent": "建议作为趋势判断而非事实沉淀：作者认为未来的入口会从 App 点击转向 AI 对话、语音甚至更进一步的自然交互，办公软件的很多操作会被 Agent 吸收。这个观点可作为观察方向，但不宜当成既成事实写死。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.63,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:57:14.051Z",
+      "updatedAt": "2026-08-20T09:57:14.051Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_27b90e957d6b9a58c9ca6041",
+      "source": {
+        "path": "00 临时箱/《毛选》五十一：遇到死局，除了硬扛还能干嘛？1943年，4万对40万，教员没选硬打.md",
+        "excerpt": "军事问题，不一定非要用军事手段解决。40万大军压境，不是只能在战场上见分晓。舆论战、外交战、统战战，都可以是破局点。"
+      },
+      "summary": "文章提供了一个可复用的破局框架：遇到死局时，不在原框架里硬扛，而是重新定义问题、换维度、拉资源、制造外部压力。",
+      "proposedContent": "建议沉淀为“死局破局：跳出原框架”的方法论：当一个问题在当前手段内无法推进时，先判断是不是被对方或惯性框在了错误维度里。技术问题未必只能用技术解决，军事压力未必只能军事应对，项目卡点也可能要从商务、组织、舆论、资源或利益绑定角度处理。可操作步骤：1. 停止在单一手段里硬扛；2. 重新界定真正矛盾；3. 找可调动的外部力量；4. 把更多人的利益与结果绑定；5. 用新的战场改变对方成本结构。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.86,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:16:25.635Z",
+      "updatedAt": "2026-08-20T09:16:25.635Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_28041477d7b0033416bcfc5b",
+      "source": {
+        "path": "00 临时箱/想要解决问题，你必须升维（深度好文）.md",
+        "excerpt": "复杂问题是由无数个相互影响的反馈回路组成的。"
+      },
+      "summary": "看问题不能只盯单点，要看系统结构和反馈回路。",
+      "proposedContent": "面对业绩、流程、关系这类复杂问题时，不能只修一个坏点，而要回到制度、激励、信息流和结构本身，找真正的杠杆点。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-24T01:54:21.622Z",
+      "updatedAt": "2026-08-24T01:54:21.622Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_28e4468fab352ab9b4da3610",
+      "source": {
+        "path": "00 临时箱/为什么有的干部总把事推给下级？.md",
+        "excerpt": "政绩观是责任意识在实际工作中的投射，责任意识是政绩观的价值根基。"
+      },
+      "summary": "正确政绩观最终要落到责任意识和具体行动上。",
+      "proposedContent": "评价干部是否树牢正确政绩观，不能只看表态，而要看面对重点难点任务时是否主动担责、协同补位、守土尽责；责任意识是政绩观在工作中的具体投射。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.92,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:31:38.159Z",
+      "updatedAt": "2026-08-20T23:31:38.159Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_2b6a4db64d95dd2c8309bcaa",
+      "source": {
+        "path": "00 临时箱/你把孩子养得太舒服，他反而不想学习了.md",
+        "excerpt": "不是要苦孩子，是别让快乐来得太顺手。"
+      },
+      "summary": "文章提供了一个育儿提醒：孩子缺学习动力时，不只看孩子懒不懒，也要检查家庭是否提供了过多即时满足。",
+      "proposedContent": "可沉淀为“学习动力与即时满足”的育儿原则：不要把孩子不想学习简单归因于懒。学习需要费脑、延迟反馈，而零食、平板、短视频、过度接送和随手满足会降低孩子对努力型成就的耐受度。父母的重点不是制造痛苦，而是设置合理边界：娱乐卡时间、零食限次数、能自己完成的事少代劳，让孩子有机会通过等待、努力和完成任务获得成就感。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.74,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:22:39.454Z",
+      "updatedAt": "2026-08-20T09:22:39.454Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_2cc43ba53765233fdd6473e7",
+      "source": {
+        "path": "00 临时箱/鸡蛋还没孵出来，就别想篮子的事了！.md",
+        "excerpt": "在“有没有鸡蛋”的阶段，操心“鸡蛋往哪个篮子放”，这是顺序反了。"
+      },
+      "summary": "资源分配要分阶段：积累期先集中火力做出第一个结果，守成期再考虑分散风险。",
+      "proposedContent": "当一个目标还没跑通时，不要先做多线分散配置；先把有限资源压到最关键的一仗上，把‘鸡蛋’孵出来，再谈多篮子与风险分散。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.93,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:29:01.017Z",
+      "updatedAt": "2026-08-20T10:29:01.017Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_2ff03d1c79f66756187ca700",
+      "source": {
+        "path": "00 临时箱/AI四个方向.md",
+        "excerpt": "先回头看看自己做过的工作，哪一个环节最慢、最贵、最依赖重复劳动。把它缩短一半，通常就已经值钱了。"
+      },
+      "summary": "文章给出普通人切入 AI 的务实方法：从自己熟悉的行业和重复环节下手，而不是先学完 AI 再找场景。",
+      "proposedContent": "建议沉淀为‘从熟悉业务切入 AI’的方法：先看自己做过的工作里，哪个环节最慢、最贵、最依赖重复劳动；再判断它能否被 AI 缩短一半。对于普通人，最现实的路径不是从零造大模型，而是把已有行业经验、用户需求和 AI 结合，先做出一个能落地的小改造，再逐步形成服务、内容或产品。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.88,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:55:40.480Z",
+      "updatedAt": "2026-08-20T09:55:40.480Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_35a99458511cae89040b8744",
+      "source": {
+        "path": "00 临时箱/很多人其实都不知道，笔记的真正作用是什么？.md",
+        "excerpt": "笔记从替记忆，升级为替组织。"
+      },
+      "summary": "笔记的价值会随着技术进步从记忆、组织、检索一路升级到执行。",
+      "proposedContent": "笔记的演化不是单纯换载体，而是不断把低价值工作交出去：先替记忆，再替组织，再替检索，最终可以替执行。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.96,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:36:17.163Z",
+      "updatedAt": "2026-08-20T23:36:17.163Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_3647b68a415c5f9e823beb6d",
+      "source": {
+        "path": "00 临时箱/读懂“最小阻力之路”：卸掉党建多余包袱，贴着生产做实落地.md",
+        "excerpt": "党员岗位写实积分制，那些虚头巴脑的加分项全砍掉，只认四样实打实的活。"
+      },
+      "summary": "文章给出一个具体激励样板：把评优与实绩挂钩，用可见积分替代空泛台账。",
+      "proposedContent": "可整理为“岗位写实积分制”案例：在基层场景中，将日常巡检、隐患排查、工艺改造、带徒弟、抢险保产等可验证行为计入积分，并与月度公示、绩效兑现和评优结果绑定。这样可以减少‘会写材料但不干活’的逆向激励，推动‘干活的人不吃亏’。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.83,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:31:36.773Z",
+      "updatedAt": "2026-08-20T09:31:36.773Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_365a2d5a97068a6912791667",
+      "source": {
+        "path": "00 临时箱/有的干部既不解决真问题，也不真解决问题.md",
+        "excerpt": "解决问题关键在一个“真”字。"
+      },
+      "summary": "判断干部是否担当，不看口头表态，看是否真的啃硬问题、真落地。",
+      "proposedContent": "评价解决问题是否到位，要看是否抓住牵引性、复杂性和群众痛点问题，是否有具体措施、责任闭环和现场验证，而不是只做解释性动作。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.94,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:41:46.295Z",
+      "updatedAt": "2026-08-20T23:41:46.295Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_3848e894423d062e2846f286",
+      "source": {
+        "path": "00 临时箱/为什么明知家里条件一般，你的孩子还不肯认真读书？.md",
+        "excerpt": "多给予鼓励和认可，哪怕他只是几分的进步"
+      },
+      "summary": "家庭支持应关注具体进步、阅读示范和学习环境，而不是只用批评推动成绩。",
+      "proposedContent": "父母可以用具体反馈替代笼统批评，和孩子共同建立阅读习惯，减少低质量手机使用，并根据孩子特点同时考虑学术学习与实践技能发展。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-25T22:40:35.582Z",
+      "updatedAt": "2026-08-25T22:40:35.582Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_3c15d0e82b72c083ee27e82a",
+      "source": {
+        "path": "00 临时箱/同步助手_2026-09-02.md",
+        "excerpt": "你转发的是视频号卡片，我只能同步到标题和简介。"
+      },
+      "summary": "当前材料只有视频号简介，无法支撑稳定知识沉淀。",
+      "proposedContent": "这条材料可作为待补抓提醒：主题可能涉及 AI 改变教育、4 到 9 年级‘做中学’落地、河南省级实施方案、PBL 与校外机构机会，但目前缺少视频正文和政策原文，不能据此直接沉淀结论。建议补充视频链接或转写后再分析。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.86,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-09-02T01:40:30.131Z",
+      "updatedAt": "2026-09-02T01:40:30.131Z",
+      "proposalKind": "insight-orphan"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_3cfc8bd29a5bb6976ba49aab",
+      "source": {
+        "path": "00 临时箱/中央企业优秀党务工作者 - 洛阳分公司仝浩波：党建引领破局攻坚，实干笃行赋能发展.md",
+        "excerpt": "始终坚持党建与业务同谋划、同部署、同落实、同考核。"
+      },
+      "summary": "文章给出了一套党业融合的标准动作：把党建指标与经营指标一起设计，一起推进，一起考核。",
+      "proposedContent": "建议沉淀为“党业融合的四同机制”案例：党建与业务要同谋划、同部署、同落实、同考核，不能只在口头上强调融合。可配套的做法包括：第一议题与经营问题绑定、党员责任区和示范岗服务具体攻坚任务、党员突击队解决急难险重、书记攻坚项目盯住业务痛点。这个框架适合央企基层党务工作复盘。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:36:49.440Z",
+      "updatedAt": "2026-08-20T09:36:49.440Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_3d240b8183e32dd7b4b0d4c7",
+      "source": {
+        "path": "00 临时箱/在Codex上安装知乎CLI，你就是掌管高赞帖的神！.md",
+        "excerpt": "Access Secret 是访问凭证，不是知乎登录密码。"
+      },
+      "summary": "CLI 授权要走密钥注入，凭证必须单独保护。",
+      "proposedContent": "使用 Zhihu CLI 时，Access Secret 应通过安全输入方式传给工具，避免写进命令参数、截图或公开仓库；正式统计前还要回到原文核对链接和数据。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.9,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-24T09:14:06.222Z",
+      "updatedAt": "2026-08-24T09:14:06.222Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_3fb6bc34cdfc8d272506d939",
+      "source": {
+        "path": "00 临时箱/很多人还没意识到，WorkBuddy已经改变了我们学习的方式.md",
+        "excerpt": "把每一个实际卡点变成学习入口。"
+      },
+      "summary": "真正的学习发生在真实任务的卡点上，而不是在抽象准备阶段。",
+      "proposedContent": "把 AI 做任务过程中暴露出的错误、延迟和缺失当作学习清单：AI 先执行，人在卡点处追问、验证、修正，形成代理式学习闭环。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:42:19.283Z",
+      "updatedAt": "2026-08-20T10:42:19.283Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_408cf76bca8fb94895f575bc",
+      "source": {
+        "path": "00 临时箱/基础党务，才是党建里最被低估的方法论.md",
+        "excerpt": "节奏、反馈、决策、学习——这四样东西，是任何组织管理都想做到的事。"
+      },
+      "summary": "三会一课可以被理解为组织的节奏、反馈、决策、学习系统。",
+      "proposedContent": "三会一课不是规定动作，而是组织运转的基础操作系统：定期形成节奏，搭建反馈通道，完成决策传导，并统一学习和思想。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.93,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:36:44.153Z",
+      "updatedAt": "2026-08-20T10:36:44.153Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_40bee933268f17c44da8562b",
+      "source": {
+        "path": "00 临时箱/一周以后，我想我终于可以来聊聊Seedance 2.5了。.md",
+        "excerpt": "未来，角色的多角度设定、表情库、服装、道具、场景、声音、动作、镜头规则、色彩规范，都会从参考资料变成生产资料。"
+      },
+      "summary": "AI 视频生产的长期壁垒会从单次提示词转向可复用的创作资产和故事。",
+      "proposedContent": "为获得稳定、一致、可控的生成结果，应提前建设角色设定、场景、道具、声音、动作、镜头和色彩规范等资产库；当画面生成趋于普及后，真正稀缺的仍是独特故事、生活经验和创作者判断。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-25T22:35:11.737Z",
+      "updatedAt": "2026-08-25T22:35:11.737Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_42ad14cff43ba6a96dfa4112",
+      "source": {
+        "path": "00 临时箱/见世面要在生产端，而不是消费端.md",
+        "excerpt": "看到一个结果不要只说好厉害，要学会看流程。"
+      },
+      "summary": "文章给出了一套可执行的生产端观察练习：去非消费场景、买东西时追问成本与利润、看到结果时拆流程。",
+      "proposedContent": "可整理成一个日常观察清单：1. 每月去一次非消费场景，如批发市场、仓库、门店后台，观察生产、流通和销售；2. 买东西时问三个问题：成本大概在哪，为什么卖这个价，靠品牌、渠道还是效率赚钱；3. 看到一个好结果时拆解位置、产品、价格、服务、复购、能力积累和抗风险结构。适合放入商业观察或个人财商训练类笔记。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:14:27.225Z",
+      "updatedAt": "2026-08-20T09:14:27.225Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_43d506c57de6bb4de2e863a5",
+      "source": {
+        "path": "00 临时箱/工作能力差是怎么表现出来的.md",
+        "excerpt": "1、干活磨叽效率低下 / 2、任务要求不懂也不问 / 3、沟通说不明白事儿 / 4、出问题就甩锅抱怨"
+      },
+      "summary": "这是一个重复版的职场能力问题清单，内容与已处理版本基本一致。",
+      "proposedContent": "重复素材，不建议单独沉淀；如需保留，可并入已有‘工作能力差的表现’主题页作为补充示例。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.98,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-24T02:04:12.542Z",
+      "updatedAt": "2026-08-24T02:04:12.542Z",
+      "proposalKind": "insight-orphan"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_4522fedd8590609bc6282b8c",
+      "source": {
+        "path": "00 临时箱/消防员15分钟，把胡子哥的爆款拆成了一个skill，文末送你.md",
+        "excerpt": "skill是长出来的，不是一次做成的。"
+      },
+      "summary": "Skill 更像持续生长的工作流资产，而不是一次性交付物。",
+      "proposedContent": "第一个 Skill 可以很粗糙，先能跑通，再根据使用反馈不断补充规则、例外和触发语；Skill 的价值来自持续迭代，而不是初版完美。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.93,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:37:05.273Z",
+      "updatedAt": "2026-08-20T23:37:05.273Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_49383ef34c0799ce0f8a5ee0",
+      "source": {
+        "path": "00 临时箱/从0开始，12步学会用好AI。.md",
+        "excerpt": "把你脑海中你现在最头疼、最不想干、最抗拒的事情，一股脑的用语音输入法说给AI，记得用【背景、痛点、需求】的框架来去说"
+      },
+      "summary": "AI 入门最有效的方式，是从一个真实痛点任务开始，而不是先系统学工具。",
+      "proposedContent": "新手用 AI 可以从‘最不想做的一件事’切入，用背景、痛点、需求描述任务，再让 AI 通过苏格拉底提问澄清目标，随后交付文件、迭代结果，直到完成。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.91,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:29:37.446Z",
+      "updatedAt": "2026-08-20T23:29:37.446Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_4988ae176c08ec246e8cb894",
+      "source": {
+        "path": "00 临时箱/很多人用不好WorkBuddy的最大卡点，是认知框架的落后.md",
+        "excerpt": "工具决定你的效率下限，认知框架决定你的效率上限。"
+      },
+      "summary": "文章把 AI 工具使用效果的差异，提升为认知框架差异，而不是工具熟练度差异。",
+      "proposedContent": "建议沉淀为“AI 使用的三层认知偏差”框架：1. 习惯锚定，用旧工具标准衡量新工具；2. 一步到位，第一次不完美就认定永远没用；3. 责任外置，把问题完全推给工具而不反思自己的输入、上下文和反馈方式。这个框架适合用来解释为什么同一款 AI 工具会产生完全不同的体验。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.89,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:15:47.128Z",
+      "updatedAt": "2026-08-20T10:15:47.128Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_4a767576fd235ccb539d230b",
+      "source": {
+        "path": "00 临时箱/爬出底层，靠的根本不是拼命.md",
+        "excerpt": "很多人在一个岗位上干了一万个小时，水平还是原地踏步。因为他们只是在重复做，而不是在刻意练。"
+      },
+      "summary": "重复劳动不等于成长，只有带反馈、带目标、带迭代的刻意练习才会带来进步。",
+      "proposedContent": "判断一份努力有没有用，不看时长，看它是否具备明确目标、即时反馈、舒适区边缘和持续迭代这四个条件；没有这四项，再辛苦也只是熟练，不是提升。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:41:19.761Z",
+      "updatedAt": "2026-08-20T10:41:19.761Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_4deef617d12f11f758627e57",
+      "source": {
+        "path": "00 临时箱/很多人还没意识到，WorkBuddy已经改变了我们学习的方式.md",
+        "excerpt": "学习的顺序，被颠倒了。"
+      },
+      "summary": "AI 时代的学习范式从“先学后用”变成了“先做后学”。",
+      "proposedContent": "在 AI 代理足够强的场景里，先设定目标让工具完成，再在真实卡点处回头补知识，往往比先系统学习更有效；学习入口从课本变成了任务现场。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.97,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:42:19.280Z",
+      "updatedAt": "2026-08-20T10:42:19.280Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_4e7e630fcee9da64b53e52a3",
+      "source": {
+        "path": "00 临时箱/DeepSeek+WorkBuddy，下一代Office工作台来了！.md",
+        "excerpt": "如果想改PPT的字，我们可以手动改：就是说，简单的事情，我们可以手动完成，复杂的交给AI搞。"
+      },
+      "summary": "文章强调人机分工原则：低成本、低认知负担的小改动由人做，复杂排版、重构和批量生成交给 AI。",
+      "proposedContent": "可整理为办公协作原则：不要把所有修改都丢给 AI，简单而明确的小改动人手更快，复杂的结构调整、素材生成和跨文件操作更适合交给 AI。真正高效的人机协作，不是完全自动化，而是按任务复杂度分工，让 AI 负责耗时环节，让人负责判断和审美。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.82,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:57:14.048Z",
+      "updatedAt": "2026-08-20T09:57:14.048Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_4ea3041d8ea7f310006db7f8",
+      "source": {
+        "path": "00 临时箱/几千人催我的 Codex +Obsidian 公众号创作工作流，开源了！.md",
+        "excerpt": "你可以完全把他当成 LLM Wiki 知识库，成为你和你的 Agent 的宝贵资产。"
+      },
+      "summary": "Obsidian 的长期价值，在于把本地笔记变成可供 Agent 调用的知识资产。",
+      "proposedContent": "把 Obsidian 当作 LLM Wiki，用本地 Markdown 保存创作素材、知识上下文和历史产物，能让 Agent 基于真实资产进行辅助创作，而不是每次从零开始。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.93,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:41:46.923Z",
+      "updatedAt": "2026-08-20T10:41:46.923Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_4fa5b4f7e74a5b4dd77bb08d",
+      "source": {
+        "path": "00 临时箱/如何在obsidian中添加claudian插件并使用codex.md",
+        "excerpt": "而Claudian 插件 + Codex，就是一个很适合折腾型用户的组合。"
+      },
+      "summary": "Obsidian + Claudian + Codex 可以组成一个“笔记即工作台”的 AI 协作流程。",
+      "proposedContent": "把 Claudian 作为 Obsidian 内的交互入口，把 Codex CLI 作为执行引擎，就能在笔记环境里直接完成提问、生成、修改与代码辅助。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.82,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:28:00.585Z",
+      "updatedAt": "2026-08-20T10:28:00.585Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_5195c6a50c4943e2dc7fa399",
+      "source": {
+        "path": "00 临时箱/发现一个奇怪现象：如果你对孩子越来越好，越来越包容，越来越共情，你的孩子不仅会厌学，更会成为天底下最不珍惜你的那个人.md",
+        "excerpt": "共情本身没有错。错的是只有共情，没有边界。"
+      },
+      "summary": "养育中要区分共情与纵容，情绪要被看见，责任不能被接管。",
+      "proposedContent": "对孩子可以理解情绪、安抚挫败，但不能因此取消任务、撤掉责任或替他逃避成长；真正有效的养育，是有边界的共情。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.97,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-24T02:00:03.746Z",
+      "updatedAt": "2026-08-24T02:00:03.746Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_5558cc74b36e7e93a410e1b1",
+      "source": {
+        "path": "00 临时箱/很多人用不好WorkBuddy的最大卡点，是认知框架的落后.md",
+        "excerpt": "AI的输出让你不满意时，先别下结论，问自己三句话——我的指令够具体吗？我给够上下文了吗？我给过修正反馈让它往更好的方向调整了吗？"
+      },
+      "summary": "文章提供了一个实用的自检方法，适合在 AI 结果不理想时先检查输入质量，而不是先换工具。",
+      "proposedContent": "建议沉淀为‘AI 输出不满意时的三问’：1. 指令是否具体；2. 上下文是否足够；3. 是否给过修正反馈。先检查输入和迭代过程，再判断工具是否真的不行。这个方法能减少责任外置，也能帮助用户更快找到真正的问题点。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.88,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:15:47.135Z",
+      "updatedAt": "2026-08-20T10:15:47.135Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_59dee7ef9026f65f6c7dd543",
+      "source": {
+        "path": "00 临时箱/很多人没有意识到：靠自己实践出来的信息，是非常值钱的.md",
+        "excerpt": "这个世界上，有两种完全不同的信息。一种叫成品信息。另一种叫铸币信息。"
+      },
+      "summary": "文章提供了一个可复用的信息分类框架：听来的结果不如自己试出来的过程值钱。",
+      "proposedContent": "建议沉淀为“成品信息 vs 铸币信息”框架：成品信息是别人总结好的结果，包装精美但缺少过程；铸币信息是你自己在实践中踩坑、试错、付学费得到的东西。真正能直接改变判断和行动的，往往是后者，因为它包含临界点、代价和上下文，而这些很难被别人完整转述。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.88,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:17:02.044Z",
+      "updatedAt": "2026-08-20T10:17:02.044Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_62c61dca0b76ef1534ab5503",
+      "source": {
+        "path": "00 临时箱/《毛选》五十一：遇到死局，除了硬扛还能干嘛？1943年，4万对40万，教员没选硬打.md",
+        "excerpt": "反驳要分层，不要一锅粥。"
+      },
+      "summary": "文章提炼了可用于汇报、谈判、写作的分层反驳方法：先打核心问题，再拆对方话术，最后指出本质后果。",
+      "proposedContent": "建议沉淀为“分层反驳”表达方法：面对复杂争论，不要想到什么说什么，而要按层级组织论证。第一层抓最大矛盾或核心罪名；第二层拆对方具体话术和事实漏洞；第三层指出问题本质和后果；最后做对象切分，打击真正阻力，争取中间力量。这个方法可用于材料写作、汇报说服、甲方沟通和矛盾处理。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:16:25.637Z",
+      "updatedAt": "2026-08-20T09:16:25.637Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_65841f5cf0325167f1f572ac",
+      "source": {
+        "path": "00 临时箱/普通家庭出身的孩子，前半生唯一的主线就是积累自己的生存资本，不要过早把精力浪费在爱情、面子、情绪和无效社交上.md",
+        "excerpt": "你的能力、学历、专业知识、工作经验、赚钱能力、现金存款、资产积累，都属于这个范畴。"
+      },
+      "summary": "文章提出“生存资本”概念，可作为个人长期规划和抗风险能力建设的框架。",
+      "proposedContent": "建议沉淀为“生存资本”概念：生存资本指人在遭遇失业、生病、婚姻变故或经济冲击时，不至于迅速跌入谷底的底层资源，包括专业能力、学历资质、工作经验、赚钱能力、现金储备、资产积累和可转化的人际网络。它的核心作用不是炫耀，而是提供选择权、抗风险能力和人生缓冲垫。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.86,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:19:15.489Z",
+      "updatedAt": "2026-08-20T09:19:15.489Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_67444abff544a36221c370a1",
+      "source": {
+        "path": "00 临时箱/得信息位者，得天下.md",
+        "excerpt": "关键不在信息量，在信息位。"
+      },
+      "summary": "信息优势的关键不在掌握多少信息，而在是否占据信息流通道。",
+      "proposedContent": "真正的权力不只是拥有信息源，而是占住信息位：谁能决定信息怎么传、何时传、传给谁，谁就拥有筛选权、解释权和延迟权。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.97,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-26T04:10:12.342Z",
+      "updatedAt": "2026-08-26T04:10:12.342Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_6917eb06b005c4d1341c11f8",
+      "source": {
+        "path": "00 临时箱/数学思维：一篇文章，讲透小学数学背后的思维方式.md",
+        "excerpt": "数学就是一门关于思维的学科。"
+      },
+      "summary": "数学的核心价值不在知识量，而在抽象、符号、逻辑等思维能力训练。",
+      "proposedContent": "学习数学时，不应只盯着题目和公式，而要关注它背后的思维训练：抽象、符号化、逻辑推理、归纳猜想和数形转化，这些才是数学长期可迁移的能力。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.97,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:32:16.046Z",
+      "updatedAt": "2026-08-20T23:32:16.046Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_6a8bd064a99ee3319457f04e",
+      "source": {
+        "path": "00 临时箱/案例｜党业融合为什么总是“两张皮”？中国银行党校找到了破题方法.md",
+        "excerpt": "以调研摸实情、以案例树典型、以课程育队伍、以范式促推广"
+      },
+      "summary": "文章提炼出一条适用于大型组织党业融合的全链条工作路径，不把党建培训停留在理论宣讲，而是从一线问题出发形成实践闭环。",
+      "proposedContent": "建议沉淀为“党业融合四步工作链”：1. 调研摸实情，依靠驻点、轮岗、问卷和访谈发现真实痛点；2. 案例树典型，从零散基层经验中筛选、萃取和验证可复制做法；3. 课程育队伍，把案例转化为理论、实战和场景化课程，培养懂党建、精业务的复合型骨干；4. 范式促推广，把研究、案例、课程和师资成果固化为可复制的工作方法并推广应用。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.9,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:38:22.353Z",
+      "updatedAt": "2026-08-20T09:38:22.353Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_6c6a42987a2c25271d8fd9ea",
+      "source": {
+        "path": "00 临时箱/有的干部既不解决真问题，也不真解决问题.md",
+        "excerpt": "既不解决真问题，也不真解决问题。"
+      },
+      "summary": "问题意识不足时，干部容易把表面问题当成真问题，或用表面动作代替真正解决。",
+      "proposedContent": "识别和解决问题，不能停留在材料、台账和办公室推演上；要到基层、到现场、到群众痛点里去找真问题，并用清单、责任和销号把问题真正解决掉。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.96,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:41:46.291Z",
+      "updatedAt": "2026-08-20T23:41:46.291Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_6e4ba46d7dc53402a41ede5a",
+      "source": {
+        "path": "00 临时箱/从0开始，12步学会用好AI。.md",
+        "excerpt": "帮我把刚才的整个过程和这个事情，做成一个可以供我反复使用的Skill"
+      },
+      "summary": "把一次 AI 协作过程沉淀成 Skill，是从临时使用走向自动化复用的关键。",
+      "proposedContent": "完成一次任务后，应让 AI 复盘整个过程，提炼成可复用 Skill；以后遇到同类任务，只需提供背景、痛点、需求和相关文件，就能复用这套流程。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.94,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:29:37.453Z",
+      "updatedAt": "2026-08-20T23:29:37.453Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_6e66af932dbba7e5aaf7b992",
+      "source": {
+        "path": "00 临时箱/对低精力的人来说，低强度的坚持才是最重要的.md",
+        "excerpt": "低强度坚持的本质，是把能不能坚持从能量问题变成设计问题。"
+      },
+      "summary": "文章给出一个适合低精力人群的执行框架：不要靠高强度冲刺，而是通过极低门槛动作建立惯性。",
+      "proposedContent": "建议沉淀为“低强度坚持”原则：如果一个人能量长期偏低，就不该拿阵地战式的高强度计划要求自己。更有效的做法是把目标拆到极小，降低启动成本，让行为小到不需要动用太多意志力，例如从‘每天跑十公里’改成‘每天穿上跑鞋站到门口’，从‘读一小时’改成‘读一页’。关键不是当下做得多，而是让行为不会失败、不会中断，靠时间把结果滚出来。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.86,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:49:00.266Z",
+      "updatedAt": "2026-08-20T09:49:00.266Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_7009f1ff7c8ab8dc717a5ab0",
+      "source": {
+        "path": "00 临时箱/AI四个方向.md",
+        "excerpt": "AI赋能行业是赚效率改善的钱。AI服务是赚落地与交付的钱。AI内容及IP是赚注意力与信任的钱。AI产品化是赚标准化与规模复制的钱。"
+      },
+      "summary": "文章给出了一个实用的 AI 商业分类框架，适合用来判断普通人的切入方式。",
+      "proposedContent": "建议沉淀为“AI 四个方向”框架：1. AI 赋能行业，赚效率改善的钱；2. AI 服务，赚落地与交付的钱；3. AI 内容与 IP，赚注意力与信任的钱；4. AI 产品化，赚标准化与规模复制的钱。这个框架的好处是，它不是抽象谈趋势，而是按‘谁付费、为什么付费、你卖的是什么’来划分商业路径，适合用来判断自己该做业务、服务、内容还是产品。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.9,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:55:40.474Z",
+      "updatedAt": "2026-08-20T09:55:40.474Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_766980460a72c352287df4cb",
+      "source": {
+        "path": "00 临时箱/对低精力的人来说，低强度的坚持才是最重要的.md",
+        "excerpt": "行为的发生，需要三个东西同时在场：动机、能力、触发。"
+      },
+      "summary": "文章借福格行为模型说明：动机波动大，最可靠的是降低行为难度并设置触发。",
+      "proposedContent": "可整理为“行为养成三要素”：动机、能力、触发同时到位时，行为才会发生；其中动机最不稳定，能力最可设计。因此养成习惯时，与其追求更强的意志力，不如把行为缩到极小，再给它一个稳定触发点。这样做的本质是减少对波动动机的依赖，把坚持建立在惯性之上。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:49:00.269Z",
+      "updatedAt": "2026-08-20T09:49:00.269Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_7735fb478a7b6d82e26a2760",
+      "source": {
+        "path": "00 临时箱/飞书和豆包合并后的第一个Agent产品，豆包工作，它来了。.md",
+        "excerpt": "Agent没有那么重要，数据才是最重要的。"
+      },
+      "summary": "企业能否用好 Agent，首先取决于是否拥有完整、可检索、可授权的组织数据和上下文。",
+      "proposedContent": "企业 AI 化的基础不是先选一个最强 Agent，而是先沉淀会议、业务、项目、流程和经验数据，并建立统一版本、来源、负责人和权限治理；没有组织上下文，Agent 就没有可执行的基础。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.97,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-25T22:35:44.373Z",
+      "updatedAt": "2026-08-25T22:35:44.373Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_776c22bdbc0759560da8c03e",
+      "source": {
+        "path": "00 临时箱/想要解决问题，你必须升维（深度好文）.md",
+        "excerpt": "我们不能用制造问题时的同一水平思维，来解决产生的问题。"
+      },
+      "summary": "解决复杂问题，关键不是加大投入，而是切换到更高一层的思维框架。",
+      "proposedContent": "当一个问题在原有方法里反复卡住时，不要继续在同一层面硬推，而应先换视角：重新定义问题、改变系统规则、寻找更高维度的解法。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.97,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-24T01:54:21.618Z",
+      "updatedAt": "2026-08-24T01:54:21.618Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_7aa64c7702a87f739311440b",
+      "source": {
+        "path": "00 临时箱/消防员15分钟，把胡子哥的爆款拆成了一个skill，文末送你.md",
+        "excerpt": "做skill，根本不是技术活。是把你脑子里已经会的东西，翻译成AI能听懂的话。"
+      },
+      "summary": "Skill 的本质是把人的经验流程化、语言化，再交给 AI 执行。",
+      "proposedContent": "做 Skill 不需要先会编程，关键是把自己擅长的事按步骤讲清楚，让 AI 理解“背景-步骤-触发条件-输出结果”，再通过迭代不断完善。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.96,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:37:05.269Z",
+      "updatedAt": "2026-08-20T23:37:05.269Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_7faa7790001dd48384ce63ac",
+      "source": {
+        "path": "00 临时箱/你现在可能用不上，但哪天Mac电脑变卡了会庆幸自己存了这篇.md",
+        "excerpt": "如果 M 芯片 Mac 想安装某个指定版本的 macOS，可以先在终端执行 softwareupdate --list-full-installers。"
+      },
+      "summary": "文章区分了 Intel 与 M 芯片 Mac 的恢复/安装逻辑，适合作为系统维护速查。",
+      "proposedContent": "建议补充为一条平台差异笔记：Intel Mac 可通过不同组合键安装当前版本、兼容最新版本或出厂版本；M 芯片 Mac 则通过长按电源进入恢复环境，默认重装最近版本。若要装指定版本，可先查询可用完整安装器，再按系统支持情况下载对应版本。所有版本号和可用性都要以 Apple 当前支持范围为准。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.83,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:03:43.225Z",
+      "updatedAt": "2026-08-20T10:03:43.225Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_84213b63f3d87ac0a0244a9f",
+      "source": {
+        "path": "00 临时箱/手机上养一个懂你全部笔记的 Obsidian Agent：Obsidian 重度用户请看过来，效率要起飞了，朋友你还能坐得住？.md",
+        "excerpt": "它记得你是谁，但每条记忆都过你的审"
+      },
+      "summary": "长期记忆要可审核、可拒绝、可撤销，才能放心交给 Agent。",
+      "proposedContent": "Agent 可以逐步学习用户偏好和项目状态，但所有长期记忆都应先进入候选审核，再由用户确认后写入；这样既能形成个性化上下文，也能保留边界和解释权。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.94,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:42:08.886Z",
+      "updatedAt": "2026-08-20T23:42:08.886Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_8476a77cce40ab6cf326171e",
+      "source": {
+        "path": "00 临时箱/我搓了半年 ObsidianCC，最后缺的那一环，被笔记同步助手拼出我的剪藏到知识闭环最后一个环节，Obsidian 重度使用者有福利了.md",
+        "excerpt": "它擅长“收”，我擅长“消化”。它解决的，是我做了大半年 ObsidianCC 也没解决好的那一环。"
+      },
+      "summary": "知识闭环里应区分剪藏入口与消化引擎，上游负责收，下游负责用。",
+      "proposedContent": "把外部内容搬进知识库的工具，和把内容召回、引用、沉淀为长期知识的工具，应该分开设计；一个负责收集，一个负责消化，组合起来才是真正的知识闭环。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.97,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:51:20.210Z",
+      "updatedAt": "2026-08-20T23:51:20.210Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_84d99cf711578abb0cab0404",
+      "source": {
+        "path": "00 临时箱/为什么有的干部总把事推给下级？.md",
+        "excerpt": "把本该自己干的事，推给了别人，导致责任成了“漂流瓶”。"
+      },
+      "summary": "责任外推会让责任链条漂浮，最终造成执行力衰减和问题落空。",
+      "proposedContent": "干部把本该自己承担的事项推给下级或其他部门，本质上会让责任在层层转交中落空；治理这类问题，需要把职责边界、牵头责任、协同责任和问责机制讲清楚。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.94,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:31:38.152Z",
+      "updatedAt": "2026-08-20T23:31:38.152Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_85e4051ea8c540e31e06cdd0",
+      "source": {
+        "path": "00 临时箱/飞书和豆包合并后的第一个Agent产品，豆包工作，它来了。.md",
+        "excerpt": "员工直接使用飞书账号登录，部门、身份、文档权限全部继承。"
+      },
+      "summary": "企业 Agent 要真正普及，关键在于把身份、权限、额度和既有工作流一起接入。",
+      "proposedContent": "办公 Agent 的组织级落地，应优先打通企业身份认证、部门角色、文档权限、统一额度和共享 Skill，让员工在已有工作环境中直接使用，管理者也能控制访问和成本。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-25T22:35:44.380Z",
+      "updatedAt": "2026-08-25T22:35:44.380Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_8958a1d42af0117f4261d18d",
+      "source": {
+        "path": "00 临时箱/见世面要在生产端，而不是消费端.md",
+        "excerpt": "消费让你获得体验，但生产让你理解世界。"
+      },
+      "summary": "文章提供了一个可复用的认知框架：从消费端看结果，转向生产端看流程、成本、定价、渠道和钱的流动。",
+      "proposedContent": "建议沉淀为“生产者思维”或“生产端见世面”概念：见世面不只是体验高端消费，而是理解一个结果如何被生产出来。观察商品、门店、项目或个人成果时，应追问：成本在哪里，为什么卖这个价，靠品牌、渠道还是效率赚钱，流程中有哪些损耗、库存、流通和复购问题。这个框架可用于训练商业敏感度、选题观察、项目复盘和个人赚钱认知。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.86,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:14:27.223Z",
+      "updatedAt": "2026-08-20T09:14:27.223Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_8bffffe628f7601dc2eb3771",
+      "source": {
+        "path": "00 临时箱/2026-08-12_甲木未来派_公众号排版Skill初步提炼.md",
+        "excerpt": "建议先将本页与已有来源页做一次逐段比对，确认是否为同一项目的不同版本或不同文章。"
+      },
+      "summary": "这是一篇已提炼的中间页，适合进入去重合并流程，不建议作为独立长期知识重复沉淀。",
+      "proposedContent": "该笔记应作为 gzh-design-skill 相关材料的整合提醒：先核验项目仓库和脚本，再与已有来源页及 Agent 技能化工作流相关概念页合并，重点补充主题生成器、组件化、双重校验和素材占位机制。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.9,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:31:18.026Z",
+      "updatedAt": "2026-08-20T23:31:18.026Z",
+      "proposalKind": "insight-orphan"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_8c91bc2f609f713b5221e517",
+      "source": {
+        "path": "00 临时箱/给 Workbuddy 装上 Browser-BC 神器，任何操作你录屏一遍就能蒸馏成 Skill.md",
+        "excerpt": "蒸馏和执行可以分开。一次用强模型蒸馏好的技能，交给小模型、便宜模型也能执行。"
+      },
+      "summary": "文章指出技能生成和技能执行可以拆分，这对降低后续自动化成本很有价值。",
+      "proposedContent": "可整理为“强模型蒸馏、弱模型执行”的自动化分层思路：复杂任务先用强模型对人类演示轨迹做清洗和结构化，再沉淀成稳定技能；日常执行时可交给更便宜的小模型。这种拆分能把一次性的理解成本与长期执行成本分开，适合需要大量重复调用的网页任务。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.82,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:47:31.985Z",
+      "updatedAt": "2026-08-20T09:47:31.985Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_8ce8fbe4738473af7d917c81",
+      "source": {
+        "path": "00 临时箱/DeepSeek 正式打通 Codex，编程起飞.md",
+        "excerpt": "脚本会自动完成以下几件事：备份现有配置文件，写入模型目录，修改 config.toml，进行语法校验，失败则不会改动任何文件。"
+      },
+      "summary": "文章给出了第三方模型接入脚本应具备的安全操作流程：先备份、再修改、最后校验，失败时保持原配置。",
+      "proposedContent": "可沉淀为“AI 工具配置变更检查清单”：1. 确认已安装并初始化目标工具；2. 备份现有配置；3. 写入模型提供方和模型元数据；4. 配置 API Key 时避免明文泄露；5. 执行语法校验和最小调用测试；6. 失败时恢复备份。对远程脚本直接通过 `curl | bash` 或 PowerShell 管道执行应保持谨慎，先查看脚本内容并确认来源，再决定是否运行。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:29:19.637Z",
+      "updatedAt": "2026-08-20T09:29:19.637Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_8e48903ad58aab394d65d2aa",
+      "source": {
+        "path": "00 临时箱/DeepSeek+WorkBuddy，下一代Office工作台来了！.md",
+        "excerpt": "以后这些原本需要在办公软件上操作的事情，慢慢会聚拢在Agent里面。"
+      },
+      "summary": "文章给出一个可复用判断：AI 办公不是替代单点工具，而是把文档、表格、PPT、协作和执行聚成一个 Agent 工作台。",
+      "proposedContent": "建议沉淀为“Agent Office 工作台”概念：未来的价值不只是模型能写，而是能把文档编辑、表格整理、PPT 调整、腾讯文档/飞书协作和多 Agent 分工串在同一工作流里。对办公场景的判断标准，不是功能多不多，而是能不能把人机协作、机机协作和跨文档协同放在同一个入口完成。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:57:14.046Z",
+      "updatedAt": "2026-08-20T09:57:14.046Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_9259340d102b5b76702fea05",
+      "source": {
+        "path": "00 临时箱/先理顺人心，再解决事情.md",
+        "excerpt": "理顺人心不是讨好，是清障。"
+      },
+      "summary": "理顺人心不是做老好人，而是为执行清除暗坑。",
+      "proposedContent": "在管理和协作中，处理情绪、建立信任、对齐预期，不是为了讨好别人，而是为了减少后续扯皮和执行阻力；人心顺了，事情才容易落地。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.93,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:29:58.035Z",
+      "updatedAt": "2026-08-20T23:29:58.035Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_98c5af4a0f0785c6e910aea8",
+      "source": {
+        "path": "00 临时箱/数学思维：一篇文章，讲透小学数学背后的思维方式.md",
+        "excerpt": "必须对所有结论，都进行逻辑追问「它是如何来的？如何能证明它？」"
+      },
+      "summary": "学好数学的关键，是追问结论的来源与证明，而不是机械记忆。",
+      "proposedContent": "面对数学结论，先问它从哪里来、为什么成立、能否证明；把结论还原成推理链条，才能减少死记硬背和公式混淆。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:32:16.056Z",
+      "updatedAt": "2026-08-20T23:32:16.056Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_9a6038db6a3551d8d3181dc0",
+      "source": {
+        "path": "00 临时箱/发现一个奇怪现象：如果你对孩子越来越好，越来越包容，越来越共情，你的孩子不仅会厌学，更会成为天底下最不珍惜你的那个人.md",
+        "excerpt": "看见情绪，但不接管他的人生；理解痛苦，但不帮他逃避考验。"
+      },
+      "summary": "真正的支持是陪伴孩子面对困难，而不是替他把困难搬走。",
+      "proposedContent": "面对孩子的厌学、拖延或情绪崩溃，父母的角色是陪伴和引导，不是代替解决；要让孩子在可承受范围内自己面对后果，才能长出抗压能力。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-24T02:00:03.753Z",
+      "updatedAt": "2026-08-24T02:00:03.753Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_9a77fa76c2e29dea868905f5",
+      "source": {
+        "path": "00 临时箱/一副局长自购 10 亿 token 月费 20 多，手搓防汛小程序。.md",
+        "excerpt": "真正让我觉得震撼的，却不是Token便宜。而是一个基层干部，把自己工作中最麻烦、最费人的事情，用AI彻底改掉了。"
+      },
+      "summary": "AI 的真正价值，是把高频、重复、费人的业务流程改造成可执行工具。",
+      "proposedContent": "当一线干部或业务负责人亲自用 AI 解决自己最痛的流程问题时，AI 才从演示工具变成生产工具；关键不在技术炫不炫，而在是否真正减少重复劳动。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.97,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:42:30.888Z",
+      "updatedAt": "2026-08-20T23:42:30.888Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_9c9bff6900555d662d5e8235",
+      "source": {
+        "path": "00 临时箱/Obsidian+DeepSeek：改3行，AI读完你所有笔记.md",
+        "excerpt": "这些东西 AI 编不出来，只有你有。它是你唯一的独家认知资产。"
+      },
+      "summary": "个人上下文文件和失败清单，是让 AI 贴近个人表达与判断方式的关键资产。",
+      "proposedContent": "给 AI 接入前先喂‘关于我’、最近笔记和失败清单，比单纯换模型更能提升输出质量；这类只属于你自己的上下文，才是真正的长期可复用资产。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.86,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:28:36.360Z",
+      "updatedAt": "2026-08-20T10:28:36.360Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_9d4a59a6fa3d694e47e8b3c6",
+      "source": {
+        "path": "00 临时箱/想要被提拔，一定要上得了台面.md",
+        "excerpt": "台面就是那身能代表一个山头、一个部门、一个利益集团出去谈判、应酬、表态的本事。"
+      },
+      "summary": "晋升不只看业务能力，还看能否代表组织上台面、协调复杂关系。",
+      "proposedContent": "所谓上得了台面，是能在公开场合代表部门或组织表达立场、协调利益、给人台阶、压住场面。业务尖子只能证明个人能干，台面能力才证明一个人能承担更高层级的协调和代表职责。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-09-03T00:27:52.177Z",
+      "updatedAt": "2026-09-03T00:27:52.177Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_9eaca5f554fe473d51bec46f",
+      "source": {
+        "path": "00 临时箱/系统思维，不是玄学，是科学.md",
+        "excerpt": "【系统思维五步法】：识别系统边界、列出核心要素、画出要素关系图、找到杠杆点、设计干预方案"
+      },
+      "summary": "系统思维可以落成一套可执行的分析流程，而不是抽象口号。",
+      "proposedContent": "面对复杂问题时，按‘边界-要素-关系-杠杆-干预’五步推进：先界定可控范围，再挑出关键变量，画出反馈关系，找到最有效的撬动点，最后设计可验证的行动方案。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.97,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:37:15.086Z",
+      "updatedAt": "2026-08-20T10:37:15.086Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_a0789816b58916967cd72c39",
+      "source": {
+        "path": "00 临时箱/开源一个排版 Skill｜彻底解决公众号排版难题（建议收藏！）.md",
+        "excerpt": "把「审美偏好」变成「主题变量」，把「设计经验」变成「组件库」，把「品牌规范」变成「Agent 可以执行的规则」"
+      },
+      "summary": "排版 Skill 的核心不是模板，而是把审美拆成 Agent 可执行的组件和规则。",
+      "proposedContent": "公众号排版可以从一次性模板升级为可复用系统：把字体、颜色、层级、间距、标记方式拆成主题变量和组件库，再交给 Agent 按规则装配。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.96,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:30:22.322Z",
+      "updatedAt": "2026-08-20T23:30:22.322Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_a107dcbbc813ae317a0d6a58",
+      "source": {
+        "path": "00 临时箱/关于党建工作和业务工作关系问题的认识.md",
+        "excerpt": "结合点到底在哪里？不在会议室，不在台账本，在矛盾里、困难里、业务最难推进的环节里。"
+      },
+      "summary": "党建融合的关键，不在形式拼接，而在问题最深处找结合点。",
+      "proposedContent": "党建与业务要一起谋划、一起部署、一起落实、一起检查，但真正的结合点不在口号和材料，而在矛盾最深、任务最难、需要党员攻关的现场。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:36:41.134Z",
+      "updatedAt": "2026-08-20T23:36:41.134Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_a3f3f6ca63b7a2c3197a4e56",
+      "source": {
+        "path": "00 临时箱/Codex+企微：员工问题标准化.md",
+        "excerpt": "Codex 可以帮助把脱敏后的问答记录聚类，找出高频同义问法，检查答案卡是否缺少依据、负责人或升级条件"
+      },
+      "summary": "AI 在内部知识管理中的角色是整理和质检，不是替业务做最终背书。",
+      "proposedContent": "让 AI 参与内部 FAQ 时，只负责聚类、补缺、检查边界和生成待审草稿；制度判断、敏感承诺和最终责任必须留给有权限的人。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.92,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:33:53.456Z",
+      "updatedAt": "2026-08-20T10:33:53.456Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_a82859c3f81276ab1973ef98",
+      "source": {
+        "path": "00 临时箱/人在阅历尚浅的时候，不要沉溺于向内求.md",
+        "excerpt": "没有足够的样本，谁也没法知道。"
+      },
+      "summary": "这是已有同主题笔记的更新版，核心观点未发生实质变化。",
+      "proposedContent": "与此前版本重复，建议保留最新版本作为来源材料，不新增长期知识条目；已有沉淀仍可概括为：阅历不足时先通过真实行动积累样本，之后再用向内求进行复盘和自我认知。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.98,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-09-11T08:07:01.064Z",
+      "updatedAt": "2026-09-11T08:07:01.064Z",
+      "proposalKind": "insight-orphan"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_a8b1354138554d439569805a",
+      "source": {
+        "path": "00 临时箱/用 GPT Image 2 改照片的提示词合集，直接复制用（附核心提示词）.md",
+        "excerpt": "先锁脸，再换风格。"
+      },
+      "summary": "AI 改图要先固定人物身份，再调整场景、服装和光线。",
+      "proposedContent": "用 GPT Image 2 这类图像编辑模型时，优先用参考图和锁脸提示词保住脸型、五官和原始发色，再在第二段补充风格、服装、场景与光线，能显著提高一致性。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.97,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-24T02:03:48.444Z",
+      "updatedAt": "2026-08-24T02:03:48.444Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_adef5d13dfb4c750e2ab0ac7",
+      "source": {
+        "path": "00 临时箱/AI使用效果 · 能力诊断测评 - YouCore.md",
+        "excerpt": "乘法逻辑：任一维度薄弱，整体效果都会被显著拉低"
+      },
+      "summary": "这篇材料与 AI 工具使用、问题定义、个人能力提升相关，但召回服务没有找到明确旧笔记，可作为后续建立 AI 能力体系入口的孤立候选。",
+      "proposedContent": "建议后续如果整理 AI 使用方法论，可把这条作为入口框架：不要只问“用哪个 AI 工具”，而要先诊断三类短板：人是否能定义问题、判断结果；工具是否选对并会配置；人与 AI 是否能通过追问、迭代和视角切换形成有效协作。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.76,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:11:45.167Z",
+      "updatedAt": "2026-08-20T09:11:45.167Z",
+      "proposalKind": "insight-orphan"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_adf62b79a67af1c6ff440af4",
+      "source": {
+        "path": "00 临时箱/孩子学习差，员工躺平，你为什么越帮他，他越摆烂？｜原子笔记①.md",
+        "excerpt": "你在保护什么？"
+      },
+      "summary": "面对抗拒和拖延，追问对方正在保护的是什么，比直接批评更有用。",
+      "proposedContent": "和其说服一个‘不动的人’，不如先找出他在规避什么风险、保护什么安全感；只有先看见恐惧，关系才可能改变。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.94,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:46:34.130Z",
+      "updatedAt": "2026-08-20T23:46:34.130Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_ae6b7ae4ba75c44b856e89c5",
+      "source": {
+        "path": "00 临时箱/把牛人资料丢进 Codex+Obsidian，让他变成你的私人助教！.md",
+        "excerpt": "只需要将这个博主的公众号、视频号内容下载到raw中。通过在codex+obsidian重新盘活这些资料。"
+      },
+      "summary": "文章给出了一条清晰的知识摄取链路：先收集资料进入 raw，再通过 Codex+Obsidian 盘活成可用知识。",
+      "proposedContent": "建议沉淀为“raw→wiki→问答”知识加工路径：外部资料先进入 raw，经过整理和提炼后进入 wiki 的来源页、概念页、实体页和问答页。这样做的价值不是收藏，而是把零散资料变成可查询、可交叉引用、可持续增补的知识结构。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.88,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:20:10.543Z",
+      "updatedAt": "2026-08-20T10:20:10.543Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_b0dc7f2b69f32d7231a9bae1",
+      "source": {
+        "path": "00 临时箱/Obsidian+DeepSeek：改3行，AI读完你所有笔记.md",
+        "excerpt": "1M 上下文真正改变的：不是效率，是你的认知盲区"
+      },
+      "summary": "长上下文模型把知识库使用方式从“挑几篇喂给 AI”改成“整库参与分析”。",
+      "proposedContent": "当模型上下文足够大时，知识库不必再靠人工筛选少量笔记输入；更适合直接喂整库，让 AI 负责发现观点变化、遗漏线索和内部矛盾。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.89,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:28:36.356Z",
+      "updatedAt": "2026-08-20T10:28:36.356Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_b323b1bea0e03b1ec088c70a",
+      "source": {
+        "path": "00 临时箱/成事的人，苦都吃得“挑三拣四”.md",
+        "excerpt": "白送的苦，那不叫吃苦，那叫犯Jian。"
+      },
+      "summary": "无回报、无成长、无边界的付出，不是吃苦，是被消耗。",
+      "proposedContent": "对岗位、关系和投入做判断时，要先问清楚对价：如果这份苦不能换来经验、资源、话语权或能力增长，就不该把它当成值得坚持的努力。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.93,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:46:58.375Z",
+      "updatedAt": "2026-08-20T23:46:58.375Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_b3cb6dca01c4b057d363a775",
+      "source": {
+        "path": "00 临时箱/一副局长自购 10 亿 token 月费 20 多，手搓防汛小程序。.md",
+        "excerpt": "代码只是最后的表达形式，解决问题，才是真正的产品。"
+      },
+      "summary": "程序员和 AI 的竞争焦点，正在从写代码转向理解业务和拆解问题。",
+      "proposedContent": "AI 能越来越快地写代码后，真正值钱的是能理解业务流程、识别风险、拆解问题并把需求转成方案的人；代码只是结果，不是核心能力。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:42:30.893Z",
+      "updatedAt": "2026-08-20T23:42:30.893Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_b40278b14282f03b48a76ab0",
+      "source": {
+        "path": "00 临时箱/OPC的党建这样干，是吸引力法则.md",
+        "excerpt": "党组织对他们来说，是一个什么概念？怎样的党建工作，年轻人才愿意靠近？"
+      },
+      "summary": "党建或组织类内容要先接住年轻人的现实压力，再把主题转回组织价值，才更容易产生吸引力。",
+      "proposedContent": "面向年轻人的党建/组织传播，不要先讲抽象概念，先用他们熟悉的身份和焦虑切入，再把议题拉回组织工作本身；这类表达比传统口号更容易建立共鸣。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.74,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:32:47.931Z",
+      "updatedAt": "2026-08-20T10:32:47.931Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_b42a1ffdbdf341bfb949da07",
+      "source": {
+        "path": "00 临时箱/你现在可能用不上，但哪天Mac电脑变卡了会庆幸自己存了这篇.md",
+        "excerpt": "恢复到出厂系统，也就意味着里面的任何数据都没了，所以，你需要先备份好资料，再操作。"
+      },
+      "summary": "文章给出了 Mac 重装前最关键的前置条件：先备份，再清盘。",
+      "proposedContent": "建议沉淀为“Mac 重装前置清单”：在进入恢复模式和抹盘前，必须先确认数据已同步或备份，尤其是云端资料、主力机资料和本地不可替代文件。恢复出厂系统会清掉设备上的数据，任何重装、降级、清盘操作都应先把备份作为硬前提。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:03:43.220Z",
+      "updatedAt": "2026-08-20T10:03:43.220Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_b6283a2a48ee6d91cf1ac104",
+      "source": {
+        "path": "00 临时箱/Codex+企微：员工问题标准化.md",
+        "excerpt": "员工问题如何标准化，用 Codex＋企业微信，把重复答疑变成可维护的内部服务"
+      },
+      "summary": "员工答疑应先标准化问题分类，再标准化答案卡，而不是单纯堆知识库。",
+      "proposedContent": "把内部 FAQ 做成服务流程：先按制度、流程、系统、例外四类建问题地图，再为每类问题配置标准答案卡、来源依据和升级路径，最后用 AI 做聚类和质检。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:33:53.453Z",
+      "updatedAt": "2026-08-20T10:33:53.453Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_b76994ddd371a90336af2dac",
+      "source": {
+        "path": "00 临时箱/AI使用效果 · 能力诊断测评 - YouCore.md",
+        "excerpt": "AI 使用效果不是工具操作问题，而是个人核心能力、工具能力、AI 协作能力的综合结果。"
+      },
+      "summary": "这条材料提供了一个可复用的 AI 使用效果诊断框架，可用于判断用户或团队使用 AI 效果差到底是底层能力、工具操作，还是协作方式的问题。",
+      "proposedContent": "建议沉淀为一个 AI 使用能力诊断框架：AI 使用效果不是单纯的工具熟练度问题，而是由个人核心能力、工具能力、AI 协作能力共同决定。个人核心能力包括问题定义、判断力、领域知识、逻辑思维等；工具能力包括工具选择、成本控制、参数调优等；AI 协作能力包括提示词工程、迭代引导、视角切换等。该框架适合用于复盘“为什么 AI 没帮上忙”：如果问题定义不清，AI 会放大混乱；如果工具不熟，效率受限；如果协作方式差，输出质量难以稳定。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:11:45.164Z",
+      "updatedAt": "2026-08-20T09:11:45.164Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_b8a637830a5a2b93df556b44",
+      "source": {
+        "path": "00 临时箱/给 Workbuddy 装上 Browser-BC 神器，任何操作你录屏一遍就能蒸馏成 Skill.md",
+        "excerpt": "你亲手在浏览器里把任务做一遍，它录下你的操作轨迹，自动蒸馏成一份自然语言的 Skill。"
+      },
+      "summary": "文章提供了一个可复用的技能生成思路：让人先做一遍，再把真实操作轨迹蒸馏成可执行的 Skill。",
+      "proposedContent": "建议沉淀为“浏览器行为克隆 / 录屏蒸馏 Skill”框架：与其反复用提示词描述网页操作，不如由人先在浏览器里完整演示一遍任务，让工具记录轨迹并蒸馏为自然语言 Skill。这样得到的技能比坐标脚本更耐页面改版，也更适合交给不同模型执行。适用场景包括重复的网页操作、筛选任务、报表下载和需要登录的后台流程。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.86,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:47:31.983Z",
+      "updatedAt": "2026-08-20T09:47:31.983Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_b9cda69228dedad844ec4dbc",
+      "source": {
+        "path": "00 临时箱/关于党建工作和业务工作关系问题的认识.md",
+        "excerpt": "党建和业务不是两件事，而是一个事物的两个方面。"
+      },
+      "summary": "党建与业务的关系，不是先后关系，而是融合关系。",
+      "proposedContent": "评价党建是否有效，不能只看台账和规定动作，而要看它是否进入业务最难推进的环节，是否真正推动问题解决、任务落实和党员作用发挥。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.96,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:36:41.130Z",
+      "updatedAt": "2026-08-20T23:36:41.130Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_bb06e0952ba4a4b4ce4b1301",
+      "source": {
+        "path": "00 临时箱/爬出底层，靠的根本不是拼命.md",
+        "excerpt": "吃苦这件事，分两种。"
+      },
+      "summary": "决定能否改变命运的，不是吃苦多少，而是吃的是会不会积累的苦。",
+      "proposedContent": "区分消耗型的苦和积累型的苦：前者只是在重复劳作，后者会在技能、经验和认知上形成复利。真正能帮助人爬升的，是后者。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.97,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:41:19.757Z",
+      "updatedAt": "2026-08-20T10:41:19.757Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_bcf52a1049280c7694e3a259",
+      "source": {
+        "path": "00 临时箱/把牛人资料丢进 Codex+Obsidian，让他变成你的私人助教！.md",
+        "excerpt": "4、视频下载可以用yt-dlp 的这个插件，将视频下载到本地，然后借助Whisper再转化为逐字稿。"
+      },
+      "summary": "文章给出了多模态资料入库的实操组合：网页剪藏、公众号归档、PDF 转 md、视频转逐字稿。",
+      "proposedContent": "建议沉淀为“多来源资料采集管线”：网页可用 Obsidian Web Clipper，公众号文章可用专门 Skill 或归档工具，PDF/Word 可转为 md，视频可用 yt-dlp 下载并用 Whisper 转逐字稿。对不同载体采用统一的 markdown 化入口，后续才方便进入同一套知识图谱。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:20:10.551Z",
+      "updatedAt": "2026-08-20T10:20:10.551Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_bd7cff149a797da64acebd42",
+      "source": {
+        "path": "00 临时箱/手机上养一个懂你全部笔记的 Obsidian Agent：Obsidian 重度用户请看过来，效率要起飞了，朋友你还能坐得住？.md",
+        "excerpt": "让你过去写下的笔记，持续参与今天的工作。"
+      },
+      "summary": "Obsidian 笔记的价值在于持续参与当前任务，而不是静态存档。",
+      "proposedContent": "移动端 Agent 的意义，不是远程控制，而是让笔记、长期记忆和工作流直接参与今天的任务执行；对重度用户来说，存量笔记可以转化为可调用的生产力资产。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:42:08.882Z",
+      "updatedAt": "2026-08-20T23:42:08.882Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_bda14378ff195c7f2c002eaf",
+      "source": {
+        "path": "00 临时箱/庙堂与江湖，用的是两套规则，同一个底层逻辑.md",
+        "excerpt": "对外讲儒，对内讲法。"
+      },
+      "summary": "复杂组织通常需要双系统：对外用价值、体面和信任维系合作，对内用规则、赏罚和边界维持秩序。",
+      "proposedContent": "外部关系更依赖信任与形象，内部协作更依赖规则与奖惩；判断一个组织是否成熟，关键看它能否在不同场景切换这两套逻辑，而不是只会一种。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.96,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:36:19.025Z",
+      "updatedAt": "2026-08-20T10:36:19.025Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_c28d419076c5943bb449833a",
+      "source": {
+        "path": "00 临时箱/中央企业优秀党务工作者 - 洛阳分公司仝浩波：党建引领破局攻坚，实干笃行赋能发展.md",
+        "excerpt": "优化党员积分管理制度，将积分与评优评先、绩效考核深度挂钩，充分激发党员干事创业的内生动力。"
+      },
+      "summary": "文章提供了党建积分制的一个实操样板：用积分把抽象要求变成可见、可兑现、可对比的行为激励。",
+      "proposedContent": "可整理为“党员积分制”实践要点：积分不应停留在材料完整度，而应向具体攻坚行为倾斜，如巡检隐患、技术攻关、服务提升、抢险保产、带徒传帮带等。积分要与评优、绩效、月度兑现挂钩，并保持规则透明、周期明确、结果公示，才能让基层党员把精力从写材料转向干实事。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.83,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:36:49.443Z",
+      "updatedAt": "2026-08-20T09:36:49.443Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_c2d648d1edd8475aa34b952f",
+      "source": {
+        "path": "00 临时箱/对你威胁最大的，从来不是能力比你强的那个人，而是生态位特性与你高度重合的那个.md",
+        "excerpt": "威胁你的从来不是“强”，是“同”。"
+      },
+      "summary": "职场竞争中的威胁程度，取决于生态位重合度和可替代性，而不只是能力强弱。",
+      "proposedContent": "判断竞争关系时，不要只比较谁更强，要看双方是否占据同一位置、承担相同功能、争夺同一资源。提升职场安全感的关键，是在关键环节形成独特价值，主动降低自己的可替代性。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.93,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-25T22:39:45.013Z",
+      "updatedAt": "2026-08-25T22:39:45.013Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_c3545502a8b80876693044d1",
+      "source": {
+        "path": "00 临时箱/基础党务，才是党建里最被低估的方法论.md",
+        "excerpt": "把不确定性变成确定性。"
+      },
+      "summary": "基础党务的价值，在于把靠个人自觉的事情变成靠制度兜底的事情。",
+      "proposedContent": "基础党务不是简单重复，而是用流程、标准和责任把组织运行固化下来，让发展党员、党费、会议、服务群众等工作不依赖某个人的状态。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.96,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:36:44.149Z",
+      "updatedAt": "2026-08-20T10:36:44.149Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_c3c2dfe5d648809162e245a4",
+      "source": {
+        "path": "00 临时箱/OCI思维：Skill的终点，不是指令，而是目标系统.md",
+        "excerpt": "OCI 不是把提示词写得更长，而是把目标系统写得更清楚。"
+      },
+      "summary": "文章把提示词设计从‘写得更长’推进到‘写成系统’，这是整篇的核心观点。",
+      "proposedContent": "建议沉淀为“OCI 目标系统”框架：O 是目标，回答要交付什么、成功标准是什么；C 是条件，回答有哪些资源、哪些边界不能碰；I 是执行逻辑，回答如何推进、如何自检、如何纠偏和验收。这个框架适合作为 Skill、MCP 或任何 AI 任务提示词的通用组织方式。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.9,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:18:27.596Z",
+      "updatedAt": "2026-08-20T10:18:27.596Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_c424d68e3aad02407c894845",
+      "source": {
+        "path": "00 临时箱/我搓了半年 ObsidianCC，最后缺的那一环，被笔记同步助手拼出我的剪藏到知识闭环最后一个环节，Obsidian 重度使用者有福利了.md",
+        "excerpt": "没有 API。没有 webhook。没有 OAuth。没有 token 刷新。没有 rate limit。两个插件各自独立，但共享同一个文件系统，自然就拼上了。"
+      },
+      "summary": "通过目录约定和本地文件系统，两个独立工具也能低成本拼成完整链路。",
+      "proposedContent": "如果两个知识工具都围绕同一个 Vault 目录工作，就不一定需要复杂接口；只要分清目录权限和写入边界，上游剪藏和下游消化就能自然衔接。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.92,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:51:20.214Z",
+      "updatedAt": "2026-08-20T23:51:20.214Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_c57e211f0d8cd5ac4ea05590",
+      "source": {
+        "path": "00 临时箱/读懂“最小阻力之路”：卸掉党建多余包袱，贴着生产做实落地.md",
+        "excerpt": "好制度是顺着干活的路子轻轻调一下，不是硬往上加担子。"
+      },
+      "summary": "文章提供了一个可复用的组织设计原则：制度不要逆着人的惯性硬推，而要把正确行为设计成最省力的路径。",
+      "proposedContent": "建议沉淀为“最小阻力式制度设计”原则：基层组织如果想把党建、管理或其他附加任务真正做实，不应只靠开会和口号，而要调整考核、积分和流程，让实干的人得到清晰回报，让低价值、虚浮的动作失去优势。制度设计的关键是把正确行为变得更顺手，而不是把正确行为变成额外负担。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:31:36.771Z",
+      "updatedAt": "2026-08-20T09:31:36.771Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_c5e5fb7cbba50720c0c1ab08",
+      "source": {
+        "path": "00 临时箱/很多人其实都不知道，笔记的真正作用是什么？.md",
+        "excerpt": "把笔记的格式，从“我摘录了什么”改成“我要拿来做什么”。"
+      },
+      "summary": "输出式笔记把记录从信息仓库改造成行动模板。",
+      "proposedContent": "做笔记时应优先记录步骤、检查项、所需资源、工具模板和应用心得，让每条笔记都能直接驱动后续行动，而不是只做摘录和收藏。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.97,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:36:17.168Z",
+      "updatedAt": "2026-08-20T23:36:17.168Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_c6bf3c707cafdd914bc2c4e3",
+      "source": {
+        "path": "00 临时箱/一周以后，我想我终于可以来聊聊Seedance 2.5了。.md",
+        "excerpt": "2.0对业余创作者更方便，因为模型自己延展镜头的能力很强。2.5 对专业创作者更友好，因为它稳定、可控，愿意服从更具体的导演意图。"
+      },
+      "summary": "生成式视频模型越可控，对创作者的专业要求越高。",
+      "proposedContent": "模型从主动补全、追求短视频冲击力，转向更强的指令遵循、空间一致性和长叙事控制；这会降低执行门槛，但提高导演意图、分镜、审美和判断能力的重要性。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.96,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-25T22:35:11.731Z",
+      "updatedAt": "2026-08-25T22:35:11.731Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_c7bffd32c21f9b980593cc81",
+      "source": {
+        "path": "00 临时箱/让 Mac 在夜里读懂你的数字生活.md",
+        "excerpt": "原始个人数据不离开 Mac，但本机清理后的短摘要可能进入所选模型账户，所以它是本地优先。"
+      },
+      "summary": "文章提供了评价本地 AI 工具隐私承诺时的一个细分视角：本地优先不等于完全离线。",
+      "proposedContent": "建议沉淀为“本地优先不等于完全本地”的判断标准：评价 AI 隐私工具时，要区分原始数据是否离开设备、清理后的摘要是否会进入第三方模型账户、截图或屏幕录制是否上传、用户是否能选择模型提供商、数据是否以开放格式保存。Sentient OS 这类工具适合体验，但使用前需要核对权限、模型账户和数据流向。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.86,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:17:49.797Z",
+      "updatedAt": "2026-08-20T09:17:49.797Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_cdca5c32c8cc2721626469a4",
+      "source": {
+        "path": "00 临时箱/第三篇｜夸错了，比骂还毒。.md",
+        "excerpt": "反馈时，剥离所有“人格特质评价”（聪明、懒、棒、乖），只聚焦于“具体可重复的行为动作”进行描述。"
+      },
+      "summary": "有效反馈应该指向具体行为和可重复动作，而不是给人贴人格标签。",
+      "proposedContent": "在教育、管理和亲密关系里，尽量用‘我注意到你今天做了什么、比上次多了什么’来替代‘你真棒、你真聪明’；这样能增强对方的掌控感和持续尝试意愿。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.96,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:46:11.827Z",
+      "updatedAt": "2026-08-20T23:46:11.827Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_d14cbfd0084bfb17d66e53e9",
+      "source": {
+        "path": "00 临时箱/几千人催我的 Codex +Obsidian 公众号创作工作流，开源了！.md",
+        "excerpt": "借助 Codex + Obsidian，就完全能实现创作-排版-发布-数据分析整个的完全闭环。"
+      },
+      "summary": "内容创作可以被拆成一个完整闭环，而不只是写稿这一步。",
+      "proposedContent": "公众号图文创作的可复用工作流应覆盖标题、封面、排版、配图、发布和数据分析；把这些环节串成闭环后，Agent 才能真正帮人节省时间。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.96,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:41:46.919Z",
+      "updatedAt": "2026-08-20T10:41:46.919Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_d50e6a57272642b930a4b743",
+      "source": {
+        "path": "00 临时箱/OCI思维：Skill的终点，不是指令，而是目标系统.md",
+        "excerpt": "O 要写成可验收的交付清单。"
+      },
+      "summary": "文章强调目标必须具体到可验收，否则模型会在模糊空间里自由发挥。",
+      "proposedContent": "可整理为‘可验收目标’原则：不要只写愿望式目标，如‘帮我做一个好看的个人网站’，而要写成交付清单和判定标准，例如页面结构、字段数量、响应式要求、禁用项等。目标越具体，模型越少猜测，交付偏差越小。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.87,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:18:27.599Z",
+      "updatedAt": "2026-08-20T10:18:27.599Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_d840797d844146ddac5a8410",
+      "source": {
+        "path": "00 临时箱/想要被提拔，一定要上得了台面.md",
+        "excerpt": "很多业务尖子，够清、够正、够硬吧？可一到协调会上，别人跟他聊三句就聊死了。"
+      },
+      "summary": "业务强但缺少场面沟通能力，容易变成只能单兵作战的孤臣。",
+      "proposedContent": "复杂任务往往不是靠一个人把活干好，而是要让多方愿意配合。过于硬直、不能转圜、不会把话说圆的人，即使业务强，也可能难以承担需要协调资源和利益的岗位。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.92,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-09-03T00:27:52.182Z",
+      "updatedAt": "2026-09-03T00:27:52.182Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_d8e0ee9942d56d1296b8ba1c",
+      "source": {
+        "path": "00 临时箱/很多人没有意识到：靠自己实践出来的信息，是非常值钱的.md",
+        "excerpt": "铸币的过程本身，就是一件长期悬而未决的事。"
+      },
+      "summary": "文章指出，实践真正难的地方不在开始，而在于能否熬过没有结果的阶段。",
+      "proposedContent": "可整理为‘长期悬而未决’能力：实践型信息的生产过程往往不是立刻见效，而是要经历反复尝试、修正和等待结果的阶段。很多人不是不懂道理，而是熬不过这个空窗期。这个概念适合和习惯养成、项目试错、长期学习放在一起理解。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.8,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:17:02.048Z",
+      "updatedAt": "2026-08-20T10:17:02.048Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_dd5a11d2e850c98d592b15c6",
+      "source": {
+        "path": "00 临时箱/把牛人资料丢进 Codex+Obsidian，让他变成你的私人助教！.md",
+        "excerpt": "如果一个产品，推广的时候，用户觉得贵怎么回复他"
+      },
+      "summary": "文章强调知识库的终点不是存档，而是能直接回答问题并给出来源。",
+      "proposedContent": "可整理为“知识库问答化”原则：资料入库后，最终要能支持具体问题的回答，例如产品贵怎么办、方案怎么选、文章怎么写。知识库的强点不在存多少，而在能否通过双链和来源页，把答案背后的依据同时呈现出来。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.81,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:20:10.547Z",
+      "updatedAt": "2026-08-20T10:20:10.547Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_deea2e2c286f2a5f9f98317e",
+      "source": {
+        "path": "00 临时箱/先理顺人心，再解决事情.md",
+        "excerpt": "人心要理顺什么呢？说白了，就三层。第一层，情绪。第二层，信任。第三层，预期。"
+      },
+      "summary": "事情推不动时，先检查情绪、信任、预期三层人心阻力。",
+      "proposedContent": "推进工作前先理顺人心：情绪不稳时道理进不去，信任不足时方案推不动，预期不清时行动会模糊。先处理这三层，再谈方法、资源和方案。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.96,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:29:58.029Z",
+      "updatedAt": "2026-08-20T23:29:58.029Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_dffce13741a7f3eb11187813",
+      "source": {
+        "path": "00 临时箱/案例｜党业融合为什么总是“两张皮”？中国银行党校找到了破题方法.md",
+        "excerpt": "建立了“研究—产出—应用”的完整闭环"
+      },
+      "summary": "文章把党校的“为党献策”从报告产出推进到成果应用，强调研究必须经过课程、案例、人才培养等载体转化。",
+      "proposedContent": "可沉淀为“研究—产出—应用”闭环：研究不能止于调研报告，必须转化为案例、课程、工具、师资和基层行动方案；应用后的反馈再回流到研究和课程迭代。评价党校或培训项目时，应关注是否解决真实业务问题、是否形成可复用成果、是否产生组织范围内的扩散效果，而不只看培训场次和材料数量。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.87,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:38:22.355Z",
+      "updatedAt": "2026-08-20T09:38:22.355Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_e06a81f35dfde0bb996b1f64",
+      "source": {
+        "path": "00 临时箱/开源一个排版 Skill｜彻底解决公众号排版难题（建议收藏！）.md",
+        "excerpt": "模型负责理解内容，脚本负责执行红线。能确定的事，不要交给模型猜。"
+      },
+      "summary": "稳定的 Agent 工作流应把确定性校验交给脚本，而不是完全依赖模型判断。",
+      "proposedContent": "设计 Skill 时，应区分模型能力和程序校验：模型负责理解内容、生成结构，脚本负责检查禁用标签、平台兼容、格式红线等确定性问题，降低输出不稳定性。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.95,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T23:30:22.328Z",
+      "updatedAt": "2026-08-20T23:30:22.328Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_e9b72140fce35d82e12318a4",
+      "source": {
+        "path": "00 临时箱/Obsidian排版神器：公众号×小红书×多账号.md",
+        "excerpt": "我把这套流程做成了 Obsidian 插件 NoteRelay。保留一份 Markdown，选择平台和账号后，自动替换变量、预览版式，再复制或导出。"
+      },
+      "summary": "内容分发最稳的做法，是保留一份 Markdown 主稿，再按平台/账号做变量替换和版式适配。",
+      "proposedContent": "把写作和排版拆开：先维护一份主 Markdown，再用平台主题、账号变量和导出器生成公众号、小红书等多端版本，减少重复劳动并降低改稿成本。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.91,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:33:22.936Z",
+      "updatedAt": "2026-08-20T10:33:22.936Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_ead96eb19eb0138f317d8a90",
+      "source": {
+        "path": "00 临时箱/工作能力差是怎么表现出来的.md",
+        "excerpt": "接到任务先拖延，刷手机、聊闲天，拖到最后才着急赶工。干活时不专注……"
+      },
+      "summary": "工作能力差常表现为低效拖延、需求不确认、沟通没结构、出错先推责。",
+      "proposedContent": "判断一个人的工作能力，不要只看态度口号，而要看四个具体表现：任务拖延且效率低、需求不懂也不问、沟通表达没有结构、出了问题先甩锅不补救。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.96,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-24T01:53:55.442Z",
+      "updatedAt": "2026-08-24T01:53:55.442Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_ee1c91f07634fd9825a9fb50",
+      "source": {
+        "path": "00 临时箱/豆包工作，正式发布！豆包工作是一款面向生产力场景的全新 Agent 产品，不只「生成内容」，更帮助个人与企业「完成工作」，豆包工作还与飞书深度打通，让Agent基于企业上下文更准确地完成工作！即....md",
+        "excerpt": "不只「生成内容」，更帮助个人与企业「完成工作」，豆包工作还与飞书深度打通，让Agent基于企业上下文更准确地完成工作"
+      },
+      "summary": "官方发布材料确认了豆包工作的产品定位，但与已有豆包工作笔记重复度高。",
+      "proposedContent": "建议并入已有豆包工作产品资料，作为官方定位和发布时间的来源证据；长期知识仍以‘Agent 依托企业数据、权限和上下文完成工作’这一抽象结论为主，不必重复建立产品介绍页。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.94,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-25T22:35:44.390Z",
+      "updatedAt": "2026-08-25T22:35:44.390Z",
+      "proposalKind": "insight-orphan"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_f1290b20d4353d870fdbadd1",
+      "source": {
+        "path": "00 临时箱/DeepSeek 正式打通 Codex，编程起飞.md",
+        "excerpt": "这三者共用同一套配置文件。只要配置一次，就能在命令行、桌面端和 IDE 里同步使用 DeepSeek 模型了。"
+      },
+      "summary": "文章提供了一个多端统一接入 AI 模型的配置思路：通过共享配置文件，让 CLI、桌面端和 IDE 复用同一模型提供方。",
+      "proposedContent": "建议沉淀为“Codex 自定义模型接入模式”案例：Codex CLI、ChatGPT 桌面端和 VS Code 插件可通过统一配置接入第三方模型提供方。接入时需要明确模型元数据、API 基础地址、协议类型、认证方式和默认推理强度；统一配置的价值是减少重复设置，并保持不同工作界面的模型选择一致。具体字段和支持范围必须以当前 Codex 与模型官方文档为准。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.8,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:29:19.635Z",
+      "updatedAt": "2026-08-20T09:29:19.635Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_f18510ad63b8e293f76961d2",
+      "source": {
+        "path": "00 临时箱/为什么明知家里条件一般，你的孩子还不肯认真读书？.md",
+        "excerpt": "绝对别要求孩子“认真读书 学习好”这种宽泛散漫的大目标"
+      },
+      "summary": "学习动机不能只靠抽象说教，应把长期目标拆成孩子能理解、能体验的具体收益和近期成果。",
+      "proposedContent": "与其反复告诉孩子‘读书有前途’，不如说明当前学习与具体能力、选择空间和阶段性成果的关系，并把目标拆成可掌握的知识点、解题方法和小胜利。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.88,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-25T22:40:35.572Z",
+      "updatedAt": "2026-08-25T22:40:35.572Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_f6cc140c8ead815646c160bb",
+      "source": {
+        "path": "00 临时箱/案例｜党业融合为什么总是“两张皮”？中国银行党校找到了破题方法.md",
+        "excerpt": "即以1门核心理论课程……以1门实战模拟课程……配套多门场景化微课程"
+      },
+      "summary": "文章给出了“1+1+N”实战课程结构，可用于设计党建与业务融合培训。",
+      "proposedContent": "建议记录“1+1+N”课程结构：1门核心理论课解决政治逻辑、政策逻辑和理论基础；1门实战模拟课通过案例复盘、结构化研讨和情景演练解决真实业务难题；N门场景化微课程对应不同岗位、业务和基层场景。该结构兼顾统一认知、实战转化和分层供给，适合企业党校或基层干部培训项目。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.84,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:38:22.357Z",
+      "updatedAt": "2026-08-20T09:38:22.357Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_fa29a6ccc9dafdb23c363492",
+      "source": {
+        "path": "00 临时箱/《毛选》五十一：遇到死局，除了硬扛还能干嘛？1943年，4万对40万，教员没选硬打.md",
+        "excerpt": "不是非黑即白，不是一棍子打死，而是 分清主次、区别对待、团结一切可以团结的力量 。"
+      },
+      "summary": "文章把统战思维转化为日常协作方法：不要把对方整体视为敌人，要区分反对者、中立者和可争取者。",
+      "proposedContent": "建议沉淀为“协作中的统战思维”：处理组织冲突、跨部门协作或甲方分歧时，不要把对方团队整体贴成敌人。应先拆分对象：谁坚决反对，谁只是中立，谁有共同利益，谁能被争取。策略上要减少敌人、扩大支持者、争取中间层，把问题从情绪对抗转成利益和资源协调。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.82,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T09:16:25.639Z",
+      "updatedAt": "2026-08-20T09:16:25.639Z",
+      "proposalKind": "insight-reusable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kc_fc8cd75047651a34f7447379",
+      "source": {
+        "path": "00 临时箱/很多人用不好WorkBuddy的最大卡点，是认知框架的落后.md",
+        "excerpt": "传统软件出厂即终点，AI出厂才是起点。"
+      },
+      "summary": "文章强调 AI 工具必须通过多轮反馈迭代才能发挥效果，不能用一次性软件的思路来用 AI。",
+      "proposedContent": "可整理为“AI 工具必须迭代使用”的原则：评价 AI 不能只看第一轮输出。应至少经历多轮反馈和修正，让模型根据上下文逐步贴近需求。对 AI 工具的判断，不是‘第一次好不好’，而是‘我有没有把它用到越来愈顺手’。这适合写进任何 AI 使用方法论或团队培训材料。",
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "confidence": 0.86,
+      "conflicts": [],
+      "temporal": {
+        "status": "current"
+      },
+      "reviewStatus": "pending",
+      "createdAt": "2026-08-20T10:15:47.131Z",
+      "updatedAt": "2026-08-20T10:15:47.131Z",
+      "proposalKind": "insight-reusable"
+    }
+  ],
+  "audit": [
+    {
+      "id": "ka_00000001",
+      "at": "2026-08-20T09:11:45.164Z",
+      "event": "created",
+      "candidateId": "kc_b76994ddd371a90336af2dac",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/AI使用效果 · 能力诊断测评 - YouCore.md",
+        "excerpt": "AI 使用效果不是工具操作问题，而是个人核心能力、工具能力、AI 协作能力的综合结果。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "83b45aa355335ba7c9c9e9462e28660c68c264a40dcf0519fb63ba16e95c791e"
+    },
+    {
+      "id": "ka_00000002",
+      "at": "2026-08-20T09:11:45.167Z",
+      "event": "created",
+      "candidateId": "kc_adef5d13dfb4c750e2ab0ac7",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/AI使用效果 · 能力诊断测评 - YouCore.md",
+        "excerpt": "乘法逻辑：任一维度薄弱，整体效果都会被显著拉低"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "65e509b6f650192240ae7bf6f174e4bd38dab97bf84f0d256b7a7fcd9b30c439"
+    },
+    {
+      "id": "ka_00000003",
+      "at": "2026-08-20T09:14:27.223Z",
+      "event": "created",
+      "candidateId": "kc_8958a1d42af0117f4261d18d",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/见世面要在生产端，而不是消费端.md",
+        "excerpt": "消费让你获得体验，但生产让你理解世界。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "036ae1538b5b39e39c2dc7d2d72e5d89b42a441cf5f8113d7308f3fe0c70f141"
+    },
+    {
+      "id": "ka_00000004",
+      "at": "2026-08-20T09:14:27.225Z",
+      "event": "created",
+      "candidateId": "kc_42ad14cff43ba6a96dfa4112",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/见世面要在生产端，而不是消费端.md",
+        "excerpt": "看到一个结果不要只说好厉害，要学会看流程。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "0e0882ebea12be1cb3a537a0b56974582f191df97dc06bfc3849ecf26c02a784"
+    },
+    {
+      "id": "ka_00000005",
+      "at": "2026-08-20T09:16:25.635Z",
+      "event": "created",
+      "candidateId": "kc_27b90e957d6b9a58c9ca6041",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/《毛选》五十一：遇到死局，除了硬扛还能干嘛？1943年，4万对40万，教员没选硬打.md",
+        "excerpt": "军事问题，不一定非要用军事手段解决。40万大军压境，不是只能在战场上见分晓。舆论战、外交战、统战战，都可以是破局点。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "fa8722dfcad1e19d9f0943016d3c04ee1b668dde5b337f159d2457c0512f760f"
+    },
+    {
+      "id": "ka_00000006",
+      "at": "2026-08-20T09:16:25.637Z",
+      "event": "created",
+      "candidateId": "kc_62c61dca0b76ef1534ab5503",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/《毛选》五十一：遇到死局，除了硬扛还能干嘛？1943年，4万对40万，教员没选硬打.md",
+        "excerpt": "反驳要分层，不要一锅粥。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "cbf28444e51e3ef9d17385115472c3e1a0ba065aeb1e95be6f8a40c2ea563c9f"
+    },
+    {
+      "id": "ka_00000007",
+      "at": "2026-08-20T09:16:25.639Z",
+      "event": "created",
+      "candidateId": "kc_fa29a6ccc9dafdb23c363492",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/《毛选》五十一：遇到死局，除了硬扛还能干嘛？1943年，4万对40万，教员没选硬打.md",
+        "excerpt": "不是非黑即白，不是一棍子打死，而是 分清主次、区别对待、团结一切可以团结的力量 。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "3f16d808e92740d7d93aece14fd4f5543be6fd339bb48be709684c0282729bdf"
+    },
+    {
+      "id": "ka_00000008",
+      "at": "2026-08-20T09:17:49.793Z",
+      "event": "created",
+      "candidateId": "kc_1c7d306abeb912e437ada011",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/让 Mac 在夜里读懂你的数字生活.md",
+        "excerpt": "整理后的记忆不是模型内部的黑箱，而是 Mac 上的普通 Markdown 文件夹，可以直接阅读、编辑或逐条删除。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "58fd5e9b8d9dbc11e5bd0226ef4a2d154193a7a20aaad3d5882ae09cb3e000bc"
+    },
+    {
+      "id": "ka_00000009",
+      "at": "2026-08-20T09:17:49.795Z",
+      "event": "created",
+      "candidateId": "kc_0a1c8f23aa8072d38f337a4f",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/让 Mac 在夜里读懂你的数字生活.md",
+        "excerpt": "它不会擅自操作：你可以先读、再修改，只有点击确认，动作才真正发出。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "5c2455400ebf9cfeb8bc5acbf4236e721e2d7a433f57471c7835c21db55f8e1a"
+    },
+    {
+      "id": "ka_00000010",
+      "at": "2026-08-20T09:17:49.797Z",
+      "event": "created",
+      "candidateId": "kc_c7bffd32c21f9b980593cc81",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/让 Mac 在夜里读懂你的数字生活.md",
+        "excerpt": "原始个人数据不离开 Mac，但本机清理后的短摘要可能进入所选模型账户，所以它是本地优先。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "661f371c594aab1278f3f9d6a817ad4c730697aa0858433ba0a5675b92f734d2"
+    },
+    {
+      "id": "ka_00000011",
+      "at": "2026-08-20T09:19:15.489Z",
+      "event": "created",
+      "candidateId": "kc_65841f5cf0325167f1f572ac",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/普通家庭出身的孩子，前半生唯一的主线就是积累自己的生存资本，不要过早把精力浪费在爱情、面子、情绪和无效社交上.md",
+        "excerpt": "你的能力、学历、专业知识、工作经验、赚钱能力、现金存款、资产积累，都属于这个范畴。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "39c33bbc89b6e3c6faf97b8a429cb332055b1d3d8f06f8c8b3945b418376cc3c"
+    },
+    {
+      "id": "ka_00000012",
+      "at": "2026-08-20T09:19:15.491Z",
+      "event": "created",
+      "candidateId": "kc_23e4ee7c5be9b3de2a94c083",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/普通家庭出身的孩子，前半生唯一的主线就是积累自己的生存资本，不要过早把精力浪费在爱情、面子、情绪和无效社交上.md",
+        "excerpt": "三种资本之间不是各自孤立的，可以相互转换。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "79557cd97767e394aa1f09a5eee308adf7ea90c65b7b304b9f6c472a600e6300"
+    },
+    {
+      "id": "ka_00000013",
+      "at": "2026-08-20T09:19:15.494Z",
+      "event": "created",
+      "candidateId": "kc_0435ac605542fce2b2f28218",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/普通家庭出身的孩子，前半生唯一的主线就是积累自己的生存资本，不要过早把精力浪费在爱情、面子、情绪和无效社交上.md",
+        "excerpt": "把时间花在能产生复利的事情上。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "10065f610771480e082ef8be1ead794d02675f46c9bd45c8dae033946933f8cf"
+    },
+    {
+      "id": "ka_00000014",
+      "at": "2026-08-20T09:21:30.395Z",
+      "event": "created",
+      "candidateId": "kc_116873bf7002222890c5f3af",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/你还在等Kimi官网恢复？有人已经用kimi k3省了一半钱!.md",
+        "excerpt": "Token Plan做的事很简单：把按量换成了月费封顶。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "b4470463393b38305e7c964d4f84523221782305e6c7708f1e58cf8583515e51"
+    },
+    {
+      "id": "ka_00000015",
+      "at": "2026-08-20T09:21:30.397Z",
+      "event": "created",
+      "candidateId": "kc_060d6a3192ee8a72b73c7c3a",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/你还在等Kimi官网恢复？有人已经用kimi k3省了一半钱!.md",
+        "excerpt": "如果Token Plan解决的是“多模型调度的成本确定性”，那Coding Plan解决的是另一个问题——编程场景下的使用自由。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "07b09ec36fc2617780f552e3406585ec7415d3854b123e5fa853d80918b2802b"
+    },
+    {
+      "id": "ka_00000016",
+      "at": "2026-08-20T09:22:39.454Z",
+      "event": "created",
+      "candidateId": "kc_2b6a4db64d95dd2c8309bcaa",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/你把孩子养得太舒服，他反而不想学习了.md",
+        "excerpt": "不是要苦孩子，是别让快乐来得太顺手。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "4a7045fc6e34cbff43f099062c6379b08ac387de2ce4df3f491c0e3de1bf426b"
+    },
+    {
+      "id": "ka_00000017",
+      "at": "2026-08-20T09:29:19.635Z",
+      "event": "created",
+      "candidateId": "kc_f1290b20d4353d870fdbadd1",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/DeepSeek 正式打通 Codex，编程起飞.md",
+        "excerpt": "这三者共用同一套配置文件。只要配置一次，就能在命令行、桌面端和 IDE 里同步使用 DeepSeek 模型了。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "7b9c79f256459ab8b682f49ca709ac6eca232cf65631108053013aef46c151b5"
+    },
+    {
+      "id": "ka_00000018",
+      "at": "2026-08-20T09:29:19.637Z",
+      "event": "created",
+      "candidateId": "kc_8ce8fbe4738473af7d917c81",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/DeepSeek 正式打通 Codex，编程起飞.md",
+        "excerpt": "脚本会自动完成以下几件事：备份现有配置文件，写入模型目录，修改 config.toml，进行语法校验，失败则不会改动任何文件。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "e5f11dc9ad1dd11eed7a593ff69dd8663815efa6e62b88f462f97f1070f69a05"
+    },
+    {
+      "id": "ka_00000019",
+      "at": "2026-08-20T09:31:36.771Z",
+      "event": "created",
+      "candidateId": "kc_c57e211f0d8cd5ac4ea05590",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/读懂“最小阻力之路”：卸掉党建多余包袱，贴着生产做实落地.md",
+        "excerpt": "好制度是顺着干活的路子轻轻调一下，不是硬往上加担子。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "ed7efecc5ddcfa37a8db74d02080386347cf458edc029808cffdb729e238fd09"
+    },
+    {
+      "id": "ka_00000020",
+      "at": "2026-08-20T09:31:36.773Z",
+      "event": "created",
+      "candidateId": "kc_3647b68a415c5f9e823beb6d",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/读懂“最小阻力之路”：卸掉党建多余包袱，贴着生产做实落地.md",
+        "excerpt": "党员岗位写实积分制，那些虚头巴脑的加分项全砍掉，只认四样实打实的活。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "9c9aa3a474ef12e06a55cd6614f14beb25b409f1b67bc9347c7e847f5146dc3d"
+    },
+    {
+      "id": "ka_00000021",
+      "at": "2026-08-20T09:36:49.440Z",
+      "event": "created",
+      "candidateId": "kc_3cfc8bd29a5bb6976ba49aab",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/中央企业优秀党务工作者 - 洛阳分公司仝浩波：党建引领破局攻坚，实干笃行赋能发展.md",
+        "excerpt": "始终坚持党建与业务同谋划、同部署、同落实、同考核。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "96727a9f0e71ec0fce2df5a93f8eea7ea6ca311fc1b3c25a0ca1d9fb670e7161"
+    },
+    {
+      "id": "ka_00000022",
+      "at": "2026-08-20T09:36:49.443Z",
+      "event": "created",
+      "candidateId": "kc_c28d419076c5943bb449833a",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/中央企业优秀党务工作者 - 洛阳分公司仝浩波：党建引领破局攻坚，实干笃行赋能发展.md",
+        "excerpt": "优化党员积分管理制度，将积分与评优评先、绩效考核深度挂钩，充分激发党员干事创业的内生动力。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "c08ead86cfc4bf39d030feafb2b149461de104dff8e3cc4f907fb021b26c77c6"
+    },
+    {
+      "id": "ka_00000023",
+      "at": "2026-08-20T09:38:22.353Z",
+      "event": "created",
+      "candidateId": "kc_6a8bd064a99ee3319457f04e",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/案例｜党业融合为什么总是“两张皮”？中国银行党校找到了破题方法.md",
+        "excerpt": "以调研摸实情、以案例树典型、以课程育队伍、以范式促推广"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "bb69b7f8f11038db78e07963151ae734510939f30143a0ea64c00b9860b2e7ea"
+    },
+    {
+      "id": "ka_00000024",
+      "at": "2026-08-20T09:38:22.355Z",
+      "event": "created",
+      "candidateId": "kc_dffce13741a7f3eb11187813",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/案例｜党业融合为什么总是“两张皮”？中国银行党校找到了破题方法.md",
+        "excerpt": "建立了“研究—产出—应用”的完整闭环"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "e4d2513970fbdf3f48c2836aab6e40114bc9ff7743f66c7fc26234a835283f72"
+    },
+    {
+      "id": "ka_00000025",
+      "at": "2026-08-20T09:38:22.357Z",
+      "event": "created",
+      "candidateId": "kc_f6cc140c8ead815646c160bb",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/案例｜党业融合为什么总是“两张皮”？中国银行党校找到了破题方法.md",
+        "excerpt": "即以1门核心理论课程……以1门实战模拟课程……配套多门场景化微课程"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "b6cc962d52e594c9bd09c4ec7e87bbef849e67181b56741026e0a2b6c578d43f"
+    },
+    {
+      "id": "ka_00000026",
+      "at": "2026-08-20T09:47:31.983Z",
+      "event": "created",
+      "candidateId": "kc_b8a637830a5a2b93df556b44",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/给 Workbuddy 装上 Browser-BC 神器，任何操作你录屏一遍就能蒸馏成 Skill.md",
+        "excerpt": "你亲手在浏览器里把任务做一遍，它录下你的操作轨迹，自动蒸馏成一份自然语言的 Skill。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "25c4e21397de24bff7ffa88b66c3944c928a36fab73f8d26cbc40cb51a4ea41f"
+    },
+    {
+      "id": "ka_00000027",
+      "at": "2026-08-20T09:47:31.985Z",
+      "event": "created",
+      "candidateId": "kc_8c91bc2f609f713b5221e517",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/给 Workbuddy 装上 Browser-BC 神器，任何操作你录屏一遍就能蒸馏成 Skill.md",
+        "excerpt": "蒸馏和执行可以分开。一次用强模型蒸馏好的技能，交给小模型、便宜模型也能执行。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "7182d9dffd5964770a79922c0686d0ed122b3eabc465abd95887ed534666a3b6"
+    },
+    {
+      "id": "ka_00000028",
+      "at": "2026-08-20T09:49:00.266Z",
+      "event": "created",
+      "candidateId": "kc_6e66af932dbba7e5aaf7b992",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/对低精力的人来说，低强度的坚持才是最重要的.md",
+        "excerpt": "低强度坚持的本质，是把能不能坚持从能量问题变成设计问题。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "8629cbd329466ee0f1372fb1ab2f1e5083127f45e401bb2d36150020c4cf8823"
+    },
+    {
+      "id": "ka_00000029",
+      "at": "2026-08-20T09:49:00.269Z",
+      "event": "created",
+      "candidateId": "kc_766980460a72c352287df4cb",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/对低精力的人来说，低强度的坚持才是最重要的.md",
+        "excerpt": "行为的发生，需要三个东西同时在场：动机、能力、触发。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "73aa6435553efc3805e238e0ea41e15b07e4f6fc895e761e7b55473a4c88e5ae"
+    },
+    {
+      "id": "ka_00000030",
+      "at": "2026-08-20T09:55:40.474Z",
+      "event": "created",
+      "candidateId": "kc_7009f1ff7c8ab8dc717a5ab0",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/AI四个方向.md",
+        "excerpt": "AI赋能行业是赚效率改善的钱。AI服务是赚落地与交付的钱。AI内容及IP是赚注意力与信任的钱。AI产品化是赚标准化与规模复制的钱。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "505644ca523c14b22ffef77e5cbc5e6b64ee05330a1bdd20b123a6243647bbf1"
+    },
+    {
+      "id": "ka_00000031",
+      "at": "2026-08-20T09:55:40.477Z",
+      "event": "created",
+      "candidateId": "kc_24676b6dc5e91417df8c621c",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/AI四个方向.md",
+        "excerpt": "AI改变的是商品、内容、服务和决策如何被生产出来。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "51478fe329908bcffe7e598c2adcf9588d374bcde1a06d2478d3ae43394ae4c2"
+    },
+    {
+      "id": "ka_00000032",
+      "at": "2026-08-20T09:55:40.480Z",
+      "event": "created",
+      "candidateId": "kc_2ff03d1c79f66756187ca700",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/AI四个方向.md",
+        "excerpt": "先回头看看自己做过的工作，哪一个环节最慢、最贵、最依赖重复劳动。把它缩短一半，通常就已经值钱了。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "b9792f0cbf3fdc50a6095a4a96c159610cb78d0739732b91bdcef3ac7a7deeb4"
+    },
+    {
+      "id": "ka_00000033",
+      "at": "2026-08-20T09:57:14.046Z",
+      "event": "created",
+      "candidateId": "kc_8e48903ad58aab394d65d2aa",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/DeepSeek+WorkBuddy，下一代Office工作台来了！.md",
+        "excerpt": "以后这些原本需要在办公软件上操作的事情，慢慢会聚拢在Agent里面。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "30f365ef4960135c520b093ba768f559488eced03aa375e9158bda3cb4775c3b"
+    },
+    {
+      "id": "ka_00000034",
+      "at": "2026-08-20T09:57:14.048Z",
+      "event": "created",
+      "candidateId": "kc_4e7e630fcee9da64b53e52a3",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/DeepSeek+WorkBuddy，下一代Office工作台来了！.md",
+        "excerpt": "如果想改PPT的字，我们可以手动改：就是说，简单的事情，我们可以手动完成，复杂的交给AI搞。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "be4bf35b9f95156c69cae256498557ed2f76f11a37f6f387bb4566c44db7391b"
+    },
+    {
+      "id": "ka_00000035",
+      "at": "2026-08-20T09:57:14.051Z",
+      "event": "created",
+      "candidateId": "kc_249110ccbacac59318ed6b66",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/DeepSeek+WorkBuddy，下一代Office工作台来了！.md",
+        "excerpt": "我觉得未来App等一切用手操作的东西都会消失。最终的入口就是AI入口。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "73a7cb11a4c9bd7d9db01145b45c429ed3f80a6cbb0d0a9f51cf5d04860861ab"
+    },
+    {
+      "id": "ka_00000036",
+      "at": "2026-08-20T10:03:43.220Z",
+      "event": "created",
+      "candidateId": "kc_b42a1ffdbdf341bfb949da07",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/你现在可能用不上，但哪天Mac电脑变卡了会庆幸自己存了这篇.md",
+        "excerpt": "恢复到出厂系统，也就意味着里面的任何数据都没了，所以，你需要先备份好资料，再操作。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "acadb96796fd7de4b125d0b876b384935830cc45930dfdbd39ffa72ec8cabc9f"
+    },
+    {
+      "id": "ka_00000037",
+      "at": "2026-08-20T10:03:43.223Z",
+      "event": "created",
+      "candidateId": "kc_08f373f46b5c3ee2fb386391",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/你现在可能用不上，但哪天Mac电脑变卡了会庆幸自己存了这篇.md",
+        "excerpt": "先在恢复模式里打开终端，然后执行命令：diskutil list，先确认你的内置物理盘是不是 /dev/disk0。确认后再执行..."
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "539546cf9c419b51a8de63b352a9a4f52bc2491abe71a6ec023a7456e851918f"
+    },
+    {
+      "id": "ka_00000038",
+      "at": "2026-08-20T10:03:43.225Z",
+      "event": "created",
+      "candidateId": "kc_7faa7790001dd48384ce63ac",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/你现在可能用不上，但哪天Mac电脑变卡了会庆幸自己存了这篇.md",
+        "excerpt": "如果 M 芯片 Mac 想安装某个指定版本的 macOS，可以先在终端执行 softwareupdate --list-full-installers。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "df46409936c3b4dcc9d7a4f8ec35f55a76a5ffcbbf1190d0fe7cb0ad297877c3"
+    },
+    {
+      "id": "ka_00000039",
+      "at": "2026-08-20T10:15:47.128Z",
+      "event": "created",
+      "candidateId": "kc_4988ae176c08ec246e8cb894",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/很多人用不好WorkBuddy的最大卡点，是认知框架的落后.md",
+        "excerpt": "工具决定你的效率下限，认知框架决定你的效率上限。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "9c2fdde1def45914b128fb7137457e50bc775350ed6f77f6d7c89c6feae8b326"
+    },
+    {
+      "id": "ka_00000040",
+      "at": "2026-08-20T10:15:47.131Z",
+      "event": "created",
+      "candidateId": "kc_fc8cd75047651a34f7447379",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/很多人用不好WorkBuddy的最大卡点，是认知框架的落后.md",
+        "excerpt": "传统软件出厂即终点，AI出厂才是起点。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "1b5e7e8c016ee2a630a518fa3b6056ba2b75de2ee2c7b0f8c743741688af3212"
+    },
+    {
+      "id": "ka_00000041",
+      "at": "2026-08-20T10:15:47.135Z",
+      "event": "created",
+      "candidateId": "kc_5558cc74b36e7e93a410e1b1",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/很多人用不好WorkBuddy的最大卡点，是认知框架的落后.md",
+        "excerpt": "AI的输出让你不满意时，先别下结论，问自己三句话——我的指令够具体吗？我给够上下文了吗？我给过修正反馈让它往更好的方向调整了吗？"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "a28ae8133259a645b04fcb90015bac93c2545980a493e7fe02afb7cc9eb8f7ec"
+    },
+    {
+      "id": "ka_00000042",
+      "at": "2026-08-20T10:17:02.044Z",
+      "event": "created",
+      "candidateId": "kc_59dee7ef9026f65f6c7dd543",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/很多人没有意识到：靠自己实践出来的信息，是非常值钱的.md",
+        "excerpt": "这个世界上，有两种完全不同的信息。一种叫成品信息。另一种叫铸币信息。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "d341e9c7425023392ba7fc034f7bf9c7d7f6af0046a6816e55f614e4739b517b"
+    },
+    {
+      "id": "ka_00000043",
+      "at": "2026-08-20T10:17:02.048Z",
+      "event": "created",
+      "candidateId": "kc_d8e0ee9942d56d1296b8ba1c",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/很多人没有意识到：靠自己实践出来的信息，是非常值钱的.md",
+        "excerpt": "铸币的过程本身，就是一件长期悬而未决的事。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "fb06176db3081c2f7cf48539d77dda63b09f2e1a95a2bf4acefebed7385bc133"
+    },
+    {
+      "id": "ka_00000044",
+      "at": "2026-08-20T10:18:27.596Z",
+      "event": "created",
+      "candidateId": "kc_c3c2dfe5d648809162e245a4",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/OCI思维：Skill的终点，不是指令，而是目标系统.md",
+        "excerpt": "OCI 不是把提示词写得更长，而是把目标系统写得更清楚。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "dcd6eae490b3a8f1388bdd74fe060d9c5334d1798810c5de663ee7d492be6d7f"
+    },
+    {
+      "id": "ka_00000045",
+      "at": "2026-08-20T10:18:27.599Z",
+      "event": "created",
+      "candidateId": "kc_d50e6a57272642b930a4b743",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/OCI思维：Skill的终点，不是指令，而是目标系统.md",
+        "excerpt": "O 要写成可验收的交付清单。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "2136bd1df862e69456b00e785d8824d201e849e5e6488c0f106d6df23558d946"
+    },
+    {
+      "id": "ka_00000046",
+      "at": "2026-08-20T10:18:27.603Z",
+      "event": "created",
+      "candidateId": "kc_102bda4c7fdce1007c96a9cc",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/OCI思维：Skill的终点，不是指令，而是目标系统.md",
+        "excerpt": "AI的能动性我们不用怀疑。真正要被反复确认的，是客观规律有没有被讲清楚。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "b2a2ffed7156a1f473fa0bda3940c7682a3f8121420e6109fb4c30d5565ed2cd"
+    },
+    {
+      "id": "ka_00000047",
+      "at": "2026-08-20T10:20:10.543Z",
+      "event": "created",
+      "candidateId": "kc_ae6b7ae4ba75c44b856e89c5",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/把牛人资料丢进 Codex+Obsidian，让他变成你的私人助教！.md",
+        "excerpt": "只需要将这个博主的公众号、视频号内容下载到raw中。通过在codex+obsidian重新盘活这些资料。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "89da5673731b23e99a66a29bcad0fdfc3a570ddb367189f8a2d2b7587a065389"
+    },
+    {
+      "id": "ka_00000048",
+      "at": "2026-08-20T10:20:10.547Z",
+      "event": "created",
+      "candidateId": "kc_dd5a11d2e850c98d592b15c6",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/把牛人资料丢进 Codex+Obsidian，让他变成你的私人助教！.md",
+        "excerpt": "如果一个产品，推广的时候，用户觉得贵怎么回复他"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "b5e4f065ea1be06aa33c36e30a068e5240da7721526f33801d817b8cff463456"
+    },
+    {
+      "id": "ka_00000049",
+      "at": "2026-08-20T10:20:10.551Z",
+      "event": "created",
+      "candidateId": "kc_bcf52a1049280c7694e3a259",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/把牛人资料丢进 Codex+Obsidian，让他变成你的私人助教！.md",
+        "excerpt": "4、视频下载可以用yt-dlp 的这个插件，将视频下载到本地，然后借助Whisper再转化为逐字稿。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "5513c0e9923872aa04b8f17c7766a02356c6c05b78be603f538f54c4896f5c95"
+    },
+    {
+      "id": "ka_00000050",
+      "at": "2026-08-20T10:28:00.585Z",
+      "event": "created",
+      "candidateId": "kc_4fa5b4f7e74a5b4dd77bb08d",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/如何在obsidian中添加claudian插件并使用codex.md",
+        "excerpt": "而Claudian 插件 + Codex，就是一个很适合折腾型用户的组合。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "b7f0798a345918895045ad38797a414df979990896d46332584756545831db40"
+    },
+    {
+      "id": "ka_00000051",
+      "at": "2026-08-20T10:28:36.356Z",
+      "event": "created",
+      "candidateId": "kc_b0dc7f2b69f32d7231a9bae1",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/Obsidian+DeepSeek：改3行，AI读完你所有笔记.md",
+        "excerpt": "1M 上下文真正改变的：不是效率，是你的认知盲区"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "6e7dc35a28048815551204b291fd73ff6f554565416008e06d9b52e316f2fb9f"
+    },
+    {
+      "id": "ka_00000052",
+      "at": "2026-08-20T10:28:36.360Z",
+      "event": "created",
+      "candidateId": "kc_9c9bff6900555d662d5e8235",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/Obsidian+DeepSeek：改3行，AI读完你所有笔记.md",
+        "excerpt": "这些东西 AI 编不出来，只有你有。它是你唯一的独家认知资产。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "dab789b95974f33797685afc911c9ea1a4631763b268a332762dca19974b7714"
+    },
+    {
+      "id": "ka_00000053",
+      "at": "2026-08-20T10:29:01.017Z",
+      "event": "created",
+      "candidateId": "kc_2cc43ba53765233fdd6473e7",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/鸡蛋还没孵出来，就别想篮子的事了！.md",
+        "excerpt": "在“有没有鸡蛋”的阶段，操心“鸡蛋往哪个篮子放”，这是顺序反了。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "7dd8891ac9e6afa40424ddb0b7e08743c43c51294df9aae0f368ee123e5a6ec3"
+    },
+    {
+      "id": "ka_00000054",
+      "at": "2026-08-20T10:32:47.931Z",
+      "event": "created",
+      "candidateId": "kc_b40278b14282f03b48a76ab0",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/OPC的党建这样干，是吸引力法则.md",
+        "excerpt": "党组织对他们来说，是一个什么概念？怎样的党建工作，年轻人才愿意靠近？"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "603199663118e587bb2d3567bbd6bd102e17d8138ddaa68cd8cc0d1b89b0a41b"
+    },
+    {
+      "id": "ka_00000055",
+      "at": "2026-08-20T10:33:22.936Z",
+      "event": "created",
+      "candidateId": "kc_e9b72140fce35d82e12318a4",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/Obsidian排版神器：公众号×小红书×多账号.md",
+        "excerpt": "我把这套流程做成了 Obsidian 插件 NoteRelay。保留一份 Markdown，选择平台和账号后，自动替换变量、预览版式，再复制或导出。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "e423c0cab97ee1f5db3515db3b8288301770754c36f27d11d13b6ceaf8f035d8"
+    },
+    {
+      "id": "ka_00000056",
+      "at": "2026-08-20T10:33:53.453Z",
+      "event": "created",
+      "candidateId": "kc_b6283a2a48ee6d91cf1ac104",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/Codex+企微：员工问题标准化.md",
+        "excerpt": "员工问题如何标准化，用 Codex＋企业微信，把重复答疑变成可维护的内部服务"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "bf580436fa40f79804dd4975cc37bb01b8acaabd3baabb3270ad63eb3c2009ca"
+    },
+    {
+      "id": "ka_00000057",
+      "at": "2026-08-20T10:33:53.456Z",
+      "event": "created",
+      "candidateId": "kc_a3f3f6ca63b7a2c3197a4e56",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/Codex+企微：员工问题标准化.md",
+        "excerpt": "Codex 可以帮助把脱敏后的问答记录聚类，找出高频同义问法，检查答案卡是否缺少依据、负责人或升级条件"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "1362af47cd5990b31d8ba70a2d00e99b463a0dd642b7ee690ad2e4637a1504cd"
+    },
+    {
+      "id": "ka_00000058",
+      "at": "2026-08-20T10:36:19.025Z",
+      "event": "created",
+      "candidateId": "kc_bda14378ff195c7f2c002eaf",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/庙堂与江湖，用的是两套规则，同一个底层逻辑.md",
+        "excerpt": "对外讲儒，对内讲法。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "e8a48f5e22c8f491e9c08e356739e2e42bf4194109ec152511ac518d20bd5b47"
+    },
+    {
+      "id": "ka_00000059",
+      "at": "2026-08-20T10:36:44.149Z",
+      "event": "created",
+      "candidateId": "kc_c3545502a8b80876693044d1",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/基础党务，才是党建里最被低估的方法论.md",
+        "excerpt": "把不确定性变成确定性。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "3655013b31b979712858ac7354ebc432dcf18816bfb6c586904245a588ba248c"
+    },
+    {
+      "id": "ka_00000060",
+      "at": "2026-08-20T10:36:44.153Z",
+      "event": "created",
+      "candidateId": "kc_408cf76bca8fb94895f575bc",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/基础党务，才是党建里最被低估的方法论.md",
+        "excerpt": "节奏、反馈、决策、学习——这四样东西，是任何组织管理都想做到的事。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "c9d18691a252cc05e87c2339d256f908aaafaa2418ffe86ba420a1ec039f1196"
+    },
+    {
+      "id": "ka_00000061",
+      "at": "2026-08-20T10:37:15.086Z",
+      "event": "created",
+      "candidateId": "kc_9eaca5f554fe473d51bec46f",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/系统思维，不是玄学，是科学.md",
+        "excerpt": "【系统思维五步法】：识别系统边界、列出核心要素、画出要素关系图、找到杠杆点、设计干预方案"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "217a2f44ad6e0d7fbc5f01fe7712311ae0ecf62417d935cc104c0d6dc75d1fbc"
+    },
+    {
+      "id": "ka_00000062",
+      "at": "2026-08-20T10:37:15.089Z",
+      "event": "created",
+      "candidateId": "kc_211d67d4e0193f67eb3c2d1b",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/系统思维，不是玄学，是科学.md",
+        "excerpt": "画不出边界，你就永远在解决别人的问题，而不是自己的问题。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "26c12e2501051fe792877a844c902c92b2f3574137073feffeebaa73ee79f63f"
+    },
+    {
+      "id": "ka_00000063",
+      "at": "2026-08-20T10:41:19.757Z",
+      "event": "created",
+      "candidateId": "kc_bb06e0952ba4a4b4ce4b1301",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/爬出底层，靠的根本不是拼命.md",
+        "excerpt": "吃苦这件事，分两种。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "e0d7c5f5fc271575f78ee82276ae997368a03de956590000aa334ea5f0bc7366"
+    },
+    {
+      "id": "ka_00000064",
+      "at": "2026-08-20T10:41:19.761Z",
+      "event": "created",
+      "candidateId": "kc_4a767576fd235ccb539d230b",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/爬出底层，靠的根本不是拼命.md",
+        "excerpt": "很多人在一个岗位上干了一万个小时，水平还是原地踏步。因为他们只是在重复做，而不是在刻意练。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "41ee4cc8abf576c8389685d3eda7ec3e3f28cf78b13067549264d3627cf0681f"
+    },
+    {
+      "id": "ka_00000065",
+      "at": "2026-08-20T10:41:46.919Z",
+      "event": "created",
+      "candidateId": "kc_d14cbfd0084bfb17d66e53e9",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/几千人催我的 Codex +Obsidian 公众号创作工作流，开源了！.md",
+        "excerpt": "借助 Codex + Obsidian，就完全能实现创作-排版-发布-数据分析整个的完全闭环。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "4aabaec59d072e9ee86414ffdcca98627907e1b6aac5a96b18f81eb7d8344757"
+    },
+    {
+      "id": "ka_00000066",
+      "at": "2026-08-20T10:41:46.923Z",
+      "event": "created",
+      "candidateId": "kc_4ea3041d8ea7f310006db7f8",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/几千人催我的 Codex +Obsidian 公众号创作工作流，开源了！.md",
+        "excerpt": "你可以完全把他当成 LLM Wiki 知识库，成为你和你的 Agent 的宝贵资产。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "a6cde22aaade1fbd2ba0b4844559635ee0f6194bf8313727c6c63ebdd22fc2bb"
+    },
+    {
+      "id": "ka_00000067",
+      "at": "2026-08-20T10:42:19.280Z",
+      "event": "created",
+      "candidateId": "kc_4deef617d12f11f758627e57",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/很多人还没意识到，WorkBuddy已经改变了我们学习的方式.md",
+        "excerpt": "学习的顺序，被颠倒了。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "5924b5bf172841eef867fd8a7f3402ba8f9e414cf31d61101f50ca299b6cae49"
+    },
+    {
+      "id": "ka_00000068",
+      "at": "2026-08-20T10:42:19.283Z",
+      "event": "created",
+      "candidateId": "kc_3fb6bc34cdfc8d272506d939",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/很多人还没意识到，WorkBuddy已经改变了我们学习的方式.md",
+        "excerpt": "把每一个实际卡点变成学习入口。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "68122b6e3a7e8c067670dcf6cf162be1cf8edfc00ffc416c6f2b9a806218e25e"
+    },
+    {
+      "id": "ka_00000069",
+      "at": "2026-08-20T23:29:37.446Z",
+      "event": "created",
+      "candidateId": "kc_49383ef34c0799ce0f8a5ee0",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/从0开始，12步学会用好AI。.md",
+        "excerpt": "把你脑海中你现在最头疼、最不想干、最抗拒的事情，一股脑的用语音输入法说给AI，记得用【背景、痛点、需求】的框架来去说"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "b9c07ab09c585b47ff95d60040add43131f66bc6ac34f0d4cd3f9c28147d5977"
+    },
+    {
+      "id": "ka_00000070",
+      "at": "2026-08-20T23:29:37.453Z",
+      "event": "created",
+      "candidateId": "kc_6e4ba46d7dc53402a41ede5a",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/从0开始，12步学会用好AI。.md",
+        "excerpt": "帮我把刚才的整个过程和这个事情，做成一个可以供我反复使用的Skill"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "df8c9ec97c6a9744a7a53894a8b5a406119af0ca0b101e028b125ed30caad3fe"
+    },
+    {
+      "id": "ka_00000071",
+      "at": "2026-08-20T23:29:58.029Z",
+      "event": "created",
+      "candidateId": "kc_deea2e2c286f2a5f9f98317e",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/先理顺人心，再解决事情.md",
+        "excerpt": "人心要理顺什么呢？说白了，就三层。第一层，情绪。第二层，信任。第三层，预期。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "b7ba6dec1cbf96a45fbdcf04b6bc721ab666a9187f6c3023845a4ec5fcbeee47"
+    },
+    {
+      "id": "ka_00000072",
+      "at": "2026-08-20T23:29:58.035Z",
+      "event": "created",
+      "candidateId": "kc_9259340d102b5b76702fea05",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/先理顺人心，再解决事情.md",
+        "excerpt": "理顺人心不是讨好，是清障。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "77c166d0afb93e30319540cfe36487eba6380d54c6df4feaa7aa6eb11c968fff"
+    },
+    {
+      "id": "ka_00000073",
+      "at": "2026-08-20T23:30:22.322Z",
+      "event": "created",
+      "candidateId": "kc_a0789816b58916967cd72c39",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/开源一个排版 Skill｜彻底解决公众号排版难题（建议收藏！）.md",
+        "excerpt": "把「审美偏好」变成「主题变量」，把「设计经验」变成「组件库」，把「品牌规范」变成「Agent 可以执行的规则」"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "4a0fc482234e617a04ccc13bb7c5a2f980c91b8496711d3a5995715f97874b4d"
+    },
+    {
+      "id": "ka_00000074",
+      "at": "2026-08-20T23:30:22.328Z",
+      "event": "created",
+      "candidateId": "kc_e06a81f35dfde0bb996b1f64",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/开源一个排版 Skill｜彻底解决公众号排版难题（建议收藏！）.md",
+        "excerpt": "模型负责理解内容，脚本负责执行红线。能确定的事，不要交给模型猜。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "74b4224b2fe846a7a9d7099938a778838d2adb7e9b68f7328e312f045a855d2e"
+    },
+    {
+      "id": "ka_00000075",
+      "at": "2026-08-20T23:31:18.026Z",
+      "event": "created",
+      "candidateId": "kc_8bffffe628f7601dc2eb3771",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/2026-08-12_甲木未来派_公众号排版Skill初步提炼.md",
+        "excerpt": "建议先将本页与已有来源页做一次逐段比对，确认是否为同一项目的不同版本或不同文章。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "9e6eaec3309edcf732a0632ec376912341df33df6f314278096d970a51fcb74c"
+    },
+    {
+      "id": "ka_00000076",
+      "at": "2026-08-20T23:31:38.152Z",
+      "event": "created",
+      "candidateId": "kc_84d99cf711578abb0cab0404",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/为什么有的干部总把事推给下级？.md",
+        "excerpt": "把本该自己干的事，推给了别人，导致责任成了“漂流瓶”。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "58ba2f2093d8e76c7e302633738cf6b50174ff2bb60665c14c38b1eb8c5735e0"
+    },
+    {
+      "id": "ka_00000077",
+      "at": "2026-08-20T23:31:38.159Z",
+      "event": "created",
+      "candidateId": "kc_28e4468fab352ab9b4da3610",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/为什么有的干部总把事推给下级？.md",
+        "excerpt": "政绩观是责任意识在实际工作中的投射，责任意识是政绩观的价值根基。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "c39944e33072a0675347336d69841c65f9f9d6cffee8da20d9fc878512b75a7e"
+    },
+    {
+      "id": "ka_00000078",
+      "at": "2026-08-20T23:32:16.046Z",
+      "event": "created",
+      "candidateId": "kc_6917eb06b005c4d1341c11f8",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/数学思维：一篇文章，讲透小学数学背后的思维方式.md",
+        "excerpt": "数学就是一门关于思维的学科。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "26bf0e53eff24046a1bd59fcea9c415955aab5e71c5e1970909cfb2e57c8b8a9"
+    },
+    {
+      "id": "ka_00000079",
+      "at": "2026-08-20T23:32:16.056Z",
+      "event": "created",
+      "candidateId": "kc_98c5af4a0f0785c6e910aea8",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/数学思维：一篇文章，讲透小学数学背后的思维方式.md",
+        "excerpt": "必须对所有结论，都进行逻辑追问「它是如何来的？如何能证明它？」"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "109bc756ac7c92e83703de1815d3c8cdfbbdb2c8298f6280273a685a50d36887"
+    },
+    {
+      "id": "ka_00000080",
+      "at": "2026-08-20T23:36:17.163Z",
+      "event": "created",
+      "candidateId": "kc_35a99458511cae89040b8744",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/很多人其实都不知道，笔记的真正作用是什么？.md",
+        "excerpt": "笔记从替记忆，升级为替组织。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "6f452b7c9adb63cf7a8bf28a19767a827202d88f592d60258dde414d586a8b15"
+    },
+    {
+      "id": "ka_00000081",
+      "at": "2026-08-20T23:36:17.168Z",
+      "event": "created",
+      "candidateId": "kc_c5e5fb7cbba50720c0c1ab08",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/很多人其实都不知道，笔记的真正作用是什么？.md",
+        "excerpt": "把笔记的格式，从“我摘录了什么”改成“我要拿来做什么”。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "484dcfc603696f7fb3bdd9e75305897fbfb7d6315381944f80bfa20e0735f89d"
+    },
+    {
+      "id": "ka_00000082",
+      "at": "2026-08-20T23:36:41.130Z",
+      "event": "created",
+      "candidateId": "kc_b9cda69228dedad844ec4dbc",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/关于党建工作和业务工作关系问题的认识.md",
+        "excerpt": "党建和业务不是两件事，而是一个事物的两个方面。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "fbe23fd00cec18165d3c79802ae70fecd00633b26dffbd7842374324c24f621e"
+    },
+    {
+      "id": "ka_00000083",
+      "at": "2026-08-20T23:36:41.134Z",
+      "event": "created",
+      "candidateId": "kc_a107dcbbc813ae317a0d6a58",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/关于党建工作和业务工作关系问题的认识.md",
+        "excerpt": "结合点到底在哪里？不在会议室，不在台账本，在矛盾里、困难里、业务最难推进的环节里。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "d854d08abbd5b2fe418c7e5a740444a380f802e7dc244d4e8bb2c88a5bcae431"
+    },
+    {
+      "id": "ka_00000084",
+      "at": "2026-08-20T23:37:05.269Z",
+      "event": "created",
+      "candidateId": "kc_7aa64c7702a87f739311440b",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/消防员15分钟，把胡子哥的爆款拆成了一个skill，文末送你.md",
+        "excerpt": "做skill，根本不是技术活。是把你脑子里已经会的东西，翻译成AI能听懂的话。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "fe7dbd05c942b5a7d2f90ddecc751685f2f9a2129b1dd74c2f9e19b19cb3b7f3"
+    },
+    {
+      "id": "ka_00000085",
+      "at": "2026-08-20T23:37:05.273Z",
+      "event": "created",
+      "candidateId": "kc_4522fedd8590609bc6282b8c",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/消防员15分钟，把胡子哥的爆款拆成了一个skill，文末送你.md",
+        "excerpt": "skill是长出来的，不是一次做成的。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "d7f543b0532d201c0de4f621c01793016049aa3f59c448c0e663d83c3dac9499"
+    },
+    {
+      "id": "ka_00000086",
+      "at": "2026-08-20T23:41:46.291Z",
+      "event": "created",
+      "candidateId": "kc_6c6a42987a2c25271d8fd9ea",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/有的干部既不解决真问题，也不真解决问题.md",
+        "excerpt": "既不解决真问题，也不真解决问题。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "b581964013ee4388296954f52ac34eb2e2d779e53e6840c86e95de3f8eee88d0"
+    },
+    {
+      "id": "ka_00000087",
+      "at": "2026-08-20T23:41:46.295Z",
+      "event": "created",
+      "candidateId": "kc_365a2d5a97068a6912791667",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/有的干部既不解决真问题，也不真解决问题.md",
+        "excerpt": "解决问题关键在一个“真”字。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "4a8809e7a1efe4150f8fda3b82a440616d08f80913eaedd1816614080b7dbf64"
+    },
+    {
+      "id": "ka_00000088",
+      "at": "2026-08-20T23:42:08.882Z",
+      "event": "created",
+      "candidateId": "kc_bd7cff149a797da64acebd42",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/手机上养一个懂你全部笔记的 Obsidian Agent：Obsidian 重度用户请看过来，效率要起飞了，朋友你还能坐得住？.md",
+        "excerpt": "让你过去写下的笔记，持续参与今天的工作。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "b471479432339c04bba716753e1613e1ae8ad790689ead12816cdd7d92df86b1"
+    },
+    {
+      "id": "ka_00000089",
+      "at": "2026-08-20T23:42:08.886Z",
+      "event": "created",
+      "candidateId": "kc_84213b63f3d87ac0a0244a9f",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/手机上养一个懂你全部笔记的 Obsidian Agent：Obsidian 重度用户请看过来，效率要起飞了，朋友你还能坐得住？.md",
+        "excerpt": "它记得你是谁，但每条记忆都过你的审"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "eb9399d93844c3100eef3546808c654fa0dd239d4cb0f61b98317e4d6d382680"
+    },
+    {
+      "id": "ka_00000090",
+      "at": "2026-08-20T23:42:30.888Z",
+      "event": "created",
+      "candidateId": "kc_9a77fa76c2e29dea868905f5",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/一副局长自购 10 亿 token 月费 20 多，手搓防汛小程序。.md",
+        "excerpt": "真正让我觉得震撼的，却不是Token便宜。而是一个基层干部，把自己工作中最麻烦、最费人的事情，用AI彻底改掉了。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "13eb6b97269b06ad4606fd9c375cf5279f45965a6e57ffe5d87677c38a46e945"
+    },
+    {
+      "id": "ka_00000091",
+      "at": "2026-08-20T23:42:30.893Z",
+      "event": "created",
+      "candidateId": "kc_b3cb6dca01c4b057d363a775",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/一副局长自购 10 亿 token 月费 20 多，手搓防汛小程序。.md",
+        "excerpt": "代码只是最后的表达形式，解决问题，才是真正的产品。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "daddc30f24f9d5de19a574ad4cc84acc511375f64c9fe615b60b6515be2bdfce"
+    },
+    {
+      "id": "ka_00000092",
+      "at": "2026-08-20T23:46:11.827Z",
+      "event": "created",
+      "candidateId": "kc_cdca5c32c8cc2721626469a4",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/第三篇｜夸错了，比骂还毒。.md",
+        "excerpt": "反馈时，剥离所有“人格特质评价”（聪明、懒、棒、乖），只聚焦于“具体可重复的行为动作”进行描述。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "e1afd01eea3f4ee1e8a002ea0bcc650554ac861e86cc258baa2ef6db67718643"
+    },
+    {
+      "id": "ka_00000093",
+      "at": "2026-08-20T23:46:34.126Z",
+      "event": "created",
+      "candidateId": "kc_1420488ab128c47a86c5774f",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/孩子学习差，员工躺平，你为什么越帮他，他越摆烂？｜原子笔记①.md",
+        "excerpt": "这叫 “防御性归因” 。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "003685e37b29f85747e648fde2de0cd642be104ad9125fb9de55a1cd0334a2b8"
+    },
+    {
+      "id": "ka_00000094",
+      "at": "2026-08-20T23:46:34.130Z",
+      "event": "created",
+      "candidateId": "kc_adf62b79a67af1c6ff440af4",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/孩子学习差，员工躺平，你为什么越帮他，他越摆烂？｜原子笔记①.md",
+        "excerpt": "你在保护什么？"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "ea39515d9a5100774662b71584bd013a0c9dd28e096045be7d6e332dffc5bd32"
+    },
+    {
+      "id": "ka_00000095",
+      "at": "2026-08-20T23:46:58.371Z",
+      "event": "created",
+      "candidateId": "kc_0d626823132dc139c6e84604",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/成事的人，苦都吃得“挑三拣四”.md",
+        "excerpt": "有些苦是消耗型的，有些苦是积累型的。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "1e36cb73a7dc52351633019c654411a2296ef3b9a77796dbbd796076504e07a4"
+    },
+    {
+      "id": "ka_00000096",
+      "at": "2026-08-20T23:46:58.375Z",
+      "event": "created",
+      "candidateId": "kc_b323b1bea0e03b1ec088c70a",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/成事的人，苦都吃得“挑三拣四”.md",
+        "excerpt": "白送的苦，那不叫吃苦，那叫犯Jian。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "1808b6ef66f0ae5bf39b49a478962872cbfb8f7f3d9be37609bf31dc6f8ecac9"
+    },
+    {
+      "id": "ka_00000097",
+      "at": "2026-08-20T23:51:20.210Z",
+      "event": "created",
+      "candidateId": "kc_8476a77cce40ab6cf326171e",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/我搓了半年 ObsidianCC，最后缺的那一环，被笔记同步助手拼出我的剪藏到知识闭环最后一个环节，Obsidian 重度使用者有福利了.md",
+        "excerpt": "它擅长“收”，我擅长“消化”。它解决的，是我做了大半年 ObsidianCC 也没解决好的那一环。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "ab0dbc2add1200c7ed89eff2052e55bd527f4318b93ea982a0053b45f90fc8d0"
+    },
+    {
+      "id": "ka_00000098",
+      "at": "2026-08-20T23:51:20.214Z",
+      "event": "created",
+      "candidateId": "kc_c424d68e3aad02407c894845",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/我搓了半年 ObsidianCC，最后缺的那一环，被笔记同步助手拼出我的剪藏到知识闭环最后一个环节，Obsidian 重度使用者有福利了.md",
+        "excerpt": "没有 API。没有 webhook。没有 OAuth。没有 token 刷新。没有 rate limit。两个插件各自独立，但共享同一个文件系统，自然就拼上了。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "61312ff8f2171d251a7519f0184e4d416e1213472957eeb41ad012439eb666b6"
+    },
+    {
+      "id": "ka_00000099",
+      "at": "2026-08-24T01:53:55.442Z",
+      "event": "created",
+      "candidateId": "kc_ead96eb19eb0138f317d8a90",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/工作能力差是怎么表现出来的.md",
+        "excerpt": "接到任务先拖延，刷手机、聊闲天，拖到最后才着急赶工。干活时不专注……"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "50d56c4e23a4e8185acc47e142f57482349ff1ca094b5e222c670bc5ee91567e"
+    },
+    {
+      "id": "ka_00000100",
+      "at": "2026-08-24T01:54:21.618Z",
+      "event": "created",
+      "candidateId": "kc_776c22bdbc0759560da8c03e",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/想要解决问题，你必须升维（深度好文）.md",
+        "excerpt": "我们不能用制造问题时的同一水平思维，来解决产生的问题。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "5395d6fff921607481319642e753e5aaa60f4421eb5cd38d0fc942445e4f1de7"
+    },
+    {
+      "id": "ka_00000101",
+      "at": "2026-08-24T01:54:21.622Z",
+      "event": "created",
+      "candidateId": "kc_28041477d7b0033416bcfc5b",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/想要解决问题，你必须升维（深度好文）.md",
+        "excerpt": "复杂问题是由无数个相互影响的反馈回路组成的。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "7cff8229e67d7454f49b3650a3f458a12aac41dc0af886f4ee5418fe7d65c18c"
+    },
+    {
+      "id": "ka_00000102",
+      "at": "2026-08-24T02:00:03.746Z",
+      "event": "created",
+      "candidateId": "kc_5195c6a50c4943e2dc7fa399",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/发现一个奇怪现象：如果你对孩子越来越好，越来越包容，越来越共情，你的孩子不仅会厌学，更会成为天底下最不珍惜你的那个人.md",
+        "excerpt": "共情本身没有错。错的是只有共情，没有边界。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "530f7f9dd09863387359114681126f683590ce0ecdae1931560f68dd746d50b6"
+    },
+    {
+      "id": "ka_00000103",
+      "at": "2026-08-24T02:00:03.753Z",
+      "event": "created",
+      "candidateId": "kc_9a6038db6a3551d8d3181dc0",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/发现一个奇怪现象：如果你对孩子越来越好，越来越包容，越来越共情，你的孩子不仅会厌学，更会成为天底下最不珍惜你的那个人.md",
+        "excerpt": "看见情绪，但不接管他的人生；理解痛苦，但不帮他逃避考验。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "6f7d56b9d17584a6ee12e4082d5d4a51492bf6188c2ff174c475e0178b0929ed"
+    },
+    {
+      "id": "ka_00000104",
+      "at": "2026-08-24T02:03:48.444Z",
+      "event": "created",
+      "candidateId": "kc_a8b1354138554d439569805a",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/用 GPT Image 2 改照片的提示词合集，直接复制用（附核心提示词）.md",
+        "excerpt": "先锁脸，再换风格。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "0e40744071dcd9c6a11399364ac6f01b6607b69d4a51f6c7b4bb1b19d27fe74d"
+    },
+    {
+      "id": "ka_00000105",
+      "at": "2026-08-24T02:04:12.542Z",
+      "event": "created",
+      "candidateId": "kc_43d506c57de6bb4de2e863a5",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/工作能力差是怎么表现出来的.md",
+        "excerpt": "1、干活磨叽效率低下 / 2、任务要求不懂也不问 / 3、沟通说不明白事儿 / 4、出问题就甩锅抱怨"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "bbe79b30d9bab9d9a9016b9ebe3b148fa2aea9b55153eafbae41bf6099644970"
+    },
+    {
+      "id": "ka_00000106",
+      "at": "2026-08-24T09:14:06.217Z",
+      "event": "created",
+      "candidateId": "kc_2398d8613d577c410a776115",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/在Codex上安装知乎CLI，你就是掌管高赞帖的神！.md",
+        "excerpt": "你负责提出问题，它负责把知乎的内容找出来。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "45872b629e7adc76119de0121d3bba76276063ba1155a20d3587c73853607aec"
+    },
+    {
+      "id": "ka_00000107",
+      "at": "2026-08-24T09:14:06.222Z",
+      "event": "created",
+      "candidateId": "kc_3d240b8183e32dd7b4b0d4c7",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/在Codex上安装知乎CLI，你就是掌管高赞帖的神！.md",
+        "excerpt": "Access Secret 是访问凭证，不是知乎登录密码。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "60c50925baf18a25739f12d17d3623cc9ee59cc62fd1afa8454f4b18fd0f2df6"
+    },
+    {
+      "id": "ka_00000108",
+      "at": "2026-08-25T22:35:11.731Z",
+      "event": "created",
+      "candidateId": "kc_c6bf3c707cafdd914bc2c4e3",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/一周以后，我想我终于可以来聊聊Seedance 2.5了。.md",
+        "excerpt": "2.0对业余创作者更方便，因为模型自己延展镜头的能力很强。2.5 对专业创作者更友好，因为它稳定、可控，愿意服从更具体的导演意图。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "8d1f908e8c26427963675a4ca35932845a63ec37b067ee2a649be49888ee50f3"
+    },
+    {
+      "id": "ka_00000109",
+      "at": "2026-08-25T22:35:11.737Z",
+      "event": "created",
+      "candidateId": "kc_40bee933268f17c44da8562b",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/一周以后，我想我终于可以来聊聊Seedance 2.5了。.md",
+        "excerpt": "未来，角色的多角度设定、表情库、服装、道具、场景、声音、动作、镜头规则、色彩规范，都会从参考资料变成生产资料。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "34c4669be5bf91472db629b15b1fe17e8e5715a8d5503d8f6d9cb9bc1f1906e0"
+    },
+    {
+      "id": "ka_00000110",
+      "at": "2026-08-25T22:35:44.373Z",
+      "event": "created",
+      "candidateId": "kc_7735fb478a7b6d82e26a2760",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/飞书和豆包合并后的第一个Agent产品，豆包工作，它来了。.md",
+        "excerpt": "Agent没有那么重要，数据才是最重要的。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "60465d976ea08ab8a35d9079aff65a3b7ad4223277983561c4d8f982deff2454"
+    },
+    {
+      "id": "ka_00000111",
+      "at": "2026-08-25T22:35:44.380Z",
+      "event": "created",
+      "candidateId": "kc_85e4051ea8c540e31e06cdd0",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/飞书和豆包合并后的第一个Agent产品，豆包工作，它来了。.md",
+        "excerpt": "员工直接使用飞书账号登录，部门、身份、文档权限全部继承。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "45de2cffec024b4400e303d6df8670fd0c07cd4dfa6f0f7c8b4d18bbe0cbb541"
+    },
+    {
+      "id": "ka_00000112",
+      "at": "2026-08-25T22:35:44.390Z",
+      "event": "created",
+      "candidateId": "kc_ee1c91f07634fd9825a9fb50",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/豆包工作，正式发布！豆包工作是一款面向生产力场景的全新 Agent 产品，不只「生成内容」，更帮助个人与企业「完成工作」，豆包工作还与飞书深度打通，让Agent基于企业上下文更准确地完成工作！即....md",
+        "excerpt": "不只「生成内容」，更帮助个人与企业「完成工作」，豆包工作还与飞书深度打通，让Agent基于企业上下文更准确地完成工作"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "849e22adf6ce05b8d2c674bcf15e26060581fd275a8e0068ff856b38fb12a4a7"
+    },
+    {
+      "id": "ka_00000113",
+      "at": "2026-08-25T22:39:45.013Z",
+      "event": "created",
+      "candidateId": "kc_c2d648d1edd8475aa34b952f",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/对你威胁最大的，从来不是能力比你强的那个人，而是生态位特性与你高度重合的那个.md",
+        "excerpt": "威胁你的从来不是“强”，是“同”。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "8efbbb7cc1175eee49bded6ce8bee076389c005dce74b50c3d7e77c1c9ac4050"
+    },
+    {
+      "id": "ka_00000114",
+      "at": "2026-08-25T22:40:10.794Z",
+      "event": "created",
+      "candidateId": "kc_235cb6d30ebc478976295227",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/为什么说23点后睡觉的人“亏大了”？.md",
+        "excerpt": "如果固定不了每天早睡，那就先固定起床时间。闹钟一响马上拉开窗帘，接触自然光15-30分钟。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "f70d51b19e2a690394049e99235b0d53e4c53eb1ba76f913edbf7fa2d6ca4ad5"
+    },
+    {
+      "id": "ka_00000115",
+      "at": "2026-08-25T22:40:35.572Z",
+      "event": "created",
+      "candidateId": "kc_f18510ad63b8e293f76961d2",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/为什么明知家里条件一般，你的孩子还不肯认真读书？.md",
+        "excerpt": "绝对别要求孩子“认真读书 学习好”这种宽泛散漫的大目标"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "9232f3793f96ce5ae558c78e7e80b1cbdca3ab30728d326c7db6249ff0b40b4f"
+    },
+    {
+      "id": "ka_00000116",
+      "at": "2026-08-25T22:40:35.582Z",
+      "event": "created",
+      "candidateId": "kc_3848e894423d062e2846f286",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/为什么明知家里条件一般，你的孩子还不肯认真读书？.md",
+        "excerpt": "多给予鼓励和认可，哪怕他只是几分的进步"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "f7708704c1af05962689884860f3bba6f9ce895b200c90c6a1cad4666ebeb83b"
+    },
+    {
+      "id": "ka_00000117",
+      "at": "2026-08-26T04:10:12.342Z",
+      "event": "created",
+      "candidateId": "kc_67444abff544a36221c370a1",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/得信息位者，得天下.md",
+        "excerpt": "关键不在信息量，在信息位。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "541fa5703871bab8a047a33c2b6906a2457ed6fc3e4bbbd27777127cdb01face"
+    },
+    {
+      "id": "ka_00000118",
+      "at": "2026-09-02T01:40:30.131Z",
+      "event": "created",
+      "candidateId": "kc_3c15d0e82b72c083ee27e82a",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/同步助手_2026-09-02.md",
+        "excerpt": "你转发的是视频号卡片，我只能同步到标题和简介。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "06d67cba730291213a167170d7e3e721ff9c0538520c8ea1fdf64491a4c5375c"
+    },
+    {
+      "id": "ka_00000119",
+      "at": "2026-09-03T00:27:52.177Z",
+      "event": "created",
+      "candidateId": "kc_9d4a59a6fa3d694e47e8b3c6",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/想要被提拔，一定要上得了台面.md",
+        "excerpt": "台面就是那身能代表一个山头、一个部门、一个利益集团出去谈判、应酬、表态的本事。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "835481110a0739d14e3d778519b10252fd75d4175eb0ff774db4047b167f13f0"
+    },
+    {
+      "id": "ka_00000120",
+      "at": "2026-09-03T00:27:52.182Z",
+      "event": "created",
+      "candidateId": "kc_d840797d844146ddac5a8410",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/想要被提拔，一定要上得了台面.md",
+        "excerpt": "很多业务尖子，够清、够正、够硬吧？可一到协调会上，别人跟他聊三句就聊死了。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "8064d392e2548a483a3c02fa082874c078a2290c98942ce027175327ed2c4cc1"
+    },
+    {
+      "id": "ka_00000121",
+      "at": "2026-09-07T02:34:47.383Z",
+      "event": "created",
+      "candidateId": "kc_116e8b6b22d27e7ea7728376",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/人在阅历尚浅的时候，不要沉溺于向内求.md",
+        "excerpt": "没有足够的样本，谁也没法知道。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "13263c10134782f3ecdb1ba0d045c878df5aff1cd226fd2f22cde74a75591900"
+    },
+    {
+      "id": "ka_00000122",
+      "at": "2026-09-07T02:34:47.391Z",
+      "event": "created",
+      "candidateId": "kc_1b8da796a5523bc431d59377",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/因果的本质是什么？.md",
+        "excerpt": "因果的本质，就一个字：行。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "7a680ee4bd722b45780aad8bd2e68bbb30adef75b67dc3f00abca884b8a0bb15"
+    },
+    {
+      "id": "ka_00000123",
+      "at": "2026-09-11T08:07:01.064Z",
+      "event": "created",
+      "candidateId": "kc_a82859c3f81276ab1973ef98",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/人在阅历尚浅的时候，不要沉溺于向内求.md",
+        "excerpt": "没有足够的样本，谁也没法知道。"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "cd446aa8ddd27a93c8d933144cd33a1c65c23d9ae6439cc23a372f720433265b"
+    },
+    {
+      "id": "ka_00000124",
+      "at": "2026-09-11T09:13:58.597Z",
+      "event": "created",
+      "candidateId": "kc_05a212e87d99939b6b8ace29",
+      "toStatus": "pending",
+      "source": {
+        "path": "00 临时箱/豆包工作，正式发布！豆包工作是一款面向生产力场景的全新 Agent 产品，不只「生成内容」，更帮助个人与企业「完成工作」，豆包工作还与飞书深度打通，让Agent基于企业上下文更准确地完.md",
+        "excerpt": "豆包工作是一款面向生产力场景的全新 Agent 产品，不只「生成内容」，更帮助个人与企业「完成工作」"
+      },
+      "target": {
+        "path": "",
+        "mode": "create",
+        "expectedHash": null
+      },
+      "contentHash": "3a8ab8824229ec62aaa9a7a08fa1cf3b366dccb3a7e82d516bf26cd2ce2d545e"
+    }
+  ]
+}

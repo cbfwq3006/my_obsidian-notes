@@ -1,0 +1,306 @@
+{
+  "main": {
+    "id": "d3fd38f3a4f46937",
+    "type": "split",
+    "children": [
+      {
+        "id": "9053d5cbf2644b61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33f9b1ffbbf6c979",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026/20260728.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260728"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "818474247910de92",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf3a6cb368255038",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "741861c71809af7e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "7feae1e5e01e21fb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "督查",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "cb54a8d6bbff4df8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "2c8b85f8b514d75c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "0300902007b5ef01",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "笔记本导航器"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 533.5
+  },
+  "right": {
+    "id": "e7985651004334e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ec20d15683c81ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f415d6a9eefdbc61",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "杂/欢迎.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "欢迎 的反向链接列表"
+            }
+          },
+          {
+            "id": "cf541aff9c918ecc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "杂/欢迎.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "欢迎 的出链列表"
+            }
+          },
+          {
+            "id": "e5c3cb36eebd1efb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "febe3f7f91cccbce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2026/20260728.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "20260728 的大纲"
+            }
+          },
+          {
+            "id": "5ec02b5c9c6e2645",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "1868ae5d9f0f3652",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "be9072b04084a5f3",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "b6dcc19bd1876ce8",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          },
+          {
+            "id": "e9ea043ac6ec0382",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "horizontal",
+    "width": 470.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "realclaudian:Open Claudian": false,
+      "bases:新建数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "notehelper:tongbuzhushou": false,
+      "obsidian-git:Open Git source control": false,
+      "notebook-navigator:笔记本导航器": false,
+      "obsidian42-brat:BRAT": false,
+      "note-to-mp:复制到公众号": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "terminal:Open terminal": false,
+      "copilot:Open Copilot Chat": false
+    }
+  },
+  "active": "0300902007b5ef01",
+  "lastOpenFiles": [
+    "工作日报/2026-07-29 工作日报.md",
+    "copilot/copilot-conversations/生成本周周总结@20260729_142736.md",
+    "projects/copilot-index-watchdog.md",
+    "scripts/unregister-copilot-index-watchdog.ps1",
+    "scripts/register-copilot-index-watchdog.ps1",
+    "scripts/copilot-index-watchdog.ps1",
+    "scripts/copilot-index-watchdog.config.json",
+    "copilot/copilot-conversations/本周MD文件周总结@20260729_092634.md",
+    "笔记同步助手/images/c51415c301e435b9b4464d9ff316a05e_MD5.png",
+    "笔记同步助手/images/c46f6b550f9b89c03884f69d5866a13d_MD5.png",
+    "笔记同步助手/images/c3d3aee53830e12b45e2f87a04b0928a_MD5.jpg",
+    "笔记同步助手/images/c30473e67454eec8146a8da0915a2b66_MD5.png",
+    "笔记同步助手/images/bd48355755e7913e9bfabb35a34b51c6_MD5.png",
+    "笔记同步助手/images/c605a45022cc6532be84726910971627_MD5.jpg",
+    "笔记同步助手/images/c4322535a70130ad68104498cae7dfd0_MD5.png",
+    "笔记同步助手/images/9d6a16ebeb22c0a2980db1340ed36f54_MD5.png",
+    "笔记同步助手/images/9be53580bd7ed59a4fa56ed8ae200f47_MD5.png",
+    "笔记同步助手/images/d282a640333fe7afa2dd0ead6c7b1f1c_MD5.jpg",
+    "00 临时箱/比学历更重要的，是你终身学习的能力.md",
+    "copilot/copilot-conversations/根据MD文件生成周总结@20260729_091540.md",
+    "工作日报/2026-07-02 工作日报.md",
+    "00 临时箱/images",
+    "AI工具知识库/04_模型产品更新/2026-07-28-Hugging Face is being used to easily undress women and child-2a58c8ebd3.md",
+    "AI工具知识库/02_工具测评/2026-07-28-Smart rings are looking like my kind of AI gadget-0f6e69dea1.md",
+    "AI工具知识库/02_工具测评/2026-07-28-Perplexity’s Personal Computer turns Windows PCs into AI age-37db1a04f0.md",
+    "AI工具知识库/01_行业资讯/2026-07-29-AI’s finally expensive enough to make Wall Street nervous-c889cb1c75.md",
+    "AI工具知识库/01_行业资讯/2026-07-29-AI leaders sign a statement asking the government to do some-af8439b14c.md",
+    "AI工具知识库/04_模型产品更新/2026-07-29-Scientific computing in the age of agentic AI-df22037e3e.md",
+    "工作日报/2026-07-28 工作日报.md",
+    "工作日报/2026-07-24 工作日报.md",
+    "01 通用体系/通用技能/AI应用/2026-06-27/我把微信接上 Codex 了：以后在手机上发一句话，电脑就能干活，全流程揭露.md",
+    "projects/__pycache__/repair_wechat_sync_notes.cpython-312.pyc",
+    "projects/__pycache__",
+    "projects/repair_wechat_sync_notes.py",
+    "01 Inbox/怎么主动扩展自己的社交人脉-周亦见-20260712.md",
+    "01 通用体系/通用技能/AI应用/2026-07-02/6个Obsidian封神的插件.md",
+    "01 通用体系/通用能力/人际能力/一对一沟通/表达沟通/《毛选》三十四：对手给你扣了一顶大帽子，毛选说：别解释，重新定义它.md",
+    "01 通用体系/通用能力/人际能力/一对一沟通/2026-07-03/你长大了，该学会说场面话了.md",
+    "2026/20260728.md",
+    "attachments/笔记同步图片",
+    "01 通用体系/通用技能/办公效率/效率方法/我在Obsidian里用4个场景把工作效率翻了一倍——每个场景3分钟就能搭好.md",
+    "笔记同步助手/images",
+    "01 通用体系/通用技能/AI应用/Codex与Agent/让 Codex 自己写 -goal：五步方法让你用好goal.md",
+    "01 通用体系/通用技能/办公效率/2026-06-18/永远不要低估碎片时间的力量.md",
+    "01 通用体系/通用技能/办公效率/2026-07-09/不会代码也能做：用 Codex + Obsidian + 飞书搭建自动化知识库 2.md",
+    "01 通用体系/通用技能/办公效率/2026-07-18/WorkBuddy 十大场景实战：把杂活交给 AI 解放双手.md",
+    "100可迁移/110核心素质/未命名.canvas",
+    "obsidian笔记/完成内容/已完成的工作内容/202602汇总/2026-02-21.canvas",
+    "未命名.canvas"
+  ]
+}

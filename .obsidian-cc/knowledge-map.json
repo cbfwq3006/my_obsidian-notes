@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "mode": "existing",
+  "targets": {
+    "sources": [
+      {
+        "kind": "folder",
+        "value": "obsidian笔记/_tools/hermes-agent/hermes-agent/skills/dogfood/references"
+      }
+    ],
+    "generated": [
+      {
+        "kind": "folder",
+        "value": "outputs"
+      }
+    ],
+    "projects": [
+      {
+        "kind": "folder",
+        "value": "projects"
+      }
+    ],
+    "concepts": [
+      {
+        "kind": "folder",
+        "value": "wiki"
+      }
+    ],
+    "capture": [
+      {
+        "kind": "tag",
+        "value": "素材/灵感"
+      }
+    ],
+    "people": [
+      {
+        "kind": "tag",
+        "value": "人脉"
+      }
+    ],
+    "daily": [
+      {
+        "kind": "tag",
+        "value": "daily"
+      }
+    ]
+  },
+  "excludedFolders": [
+    ".obsidian",
+    ".trash",
+    ".git",
+    "node_modules"
+  ],
+  "writableFolders": [
+    "obsidian笔记/_tools/hermes-agent/hermes-agent/skills/dogfood/references",
+    "outputs"
+  ],
+  "protectedFolders": [
+    "projects",
+    "wiki",
+    "."
+  ],
+  "readonlyFolders": [],
+  "contextDir": ".obsidian-cc/context",
+  "createdAt": "2026-08-19T09:55:32.665Z",
+  "updatedAt": "2026-08-19T10:04:13.513Z"
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "d7990c03-7414-4d7e-8e38-7ce661029e2b",
+    "title": "新对话",
+    "updatedAt": 1785593147395,
+    "schemaVersion": 1,
+    "isPinned": false
+  },
+  {
+    "id": "3e5339d3-fe96-47c6-b19e-feac5e7eba94",
+    "title": "新对话",
+    "updatedAt": 1785593469535,
+    "schemaVersion": 1,
+    "isPinned": false
+  },
+  {
+    "id": "676a4909-abf3-44d9-a4bb-7f9f126ad015",
+    "title": "新对话",
+    "updatedAt": 1785593848034,
+    "schemaVersion": 1,
+    "isPinned": false
+  },
+  {
+    "id": "8ddef4ad-d0f9-4160-977c-af83cd2956a5",
+    "title": "新对话",
+    "updatedAt": 1785594042631,
+    "schemaVersion": 1,
+    "isPinned": false
+  },
+  {
+    "id": "c7161989-e60f-4abb-a74d-7d0a3619e09a",
+    "title": "新对话",
+    "updatedAt": 1785594212381,
+    "schemaVersion": 1,
+    "isPinned": false
+  },
+  {
+    "id": "96c340a2-f4a5-44a7-b17c-2114b8f84447",
+    "title": "我是 claude-sonnet-5，一个 AI 驱动的开发环境。关于我使用的具体底层模型，我的系统信息中没有提供这方面的详细说明。我可以帮你编写代码、执行终端命令、分析文件、调试问题，以及处理各种技术和专业工作。\n\n有什么我可以帮你的吗？",
+    "updatedAt": 1785594625100,
+    "schemaVersion": 1,
+    "isPinned": false
+  },
+  {
+    "id": "e557aac0-6a57-484b-bb55-19a767ebfee4",
+    "title": "我使用的模型",
+    "updatedAt": 1785594994282,
+    "schemaVersion": 1,
+    "isPinned": false
+  },
+  {
+    "id": "ab56f213-6bf3-43a8-ab88-c3aac1735431",
+    "title": "你是什么大模型？",
+    "updatedAt": 1785629462559,
+    "schemaVersion": 1,
+    "isPinned": false
+  },
+  {
+    "id": "cb70c670-7c5a-4ea9-93a4-e3b1cd27f2ac",
+    "title": "claude-sonnet-5 大模型介绍",
+    "updatedAt": 1785630036124,
+    "schemaVersion": 1,
+    "isPinned": false
+  },
+  {
+    "id": "391bcc32-b339-471e-b364-8c7a25e25bde",
+    "title": "询问AI模型身份",
+    "updatedAt": 1785631103873,
+    "schemaVersion": 1,
+    "isPinned": false
+  },
+  {
+    "id": "95e61336-af47-49ff-940a-f9156672701e",
+    "title": "归纳能力笔记格式确认",
+    "updatedAt": 1785858262738,
+    "schemaVersion": 1,
+    "isPinned": false
+  },
+  {
+    "id": "81459c43-e21a-4ff7-91c0-61a4ecf9a6fa",
+    "title": "摄取今日同步内容",
+    "updatedAt": 1786495951814,
+    "schemaVersion": 1,
+    "isPinned": false
+  }
+]

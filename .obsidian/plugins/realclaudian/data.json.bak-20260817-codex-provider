@@ -1,0 +1,19 @@
+﻿{
+    "tabManagerState":  {
+                            "openTabs":  [
+                                             {
+                                                 "tabId":  "tab-1786506548132-qeta0cr",
+                                                 "conversationId":  "conv-1786507085120-nwctfd8qp"
+                                             }
+                                         ],
+                            "activeTabId":  "tab-1786506548132-qeta0cr"
+                        },
+    "providerConfigs":  {
+                            "claude":  {
+                                           "cliPath":  "C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\claude.cmd",
+                                           "loadUserSettings":  true,
+                                           "defaultModel":  "opus",
+                                           "lastModel":  "kimi-k3[1m]"
+                                       }
+                        }
+}

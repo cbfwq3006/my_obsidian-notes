@@ -1,0 +1,112 @@
+{
+    "id":  "d7990c03-7414-4d7e-8e38-7ce661029e2b",
+    "title":  "新对话",
+    "messages":  [
+                     {
+                         "role":  "user",
+                         "content":  {
+                                         "root":  {
+                                                      "children":  [
+                                                                       {
+                                                                           "children":  [
+                                                                                            {
+                                                                                                "detail":  0,
+                                                                                                "format":  0,
+                                                                                                "mode":  "normal",
+                                                                                                "style":  "",
+                                                                                                "text":  "你是什么大模型？",
+                                                                                                "type":  "text",
+                                                                                                "version":  1
+                                                                                            }
+                                                                                        ],
+                                                                           "direction":  "ltr",
+                                                                           "format":  "",
+                                                                           "indent":  0,
+                                                                           "type":  "paragraph",
+                                                                           "version":  1,
+                                                                           "textFormat":  0,
+                                                                           "textStyle":  ""
+                                                                       }
+                                                                   ],
+                                                      "direction":  "ltr",
+                                                      "format":  "",
+                                                      "indent":  0,
+                                                      "type":  "root",
+                                                      "version":  1
+                                                  }
+                                     },
+                         "promptContent":  null,
+                         "id":  "2549a443-ada5-4915-b8ce-64981d0f58c4",
+                         "mentionables":  [
+
+                                          ],
+                         "selectedSkills":  [
+
+                                            ],
+                         "selectedModelIds":  [
+                                                  "Claude code/claude-sonnet-5"
+                                              ],
+                         "reasoningLevel":  "off"
+                     },
+                     {
+                         "role":  "user",
+                         "content":  {
+                                         "root":  {
+                                                      "children":  [
+                                                                       {
+                                                                           "children":  [
+                                                                                            {
+                                                                                                "detail":  0,
+                                                                                                "format":  0,
+                                                                                                "mode":  "normal",
+                                                                                                "style":  "",
+                                                                                                "text":  "你是什么大模型？",
+                                                                                                "type":  "text",
+                                                                                                "version":  1
+                                                                                            }
+                                                                                        ],
+                                                                           "direction":  "ltr",
+                                                                           "format":  "",
+                                                                           "indent":  0,
+                                                                           "type":  "paragraph",
+                                                                           "version":  1,
+                                                                           "textFormat":  0,
+                                                                           "textStyle":  ""
+                                                                       }
+                                                                   ],
+                                                      "direction":  "ltr",
+                                                      "format":  "",
+                                                      "indent":  0,
+                                                      "type":  "root",
+                                                      "version":  1
+                                                  }
+                                     },
+                         "promptContent":  null,
+                         "id":  "6570ccf7-ec64-48fd-a4af-6e8aa589f11e",
+                         "mentionables":  [
+
+                                          ],
+                         "selectedSkills":  [
+
+                                            ],
+                         "selectedModelIds":  [
+                                                  "Claude code/claude-sonnet-5"
+                                              ],
+                         "reasoningLevel":  "off"
+                     }
+                 ],
+    "createdAt":  1785592835990,
+    "updatedAt":  1785593977920,
+    "schemaVersion":  1,
+    "compaction":  [
+
+                   ],
+    "overrides":  {
+                      "chatMode":  "chat"
+                  },
+    "conversationModelId":  "Claude code/claude-sonnet-5",
+    "assistantGroupBoundaryMessageIds":  [
+
+                                         ],
+    "reasoningLevel":  "off"
+}

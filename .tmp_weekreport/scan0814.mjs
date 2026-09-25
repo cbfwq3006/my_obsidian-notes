@@ -1,0 +1,1 @@
+﻿import fs from 'node:fs'; const t=fs.readFileSync('E:/sl_obsidian/2026/20260814.md','utf8'); const lines=t.split(/\r?\n/); lines.forEach((l,i)=>{if(/自查整改|专项自查|整改工作报告|根据集团公司党组巡视/.test(l)) console.log((i+1)+':'+l.slice(0,300));});

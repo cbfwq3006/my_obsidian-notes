@@ -1,16 +1,16 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "gpt-5.4",
+  "model": "claude-code/kimi-k3",
   "thinkingBudget": "medium",
-  "effortLevel": "high",
+  "effortLevel": "max",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
-  "titleGenerationModel": "gpt-5.5",
+  "titleGenerationLocale": "",
+  "titleGenerationModel": "",
   "excludedTags": [],
   "mediaFolder": "",
   "systemPrompt": "",
-  "persistentExternalContextPaths": [],
   "sharedEnvironmentVariables": "",
   "envSnippets": [],
   "customContextLimits": {},
@@ -24,25 +24,27 @@
   "locale": "en",
   "providerConfigs": {
     "claude": {
+      "enabled": true,
+      "responseStyle": "Default",
       "safeMode": "acceptEdits",
       "cliPath": "C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\claude.cmd",
       "cliPathsByHost": {},
       "loadUserSettings": true,
-      "enableChrome": false,
-      "enableBangBash": false,
+      "enableChrome": true,
       "customModels": "",
+      "defaultModel": "opus",
       "lastModel": "sonnet",
-      "modelEnvironmentType": "",
+      "modelEnvironmentType": "model",
       "titleModelEnvironmentType": "",
-      "environmentVariables": "",
-      "environmentHash": ""
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://api.moonshot.ai/anthropic\nANTHROPIC_AUTH_TOKEN=sk-lO8JiFOYdtFzO8O5M0rMhjJSCo0BswUVRJtU0OuVor47Y7Zv\nANTHROPIC_MODEL=kimi-k3\nANTHROPIC_DEFAULT_OPUS_MODEL=kimi-k3\nANTHROPIC_DEFAULT_SONNET_MODEL=kimi-k3\nANTHROPIC_DEFAULT_HAIKU_MODEL=kimi-k2.6\nCLAUDE_CODE_SUBAGENT_MODEL=kimi-k2.6\nCLAUDE_CODE_EFFORT_LEVEL=max\n",
+      "environmentHash": "runtime-input:v1:938e71f0d346040cc41f8f96d2599514f4b75ab11ddedd4cfc9587d71295dd47"
     },
     "codex": {
       "enabled": true,
       "safeMode": "workspace-write",
       "cliPath": "C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\codex.cmd",
       "cliPathsByHost": {
-        "device:7b5657ac-e367-4bd9-afce-e7973bc70163": "C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\codex.cmd"
+        "device-f76fd7260b56e3e615cede537421219a4416bccfaca74d60aa859782073181b8": "C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\codex.cmd"
       },
       "customModels": "",
       "discoveredModels": [
@@ -70,6 +72,10 @@
             {
               "value": "max",
               "description": "Maximum reasoning depth for the hardest problems"
+            },
+            {
+              "value": "ultra",
+              "description": "Maximum reasoning with automatic task delegation"
             }
           ],
           "defaultReasoningEffort": "low",
@@ -78,6 +84,11 @@
               "id": "priority",
               "name": "Fast",
               "description": "1.5x speed, increased usage"
+            },
+            {
+              "id": "ultrafast",
+              "name": "Ultrafast",
+              "description": "The fastest available responses for latency-sensitive work."
             }
           ],
           "defaultServiceTier": null,
@@ -111,6 +122,10 @@
             {
               "value": "max",
               "description": "Maximum reasoning depth for the hardest problems"
+            },
+            {
+              "value": "ultra",
+              "description": "Maximum reasoning with automatic task delegation"
             }
           ],
           "defaultReasoningEffort": "medium",
@@ -207,74 +222,6 @@
           "isDefault": false
         },
         {
-          "model": "gpt-5.4",
-          "displayName": "GPT-5.4",
-          "description": "Strong model for everyday coding.",
-          "supportedReasoningEfforts": [
-            {
-              "value": "low",
-              "description": "Fast responses with lighter reasoning"
-            },
-            {
-              "value": "medium",
-              "description": "Balances speed and reasoning depth for everyday tasks"
-            },
-            {
-              "value": "high",
-              "description": "Greater reasoning depth for complex problems"
-            },
-            {
-              "value": "xhigh",
-              "description": "Extra high reasoning depth for complex problems"
-            }
-          ],
-          "defaultReasoningEffort": "medium",
-          "serviceTiers": [
-            {
-              "id": "priority",
-              "name": "Fast",
-              "description": "1.5x speed, increased usage"
-            }
-          ],
-          "defaultServiceTier": null,
-          "inputModalities": [
-            "text",
-            "image"
-          ],
-          "isDefault": false
-        },
-        {
-          "model": "gpt-5.4-mini",
-          "displayName": "GPT-5.4-Mini",
-          "description": "Small, fast, and cost-efficient model for simpler coding tasks.",
-          "supportedReasoningEfforts": [
-            {
-              "value": "low",
-              "description": "Fast responses with lighter reasoning"
-            },
-            {
-              "value": "medium",
-              "description": "Balances speed and reasoning depth for everyday tasks"
-            },
-            {
-              "value": "high",
-              "description": "Greater reasoning depth for complex problems"
-            },
-            {
-              "value": "xhigh",
-              "description": "Extra high reasoning depth for complex problems"
-            }
-          ],
-          "defaultReasoningEffort": "medium",
-          "serviceTiers": [],
-          "defaultServiceTier": null,
-          "inputModalities": [
-            "text",
-            "image"
-          ],
-          "isDefault": false
-        },
-        {
           "model": "gpt-5.2",
           "displayName": "GPT-5.2",
           "description": "Optimized for professional work and long-running agents.",
@@ -307,21 +254,28 @@
         }
       ],
       "modelAliases": {},
-      "visibleModels": null,
+      "visibleModels": [
+        "gpt-5.5",
+        "gpt-5.6-luna",
+        "gpt-5.6-terra",
+        "gpt-5.6-sol"
+      ],
+      "enableUltraEffort": false,
+      "responseStyle": "pragmatic",
       "reasoningSummary": "detailed",
       "environmentVariables": "",
-      "environmentHash": "",
-      "catalogTimestamp": 1784861577289,
-      "catalogFingerprint": "1:5a2e8bb6efe318826d232646ecca5848a06b5e510ebd797dfc6369484e1b562f",
+      "environmentHash": "runtime-input:v1:e2828ab133d776df83d9e4f53639dcf65abc44d22d5495316f95479835034589",
+      "catalogTimestamp": 1790332003555,
+      "catalogFingerprint": "2:8e32f489a804ddb0c435bde899146893a3ed48c821ccc8ab3ae3dd060e9d852a",
       "installationMethodsByHost": {
-        "device:7b5657ac-e367-4bd9-afce-e7973bc70163": "native-windows"
+        "device-f76fd7260b56e3e615cede537421219a4416bccfaca74d60aa859782073181b8": "native-windows"
       },
       "wslDistroOverridesByHost": {}
     },
     "opencode": {
       "cliPath": "",
       "cliPathsByHost": {},
-      "enabled": true,
+      "enabled": false,
       "environmentHash": "",
       "environmentVariables": "",
       "modelAliases": {},
@@ -334,7 +288,7 @@
       "cliPath": "",
       "cliPathsByHost": {},
       "discoveredModels": [],
-      "enabled": true,
+      "enabled": false,
       "environmentHash": "",
       "environmentVariables": "",
       "modelAliases": {},
@@ -350,35 +304,49 @@
       "environmentHash": "",
       "environmentVariables": "",
       "modelAliases": {},
-      "planBasePermissionMode": "normal",
       "preferredReasoningByModel": {},
       "visibleModels": null
     }
   },
-  "settingsProvider": "codex",
+  "settingsProvider": "claude",
+  "lastSelectedChatModel": {
+    "providerId": "codex",
+    "model": "gpt-5.6-sol"
+  },
   "savedProviderModel": {
-    "claude": "sonnet",
-    "codex": "gpt-5.4"
+    "claude": "claude-code/kimi-k3",
+    "codex": "gpt-5.6-sol"
   },
   "savedProviderEffort": {
-    "claude": "high",
-    "codex": "high"
+    "claude": "max",
+    "codex": "max"
   },
   "savedProviderServiceTier": {
     "codex": "default"
   },
   "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
-    "claude": "normal",
+    "claude": "yolo",
     "codex": "yolo"
   },
   "pendingProviderSessionInvalidations": {},
   "lastCustomModel": "",
-  "maxTabs": 10,
+  "maxWarmAgentProcesses": 5,
   "enableAutoScroll": true,
+  "showMessageTimestamps": false,
   "deferMathRenderingDuringStreaming": true,
   "expandFileEditsByDefault": true,
   "chatViewPlacement": "right-sidebar",
+  "enableDualPane": true,
+  "dualPaneSide": "right",
+  "restoreTabsOnStartup": true,
+  "collabEnabled": false,
+  "collabProjectsFolder": "workspace",
+  "collabGitPath": "",
+  "sessionManagerOrganization": "list",
+  "sessionManagerSort": "last-updated",
+  "pinnedLinkedContentPaths": [],
   "hiddenProviderCommands": {},
+  "maxTabs": 10,
   "tabBarPosition": "input"
 }

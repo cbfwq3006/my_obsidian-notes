@@ -1,0 +1,86 @@
+{
+  "id": "e557aac0-6a57-484b-bb55-19a767ebfee4",
+  "title": "我使用的模型",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你是什么大模型？",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "ca013df2-7718-42c9-a9f8-31a25e6e1b8b",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "off"
+    },
+    {
+      "role": "assistant",
+      "content": "我是 Claude，由 Anthropic 开发的 AI 助手。具体来说，我基于 claude-sonnet-5 模型。\n\n作为 claude-sonnet-5 开发环境的一部分，我可以帮助你完成各种技术任务，包括：\n\n- 编写和编辑代码\n- 运行终端命令\n- 分析和优化系统资源\n- 调试和测试\n- 处理文档和配置文件\n- 提供技术建议和最佳实践\n\n如果你想了解更多关于我的能力或有任何技术问题，随时告诉我。",
+      "id": "3711cba9-c972-49f5-bde1-2d05f74ab2f0",
+      "metadata": {
+        "model": {
+          "providerId": "Claude code",
+          "id": "Claude code/claude-sonnet-5",
+          "model": "claude-sonnet-5",
+          "name": "Claude Sonnet 5",
+          "enable": true,
+          "reasoningType": "none"
+        },
+        "generationState": "completed",
+        "branchConversationId": "e557aac0-6a57-484b-bb55-19a767ebfee4",
+        "branchModelId": "Claude code/claude-sonnet-5",
+        "branchLabel": "Claude Sonnet 5",
+        "usage": {
+          "prompt_tokens": 820,
+          "completion_tokens": 156,
+          "total_tokens": 976,
+          "cache_read_input_tokens": 41,
+          "cache_creation_input_tokens": 703
+        },
+        "durationMs": 5647
+      }
+    }
+  ],
+  "createdAt": 1785594988708,
+  "updatedAt": 1785594994282,
+  "schemaVersion": 1,
+  "overrides": {
+    "chatMode": "chat"
+  },
+  "conversationModelId": "Claude code/claude-sonnet-5",
+  "messageModelMap": {
+    "ca013df2-7718-42c9-a9f8-31a25e6e1b8b": "Claude code/claude-sonnet-5"
+  },
+  "assistantGroupBoundaryMessageIds": [],
+  "reasoningLevel": "off",
+  "compaction": []
+}

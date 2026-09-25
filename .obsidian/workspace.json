@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "clean-tabs",
+        "id": "0d9de49f97ed9e00",
         "type": "tabs",
         "children": [
           {
-            "id": "clean-start",
+            "id": "601eebc7ab641a6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/索引/按主题分类.md",
+                "file": "2026/20260921.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "按主题分类"
+              "title": "20260921"
             }
           },
           {
-            "id": "82e4b8776fd26ddf",
+            "id": "1f4b306767515e54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "使用指南.md",
+                "file": "100可迁移/130通用技能/133时间或任务管理/任务管理系统设计/1 手动任务收集箱.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "使用指南"
+              "title": "1 手动任务收集箱"
             }
           }
         ],
@@ -158,61 +158,92 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026/20260731.md",
+                "file": "100可迁移/130通用技能/133时间或任务管理/任务管理系统设计/1 手动任务收集箱.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "20260731 的大纲"
+              "title": "大纲"
             }
           },
           {
-            "id": "5d3baaf35f1c301c",
+            "id": "58f75d01852497fa",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
-            "id": "e8988255a899930b",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
-            }
-          },
-          {
-            "id": "77f6deff401d582e",
-            "type": "leaf",
-            "state": {
-              "type": "smtcmp-chat-view",
-              "state": {},
-              "icon": "wand-sparkles",
-              "title": "询问AI模型身份"
-            }
-          },
-          {
-            "id": "1770127e61158ae4",
+            "id": "6621761a8744c8ec",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
-              "state": {},
+              "state": {
+                "tabWorkspace": {
+                  "version": 1,
+                  "openTabs": [
+                    {
+                      "tabId": "tab-1786955026621-kt1fr4w",
+                      "conversationId": "conv-1786955054240-m26okv8h8"
+                    }
+                  ],
+                  "activeTabId": "tab-1786955026621-kt1fr4w"
+                }
+              },
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "a91d41ff31fa352b",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-cc-graph",
+              "state": {},
+              "icon": "link",
+              "title": "连接推荐"
+            }
+          },
+          {
+            "id": "1f0a75fc38f23689",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-cc-chat",
+              "state": {},
+              "icon": "sparkles",
+              "title": "Obsidian CC"
+            }
+          },
+          {
+            "id": "2636f512edefbd8f",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-cc-insight",
+              "state": {},
+              "icon": "lightbulb",
+              "title": "主动洞察"
+            }
+          },
+          {
+            "id": "6420c0a104debb2e",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-cc-temporal",
+              "state": {},
+              "icon": "git-branch",
+              "title": "演化时间线"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 521.5
+    "width": 451.0999755859375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,59 +254,63 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "yolo:打开聊天": false,
+      "obsidian42-brat:BRAT": false,
       "realclaudian:Open Claudian": false,
       "obsidian-git:Open Git source control": false,
+      "obsidian-cc:Obsidian CC 对话": false,
+      "obsidian-cc:Obsidian CC 主动洞察": false,
+      "obsidian-cc:Obsidian CC 演化时间线": false,
+      "obsidian-cc:Obsidian CC 连接推荐": false,
       "notehelper:tongbuzhushou": false
     }
   },
-  "active": "82e4b8776fd26ddf",
+  "active": "1f4b306767515e54",
   "lastOpenFiles": [
-    "知识体系总纲.md",
-    "使用指南.md",
-    "本周日程周报邮件草稿.md",
-    "weekly-schedule-report-draft.md",
-    "自动化-每日儿童友好菜谱提示词.md",
-    "@lQLPJxtemGrjR1HMr80DhLATGxhkyZj6CAnpKGLkK7kA.md",
-    "2026-05-05.md",
-    "工作总结与工作计划-20260504-20260510.md",
-    "焦作联通2026年团委工作要点-草稿.md",
-    "孙明辉优秀共产党员事迹材料优化方案.md",
-    "wiki/索引/按主题分类.md",
-    "AI工具知识库/04_模型产品更新/2026-07-31-Anthropic says Claude accidentally hacked real companies too-6da8742925.md",
-    "AI工具知识库/03_教程文章/2026-07-31-It’s time to panic about AI safety-ee70bff51f.md",
-    "AI工具知识库/01_行业资讯/2026-08-01-The major labels propose rules to keep AI slop off the chart-e8b5e8d005.md",
-    "AI工具知识库/03_教程文章/2026-08-01-Here’s the problem with putting an AI image generator in Goo-cb8ef2d60e.md",
-    "AI工具知识库/03_教程文章/2026-08-01-Google Earth’s AI deepfake tool only lasted one day-abe78d6275.md",
-    "AI工具知识库/01_行业资讯/2026-08-02-Is this Billboard Hot 100 hit AI slop-4a8975413a.md",
-    "AI工具知识库/03_教程文章/2026-07-31-Univé builds an AI-ready workforce-4879819590.md",
-    "AI工具知识库/03_教程文章/2026-07-31-Building abundant intelligence-6e145b017b.md",
-    "AI工具知识库/04_模型产品更新/2026-07-31-Advancing responsible AI across Europe-b86dc435d6.md",
-    "AI工具知识库/04_模型产品更新/2026-08-01-Ten advances in mathematics and theoretical computer science-6d58997b46.md",
-    "projects/2026-08-01批量摄取清单.md",
-    "projects/2026-08-01批量摄取清单.md.tmp.7200.8a686d02cf37",
-    "wiki/index.md.tmp.7200.6cef13188ebd",
-    "wiki/概念/延迟满足.md",
-    "wiki/概念/延迟满足.md.tmp.7200.67e5f4835f98",
-    "wiki/实体/YouCore.md",
-    "wiki/实体/YouCore.md.tmp.7200.2ca7cf750c19",
-    "wiki/来源/2026-08-01 核心力AI课程案例2正文未同步.md",
-    "wiki/来源/2026-08-01 核心力AI课程案例1正文未同步.md",
-    "wiki/来源/2026-08-01 Sentient OS让Mac在夜里整理数字生活.md.tmp.7200.9172850d8b4a",
-    "wiki/来源/2026-08-01 见世面要在生产端而不是消费端.md.tmp.7200.7cd834a0a2fb",
-    "wiki/来源/2026-08-01 孩子舒适过度与学习动力.md.tmp.7200.659dc3f05ef2",
-    "wiki/来源/2026-08-01 毛选质问国民党的破局思维.md.tmp.7200.4e920c6e5566",
-    "00 临时箱/images/00c03b2299c2b1f5c8c0ee4a6df476d2_MD5.png",
-    "00 临时箱/images/c4e1882f5b7a355d3a61db3634442d9a_MD5.png",
-    "00 临时箱/images/8b094f57f0d095235b16ce1ed4d38fb0_MD5.png",
-    "00 临时箱/images/040c7572e5169c0d63af6739930a4617_MD5.png",
-    "00 临时箱/images/895b7d95fc7c66c46dbecddbbce924c9_MD5.png",
-    "00 临时箱/images/151d6c0a7c07bbce84b756944bf704a7_MD5.png",
-    "00 临时箱/images/5a63a5f2413a4064fa4cd05fdd380ed4_MD5.png",
-    "00 临时箱/images/d3b9aae74de8468f29e79009971645d6_MD5.png",
-    "00 临时箱/images/1d8853a4c3a4f5c1da4c0979d2e4847c_MD5.png",
-    "00 临时箱/images/b1ad23d328f950ea87e59e443e0c3629_MD5.png",
-    "skills/每日素材自动提醒.md.tmp.7200.6d5c03eb78d7",
-    "wiki/索引"
+    "2026/20260921.md",
+    "100可迁移/130通用技能/133时间或任务管理/任务管理系统设计/0 任务总表.md",
+    "工作周报/日报提醒快照/2026-09-26 每日工作日报提醒快照.md",
+    "2026/20260926.md",
+    "100可迁移/130通用技能/133时间或任务管理/任务管理系统设计/1 手动任务收集箱.md",
+    "2026/20260903.md",
+    "2026/20260904.md",
+    "2026/20260905.md",
+    "2026/20260906.md",
+    "2026/20260907.md",
+    "2026/20260908.md",
+    "2026/20260909.md",
+    "2026/20260910.md",
+    "2026/20260911.md",
+    "2026/20260912.md",
+    "2026/20260913.md",
+    "2026/20260914.md",
+    "2026/20260915.md",
+    "2026/20260916.md",
+    "2026/20260918.md",
+    "2026/20260917.md",
+    "2026/20260920.md",
+    "2026/20260922.md",
+    "2026/20260923.md",
+    "100可迁移/130通用技能/133时间或任务管理/任务管理系统设计/2 自动推送收集箱.md",
+    "2026/20260902.md",
+    "200督导考核岗/210本岗位特定技能/220综合协调与日常管理/5.周月季年总结/7.白老师存档归档方法",
+    "200督导考核岗/210本岗位特定技能/220综合协调与日常管理/5.周月季年总结/新建文件夹",
+    "tmp_targets.png",
+    "tmp_r55.png",
+    "tmp_r51.png",
+    "tmp_header.png",
+    "tmp_head.png",
+    "outputs/20260923_推动落实情况更新/焦作公司党委认真落实习近平总书记重要指示批示精神推动企业高质量发展行稳致远实施方案年度重点任务完成情况-截至20260923~04CD5.tmp",
+    "00 临时箱/images/503e2d50670e164062c90d29ac1038ce_MD5.png",
+    "附件/《一体两翼四主动》破解党业_两层皮 (2).png",
+    "_tmp_aug_hits.txt",
+    "tmp_july_aug_lz.txt",
+    "outputs/20260923_推动落实情况更新/focus51.png",
+    "outputs/20260923_推动落实情况更新/~$焦作公司党委认真落实习近平总书记重要指示批示精神推动企业高质量发展行稳致远实施方案年度重点任务完成情况-截至20260923.xlsx",
+    "tmp_check_s.mjs",
+    "tmp_repair_rows.mjs",
+    "tmp_dh.mjs",
+    "outputs/20260923_推动落实情况更新/focus55.png",
+    "outputs/20260923_推动落实情况更新/whole.png",
+    "tmp_verify_workbook.mjs"
   ]
 }

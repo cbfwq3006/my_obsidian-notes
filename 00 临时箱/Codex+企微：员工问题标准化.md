@@ -80,7 +80,7 @@ ADMIT ONE 🎫
 
 — 信息图：员工问题四类意图
 
-> ![](https://relay-1.bijitongbu.site/p/7f742bd75e0b6437940096becba85c66.png)
+> ![[00 临时箱/images/0affab559d9f533875d706f934fe9d30_MD5.png]]
 
 — 信息图：标准答案卡
 

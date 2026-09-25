@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-cc",
+  "name": "Obsidian CC",
+  "version": "1.2.0",
+  "minAppVersion": "1.11.4",
+  "description": "第二大脑：主动洞察、演化时间线、关系图谱、思维画像与行动闭环（Claude Code / Codex / OpenCode 三引擎）。",
+  "author": "brzhang",
+  "isDesktopOnly": true
+}

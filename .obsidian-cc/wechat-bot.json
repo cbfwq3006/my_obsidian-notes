@@ -1,0 +1,13 @@
+{
+  "baseurl": "https://ilinkai.weixin.qq.com",
+  "getUpdatesBuf": "ChAIARDVif7LgTQYnI38y4E0EjplYTYxNTQ5MjZhZjJAaW0uYm90OjA2MDAwMDJjZWNmNDJjY2I1N2YwMmVjZjk3NGU0M2NmYjUzNDc4",
+  "config": {
+    "enabled": true,
+    "autoReply": true
+  },
+  "lastConnectedAt": "2026-08-19T10:08:50.263Z",
+  "processedMessageIds": [
+    "v1:1978773371207149997"
+  ],
+  "outbox": {}
+}

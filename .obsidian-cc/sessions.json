@@ -1,0 +1,54 @@
+{
+  "wx:wechat": {
+    "active": "01a0197f-8655-7c83-b72b-ecfb41a5dbb1",
+    "engine": "codex",
+    "permissionMode": "acceptEdits",
+    "history": [
+      {
+        "sessionId": "01a0197f-8655-7c83-b72b-ecfb41a5dbb1",
+        "label": "# 微信端第二大脑助手\n\n你正通过微信公众号 Bot 与用户",
+        "lastUsed": "2026-08-19T10:09:47.864Z",
+        "engine": "codex"
+      }
+    ]
+  },
+  "obsidian:sl_obsidian": {
+    "active": "01a0198b-d7d0-77a1-bb74-237d4c3bdcf0",
+    "engine": "codex",
+    "permissionMode": "acceptEdits",
+    "history": [
+      {
+        "sessionId": "01a0198b-d7d0-77a1-bb74-237d4c3bdcf0",
+        "label": "【本轮当前笔记（仅在与问题相关时读取；将“这篇/当前笔记”理",
+        "lastUsed": "2026-08-19T10:23:10.477Z",
+        "engine": "codex"
+      }
+    ]
+  },
+  "headless:insight": {
+    "active": "01a0197b-e632-7083-8b75-fe605391fa3f",
+    "engine": "codex",
+    "permissionMode": "acceptEdits",
+    "history": [
+      {
+        "sessionId": "01a0197b-e632-7083-8b75-fe605391fa3f",
+        "label": "# 主动洞察分析（第二大脑的主动提醒）\n\n你是用户 Obsi",
+        "lastUsed": "2026-08-19T10:05:51.456Z",
+        "engine": "codex"
+      }
+    ]
+  },
+  "headless:temp-inbox-auto-analyze": {
+    "active": "01a019ab-3cca-7151-a05b-695d3e9ae696",
+    "engine": "codex",
+    "permissionMode": "acceptEdits",
+    "history": [
+      {
+        "sessionId": "01a019ab-3cca-7151-a05b-695d3e9ae696",
+        "label": "请使用 temp-inbox-auto-analyze sk",
+        "lastUsed": "2026-08-19T10:57:33.554Z",
+        "engine": "codex"
+      }
+    ]
+  }
+}

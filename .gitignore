@@ -1,0 +1,33 @@
+# ===== Obsidian 插件缓存与索引（不需要同步）=====
+.obsidian/copilot-index-*.json
+.obsidian/copilot-index-*.json.bak-*
+.obsidian/workspace*.json
+.obsidian/cache/
+.obsidian/Graph.json
+.obsidian/_hostedUrl
+.obsidian/speedDump.json
+
+# ===== 插件 node_modules（二进制依赖，每端自己装）=====
+.obsidian/plugins/*/node_modules/
+.obsidian/plugins/*/node_modules
+
+# ===== 插件自带的二进制 exe（Windows 专用，跨平台无意义）=====
+.obsidian/plugins/**/*.exe
+.obsidian/plugins/**/*.dll
+.obsidian/plugins/**/*.node
+
+# ===== Claudian / 其他 AI 插件的会话缓存 =====
+.claudian/sessions/
+.claudian/auth.json
+
+# ===== 系统垃圾 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+!*.gitkeep
+
+# ===== 临时导出 =====
+.obsidian/backup/
+.obsidian/sync-helper/

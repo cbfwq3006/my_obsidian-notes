@@ -1,0 +1,466 @@
+{
+  "id": "95e61336-af47-49ff-940a-f9156672701e",
+  "title": "归纳能力笔记格式确认",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "要求：1、你先阅读下《思维力：高效的系统思维》P67-73（第四章第二节“自下而上提炼框架”）和P176-186（第九章第三节“归纳式逻辑分组”）的内容",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 1,
+                  "format": 0,
+                  "mode": "token",
+                  "style": "",
+                  "text": "@归纳能力.md (158 字符)",
+                  "type": "mention",
+                  "version": 1,
+                  "mentionName": "归纳能力.md (158 字符)",
+                  "mentionable": {
+                    "type": "block",
+                    "file": "100可迁移/120通用能力/121个人能力/3.思维能力/（3）归纳能力/归纳能力.md",
+                    "startLine": 1,
+                    "endLine": 20,
+                    "source": "selection-sync",
+                    "contentHash": "beb816f1",
+                    "contentCount": 158,
+                    "contentUnit": "wordsCharacters"
+                  }
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " ",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "或者直接阅读电子材料：https://appOb15kLrT9190.h5.xeknow.com/st/8JYKHwTes",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "2、阅读完之后，将笔记做在【可迁移—能力—个人能力—思维能力】下 ，再截图发我们看下哈。",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "我们看到笔记后，再给你布置练习任务",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "像下面这样写可以吗？“1.把问题提问清楚",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "1.1 看清问题 （本质是第一性原理；复杂用对比）",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "1.2 可量化描述",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "2.把需求拆明白",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "2.1 三种工具",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "2.1.1 思维导图（发散思维）",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "2.1.2 逻辑树",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "2.1.2.1 对问题层层有序分解",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "2.1.2.2 抓主要矛盾",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "2.1.2.3 针对我能做什么，做出判断，制定方案各个依次击破",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "2.1.3 MECE",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "2.1.3.1 复杂问题-不重",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "2.1.3.2 全面问题-不漏",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "3.把工具调动起来",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "3.1 三个逻辑顺序",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "3.1.1 时间顺序（如：PCDA）",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "3.1.2 结构顺序 （如：整体-部分）",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "3.1.3 重要性顺序 （如：共性特点-强弱排序）”",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "snapshotRef": {
+        "hash": "b10c732c"
+      },
+      "id": "a9450100-4f86-4142-9467-28859801aeb4",
+      "mentionables": [
+        {
+          "type": "block",
+          "content": "1.把问题提问清楚\n1.1 看清问题 （本质是第一性原理；复杂用对比）\n1.2 可量化描述\n\n2.把需求拆明白\n2.1 三种工具\n2.1.1 思维导图（发散思维）\n2.1.2 逻辑树\n2.1.2.1 对问题层层有序分解\n2.1.2.2 抓主要矛盾\n2.1.2.3 针对我能做什么，做出判断，制定方案各个依次击破\n2.1.3 MECE\n2.1.3.1 复杂问题-不重\n2.1.3.2 全面问题-不漏\n\n3.把工具调动起来\n3.1 三个逻辑顺序\n3.1.1 时间顺序（如：PCDA）\n3.1.2 结构顺序 （如：整体-部分）\n3.1.3 重要性顺序 （如：共性特点-强弱排序）",
+          "file": "100可迁移/120通用能力/121个人能力/3.思维能力/（3）归纳能力/归纳能力.md",
+          "startLine": 1,
+          "endLine": 20,
+          "source": "selection-sync",
+          "contentHash": "beb816f1",
+          "contentCount": 158,
+          "contentUnit": "wordsCharacters"
+        }
+      ],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "off"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "3bd017a9-634b-4fbd-8c39-cfbcc6660ca7",
+      "metadata": {
+        "model": {
+          "providerId": "Kimi",
+          "id": "Kimi/kimi-k3",
+          "model": "kimi-k3",
+          "name": "Kimi 3",
+          "enable": true,
+          "maxContextTokens": 1048576
+        },
+        "generationState": "error",
+        "branchConversationId": "95e61336-af47-49ff-940a-f9156672701e",
+        "branchModelId": "Kimi/kimi-k3",
+        "branchLabel": "Kimi 3",
+        "durationMs": 227162,
+        "errorMessage": "Request timed out."
+      }
+    }
+  ],
+  "createdAt": 1785858035635,
+  "updatedAt": 1785858262738,
+  "schemaVersion": 1,
+  "overrides": {
+    "chatMode": "chat"
+  },
+  "conversationModelId": "Kimi/kimi-k3",
+  "messageModelMap": {
+    "a9450100-4f86-4142-9467-28859801aeb4": "Kimi/kimi-k3"
+  },
+  "assistantGroupBoundaryMessageIds": [],
+  "reasoningLevel": "off",
+  "compaction": []
+}

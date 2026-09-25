@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一体两层四主动解难党建业务发展模式</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #0B0E14 0%, #1E293B 100%);
+            color: #F8FAFC;
+            padding: 2rem;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: #1E293B;
+            border-radius: 16px;
+            padding: 3rem;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .title h1 {
+            font-size: 2rem;
+            color: #38BDF8;
+            margin-bottom: 1rem;
+        }
+
+        .title p {
+            font-size: 1.125rem;
+            color: #94A3B8;
+        }
+
+        .framework {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        /* 核心理念 */
+        .core-concept {
+            background: linear-gradient(135deg, #38BDF8, #F97316);
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            color: white;
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        /* 两层结构 */
+        .two-layers {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .layer {
+            background: #2D3748;
+            border: 2px solid #334155;
+            border-radius: 12px;
+            padding: 2rem;
+        }
+
+        .layer-title {
+            font-size: 1.5rem;
+            color: #38BDF8;
+            margin-bottom: 1rem;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .layer-subtitle {
+            text-align: center;
+            color: #94A3B8;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .layer-content {
+            background: #1E293B;
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+
+        .layer-content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .layer-content li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: #F8FAFC;
+        }
+
+        .layer-content li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: #38BDF8;
+        }
+
+        /* 四主动解难 */
+        .four-actions {
+            background: #2D3748;
+            border: 3px solid #F97316;
+            border-radius: 12px;
+            padding: 2rem;
+        }
+
+        .four-actions-title {
+            text-align: center;
+            font-size: 1.75rem;
+            color: #F97316;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .four-actions-subtitle {
+            text-align: center;
+            color: #94A3B8;
+            margin-bottom: 2rem;
+        }
+
+        .action-flow {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .action-card {
+            background: #1E293B;
+            border: 2px solid #F97316;
+            border-radius: 10px;
+            padding: 1.5rem;
+            position: relative;
+        }
+
+        .action-card::after {
+            content: '→';
+            position: absolute;
+            right: -1.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.5rem;
+            color: #F97316;
+        }
+
+        .action-card:last-child::after {
+            content: '';
+        }
+
+        .action-number {
+            background: #F97316;
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+
+        .action-title {
+            font-size: 1.25rem;
+            color: #F97316;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .action-question {
+            color: #94A3B8;
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .action-items {
+            list-style: none;
+            padding: 0;
+        }
+
+        .action-items li {
+            padding: 0.25rem 0;
+            padding-left: 1rem;
+            position: relative;
+            color: #F8FAFC;
+            font-size: 0.9rem;
+        }
+
+        .action-items li::before {
+            content: '·';
+            position: absolute;
+            left: 0;
+            color: #F97316;
+            font-weight: 600;
+        }
+
+        /* 支撑体系 */
+        .support-system {
+            background: #2D3748;
+            border: 2px solid #334155;
+            border-radius: 12px;
+            padding: 2rem;
+        }
+
+        .support-title {
+            text-align: center;
+            font-size: 1.5rem;
+            color: #4FD1C5;
+            margin-bottom: 2rem;
+            font-weight: 600;
+        }
+
+        .support-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+        }
+
+        .support-card {
+            background: #1E293B;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+
+        .support-card-title {
+            font-size: 1.125rem;
+            color: #4FD1C5;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .support-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .support-card li {
+            padding: 0.4rem 0;
+            padding-left: 1rem;
+            position: relative;
+            color: #F8FAFC;
+            font-size: 0.9rem;
+        }
+
+        .support-card li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #4FD1C5;
+        }
+
+        /* 响应式 */
+        @media (max-width: 1200px) {
+            .action-flow {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .action-card::after {
+                content: '';
+            }
+
+            .support-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .two-layers {
+                grid-template-columns: 1fr;
+            }
+
+            .action-flow {
+                grid-template-columns: 1fr;
+            }
+
+            .support-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 1.5rem;
+            }
+        }
+
+        .arrow-down {
+            text-align: center;
+            color: #38BDF8;
+            font-size: 2rem;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>一体两层四主动解难党建业务发展模式</h1>
+            <p>党建与业务一体推进 · 以解难为抓手 · 实现党建赋能发展</p>
+        </div>
+
+        <div class="framework">
+            <!-- 核心理念 -->
+            <div class="core-concept">
+                党建与业务一体推进 → 凝聚人心 → 攻坚克难 → 实现目标
+            </div>
+
+            <div class="arrow-down">↓</div>
+
+            <!-- 两层结构 -->
+            <div class="two-layers">
+                <div class="layer">
+                    <div class="layer-title">思想价值层</div>
+                    <div class="layer-subtitle">凝心聚力 · 统一认识</div>
+                    <div class="layer-content">
+                        <h3 style="color: #38BDF8; margin-bottom: 1rem;">思想统一</h3>
+                        <ul>
+                            <li>带着问题学理论</li>
+                            <li>走基层调研</li>
+                            <li>基层做研判</li>
+                            <li>交流座谈</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="layer">
+                    <div class="layer-title">实践落地层</div>
+                    <div class="layer-subtitle">破解难题 · 推动发展</div>
+                    <div class="layer-content">
+                        <h3 style="color: #F97316; margin-bottom: 1rem;">四主动解难（核心抓手）</h3>
+                        <p style="color: #94A3B8; margin-bottom: 1rem;">
+                            通过四主动解难闭环，把党建优势转化为发展优势
+                        </p>
+                        <ul>
+                            <li>识难：有什么难？</li>
+                            <li>析难：为什么难？</li>
+                            <li>攻难：谁来解决？</li>
+                            <li>护航：如何保障？</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrow-down">↓</div>
+
+            <!-- 四主动解难 -->
+            <div class="four-actions">
+                <div class="four-actions-title">四主动解难闭环</div>
+                <div class="four-actions-subtitle">识难 → 析难 → 攻难 → 护航</div>
+
+                <div class="action-flow">
+                    <div class="action-card">
+                        <div class="action-number">1</div>
+                        <div class="action-title">识难</div>
+                        <div class="action-question">有什么难？</div>
+                        <ul class="action-items">
+                            <li>问题画像</li>
+                            <li>清单管理</li>
+                            <li>难点梳理</li>
+                        </ul>
+                    </div>
+
+                    <div class="action-card">
+                        <div class="action-number">2</div>
+                        <div class="action-title">析难</div>
+                        <div class="action-question">为什么难？</div>
+                        <ul class="action-items">
+                            <li>根因分析</li>
+                            <li>思想认识</li>
+                            <li>工作作风</li>
+                            <li>制度执行</li>
+                        </ul>
+                    </div>
+
+                    <div class="action-card">
+                        <div class="action-number">3</div>
+                        <div class="action-title">攻难</div>
+                        <div class="action-question">谁来解决？</div>
+                        <ul class="action-items">
+                            <li>党员先锋</li>
+                            <li>责任在头</li>
+                            <li>资任在头</li>
+                            <li>分工协作</li>
+                        </ul>
+                    </div>
+
+                    <div class="action-card">
+                        <div class="action-number">4</div>
+                        <div class="action-title">护航</div>
+                        <div class="action-question">如何保障？</div>
+                        <ul class="action-items">
+                            <li>长效机制</li>
+                            <li>到岗守法</li>
+                            <li>销号管理</li>
+                            <li>效果评价</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrow-down">↓</div>
+
+            <!-- 支撑体系 -->
+            <div class="support-system">
+                <div class="support-title">三大支撑体系</div>
+
+                <div class="support-grid">
+                    <div class="support-card">
+                        <div class="support-card-title">组织建设</div>
+                        <ul>
+                            <li>支部标准化</li>
+                            <li>三会一课</li>
+                            <li>党员队伍建设</li>
+                        </ul>
+                    </div>
+
+                    <div class="support-card">
+                        <div class="support-card-title">作风建设</div>
+                        <ul>
+                            <li>做了什么</li>
+                            <li>怎么做的</li>
+                            <li>缺什么等</li>
+                        </ul>
+                    </div>
+
+                    <div class="support-card">
+                        <div class="support-card-title">党建护航</div>
+                        <ul>
+                            <li>业务攻坚</li>
+                            <li>作风转变</li>
+                            <li>内修外治</li>
+                            <li>效果跟踪</li>
+                        </ul>
+                    </div>
+
+                    <div class="support-card">
+                        <div class="support-card-title">制度保障</div>
+                        <ul>
+                            <li>提组织体系</li>
+                            <li>工作机制</li>
+                            <li>调研评价</li>
+                            <li>风险防控</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

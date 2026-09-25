@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haiku Generator - Transform Your Words</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                    <path d="M2 17l10 5 10-5"/>
+                    <path d="M2 12l10 5 10-5"/>
+                </svg>
+                <h1>Haiku<span class="accent">Flow</span></h1>
+            </div>
+            <p class="tagline">Transform any text into beautiful haiku poetry</p>
+        </header>
+
+        <main class="main-content">
+            <div class="input-section">
+                <textarea
+                    id="textInput"
+                    placeholder="Paste or type any text here... Let the words flow and watch them transform into poetic haiku."
+                    rows="6"
+                ></textarea>
+
+                <div class="controls">
+                    <button id="generateBtn" class="btn-primary">
+                        <span class="btn-text">Generate Haiku</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </button>
+                    <button id="clearBtn" class="btn-secondary">Clear</button>
+                </div>
+            </div>
+
+            <div id="loadingState" class="loading-state hidden">
+                <div class="spinner"></div>
+                <p>Crafting your haiku...</p>
+            </div>
+
+            <div id="resultsSection" class="results-section hidden">
+                <h2 class="results-title">Your Haiku</h2>
+                <div id="haikuContainer" class="haiku-container"></div>
+                <button id="copyBtn" class="btn-ghost">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                    </svg>
+                    Copy to Clipboard
+                </button>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Powered by AI • Made with care</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

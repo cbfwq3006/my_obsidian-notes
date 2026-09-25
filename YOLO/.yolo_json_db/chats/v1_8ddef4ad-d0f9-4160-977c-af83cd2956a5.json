@@ -1,0 +1,66 @@
+{
+    "id":  "8ddef4ad-d0f9-4160-977c-af83cd2956a5",
+    "title":  "新对话",
+    "messages":  [
+                     {
+                         "role":  "user",
+                         "content":  {
+                                         "root":  {
+                                                      "children":  [
+                                                                       {
+                                                                           "children":  [
+                                                                                            {
+                                                                                                "detail":  0,
+                                                                                                "format":  0,
+                                                                                                "mode":  "normal",
+                                                                                                "style":  "",
+                                                                                                "text":  "你是什么大模型？",
+                                                                                                "type":  "text",
+                                                                                                "version":  1
+                                                                                            }
+                                                                                        ],
+                                                                           "direction":  "ltr",
+                                                                           "format":  "",
+                                                                           "indent":  0,
+                                                                           "type":  "paragraph",
+                                                                           "version":  1,
+                                                                           "textFormat":  0,
+                                                                           "textStyle":  ""
+                                                                       }
+                                                                   ],
+                                                      "direction":  "ltr",
+                                                      "format":  "",
+                                                      "indent":  0,
+                                                      "type":  "root",
+                                                      "version":  1
+                                                  }
+                                     },
+                         "promptContent":  null,
+                         "id":  "b1a3c609-8e31-489e-8fc6-bb623dd34f71",
+                         "mentionables":  [
+
+                                          ],
+                         "selectedSkills":  [
+
+                                            ],
+                         "selectedModelIds":  [
+                                                  "Claude code/claude-sonnet-5"
+                                              ],
+                         "reasoningLevel":  "off"
+                     }
+                 ],
+    "createdAt":  1785594042529,
+    "updatedAt":  1785594042631,
+    "schemaVersion":  1,
+    "compaction":  [
+
+                   ],
+    "overrides":  {
+                      "chatMode":  "chat"
+                  },
+    "conversationModelId":  "Claude code/claude-sonnet-5",
+    "assistantGroupBoundaryMessageIds":  [
+
+                                         ],
+    "reasoningLevel":  "off"
+}

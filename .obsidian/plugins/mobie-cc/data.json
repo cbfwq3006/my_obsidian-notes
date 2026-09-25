@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 4,
+  "settings": {
+    "provider": "openai-compatible",
+    "baseUrl": "https://api.openai.com/v1",
+    "model": "gpt-5-mini",
+    "apiKeySecretId": "",
+    "maxAgentTurns": 8,
+    "maxToolCalls": 20,
+    "maxObservationChars": 240000,
+    "maxReadChars": 64000,
+    "searchLimit": 8,
+    "excludedFolders": [],
+    "writableFolders": [],
+    "networkBlockedHosts": [],
+    "requestTimeoutMs": 180000,
+    "modelProfiles": [
+      {
+        "id": "model-default",
+        "name": "gpt-5-mini",
+        "provider": "openai-compatible",
+        "baseUrl": "https://api.openai.com/v1",
+        "model": "gpt-5-mini",
+        "apiKeySecretId": "",
+        "enabled": true,
+        "capabilities": {
+          "contextWindowTokens": 128000,
+          "maxOutputTokens": 4096,
+          "tools": true,
+          "vision": false,
+          "documents": false,
+          "streaming": false
+        }
+      }
+    ],
+    "defaultModelProfileId": "model-default",
+    "modelFallbackEnabled": true,
+    "autoCompact": true,
+    "recentContextMessages": 10,
+    "contextReserveTokens": 12000,
+    "toolAuditLimit": 300,
+    "toolPermissions": {
+      "local-read": "allow",
+      "network-read": "allow",
+      "navigation": "ask",
+      "candidate-write": "allow",
+      "external": "ask"
+    },
+    "usageStatsEnabled": true
+  },
+  "candidates": [],
+  "sessions": [
+    {
+      "id": "session-mszpz81p-1yh0kbiycslex1c87zl1",
+      "title": "新对话",
+      "createdAt": 1787121465469,
+      "updatedAt": 1787121465469,
+      "messages": [],
+      "contextPaths": [],
+      "includeCurrentNote": true,
+      "privacyMode": false,
+      "memoryEnabled": true,
+      "modelProfileId": null,
+      "enabledSkillIds": [],
+      "skillSelectionConfigured": false,
+      "enabledMcpServerIds": [],
+      "mcpSelectionConfigured": false,
+      "contextSummary": null,
+      "activeRun": null,
+      "toolAudit": [],
+      "grantedToolRisks": [],
+      "attachments": [],
+      "forkedFromSessionId": null
+    }
+  ],
+  "skillStates": [
+    {
+      "id": "khazix-writer",
+      "enabled": false,
+      "useCount": 0,
+      "lastUsedAt": 0
+    },
+    {
+      "id": "technical-article-writer",
+      "enabled": false,
+      "useCount": 0,
+      "lastUsedAt": 0
+    },
+    {
+      "id": "vault-synthesis",
+      "enabled": true,
+      "useCount": 0,
+      "lastUsedAt": 0
+    },
+    {
+      "id": "wechat-writer",
+      "enabled": true,
+      "useCount": 0,
+      "lastUsedAt": 0
+    },
+    {
+      "id": "weekly-review",
+      "enabled": true,
+      "useCount": 0,
+      "lastUsedAt": 0
+    }
+  ],
+  "mcpServers": [],
+  "activeSessionId": "session-mszpz81p-1yh0kbiycslex1c87zl1",
+  "installIdBackup": "f1d18cac84a8518fffd931f27330925e24cce7cad07f0723479ee2ec96f0f218"
+}

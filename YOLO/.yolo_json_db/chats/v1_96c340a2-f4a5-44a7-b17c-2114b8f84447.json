@@ -1,0 +1,80 @@
+{
+  "id": "96c340a2-f4a5-44a7-b17c-2114b8f84447",
+  "title": "我是 claude-sonnet-5，一个 AI 驱动的开发环境。关于我使用的具体底层模型，我的系统信息中没有提供这方面的详细说明。我可以帮你编写代码、执行终端命令、分析文件、调试问题，以及处理各种技术和专业工作。\n\n有什么我可以帮你的吗？",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你是什么大模型？",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "2428023f-f91b-466e-8adc-4d1994bf667c",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "auto"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "4ee6c597-0c8e-4119-9815-c002edf479d8",
+      "metadata": {
+        "model": {
+          "providerId": "Claude code",
+          "id": "Claude code/claude-sonnet-5",
+          "model": "claude-sonnet-5",
+          "name": "Claude Sonnet 5",
+          "enable": true,
+          "reasoningType": "anthropic"
+        },
+        "generationState": "error",
+        "branchConversationId": "96c340a2-f4a5-44a7-b17c-2114b8f84447",
+        "branchModelId": "Claude code/claude-sonnet-5",
+        "branchLabel": "Claude Sonnet 5",
+        "durationMs": 3679,
+        "errorMessage": "Timed out waiting for first chunk from node transport."
+      }
+    }
+  ],
+  "createdAt": 1785594621582,
+  "updatedAt": 1785594625100,
+  "schemaVersion": 1,
+  "overrides": {
+    "chatMode": "chat"
+  },
+  "conversationModelId": "Claude code/claude-sonnet-5",
+  "messageModelMap": {
+    "2428023f-f91b-466e-8adc-4d1994bf667c": "Claude code/claude-sonnet-5"
+  },
+  "assistantGroupBoundaryMessageIds": [],
+  "reasoningLevel": "auto",
+  "compaction": []
+}
