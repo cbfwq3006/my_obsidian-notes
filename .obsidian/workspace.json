@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100可迁移/130通用技能/133时间或任务管理/任务管理系统设计/1 手动任务收集箱.md",
+                "file": "100可迁移/130通用技能/133时间或任务管理/任务管理系统设计/0 任务总表.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 手动任务收集箱"
+              "title": "0 任务总表"
             }
           }
         ],
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100可迁移/130通用技能/133时间或任务管理/任务管理系统设计/1 手动任务收集箱.md",
+                "file": "100可迁移/130通用技能/133时间或任务管理/任务管理系统设计/0 任务总表.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -280,8 +280,17 @@
   },
   "active": "ed2413755567d07b",
   "lastOpenFiles": [
-    "100可迁移/130通用技能/133时间或任务管理/任务管理系统设计/0 任务总表.md",
+    "tmp_xlsx_values.json",
+    "tmp_xlsx_compare/dump.mjs",
+    "tmp_xlsx_inspect.txt",
+    "tmp_xlsx_compare/inspect.mjs",
+    "tmp_xlsx_compare",
+    "tmp_docx_summary.txt",
+    "tmp_summarize_docx.py",
+    "tmp_docx.json",
+    "tmp_extract_docx.py",
     "100可迁移/130通用技能/133时间或任务管理/任务管理系统设计/1 手动任务收集箱.md",
+    "100可迁移/130通用技能/133时间或任务管理/任务管理系统设计/0 任务总表.md",
     "2026/20260926.md",
     "outputs/党的建设向基层延伸不够整改措施支撑材料-补充完善稿.md",
     "outputs/党的建设向基层延伸不够整改措施支撑材料-补充完善稿.md.bak-20260926",
@@ -308,22 +317,14 @@
     "2026/20260914.md",
     "2026/20260916.md",
     "2026/20260918.md",
-    "200督导考核岗/210本岗位特定技能/220综合协调与日常管理/5.周月季年总结/7.白老师存档归档方法",
-    "200督导考核岗/210本岗位特定技能/220综合协调与日常管理/5.周月季年总结/新建文件夹",
     "tmp_targets.png",
     "tmp_r55.png",
     "tmp_r51.png",
     "tmp_header.png",
     "tmp_head.png",
-    "outputs/20260923_推动落实情况更新/焦作公司党委认真落实习近平总书记重要指示批示精神推动企业高质量发展行稳致远实施方案年度重点任务完成情况-截至20260923~04CD5.tmp",
     "00 临时箱/images/503e2d50670e164062c90d29ac1038ce_MD5.png",
     "附件/《一体两翼四主动》破解党业_两层皮 (2).png",
-    "_tmp_aug_hits.txt",
-    "tmp_july_aug_lz.txt",
     "outputs/20260923_推动落实情况更新/focus51.png",
-    "outputs/20260923_推动落实情况更新/~$焦作公司党委认真落实习近平总书记重要指示批示精神推动企业高质量发展行稳致远实施方案年度重点任务完成情况-截至20260923.xlsx",
-    "tmp_check_s.mjs",
-    "tmp_repair_rows.mjs",
     "outputs/20260923_推动落实情况更新/focus55.png"
   ]
 }
