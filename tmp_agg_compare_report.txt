@@ -1,0 +1,109 @@
+﻿issues 51 measure rows total 194 group measure rows 194 local measure rows 136
+source Counter({'local': 27, 'group': 24})
+issue exact 8 sim>=.95 51 sim<.8 0
+leader exact 27 sim>=.95 27 sim<.8 24
+resp exact 43 sim>=.95 43 sim<.8 8
+coord exact 36 sim>=.95 10 sim<.8 39
+measure exact 22 sim>=.95 26 sim<.8 22
+target exact 20 sim>=.95 31 sim<.8 16
+deadline exact 12 sim>=.95 12 sim<.8 30
+
+Detailed low measure/target sims:
+1 group measure 0.4 target 0.5 lens 393 370 63 145 deadline 2026��10�� 2026��10��
+5 group measure 0.53 target 1.0 lens 379 326 64 63 deadline 2026��12�� 2026��10��
+9 group measure 0.05 target 0.26 lens 135 432 16 80 deadline 2026��11�� 2026��11��
+11 group measure 0.23 target 0.1 lens 157 128 23 36 deadline 2026��12�� 2026��12��
+12 group measure 0.55 target 0.49 lens 259 390 25 51 deadline 2026��12�� 2026��12��
+17 group measure 0.21 target 0.94 lens 134 126 59 59 deadline 2026��11�� 2026��11��
+18 group measure 0.15 target 0.39 lens 152 341 50 96 deadline 2026��11�� 2026��11��
+20 group measure 0.22 target 0.74 lens 55 72 60 44 deadline 2026��12�� 2026��12��
+21 group measure 0.42 target 0.2 lens 64 95 60 33 deadline 2026��12�� 2026��10��
+25 group measure 0.17 target 0.28 lens 66 229 19 91 deadline 2026��12�� 2026��11��
+27 group measure 0.46 target 1.0 lens 312 1006 66 65 deadline 2026��11�� 2026��11��
+28 group measure 0.44 target 0.68 lens 325 521 27 50 deadline 2026��12�� 2026��11��
+30 group measure 0.72 target 0.65 lens 172 268 17 30 deadline 2026��9�¡� 2026��12��
+31 group measure 0.06 target 0.7 lens 56 311 39 44 deadline 2026��11�� 2026��11��
+33 group measure 0.74 target 1.0 lens 53 79 19 18 deadline 2026��11�� 2026��11��
+37 group measure 0.76 target 0.98 lens 480 375 43 44 deadline 2026��12�µ�֮ǰȡ�ý׶��Գ�Ч����̬����֡� 2026��12��
+38 group measure 0.22 target 0.94 lens 100 275 36 35 deadline 2026��11�� 2026��11��
+39 group measure 0.52 target 0.24 lens 114 216 64 71 deadline 2026��12�� 2026��9��
+40 group measure 0.34 target 0.42 lens 249 282 70 78 deadline 2026��12�� 2026��7��
+41 group measure 0.07 target 0.14 lens 52 194 18 56 deadline 2026��12�� 2026��9��
+43 group measure 0.14 target 0.15 lens 70 110 22 20 deadline 2026��11�� 2026��11��
+50 group measure 0.77 target 0.0 lens 344 368 0 72 deadline 2026��12�µ�֮ǰȡ�ý׶��Գ�Ч����̬����֡� 2026��12��
+
+Deadline differences:
+2 local 2026��11�� vs 46327
+46327
+46327
+46327
+3 local 2026��12�� vs 46357
+4 local 2026��11�� vs 46327
+46327
+46327
+5 group 2026��12�� vs 2026��10��
+6 local 2026��9�� vs 46266
+46266
+7 local 2026��12�� vs 46327
+46327
+46327
+8 local 2026��11�� vs 46327
+46327
+10 local 2026��11�� vs 46327
+46327
+46327
+13 local 2026��12�� vs 46357
+46357
+14 local 2026��11�� vs 46327
+46327
+15 local 2026��11�� vs 46327
+46327
+46327
+16 local 2026��12�� vs 46266
+46266
+19 local 2026��11�� vs 2026��11��
+2026��11��
+2026��11��
+21 group 2026��12�� vs 2026��10��
+22 local 2026��12�� vs 46357
+23 local 2026��11�� vs 46327
+46327
+24 group 2026��11�� vs 2026��10��
+25 group 2026��12�� vs 2026��11��
+26 local 2026��11�� vs 
+28 group 2026��12�� vs 2026��11��
+29 local 2026��10�� vs 46357
+46357
+30 group 2026��9�¡� vs 2026��12��
+32 group 2026��11�� vs 2026��7��
+34 local 2026��12�� vs 46357
+35 local 2026��12�� vs 46357
+46357
+36 local 2026��12�� vs 46357
+46357
+46357
+37 group 2026��12�µ�֮ǰȡ�ý׶��Գ�Ч����̬����֡� vs 2026��12��
+39 group 2026��12�� vs 2026��9��
+40 group 2026��12�� vs 2026��7��
+41 group 2026��12�� vs 2026��9��
+42 local 2026��11�� vs 46357
+46357
+46357
+44 local 2026��12�� vs 46357
+46357
+45 local 2026��12�� vs 46357
+46357
+46 local 2026��11�� vs 46722
+46357
+47 local 2026��10�� vs 2026��10��
+2026��10��
+2026��10��
+48 local 2026��10�� vs 2026��10��
+2026��10��
+49 local 2026��10��
+������ʵѲ��������Ĳ���λ vs 2026��10��
+2026��10��
+50 group 2026��12�µ�֮ǰȡ�ý׶��Գ�Ч����̬����֡� vs 2026��12��
+51 local 2026��12�µ�֮ǰȡ�ý׶��Գ�Ч����̬����֡� vs 2026��12��
+2026��12��
+2026��12��
