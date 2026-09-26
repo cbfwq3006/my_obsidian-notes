@@ -3,7 +3,7 @@
   "dateSavedFormat": "yyyy-MM-dd HH:mm:ss",
   "apiKey": "o56E76xU_Yq2SNyCPNk5O4nP8u28",
   "filter": "ALL",
-  "syncAt": "2026-09-24T15:00:41.959+08:00",
+  "syncAt": "2026-09-26T08:24:42.258+08:00",
   "customQuery": "in:all",
   "customQueryNormalized": true,
   "template": "{{{content}}}",
@@ -19,7 +19,7 @@
   "messageSortOrder": "desc",
   "messageFolder": "",
   "frequency": 300,
-  "intervalId": 1179,
+  "intervalId": 684,
   "frontMatterVariables": [],
   "frontMatterTemplate": "author: {{{author}}}\nsource: {{{siteName}}}\nurl: {{{originalUrl}}}\nsaved: {{{dateSaved}}}\ntags: [笔记同步助手{{#labels}}, {{{name}}}{{/labels}}]",
   "syncOnStart": true,
@@ -57,7 +57,7 @@
   "diaryLinkTemplate": "- {{{link}}}",
   "diaryLinkMaxLength": 0,
   "deviceSyncCursors": {
-    "desktop-mosjfrhu-bsy4": "2026-09-24T15:00:41.959+08:00"
+    "desktop-mosjfrhu-bsy4": "2026-09-26T08:24:42.258+08:00"
   },
   "initialSyncCompleted": true,
   "firstSyncAutoOpened": true,
